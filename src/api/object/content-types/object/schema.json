@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "objects",
+  "info": {
+    "singularName": "object",
+    "pluralName": "objects",
+    "displayName": "Object"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Context": {
+      "type": "blocks"
+    },
+    "iabCode": {
+      "type": "uid"
+    },
+    "dateHijri": {
+      "type": "string"
+    }
+  }
+}
