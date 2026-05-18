@@ -71,6 +71,13 @@
       "relation": "manyToMany",
       "target": "api::agent.agent",
       "mappedBy": "works"
+    },
+    "location": {
+      "type": "customField",
+      "customField": "plugin::strapi-location-picker.location-picker",
+      "options": {
+        "info": false
+      }
     }
   }
 }
