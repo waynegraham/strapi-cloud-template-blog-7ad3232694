@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agents",
+  "info": {
+    "singularName": "agent",
+    "pluralName": "agents",
+    "displayName": "Agent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name_en": {
+      "type": "string"
+    },
+    "name_ar": {
+      "type": "string"
+    },
+    "biography_en": {
+      "type": "blocks"
+    },
+    "biography_ar": {
+      "type": "blocks"
+    },
+    "url": {
+      "type": "string"
+    },
+    "agent_roles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::agent-role.agent-role",
+      "mappedBy": "agent"
+    },
+    "headshot": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "works": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::work.work",
+      "inversedBy": "agents"
+    }
+  }
+}

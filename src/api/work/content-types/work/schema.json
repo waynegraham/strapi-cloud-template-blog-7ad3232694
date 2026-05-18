@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "works",
+  "info": {
+    "singularName": "work",
+    "pluralName": "works",
+    "displayName": "Work"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "iab_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "title_en": {
+      "type": "string",
+      "required": true
+    },
+    "title_ar": {
+      "type": "string"
+    },
+    "origin_en": {
+      "type": "string"
+    },
+    "origin_ar": {
+      "type": "string"
+    },
+    "date_display_en": {
+      "type": "string"
+    },
+    "date_display_ar": {
+      "type": "string"
+    },
+    "description_en": {
+      "type": "blocks"
+    },
+    "description_ar": {
+      "type": "blocks"
+    },
+    "footnote_en": {
+      "type": "blocks"
+    },
+    "footnote_ar": {
+      "type": "blocks"
+    },
+    "credit_line_en": {
+      "type": "string"
+    },
+    "credit_line_ar": {
+      "type": "string"
+    },
+    "contributor_url": {
+      "type": "string"
+    },
+    "gallery": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::gallery.gallery"
+    },
+    "institution": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::institution.institution"
+    },
+    "agents": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::agent.agent",
+      "mappedBy": "works"
+    }
+  }
+}

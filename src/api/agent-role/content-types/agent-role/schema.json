@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agent_roles",
+  "info": {
+    "singularName": "agent-role",
+    "pluralName": "agent-roles",
+    "displayName": "AgentRole"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label_en": {
+      "type": "string"
+    },
+    "label_ar": {
+      "type": "string"
+    },
+    "agent": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::agent.agent",
+      "inversedBy": "agent_roles"
+    }
+  }
+}
