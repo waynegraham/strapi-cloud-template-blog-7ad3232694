@@ -621,6 +621,13 @@ export interface ApiInstitutionInstitution extends Struct.CollectionTypeSchema {
       'api::institution.institution'
     > &
       Schema.Attribute.Private;
+    location: Schema.Attribute.JSON &
+      Schema.Attribute.CustomField<
+        'plugin::strapi-location-picker.location-picker',
+        {
+          info: true;
+        }
+      >;
     logo: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     name_ar: Schema.Attribute.String;
     name_en: Schema.Attribute.String;
@@ -696,13 +703,6 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::work.work'> &
       Schema.Attribute.Private;
-    location: Schema.Attribute.JSON &
-      Schema.Attribute.CustomField<
-        'plugin::strapi-location-picker.location-picker',
-        {
-          info: false;
-        }
-      >;
     origin_ar: Schema.Attribute.String;
     origin_en: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
