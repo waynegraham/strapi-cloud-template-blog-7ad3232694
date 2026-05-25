@@ -11,49 +11,49 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "iab_code": {
+    "iabCode": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "title_en": {
+    "titleEn": {
       "type": "string",
       "required": true
     },
-    "title_ar": {
+    "titleAr": {
       "type": "string"
     },
-    "origin_en": {
+    "originEn": {
       "type": "string"
     },
-    "origin_ar": {
+    "originAr": {
       "type": "string"
     },
-    "date_display_en": {
+    "dateDisplayEn": {
       "type": "string"
     },
-    "date_display_ar": {
+    "dateDisplayAr": {
       "type": "string"
     },
-    "description_en": {
+    "descriptionEn": {
       "type": "blocks"
     },
-    "description_ar": {
+    "descriptionAr": {
       "type": "blocks"
     },
-    "footnote_en": {
+    "footnoteEn": {
       "type": "blocks"
     },
-    "footnote_ar": {
+    "footnoteAr": {
       "type": "blocks"
     },
-    "credit_line_en": {
+    "creditLineEn": {
       "type": "string"
     },
-    "credit_line_ar": {
+    "creditLineAr": {
       "type": "string"
     },
-    "contributor_url": {
+    "contributorUrl": {
       "type": "string"
     },
     "gallery": {

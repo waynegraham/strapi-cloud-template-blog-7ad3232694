@@ -22,7 +22,6 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.30.3",
     "strapi-location-picker": "^0.0.3",
-    "strapi-plugin-navigation": "^3.3.7",
     "styled-components": "^6.4.1"
   },
   "engines": {

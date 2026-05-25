@@ -11,22 +11,32 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "eyebrow_en": {
+    "eyebrowEn": {
       "type": "string"
     },
-    "eyebrow_ar": {
+    "eyebrowAr": {
       "type": "string"
     },
-    "name_en": {
+    "nameEn": {
       "type": "string"
     },
-    "name_ar": {
+    "nameAr": {
       "type": "string"
     },
-    "description_en": {
+    "coverMedia": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "descriptionEn": {
       "type": "blocks"
     },
-    "description_ar": {
+    "descriptionAr": {
       "type": "blocks"
     }
   }

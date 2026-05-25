@@ -11,16 +11,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name_en": {
+    "nameEn": {
       "type": "string"
     },
-    "name_ar": {
+    "nameAr": {
       "type": "string"
     },
-    "biography_en": {
+    "slug": {
+      "type": "uid",
+      "targetField": "nameEn"
+    },
+    "biographyEn": {
       "type": "blocks"
     },
-    "biography_ar": {
+    "biographyAr": {
       "type": "blocks"
     },
     "url": {
@@ -28,11 +32,11 @@
     },
     "agent_roles": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::agent-role.agent-role",
-      "mappedBy": "agent"
+      "inversedBy": "agents"
     },
-    "headshot": {
+    "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [

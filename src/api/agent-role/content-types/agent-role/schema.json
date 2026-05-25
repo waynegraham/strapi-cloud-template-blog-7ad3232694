@@ -11,17 +11,23 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "label_en": {
+    "labelEn": {
       "type": "string"
     },
-    "label_ar": {
+    "labelAr": {
       "type": "string"
     },
-    "agent": {
+    "agents": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::agent.agent",
-      "inversedBy": "agent_roles"
+      "mappedBy": "agent_roles"
+    },
+    "gettyTerm": {
+      "type": "string"
+    },
+    "aatId": {
+      "type": "integer"
     }
   }
 }

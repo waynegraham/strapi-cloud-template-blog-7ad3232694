@@ -11,16 +11,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name_en": {
+    "nameEn": {
       "type": "string"
     },
-    "name_ar": {
+    "nameAr": {
       "type": "string"
     },
-    "description_en": {
+    "slug": {
+      "type": "uid",
+      "targetField": "nameEn"
+    },
+    "descriptionEn": {
       "type": "blocks"
     },
-    "description_ar": {
+    "descriptionAr": {
       "type": "blocks"
     },
     "logo": {

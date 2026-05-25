@@ -11,10 +11,28 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name_en": {
+    "nameEn": {
       "type": "string"
     },
-    "name_ar": {
+    "nameAr": {
+      "type": "string"
+    },
+    "gettyTerm": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "default": "medium",
+      "enum": [
+        "medium",
+        "support"
+      ]
+    },
+    "vocabulary": {
+      "type": "string",
+      "default": "AAT"
+    },
+    "refId": {
       "type": "string"
     }
   }

@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "biennale_editions",
+  "info": {
+    "singularName": "biennale-edition",
+    "pluralName": "biennale-editions",
+    "displayName": "Biennale Edition"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "integer"
+    },
+    "titleEn": {
+      "type": "string",
+      "required": true
+    },
+    "titleAr": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titleEn"
+    },
+    "descriptionEn": {
+      "type": "blocks"
+    },
+    "descriptionAr": {
+      "type": "blocks"
+    }
+  }
+}
