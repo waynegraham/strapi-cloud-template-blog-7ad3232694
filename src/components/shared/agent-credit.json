@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_agent_credits",
+  "info": {
+    "displayName": "Agent Credit",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "agent": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::agent.agent"
+    },
+    "agent_role": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::agent-role.agent-role"
+    },
+    "sortOrder": {
+      "type": "integer"
+    }
+  }
+}

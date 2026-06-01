@@ -30,6 +30,11 @@
     },
     "descriptionAr": {
       "type": "blocks"
+    },
+    "agentCredits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.agent-credit"
     }
   }
 }

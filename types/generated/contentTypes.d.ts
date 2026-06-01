@@ -549,6 +549,7 @@ export interface ApiBiennaleEditionBiennaleEdition
     draftAndPublish: true;
   };
   attributes: {
+    agentCredits: Schema.Attribute.Component<'shared.agent-credit', true>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -757,6 +758,7 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    agentCredits: Schema.Attribute.Component<'shared.agent-credit', true>;
     agents: Schema.Attribute.Relation<'manyToMany', 'api::agent.agent'>;
     contributorUrl: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
@@ -764,10 +766,13 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     creditLineAr: Schema.Attribute.String;
     creditLineEn: Schema.Attribute.String;
-    dateDisplayAr: Schema.Attribute.String;
-    dateDisplayEn: Schema.Attribute.String;
+    dateDisplayGregorianAr: Schema.Attribute.String;
+    dateDisplayGregorianEn: Schema.Attribute.String;
+    dateDisplayHijriAr: Schema.Attribute.String;
+    dateDisplayHijriEn: Schema.Attribute.String;
     descriptionAr: Schema.Attribute.Blocks;
     descriptionEn: Schema.Attribute.Blocks;
+    earliestDate: Schema.Attribute.Integer;
     footnoteAr: Schema.Attribute.Blocks;
     footnoteEn: Schema.Attribute.Blocks;
     gallery: Schema.Attribute.Relation<'oneToOne', 'api::gallery.gallery'>;
@@ -778,6 +783,7 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
       'oneToOne',
       'api::institution.institution'
     >;
+    latestDate: Schema.Attribute.Integer;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::work.work'> &
       Schema.Attribute.Private;

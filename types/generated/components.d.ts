@@ -1,5 +1,21 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface SharedAgentCredit extends Struct.ComponentSchema {
+  collectionName: 'components_shared_agent_credits';
+  info: {
+    displayName: 'Agent Credit';
+    icon: 'user';
+  };
+  attributes: {
+    agent: Schema.Attribute.Relation<'oneToOne', 'api::agent.agent'>;
+    agent_role: Schema.Attribute.Relation<
+      'oneToOne',
+      'api::agent-role.agent-role'
+    >;
+    sortOrder: Schema.Attribute.Integer;
+  };
+}
+
 export interface SharedMedia extends Struct.ComponentSchema {
   collectionName: 'components_shared_media';
   info: {
@@ -65,6 +81,7 @@ export interface SharedSlider extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'shared.agent-credit': SharedAgentCredit;
       'shared.media': SharedMedia;
       'shared.quote': SharedQuote;
       'shared.rich-text': SharedRichText;

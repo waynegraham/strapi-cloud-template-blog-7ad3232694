@@ -29,11 +29,23 @@
     "originAr": {
       "type": "string"
     },
-    "dateDisplayEn": {
+    "dateDisplayGregorianEn": {
       "type": "string"
     },
-    "dateDisplayAr": {
+    "dateDisplayGregorianAr": {
       "type": "string"
+    },
+    "dateDisplayHijriEn": {
+      "type": "string"
+    },
+    "dateDisplayHijriAr": {
+      "type": "string"
+    },
+    "earliestDate": {
+      "type": "integer"
+    },
+    "latestDate": {
+      "type": "integer"
     },
     "descriptionEn": {
       "type": "blocks"
@@ -71,6 +83,11 @@
       "relation": "manyToMany",
       "target": "api::agent.agent",
       "mappedBy": "works"
+    },
+    "agentCredits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.agent-credit"
     }
   }
 }
