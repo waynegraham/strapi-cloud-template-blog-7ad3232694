@@ -8,7 +8,8 @@ module.exports = [
         useDefaults: true,
         directives: {
           'connect-src': ["'self'", 'https:'],
-          'script-src': ["'self'", "'unsafe-inline'", 'https://*.basemaps.cartocdn.com'],
+          'script-src': ["'self'", "'unsafe-inline'", 'https://*.basemaps.cartocdn.com', 'https://unpkg.com'],
+          'style-src': ["'self'", "'unsafe-inline'", 'https://*.basemaps.cartocdn.com', 'https://unpkg.com'],
           'media-src': [
             "'self'",
             'blob:',
@@ -26,6 +27,7 @@ module.exports = [
             'https://*.tile.openstreetmap.org',
             'https://unpkg.com/leaflet@1.9.4/dist/images/',
           ],
+          upgradeInsecureRequests: null,
         },
       },
     },
