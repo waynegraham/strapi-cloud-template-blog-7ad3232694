@@ -24,6 +24,21 @@
     },
     "manifestUrl": {
       "type": "string"
+    },
+    "work": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::work.work",
+      "inversedBy": "iiif_assets"
+    },
+    "title": {
+      "type": "string"
+    },
+    "iiifBaseUrl": {
+      "type": "string"
+    },
+    "processingErrors": {
+      "type": "text"
     }
   }
 }

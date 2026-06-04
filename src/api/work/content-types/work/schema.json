@@ -98,6 +98,12 @@
       "options": {
         "preset": "defaultHtml"
       }
+    },
+    "iiif_assets": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::iiif-asset.iiif-asset",
+      "mappedBy": "work"
     }
   }
 }

@@ -555,6 +555,7 @@ export interface ApiBiennaleEditionBiennaleEdition
     date: Schema.Attribute.Integer;
     descriptionAr: Schema.Attribute.Blocks;
     descriptionEn: Schema.Attribute.Blocks;
+    galleries: Schema.Attribute.Relation<'oneToMany', 'api::gallery.gallery'>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -582,6 +583,10 @@ export interface ApiGalleryGallery extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    biennale_edition: Schema.Attribute.Relation<
+      'manyToOne',
+      'api::biennale-edition.biennale-edition'
+    >;
     coverMedia: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',
       true
@@ -654,6 +659,7 @@ export interface ApiIiifAssetIiifAsset extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    iiifBaseUrl: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -661,14 +667,17 @@ export interface ApiIiifAssetIiifAsset extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     manifestUrl: Schema.Attribute.String;
+    processingErrors: Schema.Attribute.Text;
     processingState: Schema.Attribute.Enumeration<
       ['draft', 'uploaded', 'processing', 'ready', 'failed']
     > &
       Schema.Attribute.DefaultTo<'draft'>;
     publishedAt: Schema.Attribute.DateTime;
+    title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    work: Schema.Attribute.Relation<'manyToOne', 'api::work.work'>;
   };
 }
 
@@ -902,6 +911,10 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
     iabCode: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;
+    iiif_assets: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::iiif-asset.iiif-asset'
+    >;
     institution: Schema.Attribute.Relation<
       'oneToOne',
       'api::institution.institution'

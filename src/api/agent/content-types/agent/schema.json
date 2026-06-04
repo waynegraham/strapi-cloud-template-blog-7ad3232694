@@ -30,12 +30,6 @@
     "url": {
       "type": "string"
     },
-    "agent_roles": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::agent-role.agent-role",
-      "inversedBy": "agents"
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -45,6 +39,12 @@
         "videos",
         "audios"
       ]
+    },
+    "agent_roles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::agent-role.agent-role",
+      "inversedBy": "agents"
     }
   }
 }

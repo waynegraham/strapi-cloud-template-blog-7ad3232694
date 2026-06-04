@@ -33,8 +33,14 @@
     },
     "agentCredits": {
       "type": "component",
-      "repeatable": true,
-      "component": "shared.agent-credit"
+      "component": "shared.agent-credit",
+      "repeatable": true
+    },
+    "galleries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::gallery.gallery",
+      "mappedBy": "biennale_edition"
     }
   }
 }

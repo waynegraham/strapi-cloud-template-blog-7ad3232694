@@ -4,6 +4,9 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array('APP_KEYS'),
   },
+  mcp: {
+    enabled: env.bool('MCP_ENABLED', false),
+  },
   webhooks: {
     populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
   },

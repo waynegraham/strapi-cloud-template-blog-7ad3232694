@@ -38,6 +38,12 @@
     },
     "descriptionAr": {
       "type": "blocks"
+    },
+    "biennale_edition": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::biennale-edition.biennale-edition",
+      "inversedBy": "galleries"
     }
   }
 }
