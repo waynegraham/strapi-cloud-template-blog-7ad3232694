@@ -47,18 +47,6 @@
     "latestDate": {
       "type": "integer"
     },
-    "descriptionEn": {
-      "type": "blocks"
-    },
-    "descriptionAr": {
-      "type": "blocks"
-    },
-    "footnoteEn": {
-      "type": "blocks"
-    },
-    "footnoteAr": {
-      "type": "blocks"
-    },
     "creditLineEn": {
       "type": "string"
     },
@@ -78,16 +66,38 @@
       "relation": "oneToOne",
       "target": "api::institution.institution"
     },
-    "agents": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::agent.agent",
-      "mappedBy": "works"
-    },
     "agentCredits": {
       "type": "component",
-      "repeatable": true,
-      "component": "shared.agent-credit"
+      "component": "shared.agent-credit",
+      "repeatable": true
+    },
+    "descriptionEn": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "descriptionAr": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "footnoteEn": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "footnoteAr": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
     }
   }
 }

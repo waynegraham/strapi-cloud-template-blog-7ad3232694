@@ -533,7 +533,6 @@ export interface ApiAgentAgent extends Struct.CollectionTypeSchema {
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     url: Schema.Attribute.String;
-    works: Schema.Attribute.Relation<'manyToMany', 'api::work.work'>;
   };
 }
 
@@ -635,6 +634,36 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
     publishedAt: Schema.Attribute.DateTime;
     siteDescription: Schema.Attribute.Text & Schema.Attribute.Required;
     siteName: Schema.Attribute.String & Schema.Attribute.Required;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiInstitutionRegionInstitutionRegion
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'institution_regions';
+  info: {
+    displayName: 'Institution Region';
+    pluralName: 'institution-regions';
+    singularName: 'institution-region';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    labelAr: Schema.Attribute.String;
+    labelEn: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::institution-region.institution-region'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -759,7 +788,6 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
   };
   attributes: {
     agentCredits: Schema.Attribute.Component<'shared.agent-credit', true>;
-    agents: Schema.Attribute.Relation<'manyToMany', 'api::agent.agent'>;
     contributorUrl: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -770,11 +798,35 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
     dateDisplayGregorianEn: Schema.Attribute.String;
     dateDisplayHijriAr: Schema.Attribute.String;
     dateDisplayHijriEn: Schema.Attribute.String;
-    descriptionAr: Schema.Attribute.Blocks;
-    descriptionEn: Schema.Attribute.Blocks;
+    descriptionAr: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    descriptionEn: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
     earliestDate: Schema.Attribute.Integer;
-    footnoteAr: Schema.Attribute.Blocks;
-    footnoteEn: Schema.Attribute.Blocks;
+    footnoteAr: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    footnoteEn: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
     gallery: Schema.Attribute.Relation<'oneToOne', 'api::gallery.gallery'>;
     iabCode: Schema.Attribute.String &
       Schema.Attribute.Required &
@@ -1315,6 +1367,7 @@ declare module '@strapi/strapi' {
       'api::biennale-edition.biennale-edition': ApiBiennaleEditionBiennaleEdition;
       'api::gallery.gallery': ApiGalleryGallery;
       'api::global.global': ApiGlobalGlobal;
+      'api::institution-region.institution-region': ApiInstitutionRegionInstitutionRegion;
       'api::institution.institution': ApiInstitutionInstitution;
       'api::material.material': ApiMaterialMaterial;
       'api::rights-statement.rights-statement': ApiRightsStatementRightsStatement;

@@ -45,12 +45,6 @@
         "videos",
         "audios"
       ]
-    },
-    "works": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::work.work",
-      "inversedBy": "agents"
     }
   }
 }

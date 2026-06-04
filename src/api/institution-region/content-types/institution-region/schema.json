@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "institution_regions",
+  "info": {
+    "singularName": "institution-region",
+    "pluralName": "institution-regions",
+    "displayName": "Institution Region"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "labelEn": {
+      "type": "string"
+    },
+    "labelAr": {
+      "type": "string"
+    }
+  }
+}

@@ -2,6 +2,9 @@ module.exports = ({ env }) => ({
   auth: {
     secret: env('ADMIN_JWT_SECRET'),
   },
+  ai: {
+    enabled: env.bool('AI_ENABLED', false),
+  },
   apiToken: {
     salt: env('API_TOKEN_SALT'),
   },
