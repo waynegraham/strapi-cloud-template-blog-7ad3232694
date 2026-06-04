@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "iiif_assets",
+  "info": {
+    "singularName": "iiif-asset",
+    "pluralName": "iiif-assets",
+    "displayName": "IIIF Asset"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "processingState": {
+      "type": "enumeration",
+      "default": "draft",
+      "enum": [
+        "draft",
+        "uploaded",
+        "processing",
+        "ready",
+        "failed"
+      ]
+    },
+    "manifestUrl": {
+      "type": "string"
+    }
+  }
+}

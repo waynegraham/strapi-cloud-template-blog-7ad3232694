@@ -640,6 +640,77 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiIiifAssetIiifAsset extends Struct.CollectionTypeSchema {
+  collectionName: 'iiif_assets';
+  info: {
+    displayName: 'IIIF Asset';
+    pluralName: 'iiif-assets';
+    singularName: 'iiif-asset';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::iiif-asset.iiif-asset'
+    > &
+      Schema.Attribute.Private;
+    manifestUrl: Schema.Attribute.String;
+    processingState: Schema.Attribute.Enumeration<
+      ['draft', 'uploaded', 'processing', 'ready', 'failed']
+    > &
+      Schema.Attribute.DefaultTo<'draft'>;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiIiifImageIiifImage extends Struct.CollectionTypeSchema {
+  collectionName: 'iiif_images';
+  info: {
+    displayName: 'IIIF Image';
+    pluralName: 'iiif-images';
+    singularName: 'iiif-image';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    cantaloupeIdentifier: Schema.Attribute.String & Schema.Attribute.Required;
+    captionAr: Schema.Attribute.String;
+    captionEn: Schema.Attribute.String;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    file: Schema.Attribute.Media<'images' | 'files'>;
+    height: Schema.Attribute.Integer;
+    infoJsonUrl: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::iiif-image.iiif-image'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    rights: Schema.Attribute.String;
+    s3key: Schema.Attribute.String;
+    sequence: Schema.Attribute.Integer;
+    thumbnailUrl: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    width: Schema.Attribute.Integer;
+  };
+}
+
 export interface ApiInstitutionRegionInstitutionRegion
   extends Struct.CollectionTypeSchema {
   collectionName: 'institution_regions';
@@ -1367,6 +1438,8 @@ declare module '@strapi/strapi' {
       'api::biennale-edition.biennale-edition': ApiBiennaleEditionBiennaleEdition;
       'api::gallery.gallery': ApiGalleryGallery;
       'api::global.global': ApiGlobalGlobal;
+      'api::iiif-asset.iiif-asset': ApiIiifAssetIiifAsset;
+      'api::iiif-image.iiif-image': ApiIiifImageIiifImage;
       'api::institution-region.institution-region': ApiInstitutionRegionInstitutionRegion;
       'api::institution.institution': ApiInstitutionInstitution;
       'api::material.material': ApiMaterialMaterial;
