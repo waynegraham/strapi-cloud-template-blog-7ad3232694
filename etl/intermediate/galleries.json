@@ -1,0 +1,135 @@
+[
+  {
+    "content_type": "gallery",
+    "endpoint": "galleries",
+    "key": "albidayah",
+    "match": {
+      "key": "albidayah"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/galleries",
+      "body": {
+        "data": {
+          "eyebrow_en": "Gallery 1",
+          "name_en": "AlBidayah"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "gallery",
+    "endpoint": "galleries",
+    "key": "almadar",
+    "match": {
+      "key": "almadar"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/galleries",
+      "body": {
+        "data": {
+          "eyebrow_en": "Gallery 2",
+          "name_en": "AlMadar"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "gallery",
+    "endpoint": "galleries",
+    "key": "almidhallah",
+    "match": {
+      "key": "almidhallah"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/galleries",
+      "body": {
+        "data": {
+          "eyebrow_en": "Gallery 3",
+          "name_en": "AlMidhallah"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "gallery",
+    "endpoint": "galleries",
+    "key": "almukarramah",
+    "match": {
+      "key": "almukarramah"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/galleries",
+      "body": {
+        "data": {
+          "eyebrow_en": "Gallery 4",
+          "name_en": "AlMukarramah"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "gallery",
+    "endpoint": "galleries",
+    "key": "almunawwarah",
+    "match": {
+      "key": "almunawwarah"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/galleries",
+      "body": {
+        "data": {
+          "eyebrow_en": "Gallery 5",
+          "name_en": "AlMunawwarah"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "gallery",
+    "endpoint": "galleries",
+    "key": "almuqtani",
+    "match": {
+      "key": "almuqtani"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/galleries",
+      "body": {
+        "data": {
+          "eyebrow_en": "Gallery 6",
+          "name_en": "AlMuqtani"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "gallery",
+    "endpoint": "galleries",
+    "key": "almusalla-prize",
+    "match": {
+      "key": "almusalla-prize"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/galleries",
+      "body": {
+        "data": {
+          "eyebrow_en": "Gallery 7",
+          "name_en": "AlMusalla Prize"
+        }
+      }
+    },
+    "relations": {}
+  }
+]

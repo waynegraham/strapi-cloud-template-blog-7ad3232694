@@ -1,0 +1,535 @@
+{
+  "skipped": [
+    {
+      "source_record_id": "rec1moouz3q1ED25Z",
+      "reason": "missing IAB Code"
+    }
+  ],
+  "duplicate_iab_codes": [
+    {
+      "iab_code": "25-G3-08-0221",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-10-0008",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-11-0381",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-11-0819",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-11-0821",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-11-0976",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-13-0270",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-13-0271",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-14-0274",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-15-0237",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-18-0363",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-19-0294",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-19-0296",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-20-0916",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-27-0329",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-30-0927",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-31-0827",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-31-0828",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-32-0032",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-35-0051",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-35-0368",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-35-0375",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-40-0245",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-44-0129",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G3-61-0053",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G4-56-0185",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G4-56-0188",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G4-56-0351",
+      "count": 2
+    },
+    {
+      "iab_code": "25-G5-22-0406",
+      "count": 2
+    },
+    {
+      "iab_code": "25-MD-16-0902",
+      "count": 2
+    }
+  ],
+  "duplicate_source_rows": [
+    {
+      "source_record_id": "recPGMnZjOAUr86rS",
+      "title_en": "Columns from the Masjid al-Haram",
+      "raw_iab_code": "25-G1-04-0126, 25-G1-04-0979, 25-G1-04-0980, 25-G1-04-0981, 25-G1-04-0982, 25-G1-04-0983, 25-G1-04-0984",
+      "primary_iab_code": "25-G1-04-0126",
+      "additional_iab_codes": [
+        "25-G1-04-0979",
+        "25-G1-04-0980",
+        "25-G1-04-0981",
+        "25-G1-04-0982",
+        "25-G1-04-0983",
+        "25-G1-04-0984"
+      ],
+      "iab_codes": [
+        "25-G1-04-0126",
+        "25-G1-04-0979",
+        "25-G1-04-0980",
+        "25-G1-04-0981",
+        "25-G1-04-0982",
+        "25-G1-04-0983",
+        "25-G1-04-0984"
+      ]
+    },
+    {
+      "source_record_id": "rec8vre29wgqhqnWM",
+      "title_en": "The Tradition of the Kiswah",
+      "raw_iab_code": "25-G2-10-0004, 25-G2-11-0886, 25-G2-12-0887, 25-G2-13-0888, 25-G2-13-0915",
+      "primary_iab_code": "25-G2-10-0004",
+      "additional_iab_codes": [
+        "25-G2-11-0886",
+        "25-G2-12-0887",
+        "25-G2-13-0888",
+        "25-G2-13-0915"
+      ],
+      "iab_codes": [
+        "25-G2-10-0004",
+        "25-G2-11-0886",
+        "25-G2-12-0887",
+        "25-G2-13-0888",
+        "25-G2-13-0915"
+      ]
+    },
+    {
+      "source_record_id": "rec1rIckdRzf59RNa",
+      "title_en": "Folios from the Katta Langar Qur’an (5:113–6:19)",
+      "raw_iab_code": "25-G3-18-0363, 25-G3-18-0016",
+      "primary_iab_code": "25-G3-18-0363",
+      "additional_iab_codes": [
+        "25-G3-18-0016"
+      ],
+      "iab_codes": [
+        "25-G3-18-0363",
+        "25-G3-18-0016"
+      ]
+    },
+    {
+      "source_record_id": "rec8TzOJCZ51iJj9q",
+      "title_en": "Folios from the Katta Langar Qur’an (5:113–6:19)",
+      "raw_iab_code": "25-G3-18-0363, 25-G3-18-0016",
+      "primary_iab_code": "25-G3-18-0363",
+      "additional_iab_codes": [
+        "25-G3-18-0016"
+      ],
+      "iab_codes": [
+        "25-G3-18-0363",
+        "25-G3-18-0016"
+      ]
+    },
+    {
+      "source_record_id": "recgR3JyFstMuKer5",
+      "title_en": "Folios from a Qur’an manuscript (19:1–9)",
+      "raw_iab_code": "25-G3-20-0297, 25-G3-20-0916",
+      "primary_iab_code": "25-G3-20-0297",
+      "additional_iab_codes": [
+        "25-G3-20-0916"
+      ],
+      "iab_codes": [
+        "25-G3-20-0297",
+        "25-G3-20-0916"
+      ]
+    },
+    {
+      "source_record_id": "rec7Ta59JHYss9VXH",
+      "title_en": "Kamal (khashabah), navigational tools, recreated for the Jewel of Muscat voyage to Singapore",
+      "raw_iab_code": "25-G3-40-0242, 25-G3-40-0241, 25-G3-40-0240",
+      "primary_iab_code": "25-G3-40-0242",
+      "additional_iab_codes": [
+        "25-G3-40-0241",
+        "25-G3-40-0240"
+      ],
+      "iab_codes": [
+        "25-G3-40-0242",
+        "25-G3-40-0241",
+        "25-G3-40-0240"
+      ]
+    },
+    {
+      "source_record_id": "recB03OgCsWQfJlRL",
+      "title_en": "Sunan Tembayat, Sunan Bonang, Sunan Kalijaga, Sunan Giri, Sunan Gunungjati, Sunan Ampel, Sunan Drajat, Sunan Gresik, Sunan Kudus, Gunungan\nBy Suryadi Warnasukarja",
+      "raw_iab_code": "25-G4-56-0185, 25-G4-56-0182, 25-G4-56-0184, 25-G4-56-0346, 25-G4-56-0180, 25-G4-56-0177, 25-G4-56-0183, 25-G4-56-0178, 25-G4-56-0179, 25-G4-56-0181",
+      "primary_iab_code": "25-G4-56-0185",
+      "additional_iab_codes": [
+        "25-G4-56-0182",
+        "25-G4-56-0184",
+        "25-G4-56-0346",
+        "25-G4-56-0180",
+        "25-G4-56-0177",
+        "25-G4-56-0183",
+        "25-G4-56-0178",
+        "25-G4-56-0179",
+        "25-G4-56-0181"
+      ],
+      "iab_codes": [
+        "25-G4-56-0185",
+        "25-G4-56-0182",
+        "25-G4-56-0184",
+        "25-G4-56-0346",
+        "25-G4-56-0180",
+        "25-G4-56-0177",
+        "25-G4-56-0183",
+        "25-G4-56-0178",
+        "25-G4-56-0179",
+        "25-G4-56-0181"
+      ]
+    },
+    {
+      "source_record_id": "recem7hyXUk2ZsV6c",
+      "title_en": "Kain Batik Kawung, Kain Batik Kohinur, Kain Batik Putri Piningit, Kain Batik Grompol\nBy various makers",
+      "raw_iab_code": "25-G4-56-0188, 25-G4-56-0349, 25-G4-56-0350, 25-G4-56-0348",
+      "primary_iab_code": "25-G4-56-0188",
+      "additional_iab_codes": [
+        "25-G4-56-0349",
+        "25-G4-56-0350",
+        "25-G4-56-0348"
+      ],
+      "iab_codes": [
+        "25-G4-56-0188",
+        "25-G4-56-0349",
+        "25-G4-56-0350",
+        "25-G4-56-0348"
+      ]
+    },
+    {
+      "source_record_id": "recTzZh2dSBgNVmUT",
+      "title_en": "Kain Batik Brangtamangu, Kain Batik Grompol, Kain Batik Nitik Kawung, Kain Batik Nitik\nBy various makers",
+      "raw_iab_code": "25-G4-56-0351, 25-G4-56-0191, 25-G4-56-0189, 25-G4-56-0347",
+      "primary_iab_code": "25-G4-56-0351",
+      "additional_iab_codes": [
+        "25-G4-56-0191",
+        "25-G4-56-0189",
+        "25-G4-56-0347"
+      ],
+      "iab_codes": [
+        "25-G4-56-0351",
+        "25-G4-56-0191",
+        "25-G4-56-0189",
+        "25-G4-56-0347"
+      ]
+    },
+    {
+      "source_record_id": "recxUkIimkNtzWGLs",
+      "title_en": "Fragments of a poetic inscription by Ibn Zamrak",
+      "raw_iab_code": "25-G4-76-0206, 25-G4-76-0207, 25-G4-76-0208",
+      "primary_iab_code": "25-G4-76-0206",
+      "additional_iab_codes": [
+        "25-G4-76-0207",
+        "25-G4-76-0208"
+      ],
+      "iab_codes": [
+        "25-G4-76-0206",
+        "25-G4-76-0207",
+        "25-G4-76-0208"
+      ]
+    },
+    {
+      "source_record_id": "rec8ieMrBLgVyzvDk",
+      "title_en": "Two folios from a late Shah Jahan album",
+      "raw_iab_code": "25-G5-22-0406, 25-G5-22-0444",
+      "primary_iab_code": "25-G5-22-0406",
+      "additional_iab_codes": [
+        "25-G5-22-0444"
+      ],
+      "iab_codes": [
+        "25-G5-22-0406",
+        "25-G5-22-0444"
+      ]
+    },
+    {
+      "source_record_id": "rec4vN3bDIxhh52jE",
+      "title_en": "Two ivory inlaid wooden panels",
+      "raw_iab_code": "25-G5-57-0693, 25-G5-57-0871",
+      "primary_iab_code": "25-G5-57-0693",
+      "additional_iab_codes": [
+        "25-G5-57-0871"
+      ],
+      "iab_codes": [
+        "25-G5-57-0693",
+        "25-G5-57-0871"
+      ]
+    },
+    {
+      "source_record_id": "recG8Ewpf2eitCSbm",
+      "title_en": "Madinah Tile Panel",
+      "raw_iab_code": "25-MD-01-0879, 25-MD-01-0900",
+      "primary_iab_code": "25-MD-01-0879",
+      "additional_iab_codes": [
+        "25-MD-01-0900"
+      ],
+      "iab_codes": [
+        "25-MD-01-0879",
+        "25-MD-01-0900"
+      ]
+    },
+    {
+      "source_record_id": "recDshQLC9JNkufai",
+      "title_en": "Sunan Tembayat, Sunan Bonang, Sunan Kalijaga, Sunan Giri, Sunan Gunungjati, Sunan Ampel, Sunan Drajat, Sunan Gresik, Sunan Kudus, Gunungan By Suryadi Warnasukarja, Klaten",
+      "raw_iab_code": "G4-56-0185, G4-56-0182, G4-56-0184, G4-56-0346, G4-56-0180, G4-56-0177, G4-56-0183, G4-56-0178, G4-56-0179, G4-56-0181",
+      "primary_iab_code": "G4-56-0185",
+      "additional_iab_codes": [
+        "G4-56-0182",
+        "G4-56-0184",
+        "G4-56-0346",
+        "G4-56-0180",
+        "G4-56-0177",
+        "G4-56-0183",
+        "G4-56-0178",
+        "G4-56-0179",
+        "G4-56-0181"
+      ],
+      "iab_codes": [
+        "G4-56-0185",
+        "G4-56-0182",
+        "G4-56-0184",
+        "G4-56-0346",
+        "G4-56-0180",
+        "G4-56-0177",
+        "G4-56-0183",
+        "G4-56-0178",
+        "G4-56-0179",
+        "G4-56-0181"
+      ]
+    },
+    {
+      "source_record_id": "recVLxwgEHFrer9IH",
+      "title_en": "Kain Batik Kawung, Kain Batik Kohinur, Kain Batik Putri Piningit, Kain Batik Grompol\nBy various makers",
+      "raw_iab_code": "G4-56-0188, G4-56-0349, G4-56-0350, G4-56-0348",
+      "primary_iab_code": "G4-56-0188",
+      "additional_iab_codes": [
+        "G4-56-0349",
+        "G4-56-0350",
+        "G4-56-0348"
+      ],
+      "iab_codes": [
+        "G4-56-0188",
+        "G4-56-0349",
+        "G4-56-0350",
+        "G4-56-0348"
+      ]
+    },
+    {
+      "source_record_id": "recQYWMgBWxsUMXCb",
+      "title_en": "Kain Batik Brangtamangu, Kain Batik Grompol, Kain Batik Nitik Kawung, Kain Batik Nitik\nBy various makers",
+      "raw_iab_code": "G4-56-0351, G4-56-0191, G4-56-0189, G4-56-0347",
+      "primary_iab_code": "G4-56-0351",
+      "additional_iab_codes": [
+        "G4-56-0191",
+        "G4-56-0189",
+        "G4-56-0347"
+      ],
+      "iab_codes": [
+        "G4-56-0351",
+        "G4-56-0191",
+        "G4-56-0189",
+        "G4-56-0347"
+      ]
+    }
+  ],
+  "missing_material_lookup": [
+    {
+      "source_record_id": "recojoTvbjSQYdjo4",
+      "iab_code": "25-G1-01-5034",
+      "material": "Fabrics"
+    },
+    {
+      "source_record_id": "reckbrGHOA4pC76QN",
+      "iab_code": "25-G3-01-0054",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "recTs6r8MhmYp5uCC",
+      "iab_code": "25-G3-08-0219",
+      "material": "Printed book"
+    },
+    {
+      "source_record_id": "recmIENb7oA1JNbii",
+      "iab_code": "25-G3-09-0212",
+      "material": "Printed book by the Medici press"
+    },
+    {
+      "source_record_id": "recg3En8Vitds0xfu",
+      "iab_code": "25-G3-38-0066",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "recoYuCfOjtQdnart",
+      "iab_code": "25-G3-38-0120",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "recEdpb9IzTXF1KzA",
+      "iab_code": "25-G3-43-0138",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "recLqBkn8Qc3TL0So",
+      "iab_code": "25-G3-43-0139",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "recxFaUxl9IlgNnO6",
+      "iab_code": "25-G3-43-0140",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "recjblCr7FCR7Xu2F",
+      "iab_code": "25-G3-43-0141",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "recDJN8XkZd5GEfP2",
+      "iab_code": "25-G3-43-0142",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "recgxhSSqvyFXLcro",
+      "iab_code": "25-G3-43-0143",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "recZScU5IDF92Wn9e",
+      "iab_code": "25-G3-43-0144",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "recwyLNi0yiGJpJFM",
+      "iab_code": "25-G3-43-0145",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "recPsEERBzl7SaU98",
+      "iab_code": "25-G3-43-0146",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "recjEfpN0wc9kwY2b",
+      "iab_code": "25-G3-43-0147",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "rectaVMsWP9n6jlu6",
+      "iab_code": "25-G3-45-0157",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "rec3FSrc0k6Yswxmo",
+      "iab_code": "25-G4-65-0231",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "recCHMSqJ4rN6pn1P",
+      "iab_code": "25-G4-65-0232",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "recDTnlE3gc2Yd0QR",
+      "iab_code": "25-G5-54-0669",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "rec89k0UJZi9PCKgL",
+      "iab_code": "25-G5-61-0709",
+      "material": "Jade"
+    },
+    {
+      "source_record_id": "recdWfvHgXDoZOE6L",
+      "iab_code": "25-G5-82-0795",
+      "material": "Bronze"
+    },
+    {
+      "source_record_id": "recPLNGjKz72VRI7p",
+      "iab_code": "25-OS-06-5083",
+      "material": "Ceramics"
+    },
+    {
+      "source_record_id": "recBGzAJb6kdN7tM5",
+      "iab_code": "25-OS-08-5113",
+      "material": "Sand, 4 tablets"
+    },
+    {
+      "source_record_id": "recL5REbPsxZnzMC7",
+      "iab_code": "25-OS-09-5114",
+      "material": "60 stools"
+    }
+  ]
+}

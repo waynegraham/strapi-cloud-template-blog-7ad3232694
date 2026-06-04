@@ -1,0 +1,182 @@
+[
+  {
+    "content_type": "sub-gallery",
+    "endpoint": "sub-galleries",
+    "key": "a-curious-explorer",
+    "match": {
+      "key": "a-curious-explorer"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/sub-galleries",
+      "body": {
+        "data": {
+          "title_en": "A Curious Explorer",
+          "slug": "a-curious-explorer",
+          "sort_order": 1
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "sub-gallery",
+    "endpoint": "sub-galleries",
+    "key": "arising-from-paper",
+    "match": {
+      "key": "arising-from-paper"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/sub-galleries",
+      "body": {
+        "data": {
+          "title_en": "Arising from Paper",
+          "slug": "arising-from-paper",
+          "sort_order": 2
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "sub-gallery",
+    "endpoint": "sub-galleries",
+    "key": "faith-practice",
+    "match": {
+      "key": "faith-practice"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/sub-galleries",
+      "body": {
+        "data": {
+          "title_en": "Faith & Practice",
+          "slug": "faith-practice",
+          "sort_order": 3
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "sub-gallery",
+    "endpoint": "sub-galleries",
+    "key": "gazing-upon-the-stars",
+    "match": {
+      "key": "gazing-upon-the-stars"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/sub-galleries",
+      "body": {
+        "data": {
+          "title_en": "Gazing Upon the Stars",
+          "slug": "gazing-upon-the-stars",
+          "sort_order": 4
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "sub-gallery",
+    "endpoint": "sub-galleries",
+    "key": "kiswah",
+    "match": {
+      "key": "kiswah"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/sub-galleries",
+      "body": {
+        "data": {
+          "title_en": "Kiswah",
+          "slug": "kiswah",
+          "sort_order": 5
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "sub-gallery",
+    "endpoint": "sub-galleries",
+    "key": "pious-gifts-kawla",
+    "match": {
+      "key": "pious-gifts-kawla"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/sub-galleries",
+      "body": {
+        "data": {
+          "title_en": "Pious Gifts (KAWLA)",
+          "slug": "pious-gifts-kawla",
+          "sort_order": 6
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "sub-gallery",
+    "endpoint": "sub-galleries",
+    "key": "symbol-object",
+    "match": {
+      "key": "symbol-object"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/sub-galleries",
+      "body": {
+        "data": {
+          "title_en": "Symbol & Object",
+          "slug": "symbol-object",
+          "sort_order": 7
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "sub-gallery",
+    "endpoint": "sub-galleries",
+    "key": "the-creator",
+    "match": {
+      "key": "the-creator"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/sub-galleries",
+      "body": {
+        "data": {
+          "title_en": "The Creator",
+          "slug": "the-creator",
+          "sort_order": 8
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "sub-gallery",
+    "endpoint": "sub-galleries",
+    "key": "the-guardian",
+    "match": {
+      "key": "the-guardian"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/sub-galleries",
+      "body": {
+        "data": {
+          "title_en": "The Guardian",
+          "slug": "the-guardian",
+          "sort_order": 9
+        }
+      }
+    },
+    "relations": {}
+  }
+]

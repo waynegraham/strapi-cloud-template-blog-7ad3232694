@@ -1,0 +1,23 @@
+Records with multiple IAB Code values (16)
+- Columns from the Masjid al-Haram :: 25-G1-04-0126, 25-G1-04-0979, 25-G1-04-0980, 25-G1-04-0981, 25-G1-04-0982, 25-G1-04-0983, 25-G1-04-0984
+- The Tradition of the Kiswah :: 25-G2-10-0004, 25-G2-11-0886, 25-G2-12-0887, 25-G2-13-0888, 25-G2-13-0915
+- Folios from the Katta Langar Qur’an (5:113–6:19) :: 25-G3-18-0363, 25-G3-18-0016
+- Folios from the Katta Langar Qur’an (5:113–6:19) :: 25-G3-18-0363, 25-G3-18-0016
+- Folios from a Qur’an manuscript (19:1–9) :: 25-G3-20-0297, 25-G3-20-0916
+- Kamal (khashabah), navigational tools, recreated for the Jewel of Muscat voyage to Singapore :: 25-G3-40-0242, 25-G3-40-0241, 25-G3-40-0240
+- Sunan Tembayat, Sunan Bonang, Sunan Kalijaga, Sunan Giri, Sunan Gunungjati, Sunan Ampel, Sunan Drajat, Sunan Gresik, Sunan Kudus, Gunungan
+By Suryadi Warnasukarja :: 25-G4-56-0185, 25-G4-56-0182, 25-G4-56-0184, 25-G4-56-0346, 25-G4-56-0180, 25-G4-56-0177, 25-G4-56-0183, 25-G4-56-0178, 25-G4-56-0179, 25-G4-56-0181
+- Kain Batik Kawung, Kain Batik Kohinur, Kain Batik Putri Piningit, Kain Batik Grompol
+By various makers :: 25-G4-56-0188, 25-G4-56-0349, 25-G4-56-0350, 25-G4-56-0348
+- Kain Batik Brangtamangu, Kain Batik Grompol, Kain Batik Nitik Kawung, Kain Batik Nitik
+By various makers :: 25-G4-56-0351, 25-G4-56-0191, 25-G4-56-0189, 25-G4-56-0347
+- Fragments of a poetic inscription by Ibn Zamrak :: 25-G4-76-0206, 25-G4-76-0207, 25-G4-76-0208
+- Two folios from a late Shah Jahan album
+ :: 25-G5-22-0406, 25-G5-22-0444
+- Two ivory inlaid wooden panels :: 25-G5-57-0693, 25-G5-57-0871
+- Madinah Tile Panel :: 25-MD-01-0879, 25-MD-01-0900
+- Sunan Tembayat, Sunan Bonang, Sunan Kalijaga, Sunan Giri, Sunan Gunungjati, Sunan Ampel, Sunan Drajat, Sunan Gresik, Sunan Kudus, Gunungan By Suryadi Warnasukarja, Klaten :: G4-56-0185, G4-56-0182, G4-56-0184, G4-56-0346, G4-56-0180, G4-56-0177, G4-56-0183, G4-56-0178, G4-56-0179, G4-56-0181
+- Kain Batik Kawung, Kain Batik Kohinur, Kain Batik Putri Piningit, Kain Batik Grompol
+By various makers :: G4-56-0188, G4-56-0349, G4-56-0350, G4-56-0348
+- Kain Batik Brangtamangu, Kain Batik Grompol, Kain Batik Nitik Kawung, Kain Batik Nitik
+By various makers :: G4-56-0351, G4-56-0191, G4-56-0189, G4-56-0347

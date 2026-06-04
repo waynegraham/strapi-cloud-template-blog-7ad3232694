@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-05-19T13:02:31.741Z",
+  "strapi_api_url": "http://localhost:1337",
+  "source": {
+    "system": "airtable",
+    "input_file": "airtable_dump.json",
+    "agents_file": "agents_distinct.csv",
+    "materials_file": "materials_distinct.csv",
+    "source_record_count": 650
+  },
+  "load_order": [
+    "agent-roles",
+    "agents",
+    "people",
+    "materials",
+    "galleries",
+    "sub-galleries",
+    "works"
+  ],
+  "counts": {
+    "agent_roles": 35,
+    "agents": 31,
+    "people": 31,
+    "materials": 240,
+    "galleries": 7,
+    "sub_galleries": 9,
+    "works": 649,
+    "skipped_works": 1,
+    "duplicate_iab_codes": 30,
+    "duplicate_source_rows": 16,
+    "missing_material_lookup": 25
+  },
+  "files": {
+    "agent-roles": "intermediate/agent-roles.json",
+    "agents": "intermediate/agents.json",
+    "people": "intermediate/people.json",
+    "materials": "intermediate/materials.json",
+    "galleries": "intermediate/galleries.json",
+    "sub-galleries": "intermediate/sub-galleries.json",
+    "works": "intermediate/works.json",
+    "duplicates": "intermediate/duplicates.json",
+    "report": "intermediate/report.json"
+  }
+}

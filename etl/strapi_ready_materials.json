@@ -1,0 +1,2882 @@
+[
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Adobe finish structure"
+    },
+    "ar_data": {
+      "name": "هيكل مع تشطيب من الطوب"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Agate"
+    },
+    "ar_data": {
+      "name": "عقيق"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Alabaster"
+    },
+    "ar_data": {
+      "name": "مرمر"
+    }
+  },
+  {
+    "type": "support",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Aluminosilicate glass folios"
+    },
+    "ar_data": {
+      "name": "صفحات زجاجية من سيليكات الألومنيوم"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Bamboo"
+    },
+    "ar_data": {
+      "name": "خيزران"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Baroque pearl"
+    },
+    "ar_data": {
+      "name": "لؤلؤ باروكي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Basil"
+    },
+    "ar_data": {
+      "name": "ريحان"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Basil ink"
+    },
+    "ar_data": {
+      "name": "حبر الريحان"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Bidri alloy inlaid with silver and brass"
+    },
+    "ar_data": {
+      "name": "سبيكة بيدارية مطعَّمة بالفضة والنحاس"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Black and colored inks"
+    },
+    "ar_data": {
+      "name": "أحبار سوداء وملونة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Black and red ink"
+    },
+    "ar_data": {
+      "name": "حبر أسود وأحمر"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Black ink"
+    },
+    "ar_data": {
+      "name": "حبر أسود"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Black mastic"
+    },
+    "ar_data": {
+      "name": "مُصْطَكى أسود"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Black slip"
+    },
+    "ar_data": {
+      "name": "طين سائل أسود"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review source phrasing",
+    "en_data": {
+      "name": "Blackened composition inlay"
+    },
+    "ar_data": {
+      "name": "مطعَّم بتشكيلات سوداء منقوشة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Blown and wheel-cut glass"
+    },
+    "ar_data": {
+      "name": "زجاج مَنفُوخ ومحفور"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Bone"
+    },
+    "ar_data": {
+      "name": "عظم"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Bone or ivory"
+    },
+    "ar_data": {
+      "name": "عظم أو عاج"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Brass"
+    },
+    "ar_data": {
+      "name": "نحاس"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Brass damascene work"
+    },
+    "ar_data": {
+      "name": "نحاس مُدَمْشَق"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Brass inlay"
+    },
+    "ar_data": {
+      "name": "تطعيم نحاسي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Brass sheet"
+    },
+    "ar_data": {
+      "name": "نحاس"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review component not strict material",
+    "en_data": {
+      "name": "Brooms"
+    },
+    "ar_data": {
+      "name": "مكانس"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Brown and red ink"
+    },
+    "ar_data": {
+      "name": "حبر بنّي وأحمر"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Brown ink"
+    },
+    "ar_data": {
+      "name": "حبر بنّي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Brown leather binding with stamped medallion"
+    },
+    "ar_data": {
+      "name": "جلد بنّي داكن مزيَّن برصيعة منقوشة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Buffalo horn"
+    },
+    "ar_data": {
+      "name": "قرن جاموس"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Burnished gold"
+    },
+    "ar_data": {
+      "name": "ذهب مصقول"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Cables"
+    },
+    "ar_data": {
+      "name": "أسلاك"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Cane"
+    },
+    "ar_data": {
+      "name": "قصب"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Carnelian"
+    },
+    "ar_data": {
+      "name": "عقيق"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Cedarwood"
+    },
+    "ar_data": {
+      "name": "خشب أرز"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review component not strict material",
+    "en_data": {
+      "name": "Cement ballasts"
+    },
+    "ar_data": {
+      "name": "ثقالات إسمنتية"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Ceramic"
+    },
+    "ar_data": {
+      "name": "سيراميك"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Charcoal"
+    },
+    "ar_data": {
+      "name": "فحم"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Clay"
+    },
+    "ar_data": {
+      "name": "طين"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Cloth binding"
+    },
+    "ar_data": {
+      "name": "تغليف قماشي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Cobalt"
+    },
+    "ar_data": {
+      "name": "كوبالت"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Coco-de-mer shell"
+    },
+    "ar_data": {
+      "name": "قشرة جوز هند بحري"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Coconut rope"
+    },
+    "ar_data": {
+      "name": "حبل من ألياف جوز الهند"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Colored dyes"
+    },
+    "ar_data": {
+      "name": "أصباغ ملوَّنة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Colored lacquer"
+    },
+    "ar_data": {
+      "name": "ورنيش ملوَّن"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Colored marbles"
+    },
+    "ar_data": {
+      "name": "رخام ملوَّن"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Colored slips"
+    },
+    "ar_data": {
+      "name": "طين سائل ملوّن"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Composite strap"
+    },
+    "ar_data": {
+      "name": "أشرطة مركّبة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Copper"
+    },
+    "ar_data": {
+      "name": "نحاس"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Copper alloy"
+    },
+    "ar_data": {
+      "name": "سبيكة نحاسية"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Copper rivets"
+    },
+    "ar_data": {
+      "name": "مسامير نحاسية"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Corten steel"
+    },
+    "ar_data": {
+      "name": "فولاذ كورتن"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Cotton"
+    },
+    "ar_data": {
+      "name": "قطن"
+    }
+  },
+  {
+    "type": "support",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Cotton fabric with dye"
+    },
+    "ar_data": {
+      "name": "قماش قطني مصبوغ"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Cotton rope"
+    },
+    "ar_data": {
+      "name": "حبل قطني"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Dark-brown leather binding"
+    },
+    "ar_data": {
+      "name": "تغليف جلدي بنّي داكن"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Diamond"
+    },
+    "ar_data": {
+      "name": "ألماس"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Distilled water"
+    },
+    "ar_data": {
+      "name": "ماء مقطَّر"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Earthenware"
+    },
+    "ar_data": {
+      "name": "فخّار"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Ebony"
+    },
+    "ar_data": {
+      "name": "أبنوس"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review component not strict material",
+    "en_data": {
+      "name": "Electrical system"
+    },
+    "ar_data": {
+      "name": "نظام كهربائي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review component not strict material",
+    "en_data": {
+      "name": "Electronic and audio equipment"
+    },
+    "ar_data": {
+      "name": "معدات إلكترونية وصوتية"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Emerald"
+    },
+    "ar_data": {
+      "name": "زمرد"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Enamel"
+    },
+    "ar_data": {
+      "name": "مينا"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Epoxy resin"
+    },
+    "ar_data": {
+      "name": "راتنج الإيبوكسي"
+    }
+  },
+  {
+    "type": "support",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "European-manufactured paper"
+    },
+    "ar_data": {
+      "name": "ورق مصنَّع في أوروبا"
+    }
+  },
+  {
+    "type": "support",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Fabric"
+    },
+    "ar_data": {
+      "name": "قماش"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Faience"
+    },
+    "ar_data": {
+      "name": "خزف"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Fiber"
+    },
+    "ar_data": {
+      "name": "ألياف"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Fiber board"
+    },
+    "ar_data": {
+      "name": "لوح ألياف"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review organic component",
+    "en_data": {
+      "name": "Flowers"
+    },
+    "ar_data": {
+      "name": "أزهار"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Fritware"
+    },
+    "ar_data": {
+      "name": "فخّار"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Fur"
+    },
+    "ar_data": {
+      "name": "فرو"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Gilded brass"
+    },
+    "ar_data": {
+      "name": "نحاس مذهب"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Gilded copper"
+    },
+    "ar_data": {
+      "name": "نحاس مذهب"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review Arabic missing in one source row",
+    "en_data": {
+      "name": "Gilded iron grill"
+    },
+    "ar_data": {
+      "name": "شبك حديد مذهّب"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Gilded leather"
+    },
+    "ar_data": {
+      "name": "جلد مُذهَّب"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Gilding"
+    },
+    "ar_data": {
+      "name": "تذهيب"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Glass"
+    },
+    "ar_data": {
+      "name": "زجاج"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Glass enamels"
+    },
+    "ar_data": {
+      "name": "مينا مُزجَّج"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Glaze"
+    },
+    "ar_data": {
+      "name": "طبقة تزجيج"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Glazed ceramic tiles"
+    },
+    "ar_data": {
+      "name": "بلاط سيراميك مزجَّج"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Glazed earthenware"
+    },
+    "ar_data": {
+      "name": "فخّار مزجَّج"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Glazed porcelain"
+    },
+    "ar_data": {
+      "name": "خزف مزجج"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Glazed pottery"
+    },
+    "ar_data": {
+      "name": "فخّار مزجَّج"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Glazed stonepaste ceramic"
+    },
+    "ar_data": {
+      "name": "عجينة خزفية مغطاة بطلاء مزجَّج"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Gold"
+    },
+    "ar_data": {
+      "name": "ذهب"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Gold leaf"
+    },
+    "ar_data": {
+      "name": "رقائق ذهب"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Gold-silver alloy gilding"
+    },
+    "ar_data": {
+      "name": "تذهيب من سبيكة ذهب وفضة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Gold-wrapped silk thread"
+    },
+    "ar_data": {
+      "name": "خيوط حرير مغزولة بذهب"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Gray wash"
+    },
+    "ar_data": {
+      "name": "طبقة من طلاء رمادي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Green ink"
+    },
+    "ar_data": {
+      "name": "حبر أخضر"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review component not strict material",
+    "en_data": {
+      "name": "Greenhouse"
+    },
+    "ar_data": {
+      "name": "دفيئة زراعية"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Handblown glass lamps"
+    },
+    "ar_data": {
+      "name": "مصابيح زجاجية مصنوعة بالنفخ اليدوي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Hardwood"
+    },
+    "ar_data": {
+      "name": "خشب صلب"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review installation component",
+    "en_data": {
+      "name": "Healing garden with bioremedial plants"
+    },
+    "ar_data": {
+      "name": "حديقة شفائية تضم نباتات علاجية حيوية"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Hide"
+    },
+    "ar_data": {
+      "name": "جلد"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "High-tin bronze"
+    },
+    "ar_data": {
+      "name": "برونز عالي القصدير"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Horn"
+    },
+    "ar_data": {
+      "name": "قرن حيوان"
+    }
+  },
+  {
+    "type": "support",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Indigo fabric"
+    },
+    "ar_data": {
+      "name": "قماش نيلي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Industrial oil"
+    },
+    "ar_data": {
+      "name": "زيت صناعي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Ink"
+    },
+    "ar_data": {
+      "name": "حبر"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Ink dye"
+    },
+    "ar_data": {
+      "name": "صبغة حبر"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Iron"
+    },
+    "ar_data": {
+      "name": "حديد"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Iron nails"
+    },
+    "ar_data": {
+      "name": "مسامير حديدية"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Iron shavings"
+    },
+    "ar_data": {
+      "name": "بُرادة حديد"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Ivory"
+    },
+    "ar_data": {
+      "name": "عاج"
+    }
+  },
+  {
+    "type": "support",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Japanese paper"
+    },
+    "ar_data": {
+      "name": "ورق ياباني"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Juniper wood"
+    },
+    "ar_data": {
+      "name": "خشب عرعر"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Kantha embroidery"
+    },
+    "ar_data": {
+      "name": "مطرزات كانثا"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Lac"
+    },
+    "ar_data": {
+      "name": "لَك"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Lacquer"
+    },
+    "ar_data": {
+      "name": "ورنيش"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Later silver foot"
+    },
+    "ar_data": {
+      "name": "قاعدة فضية أُضيفت لاحقاً"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Latex tubes"
+    },
+    "ar_data": {
+      "name": "أنابيب لثي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Lead"
+    },
+    "ar_data": {
+      "name": "رصاص"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Leather"
+    },
+    "ar_data": {
+      "name": "جلد"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Leather binding"
+    },
+    "ar_data": {
+      "name": "تغليف جلدي"
+    }
+  },
+  {
+    "type": "support",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Leather parchment"
+    },
+    "ar_data": {
+      "name": "رَقّ جلد"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Lenses"
+    },
+    "ar_data": {
+      "name": "عدسات"
+    }
+  },
+  {
+    "type": "support",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Linen"
+    },
+    "ar_data": {
+      "name": "كتّان"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Luster"
+    },
+    "ar_data": {
+      "name": "طبقة لامعة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Luster glaze"
+    },
+    "ar_data": {
+      "name": "طبقة لامعة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review organic component",
+    "en_data": {
+      "name": "Madras thorn tree"
+    },
+    "ar_data": {
+      "name": "شجرة غاف البحر"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Magnet"
+    },
+    "ar_data": {
+      "name": "مغناطيس"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Mahogany"
+    },
+    "ar_data": {
+      "name": "ماهوني"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Marble"
+    },
+    "ar_data": {
+      "name": "رخام"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Metal"
+    },
+    "ar_data": {
+      "name": "معدن"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Metal cables"
+    },
+    "ar_data": {
+      "name": "كابلات معدنية"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Metal rails"
+    },
+    "ar_data": {
+      "name": "قضبان معدنية"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Metal scaffolding"
+    },
+    "ar_data": {
+      "name": "سقالات معدنية"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Metal structure"
+    },
+    "ar_data": {
+      "name": "هيكل معدني"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Metal thread"
+    },
+    "ar_data": {
+      "name": "خيط معدني"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review component not strict material",
+    "en_data": {
+      "name": "Metallic barrels"
+    },
+    "ar_data": {
+      "name": "براميل معدنية"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Mica pigment"
+    },
+    "ar_data": {
+      "name": "أصباغ مسحوق ميكا"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Mirror"
+    },
+    "ar_data": {
+      "name": "مرآة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Mortar"
+    },
+    "ar_data": {
+      "name": "ملاط"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Mother-of-pearl"
+    },
+    "ar_data": {
+      "name": "عِرق اللؤلؤ"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Natural fiber ropes"
+    },
+    "ar_data": {
+      "name": "حبال من الألياف الطبيعية"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Nephrite jade"
+    },
+    "ar_data": {
+      "name": "يشب النفريت"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Nickel"
+    },
+    "ar_data": {
+      "name": "نيكل"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Niello"
+    },
+    "ar_data": {
+      "name": "نِلّ"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Nylon"
+    },
+    "ar_data": {
+      "name": "نايلون"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Oak boards"
+    },
+    "ar_data": {
+      "name": "ألواح من خشب البَلُّوط"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Opaque pigments"
+    },
+    "ar_data": {
+      "name": "أصباغ كتيمة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Opaque watercolor"
+    },
+    "ar_data": {
+      "name": "ألوان مائية كتيمة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Opaque white glaze"
+    },
+    "ar_data": {
+      "name": "طبقة تزجيج بيضاء كتيمة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Paint"
+    },
+    "ar_data": {
+      "name": "طلاء"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Painted cedarwood"
+    },
+    "ar_data": {
+      "name": "خشب أرز مَطليّ"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Palm fronds"
+    },
+    "ar_data": {
+      "name": "سعف نخيل"
+    }
+  },
+  {
+    "type": "support",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Paper"
+    },
+    "ar_data": {
+      "name": "ورق"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Papier mache"
+    },
+    "ar_data": {
+      "name": "ورق معجن"
+    }
+  },
+  {
+    "type": "support",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Parchment"
+    },
+    "ar_data": {
+      "name": "رَقّ"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Pearl"
+    },
+    "ar_data": {
+      "name": "لؤلؤ"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Pencil"
+    },
+    "ar_data": {
+      "name": "قلم رصاص"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Pigment"
+    },
+    "ar_data": {
+      "name": "أصباغ"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Pigmented fiber board"
+    },
+    "ar_data": {
+      "name": "لوح ألياف ملوّن"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Pine wood"
+    },
+    "ar_data": {
+      "name": "خشب صنوبر"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review organic component",
+    "en_data": {
+      "name": "Plants"
+    },
+    "ar_data": {
+      "name": "نباتات"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Plexiglas box"
+    },
+    "ar_data": {
+      "name": "صندوق من زجاج بليكسي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Plywood"
+    },
+    "ar_data": {
+      "name": "خشب رقائقي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Plywood boards"
+    },
+    "ar_data": {
+      "name": "ألواح خشب رقائقي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Polished 3D printed resin"
+    },
+    "ar_data": {
+      "name": "راتنج مطبوع بتقنية ثلاثية الأبعاد ومصقول"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Polished stainless steel"
+    },
+    "ar_data": {
+      "name": "فولاذ مصقول"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Polychrome stone inlays"
+    },
+    "ar_data": {
+      "name": "تطعيمات حجرية متعدّدة الألوان"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review source phrasing",
+    "en_data": {
+      "name": "Polymirror"
+    },
+    "ar_data": {
+      "name": "مرآة مصنوعة من بولي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Porphyry"
+    },
+    "ar_data": {
+      "name": "حجر سُمّاقي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Powder coated metal"
+    },
+    "ar_data": {
+      "name": "معدن مغلّف بالبودرة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Proconnesian marble"
+    },
+    "ar_data": {
+      "name": "رخام بروكونيزي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review media component",
+    "en_data": {
+      "name": "Projected animations"
+    },
+    "ar_data": {
+      "name": "رسمان متحرّكان مسقطان"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review source says red compound",
+    "en_data": {
+      "name": "Red compound"
+    },
+    "ar_data": {
+      "name": "رصاص أحمر"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Red ink"
+    },
+    "ar_data": {
+      "name": "حبر أحمر"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Reed weaving"
+    },
+    "ar_data": {
+      "name": "نسيج قصب"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Resin"
+    },
+    "ar_data": {
+      "name": "راتنج"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Rock"
+    },
+    "ar_data": {
+      "name": "صخور"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Rock crystal"
+    },
+    "ar_data": {
+      "name": "بلّور صخري"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Rope"
+    },
+    "ar_data": {
+      "name": "حبل"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Rosewood"
+    },
+    "ar_data": {
+      "name": "خشب ورد"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review component not strict material",
+    "en_data": {
+      "name": "Rounded mirrors"
+    },
+    "ar_data": {
+      "name": "مرايا مدورة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Rubies"
+    },
+    "ar_data": {
+      "name": "ياقوت"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Ruby"
+    },
+    "ar_data": {
+      "name": "ياقوت"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Sapphire"
+    },
+    "ar_data": {
+      "name": "ياقوت أزرق"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review component not strict material",
+    "en_data": {
+      "name": "Screen"
+    },
+    "ar_data": {
+      "name": "شاشة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Sediment"
+    },
+    "ar_data": {
+      "name": "رواسب"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Seed pearls"
+    },
+    "ar_data": {
+      "name": "لؤلؤ صغير"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Semi-precious stones"
+    },
+    "ar_data": {
+      "name": "أحجار شبه كريمة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Shagreen"
+    },
+    "ar_data": {
+      "name": "جلد غير مدبوغ"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Sheepskin"
+    },
+    "ar_data": {
+      "name": "جلد غنم"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Silicon bronze"
+    },
+    "ar_data": {
+      "name": "سيليكون برونز"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Silk"
+    },
+    "ar_data": {
+      "name": "حرير"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Silk pile"
+    },
+    "ar_data": {
+      "name": "حرير زَغِب"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Silk-satin"
+    },
+    "ar_data": {
+      "name": "حرير-ساتان"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Silkscreen print on mesh"
+    },
+    "ar_data": {
+      "name": "طباعة بالشاشة الحريرية على قماش شاش"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Silver"
+    },
+    "ar_data": {
+      "name": "فضة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Silver additions"
+    },
+    "ar_data": {
+      "name": "إضافات من الفضة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Silver gilt"
+    },
+    "ar_data": {
+      "name": "فضة مذهّبة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Silver inlay"
+    },
+    "ar_data": {
+      "name": "تطعيم بالفضة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Silver overlay"
+    },
+    "ar_data": {
+      "name": "تطعيمات من فضة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Silver plate"
+    },
+    "ar_data": {
+      "name": "صفيحة فضة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Silvered brass"
+    },
+    "ar_data": {
+      "name": "نحاس مفضَّض"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Silvered copper"
+    },
+    "ar_data": {
+      "name": "نحاس مطليّ بالفضة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Silver-gilt wire"
+    },
+    "ar_data": {
+      "name": "سِلك فضي مذهّب"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Silver-wrapped thread"
+    },
+    "ar_data": {
+      "name": "خيوط فضية مغلّفة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Silver-wire thread"
+    },
+    "ar_data": {
+      "name": "خيوط فضة مسطَّحة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Sisal rope"
+    },
+    "ar_data": {
+      "name": "حبل سيزال"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Soil"
+    },
+    "ar_data": {
+      "name": "تربة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Spinel"
+    },
+    "ar_data": {
+      "name": "حجر الياقوت الرمّاني"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Stained wood"
+    },
+    "ar_data": {
+      "name": "خشب ملوّن"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Steel"
+    },
+    "ar_data": {
+      "name": "فولاذ"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Steel bars"
+    },
+    "ar_data": {
+      "name": "قضبان فولاذية"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Steel structure"
+    },
+    "ar_data": {
+      "name": "هيكل فولاذي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Stonepaste ceramic"
+    },
+    "ar_data": {
+      "name": "خزف من عجينة حجرية"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Stucco"
+    },
+    "ar_data": {
+      "name": "جبس"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Supplementary-weft woven silver-wrapped thread"
+    },
+    "ar_data": {
+      "name": "خيوط فضية مغلّفة نُسجت باستخدام تقنية الخيوط المضافة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Teak"
+    },
+    "ar_data": {
+      "name": "خشب الساج"
+    }
+  },
+  {
+    "type": "support",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Teak tablet"
+    },
+    "ar_data": {
+      "name": "لوح من خشب الساج"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Textile"
+    },
+    "ar_data": {
+      "name": "نسيج"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Textile banners"
+    },
+    "ar_data": {
+      "name": "قطع قماش"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Thread"
+    },
+    "ar_data": {
+      "name": "خيوط"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review media component",
+    "en_data": {
+      "name": "Three-channel video installation"
+    },
+    "ar_data": {
+      "name": "فيديو من ثلاث قنوات"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Tin-glazed earthenware"
+    },
+    "ar_data": {
+      "name": "فخّار مطليّ بقصدير"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Tin-opacified glaze"
+    },
+    "ar_data": {
+      "name": "تزجيج قصديري كتيم"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Tinned brass"
+    },
+    "ar_data": {
+      "name": "نحاس مطلي بالقصدير"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Tortoiseshell"
+    },
+    "ar_data": {
+      "name": "صدف سلحفاة"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Tourmaline"
+    },
+    "ar_data": {
+      "name": "تورمالين"
+    }
+  },
+  {
+    "type": "support",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Treated fabric"
+    },
+    "ar_data": {
+      "name": "قماش معالَج"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Turquoise"
+    },
+    "ar_data": {
+      "name": "فيروز"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Turquoise glaze"
+    },
+    "ar_data": {
+      "name": "طلاء تزجيج فيروزي"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Vellum binding"
+    },
+    "ar_data": {
+      "name": "تجليد من الرَّق"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Velvet"
+    },
+    "ar_data": {
+      "name": "مخمل"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review media component",
+    "en_data": {
+      "name": "Video"
+    },
+    "ar_data": {
+      "name": "فيديو"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Walnut"
+    },
+    "ar_data": {
+      "name": "خشب الجوز"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Walrus ivory"
+    },
+    "ar_data": {
+      "name": "عاج فرس البحر"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Watercolor"
+    },
+    "ar_data": {
+      "name": "ألوان مائية"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Wax-resist batik"
+    },
+    "ar_data": {
+      "name": "تقنية صبغ الشَّمع (باتيك)"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "White and black clay slips"
+    },
+    "ar_data": {
+      "name": "الطين السائل الأبيض والأسود"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Wood"
+    },
+    "ar_data": {
+      "name": "خشب"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Wood box with lacquer decoration"
+    },
+    "ar_data": {
+      "name": "صندوق خشبي مزخرف بالورنيش"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "review component not strict material",
+    "en_data": {
+      "name": "Wooden sticks"
+    },
+    "ar_data": {
+      "name": "عصيّ خشبية"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Wool"
+    },
+    "ar_data": {
+      "name": "صوف"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Wool applique"
+    },
+    "ar_data": {
+      "name": "تطريز بالصوف"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Wool pile"
+    },
+    "ar_data": {
+      "name": "صوف"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Yellow ink"
+    },
+    "ar_data": {
+      "name": "حبر أصفر"
+    }
+  },
+  {
+    "type": "medium",
+    "vocab": "AAT",
+    "refid": "PENDING_REVIEW",
+    "review_note": "",
+    "en_data": {
+      "name": "Zinc alloy"
+    },
+    "ar_data": {
+      "name": "سبائك زنك"
+    }
+  }
+]

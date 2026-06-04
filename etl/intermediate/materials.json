@@ -1,0 +1,4562 @@
+[
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "adobe-finish-structure",
+    "match": {
+      "key": "adobe-finish-structure"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Adobe finish structure",
+          "name_ar": "هيكل مع تشطيب من الطوب"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "agate",
+    "match": {
+      "key": "agate"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Agate",
+          "name_ar": "عقيق"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "alabaster",
+    "match": {
+      "key": "alabaster"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Alabaster",
+          "name_ar": "مرمر"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "aluminosilicate-glass-folios",
+    "match": {
+      "key": "aluminosilicate-glass-folios"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Aluminosilicate glass folios",
+          "name_ar": "صفحات زجاجية من سيليكات الألومنيوم"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "bamboo",
+    "match": {
+      "key": "bamboo"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Bamboo",
+          "name_ar": "خيزران"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "baroque-pearl",
+    "match": {
+      "key": "baroque-pearl"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Baroque pearl",
+          "name_ar": "لؤلؤ باروكي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "basil",
+    "match": {
+      "key": "basil"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Basil",
+          "name_ar": "ريحان"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "basil-ink",
+    "match": {
+      "key": "basil-ink"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Basil ink",
+          "name_ar": "حبر الريحان"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "bidri-alloy-inlaid-with-silver-and-brass",
+    "match": {
+      "key": "bidri-alloy-inlaid-with-silver-and-brass"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Bidri alloy inlaid with silver and brass",
+          "name_ar": "سبيكة بيدارية مطعَّمة بالفضة والنحاس"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "black-and-colored-inks",
+    "match": {
+      "key": "black-and-colored-inks"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Black and colored inks",
+          "name_ar": "أحبار سوداء وملونة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "black-and-red-ink",
+    "match": {
+      "key": "black-and-red-ink"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Black and red ink",
+          "name_ar": "حبر أسود وأحمر"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "black-ink",
+    "match": {
+      "key": "black-ink"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Black ink",
+          "name_ar": "حبر أسود"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "black-mastic",
+    "match": {
+      "key": "black-mastic"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Black mastic",
+          "name_ar": "مُصْطَكى أسود"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "black-slip",
+    "match": {
+      "key": "black-slip"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Black slip",
+          "name_ar": "طين سائل أسود"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "blackened-composition-inlay",
+    "match": {
+      "key": "blackened-composition-inlay"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Blackened composition inlay",
+          "name_ar": "مطعَّم بتشكيلات سوداء منقوشة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "blown-and-wheel-cut-glass",
+    "match": {
+      "key": "blown-and-wheel-cut-glass"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Blown and wheel-cut glass",
+          "name_ar": "زجاج مَنفُوخ ومحفور"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "bone",
+    "match": {
+      "key": "bone"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Bone",
+          "name_ar": "عظم"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "bone-or-ivory",
+    "match": {
+      "key": "bone-or-ivory"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Bone or ivory",
+          "name_ar": "عظم أو عاج"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "brass",
+    "match": {
+      "key": "brass"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Brass",
+          "name_ar": "نحاس"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "brass-damascene-work",
+    "match": {
+      "key": "brass-damascene-work"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Brass damascene work",
+          "name_ar": "نحاس مُدَمْشَق"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "brass-inlay",
+    "match": {
+      "key": "brass-inlay"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Brass inlay",
+          "name_ar": "تطعيم نحاسي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "brass-sheet",
+    "match": {
+      "key": "brass-sheet"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Brass sheet",
+          "name_ar": "نحاس"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "brooms",
+    "match": {
+      "key": "brooms"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Brooms",
+          "name_ar": "مكانس"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "brown-and-red-ink",
+    "match": {
+      "key": "brown-and-red-ink"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Brown and red ink",
+          "name_ar": "حبر بنّي وأحمر"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "brown-ink",
+    "match": {
+      "key": "brown-ink"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Brown ink",
+          "name_ar": "حبر بنّي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "brown-leather-binding-with-stamped-medallion",
+    "match": {
+      "key": "brown-leather-binding-with-stamped-medallion"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Brown leather binding with stamped medallion",
+          "name_ar": "جلد بنّي داكن مزيَّن برصيعة منقوشة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "buffalo-horn",
+    "match": {
+      "key": "buffalo-horn"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Buffalo horn",
+          "name_ar": "قرن جاموس"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "burnished-gold",
+    "match": {
+      "key": "burnished-gold"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Burnished gold",
+          "name_ar": "ذهب مصقول"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "cables",
+    "match": {
+      "key": "cables"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Cables",
+          "name_ar": "أسلاك"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "cane",
+    "match": {
+      "key": "cane"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Cane",
+          "name_ar": "قصب"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "carnelian",
+    "match": {
+      "key": "carnelian"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Carnelian",
+          "name_ar": "عقيق"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "cedarwood",
+    "match": {
+      "key": "cedarwood"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Cedarwood",
+          "name_ar": "خشب أرز"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "cement-ballasts",
+    "match": {
+      "key": "cement-ballasts"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Cement ballasts",
+          "name_ar": "ثقالات إسمنتية"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "ceramic",
+    "match": {
+      "key": "ceramic"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Ceramic",
+          "name_ar": "سيراميك"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "charcoal",
+    "match": {
+      "key": "charcoal"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Charcoal",
+          "name_ar": "فحم"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "clay",
+    "match": {
+      "key": "clay"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Clay",
+          "name_ar": "طين"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "cloth-binding",
+    "match": {
+      "key": "cloth-binding"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Cloth binding",
+          "name_ar": "تغليف قماشي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "cobalt",
+    "match": {
+      "key": "cobalt"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Cobalt",
+          "name_ar": "كوبالت"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "coco-de-mer-shell",
+    "match": {
+      "key": "coco-de-mer-shell"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Coco-de-mer shell",
+          "name_ar": "قشرة جوز هند بحري"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "coconut-rope",
+    "match": {
+      "key": "coconut-rope"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Coconut rope",
+          "name_ar": "حبل من ألياف جوز الهند"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "colored-dyes",
+    "match": {
+      "key": "colored-dyes"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Colored dyes",
+          "name_ar": "أصباغ ملوَّنة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "colored-lacquer",
+    "match": {
+      "key": "colored-lacquer"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Colored lacquer",
+          "name_ar": "ورنيش ملوَّن"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "colored-marbles",
+    "match": {
+      "key": "colored-marbles"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Colored marbles",
+          "name_ar": "رخام ملوَّن"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "colored-slips",
+    "match": {
+      "key": "colored-slips"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Colored slips",
+          "name_ar": "طين سائل ملوّن"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "composite-strap",
+    "match": {
+      "key": "composite-strap"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Composite strap",
+          "name_ar": "أشرطة مركّبة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "copper",
+    "match": {
+      "key": "copper"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Copper",
+          "name_ar": "نحاس"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "copper-alloy",
+    "match": {
+      "key": "copper-alloy"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Copper alloy",
+          "name_ar": "سبيكة نحاسية"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "copper-rivets",
+    "match": {
+      "key": "copper-rivets"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Copper rivets",
+          "name_ar": "مسامير نحاسية"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "corten-steel",
+    "match": {
+      "key": "corten-steel"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Corten steel",
+          "name_ar": "فولاذ كورتن"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "cotton",
+    "match": {
+      "key": "cotton"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Cotton",
+          "name_ar": "قطن"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "cotton-fabric-with-dye",
+    "match": {
+      "key": "cotton-fabric-with-dye"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Cotton fabric with dye",
+          "name_ar": "قماش قطني مصبوغ"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "cotton-rope",
+    "match": {
+      "key": "cotton-rope"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Cotton rope",
+          "name_ar": "حبل قطني"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "dark-brown-leather-binding",
+    "match": {
+      "key": "dark-brown-leather-binding"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Dark-brown leather binding",
+          "name_ar": "تغليف جلدي بنّي داكن"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "diamond",
+    "match": {
+      "key": "diamond"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Diamond",
+          "name_ar": "ألماس"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "distilled-water",
+    "match": {
+      "key": "distilled-water"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Distilled water",
+          "name_ar": "ماء مقطَّر"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "earthenware",
+    "match": {
+      "key": "earthenware"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Earthenware",
+          "name_ar": "فخّار"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "ebony",
+    "match": {
+      "key": "ebony"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Ebony",
+          "name_ar": "أبنوس"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "electrical-system",
+    "match": {
+      "key": "electrical-system"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Electrical system",
+          "name_ar": "نظام كهربائي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "electronic-and-audio-equipment",
+    "match": {
+      "key": "electronic-and-audio-equipment"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Electronic and audio equipment",
+          "name_ar": "معدات إلكترونية وصوتية"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "emerald",
+    "match": {
+      "key": "emerald"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Emerald",
+          "name_ar": "زمرد"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "enamel",
+    "match": {
+      "key": "enamel"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Enamel",
+          "name_ar": "مينا"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "epoxy-resin",
+    "match": {
+      "key": "epoxy-resin"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Epoxy resin",
+          "name_ar": "راتنج الإيبوكسي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "european-manufactured-paper",
+    "match": {
+      "key": "european-manufactured-paper"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "European-manufactured paper",
+          "name_ar": "ورق مصنَّع في أوروبا"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "fabric",
+    "match": {
+      "key": "fabric"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Fabric",
+          "name_ar": "قماش"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "faience",
+    "match": {
+      "key": "faience"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Faience",
+          "name_ar": "خزف"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "fiber",
+    "match": {
+      "key": "fiber"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Fiber",
+          "name_ar": "ألياف"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "fiber-board",
+    "match": {
+      "key": "fiber-board"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Fiber board",
+          "name_ar": "لوح ألياف"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "flowers",
+    "match": {
+      "key": "flowers"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Flowers",
+          "name_ar": "أزهار"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "fritware",
+    "match": {
+      "key": "fritware"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Fritware",
+          "name_ar": "فخّار"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "fur",
+    "match": {
+      "key": "fur"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Fur",
+          "name_ar": "فرو"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "gilded-brass",
+    "match": {
+      "key": "gilded-brass"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Gilded brass",
+          "name_ar": "نحاس مذهب"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "gilded-copper",
+    "match": {
+      "key": "gilded-copper"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Gilded copper",
+          "name_ar": "نحاس مذهب"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "gilded-iron-grill",
+    "match": {
+      "key": "gilded-iron-grill"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Gilded iron grill",
+          "name_ar": "شبك حديد مذهّب"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "gilded-leather",
+    "match": {
+      "key": "gilded-leather"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Gilded leather",
+          "name_ar": "جلد مُذهَّب"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "gilding",
+    "match": {
+      "key": "gilding"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Gilding",
+          "name_ar": "تذهيب"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "glass",
+    "match": {
+      "key": "glass"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Glass",
+          "name_ar": "زجاج"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "glass-enamels",
+    "match": {
+      "key": "glass-enamels"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Glass enamels",
+          "name_ar": "مينا مُزجَّج"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "glaze",
+    "match": {
+      "key": "glaze"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Glaze",
+          "name_ar": "طبقة تزجيج"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "glazed-ceramic-tiles",
+    "match": {
+      "key": "glazed-ceramic-tiles"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Glazed ceramic tiles",
+          "name_ar": "بلاط سيراميك مزجَّج"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "glazed-earthenware",
+    "match": {
+      "key": "glazed-earthenware"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Glazed earthenware",
+          "name_ar": "فخّار مزجَّج"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "glazed-porcelain",
+    "match": {
+      "key": "glazed-porcelain"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Glazed porcelain",
+          "name_ar": "خزف مزجج"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "glazed-pottery",
+    "match": {
+      "key": "glazed-pottery"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Glazed pottery",
+          "name_ar": "فخّار مزجَّج"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "glazed-stonepaste-ceramic",
+    "match": {
+      "key": "glazed-stonepaste-ceramic"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Glazed stonepaste ceramic",
+          "name_ar": "عجينة خزفية مغطاة بطلاء مزجَّج"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "gold",
+    "match": {
+      "key": "gold"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Gold",
+          "name_ar": "ذهب"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "gold-leaf",
+    "match": {
+      "key": "gold-leaf"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Gold leaf",
+          "name_ar": "رقائق ذهب"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "gold-silver-alloy-gilding",
+    "match": {
+      "key": "gold-silver-alloy-gilding"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Gold-silver alloy gilding",
+          "name_ar": "تذهيب من سبيكة ذهب وفضة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "gold-wrapped-silk-thread",
+    "match": {
+      "key": "gold-wrapped-silk-thread"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Gold-wrapped silk thread",
+          "name_ar": "خيوط حرير مغزولة بذهب"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "gray-wash",
+    "match": {
+      "key": "gray-wash"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Gray wash",
+          "name_ar": "طبقة من طلاء رمادي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "green-ink",
+    "match": {
+      "key": "green-ink"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Green ink",
+          "name_ar": "حبر أخضر"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "greenhouse",
+    "match": {
+      "key": "greenhouse"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Greenhouse",
+          "name_ar": "دفيئة زراعية"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "handblown-glass-lamps",
+    "match": {
+      "key": "handblown-glass-lamps"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Handblown glass lamps",
+          "name_ar": "مصابيح زجاجية مصنوعة بالنفخ اليدوي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "hardwood",
+    "match": {
+      "key": "hardwood"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Hardwood",
+          "name_ar": "خشب صلب"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "healing-garden-with-bioremedial-plants",
+    "match": {
+      "key": "healing-garden-with-bioremedial-plants"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Healing garden with bioremedial plants",
+          "name_ar": "حديقة شفائية تضم نباتات علاجية حيوية"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "hide",
+    "match": {
+      "key": "hide"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Hide",
+          "name_ar": "جلد"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "high-tin-bronze",
+    "match": {
+      "key": "high-tin-bronze"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "High-tin bronze",
+          "name_ar": "برونز عالي القصدير"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "horn",
+    "match": {
+      "key": "horn"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Horn",
+          "name_ar": "قرن حيوان"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "indigo-fabric",
+    "match": {
+      "key": "indigo-fabric"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Indigo fabric",
+          "name_ar": "قماش نيلي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "industrial-oil",
+    "match": {
+      "key": "industrial-oil"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Industrial oil",
+          "name_ar": "زيت صناعي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "ink",
+    "match": {
+      "key": "ink"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Ink",
+          "name_ar": "حبر"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "ink-dye",
+    "match": {
+      "key": "ink-dye"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Ink dye",
+          "name_ar": "صبغة حبر"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "iron",
+    "match": {
+      "key": "iron"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Iron",
+          "name_ar": "حديد"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "iron-nails",
+    "match": {
+      "key": "iron-nails"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Iron nails",
+          "name_ar": "مسامير حديدية"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "iron-shavings",
+    "match": {
+      "key": "iron-shavings"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Iron shavings",
+          "name_ar": "بُرادة حديد"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "ivory",
+    "match": {
+      "key": "ivory"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Ivory",
+          "name_ar": "عاج"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "japanese-paper",
+    "match": {
+      "key": "japanese-paper"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Japanese paper",
+          "name_ar": "ورق ياباني"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "juniper-wood",
+    "match": {
+      "key": "juniper-wood"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Juniper wood",
+          "name_ar": "خشب عرعر"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "kantha-embroidery",
+    "match": {
+      "key": "kantha-embroidery"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Kantha embroidery",
+          "name_ar": "مطرزات كانثا"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "lac",
+    "match": {
+      "key": "lac"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Lac",
+          "name_ar": "لَك"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "lacquer",
+    "match": {
+      "key": "lacquer"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Lacquer",
+          "name_ar": "ورنيش"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "later-silver-foot",
+    "match": {
+      "key": "later-silver-foot"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Later silver foot",
+          "name_ar": "قاعدة فضية أُضيفت لاحقاً"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "latex-tubes",
+    "match": {
+      "key": "latex-tubes"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Latex tubes",
+          "name_ar": "أنابيب لثي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "lead",
+    "match": {
+      "key": "lead"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Lead",
+          "name_ar": "رصاص"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "leather",
+    "match": {
+      "key": "leather"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Leather",
+          "name_ar": "جلد"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "leather-binding",
+    "match": {
+      "key": "leather-binding"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Leather binding",
+          "name_ar": "تغليف جلدي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "leather-parchment",
+    "match": {
+      "key": "leather-parchment"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Leather parchment",
+          "name_ar": "رَقّ جلد"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "lenses",
+    "match": {
+      "key": "lenses"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Lenses",
+          "name_ar": "عدسات"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "linen",
+    "match": {
+      "key": "linen"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Linen",
+          "name_ar": "كتّان"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "luster",
+    "match": {
+      "key": "luster"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Luster",
+          "name_ar": "طبقة لامعة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "luster-glaze",
+    "match": {
+      "key": "luster-glaze"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Luster glaze",
+          "name_ar": "طبقة لامعة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "madras-thorn-tree",
+    "match": {
+      "key": "madras-thorn-tree"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Madras thorn tree",
+          "name_ar": "شجرة غاف البحر"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "magnet",
+    "match": {
+      "key": "magnet"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Magnet",
+          "name_ar": "مغناطيس"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "mahogany",
+    "match": {
+      "key": "mahogany"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Mahogany",
+          "name_ar": "ماهوني"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "marble",
+    "match": {
+      "key": "marble"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Marble",
+          "name_ar": "رخام"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "metal",
+    "match": {
+      "key": "metal"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Metal",
+          "name_ar": "معدن"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "metal-cables",
+    "match": {
+      "key": "metal-cables"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Metal cables",
+          "name_ar": "كابلات معدنية"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "metal-rails",
+    "match": {
+      "key": "metal-rails"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Metal rails",
+          "name_ar": "قضبان معدنية"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "metal-scaffolding",
+    "match": {
+      "key": "metal-scaffolding"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Metal scaffolding",
+          "name_ar": "سقالات معدنية"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "metal-structure",
+    "match": {
+      "key": "metal-structure"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Metal structure",
+          "name_ar": "هيكل معدني"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "metal-thread",
+    "match": {
+      "key": "metal-thread"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Metal thread",
+          "name_ar": "خيط معدني"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "metallic-barrels",
+    "match": {
+      "key": "metallic-barrels"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Metallic barrels",
+          "name_ar": "براميل معدنية"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "mica-pigment",
+    "match": {
+      "key": "mica-pigment"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Mica pigment",
+          "name_ar": "أصباغ مسحوق ميكا"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "mirror",
+    "match": {
+      "key": "mirror"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Mirror",
+          "name_ar": "مرآة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "mortar",
+    "match": {
+      "key": "mortar"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Mortar",
+          "name_ar": "ملاط"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "mother-of-pearl",
+    "match": {
+      "key": "mother-of-pearl"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Mother-of-pearl",
+          "name_ar": "عِرق اللؤلؤ"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "natural-fiber-ropes",
+    "match": {
+      "key": "natural-fiber-ropes"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Natural fiber ropes",
+          "name_ar": "حبال من الألياف الطبيعية"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "nephrite-jade",
+    "match": {
+      "key": "nephrite-jade"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Nephrite jade",
+          "name_ar": "يشب النفريت"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "nickel",
+    "match": {
+      "key": "nickel"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Nickel",
+          "name_ar": "نيكل"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "niello",
+    "match": {
+      "key": "niello"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Niello",
+          "name_ar": "نِلّ"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "nylon",
+    "match": {
+      "key": "nylon"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Nylon",
+          "name_ar": "نايلون"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "oak-boards",
+    "match": {
+      "key": "oak-boards"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Oak boards",
+          "name_ar": "ألواح من خشب البَلُّوط"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "opaque-pigments",
+    "match": {
+      "key": "opaque-pigments"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Opaque pigments",
+          "name_ar": "أصباغ كتيمة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "opaque-watercolor",
+    "match": {
+      "key": "opaque-watercolor"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Opaque watercolor",
+          "name_ar": "ألوان مائية كتيمة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "opaque-white-glaze",
+    "match": {
+      "key": "opaque-white-glaze"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Opaque white glaze",
+          "name_ar": "طبقة تزجيج بيضاء كتيمة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "paint",
+    "match": {
+      "key": "paint"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Paint",
+          "name_ar": "طلاء"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "painted-cedarwood",
+    "match": {
+      "key": "painted-cedarwood"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Painted cedarwood",
+          "name_ar": "خشب أرز مَطليّ"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "palm-fronds",
+    "match": {
+      "key": "palm-fronds"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Palm fronds",
+          "name_ar": "سعف نخيل"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "paper",
+    "match": {
+      "key": "paper"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Paper",
+          "name_ar": "ورق"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "papier-mache",
+    "match": {
+      "key": "papier-mache"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Papier mache",
+          "name_ar": "ورق معجن"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "parchment",
+    "match": {
+      "key": "parchment"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Parchment",
+          "name_ar": "رَقّ"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "pearl",
+    "match": {
+      "key": "pearl"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Pearl",
+          "name_ar": "لؤلؤ"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "pencil",
+    "match": {
+      "key": "pencil"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Pencil",
+          "name_ar": "قلم رصاص"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "pigment",
+    "match": {
+      "key": "pigment"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Pigment",
+          "name_ar": "أصباغ"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "pigmented-fiber-board",
+    "match": {
+      "key": "pigmented-fiber-board"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Pigmented fiber board",
+          "name_ar": "لوح ألياف ملوّن"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "pine-wood",
+    "match": {
+      "key": "pine-wood"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Pine wood",
+          "name_ar": "خشب صنوبر"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "plants",
+    "match": {
+      "key": "plants"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Plants",
+          "name_ar": "نباتات"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "plexiglas-box",
+    "match": {
+      "key": "plexiglas-box"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Plexiglas box",
+          "name_ar": "صندوق من زجاج بليكسي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "plywood",
+    "match": {
+      "key": "plywood"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Plywood",
+          "name_ar": "خشب رقائقي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "plywood-boards",
+    "match": {
+      "key": "plywood-boards"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Plywood boards",
+          "name_ar": "ألواح خشب رقائقي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "polished-3d-printed-resin",
+    "match": {
+      "key": "polished-3d-printed-resin"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Polished 3D printed resin",
+          "name_ar": "راتنج مطبوع بتقنية ثلاثية الأبعاد ومصقول"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "polished-stainless-steel",
+    "match": {
+      "key": "polished-stainless-steel"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Polished stainless steel",
+          "name_ar": "فولاذ مصقول"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "polychrome-stone-inlays",
+    "match": {
+      "key": "polychrome-stone-inlays"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Polychrome stone inlays",
+          "name_ar": "تطعيمات حجرية متعدّدة الألوان"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "polymirror",
+    "match": {
+      "key": "polymirror"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Polymirror",
+          "name_ar": "مرآة مصنوعة من بولي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "porphyry",
+    "match": {
+      "key": "porphyry"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Porphyry",
+          "name_ar": "حجر سُمّاقي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "powder-coated-metal",
+    "match": {
+      "key": "powder-coated-metal"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Powder coated metal",
+          "name_ar": "معدن مغلّف بالبودرة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "proconnesian-marble",
+    "match": {
+      "key": "proconnesian-marble"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Proconnesian marble",
+          "name_ar": "رخام بروكونيزي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "projected-animations",
+    "match": {
+      "key": "projected-animations"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Projected animations",
+          "name_ar": "رسمان متحرّكان مسقطان"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "red-compound",
+    "match": {
+      "key": "red-compound"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Red compound",
+          "name_ar": "رصاص أحمر"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "red-ink",
+    "match": {
+      "key": "red-ink"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Red ink",
+          "name_ar": "حبر أحمر"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "reed-weaving",
+    "match": {
+      "key": "reed-weaving"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Reed weaving",
+          "name_ar": "نسيج قصب"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "resin",
+    "match": {
+      "key": "resin"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Resin",
+          "name_ar": "راتنج"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "rock",
+    "match": {
+      "key": "rock"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Rock",
+          "name_ar": "صخور"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "rock-crystal",
+    "match": {
+      "key": "rock-crystal"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Rock crystal",
+          "name_ar": "بلّور صخري"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "rope",
+    "match": {
+      "key": "rope"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Rope",
+          "name_ar": "حبل"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "rosewood",
+    "match": {
+      "key": "rosewood"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Rosewood",
+          "name_ar": "خشب ورد"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "rounded-mirrors",
+    "match": {
+      "key": "rounded-mirrors"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Rounded mirrors",
+          "name_ar": "مرايا مدورة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "rubies",
+    "match": {
+      "key": "rubies"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Rubies",
+          "name_ar": "ياقوت"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "ruby",
+    "match": {
+      "key": "ruby"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Ruby",
+          "name_ar": "ياقوت"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "sapphire",
+    "match": {
+      "key": "sapphire"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Sapphire",
+          "name_ar": "ياقوت أزرق"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "screen",
+    "match": {
+      "key": "screen"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Screen",
+          "name_ar": "شاشة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "sediment",
+    "match": {
+      "key": "sediment"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Sediment",
+          "name_ar": "رواسب"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "seed-pearls",
+    "match": {
+      "key": "seed-pearls"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Seed pearls",
+          "name_ar": "لؤلؤ صغير"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "semi-precious-stones",
+    "match": {
+      "key": "semi-precious-stones"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Semi-precious stones",
+          "name_ar": "أحجار شبه كريمة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "shagreen",
+    "match": {
+      "key": "shagreen"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Shagreen",
+          "name_ar": "جلد غير مدبوغ"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "sheepskin",
+    "match": {
+      "key": "sheepskin"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Sheepskin",
+          "name_ar": "جلد غنم"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "silicon-bronze",
+    "match": {
+      "key": "silicon-bronze"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Silicon bronze",
+          "name_ar": "سيليكون برونز"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "silk",
+    "match": {
+      "key": "silk"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Silk",
+          "name_ar": "حرير"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "silk-pile",
+    "match": {
+      "key": "silk-pile"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Silk pile",
+          "name_ar": "حرير زَغِب"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "silk-satin",
+    "match": {
+      "key": "silk-satin"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Silk-satin",
+          "name_ar": "حرير-ساتان"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "silkscreen-print-on-mesh",
+    "match": {
+      "key": "silkscreen-print-on-mesh"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Silkscreen print on mesh",
+          "name_ar": "طباعة بالشاشة الحريرية على قماش شاش"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "silver",
+    "match": {
+      "key": "silver"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Silver",
+          "name_ar": "فضة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "silver-additions",
+    "match": {
+      "key": "silver-additions"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Silver additions",
+          "name_ar": "إضافات من الفضة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "silver-gilt",
+    "match": {
+      "key": "silver-gilt"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Silver gilt",
+          "name_ar": "فضة مذهّبة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "silver-gilt-wire",
+    "match": {
+      "key": "silver-gilt-wire"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Silver-gilt wire",
+          "name_ar": "سِلك فضي مذهّب"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "silver-inlay",
+    "match": {
+      "key": "silver-inlay"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Silver inlay",
+          "name_ar": "تطعيم بالفضة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "silver-overlay",
+    "match": {
+      "key": "silver-overlay"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Silver overlay",
+          "name_ar": "تطعيمات من فضة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "silver-plate",
+    "match": {
+      "key": "silver-plate"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Silver plate",
+          "name_ar": "صفيحة فضة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "silver-wire-thread",
+    "match": {
+      "key": "silver-wire-thread"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Silver-wire thread",
+          "name_ar": "خيوط فضة مسطَّحة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "silver-wrapped-thread",
+    "match": {
+      "key": "silver-wrapped-thread"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Silver-wrapped thread",
+          "name_ar": "خيوط فضية مغلّفة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "silvered-brass",
+    "match": {
+      "key": "silvered-brass"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Silvered brass",
+          "name_ar": "نحاس مفضَّض"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "silvered-copper",
+    "match": {
+      "key": "silvered-copper"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Silvered copper",
+          "name_ar": "نحاس مطليّ بالفضة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "sisal-rope",
+    "match": {
+      "key": "sisal-rope"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Sisal rope",
+          "name_ar": "حبل سيزال"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "soil",
+    "match": {
+      "key": "soil"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Soil",
+          "name_ar": "تربة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "spinel",
+    "match": {
+      "key": "spinel"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Spinel",
+          "name_ar": "حجر الياقوت الرمّاني"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "stained-wood",
+    "match": {
+      "key": "stained-wood"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Stained wood",
+          "name_ar": "خشب ملوّن"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "steel",
+    "match": {
+      "key": "steel"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Steel",
+          "name_ar": "فولاذ"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "steel-bars",
+    "match": {
+      "key": "steel-bars"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Steel bars",
+          "name_ar": "قضبان فولاذية"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "steel-structure",
+    "match": {
+      "key": "steel-structure"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Steel structure",
+          "name_ar": "هيكل فولاذي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "stonepaste-ceramic",
+    "match": {
+      "key": "stonepaste-ceramic"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Stonepaste ceramic",
+          "name_ar": "خزف من عجينة حجرية"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "stucco",
+    "match": {
+      "key": "stucco"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Stucco",
+          "name_ar": "جبس"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "supplementary-weft-woven-silver-wrapped-thread",
+    "match": {
+      "key": "supplementary-weft-woven-silver-wrapped-thread"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Supplementary-weft woven silver-wrapped thread",
+          "name_ar": "خيوط فضية مغلّفة نُسجت باستخدام تقنية الخيوط المضافة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "teak",
+    "match": {
+      "key": "teak"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Teak",
+          "name_ar": "خشب الساج"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "teak-tablet",
+    "match": {
+      "key": "teak-tablet"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Teak tablet",
+          "name_ar": "لوح من خشب الساج"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "textile",
+    "match": {
+      "key": "textile"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Textile",
+          "name_ar": "نسيج"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "textile-banners",
+    "match": {
+      "key": "textile-banners"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Textile banners",
+          "name_ar": "قطع قماش"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "thread",
+    "match": {
+      "key": "thread"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Thread",
+          "name_ar": "خيوط"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "three-channel-video-installation",
+    "match": {
+      "key": "three-channel-video-installation"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Three-channel video installation",
+          "name_ar": "فيديو من ثلاث قنوات"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "tin-glazed-earthenware",
+    "match": {
+      "key": "tin-glazed-earthenware"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Tin-glazed earthenware",
+          "name_ar": "فخّار مطليّ بقصدير"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "tin-opacified-glaze",
+    "match": {
+      "key": "tin-opacified-glaze"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Tin-opacified glaze",
+          "name_ar": "تزجيج قصديري كتيم"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "tinned-brass",
+    "match": {
+      "key": "tinned-brass"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Tinned brass",
+          "name_ar": "نحاس مطلي بالقصدير"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "tortoiseshell",
+    "match": {
+      "key": "tortoiseshell"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Tortoiseshell",
+          "name_ar": "صدف سلحفاة"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "tourmaline",
+    "match": {
+      "key": "tourmaline"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Tourmaline",
+          "name_ar": "تورمالين"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "treated-fabric",
+    "match": {
+      "key": "treated-fabric"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Treated fabric",
+          "name_ar": "قماش معالَج"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "turquoise",
+    "match": {
+      "key": "turquoise"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Turquoise",
+          "name_ar": "فيروز"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "turquoise-glaze",
+    "match": {
+      "key": "turquoise-glaze"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Turquoise glaze",
+          "name_ar": "طلاء تزجيج فيروزي"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "vellum-binding",
+    "match": {
+      "key": "vellum-binding"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Vellum binding",
+          "name_ar": "تجليد من الرَّق"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "velvet",
+    "match": {
+      "key": "velvet"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Velvet",
+          "name_ar": "مخمل"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "video",
+    "match": {
+      "key": "video"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Video",
+          "name_ar": "فيديو"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "walnut",
+    "match": {
+      "key": "walnut"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Walnut",
+          "name_ar": "خشب الجوز"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "walrus-ivory",
+    "match": {
+      "key": "walrus-ivory"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Walrus ivory",
+          "name_ar": "عاج فرس البحر"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "watercolor",
+    "match": {
+      "key": "watercolor"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Watercolor",
+          "name_ar": "ألوان مائية"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "wax-resist-batik",
+    "match": {
+      "key": "wax-resist-batik"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Wax-resist batik",
+          "name_ar": "تقنية صبغ الشَّمع (باتيك)"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "white-and-black-clay-slips",
+    "match": {
+      "key": "white-and-black-clay-slips"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "White and black clay slips",
+          "name_ar": "الطين السائل الأبيض والأسود"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "wood",
+    "match": {
+      "key": "wood"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Wood",
+          "name_ar": "خشب"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "wood-box-with-lacquer-decoration",
+    "match": {
+      "key": "wood-box-with-lacquer-decoration"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Wood box with lacquer decoration",
+          "name_ar": "صندوق خشبي مزخرف بالورنيش"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "wooden-sticks",
+    "match": {
+      "key": "wooden-sticks"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Wooden sticks",
+          "name_ar": "عصيّ خشبية"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "wool",
+    "match": {
+      "key": "wool"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Wool",
+          "name_ar": "صوف"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "wool-applique",
+    "match": {
+      "key": "wool-applique"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Wool applique",
+          "name_ar": "تطريز بالصوف"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "wool-pile",
+    "match": {
+      "key": "wool-pile"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Wool pile",
+          "name_ar": "صوف"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "yellow-ink",
+    "match": {
+      "key": "yellow-ink"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Yellow ink",
+          "name_ar": "حبر أصفر"
+        }
+      }
+    },
+    "relations": {}
+  },
+  {
+    "content_type": "material",
+    "endpoint": "materials",
+    "key": "zinc-alloy",
+    "match": {
+      "key": "zinc-alloy"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/materials",
+      "body": {
+        "data": {
+          "name_en": "Zinc alloy",
+          "name_ar": "سبائك زنك"
+        }
+      }
+    },
+    "relations": {}
+  }
+]
