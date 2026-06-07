@@ -1,0 +1,22 @@
+{
+  "name": "etl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transform": "node transform.js",
+    "load:materials": "node load-materials.js",
+    "load:materials:apply": "node load-materials.js --apply",
+    "load:production-reference-data": "node load-production-reference-data.js",
+    "load:production-reference-data:apply": "node load-production-reference-data.js --apply",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.2",
+  "dependencies": {
+    "airtable": "^0.12.2",
+    "dotenv": "^17.4.2"
+  }
+}
