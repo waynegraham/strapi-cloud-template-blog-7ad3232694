@@ -9,9 +9,9 @@
     "develop": "strapi develop",
     "github:issues": "node scripts/import-github-issues.js",
     "github:issues:apply": "node scripts/import-github-issues.js --apply",
-    "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "test": "node --test tests/*.test.js"
   },
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^7.1.1",
