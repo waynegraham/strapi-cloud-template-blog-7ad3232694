@@ -220,6 +220,11 @@ Sub-gallery           -> child gallery relation (preferred over Gallery when pop
 Writer(s), Curator(s) -> agentCredits relation references
 ```
 
+The reviewed Airtable export has no Institution field. The transform therefore
+does not emit `work.institution`; existing CMS assignments are preserved by the
+schema migration, and new assignments remain a staff cataloging task until a
+reliable source field or reconciliation file is provided.
+
 The mapping config tracks planned destinations that are not emitted yet. These
 currently include Agent biographies, Curated Stories, Inscriptions,
 manuscript/object notes, and image/folio-level metadata. Airtable workflow fields

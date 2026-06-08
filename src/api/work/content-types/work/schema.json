@@ -76,8 +76,9 @@
     },
     "institution": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::institution.institution"
+      "relation": "manyToOne",
+      "target": "api::institution.institution",
+      "inversedBy": "works"
     },
     "materials": {
       "type": "relation",

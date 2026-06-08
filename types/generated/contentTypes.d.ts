@@ -802,6 +802,7 @@ export interface ApiInstitutionInstitution extends Struct.CollectionTypeSchema {
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     url: Schema.Attribute.String;
+    works: Schema.Attribute.Relation<'oneToMany', 'api::work.work'>;
   };
 }
 
@@ -932,7 +933,7 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
       'api::iiif-asset.iiif-asset'
     >;
     institution: Schema.Attribute.Relation<
-      'oneToOne',
+      'manyToOne',
       'api::institution.institution'
     >;
     latestDate: Schema.Attribute.Integer;

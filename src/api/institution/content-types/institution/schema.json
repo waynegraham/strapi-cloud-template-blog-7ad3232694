@@ -46,6 +46,12 @@
       "options": {
         "info": true
       }
+    },
+    "works": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::work.work",
+      "mappedBy": "institution"
     }
   }
 }
