@@ -116,6 +116,8 @@ const contentManagerLayouts = {
         row(['creditLineEn', 6], ['creditLineAr', 6]),
         row(['contributorUrl', 6]),
         row(['earliestDate', 4], ['latestDate', 4]),
+        row(['reviewStatus', 4], ['reviewedAt', 4]),
+        row(['reviewNotes', 12]),
       ],
     },
     metadatas: {
@@ -151,6 +153,9 @@ const contentManagerLayouts = {
       creditLineEn: edit('Credit line (English)', 'Published ownership, lender, or contributor credit line.'),
       creditLineAr: edit('Credit line (Arabic)', 'Arabic companion credit line.'),
       contributorUrl: edit('Contributor URL', 'Public URL for the contributor or lender when supplied.'),
+      reviewStatus: edit('Review status', 'Internal catalog review state; never exposed through the public Content API.'),
+      reviewNotes: edit('Review notes', 'Private notes for catalog review. Do not include passwords or other sensitive data.'),
+      reviewedAt: edit('Reviewed at', 'Date and time of the most recent catalog review.'),
     },
   },
 

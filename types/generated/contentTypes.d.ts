@@ -1055,6 +1055,13 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
     originAr: Schema.Attribute.String;
     originEn: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    reviewedAt: Schema.Attribute.DateTime & Schema.Attribute.Private;
+    reviewNotes: Schema.Attribute.Text & Schema.Attribute.Private;
+    reviewStatus: Schema.Attribute.Enumeration<
+      ['not-reviewed', 'needs-review', 'approved', 'blocked']
+    > &
+      Schema.Attribute.Private &
+      Schema.Attribute.DefaultTo<'not-reviewed'>;
     titleAr: Schema.Attribute.String;
     titleEn: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;

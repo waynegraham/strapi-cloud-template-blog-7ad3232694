@@ -147,6 +147,25 @@
       "relation": "manyToMany",
       "target": "api::curated-story.curated-story",
       "mappedBy": "works"
+    },
+    "reviewStatus": {
+      "type": "enumeration",
+      "enum": [
+        "not-reviewed",
+        "needs-review",
+        "approved",
+        "blocked"
+      ],
+      "default": "not-reviewed",
+      "private": true
+    },
+    "reviewNotes": {
+      "type": "text",
+      "private": true
+    },
+    "reviewedAt": {
+      "type": "datetime",
+      "private": true
     }
   }
 }

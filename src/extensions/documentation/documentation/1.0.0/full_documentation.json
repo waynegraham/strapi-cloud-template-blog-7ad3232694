@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2026-06-08T22:28:35.139Z"
+    "x-generation-date": "2026-06-08T23:58:00.595Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -14072,6 +14072,22 @@
                           }
                         }
                       },
+                      "reviewStatus": {
+                        "type": "string",
+                        "enum": [
+                          "not-reviewed",
+                          "needs-review",
+                          "approved",
+                          "blocked"
+                        ]
+                      },
+                      "reviewNotes": {
+                        "type": "string"
+                      },
+                      "reviewedAt": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"
@@ -16445,6 +16461,22 @@
                       }
                     }
                   }
+                },
+                "reviewStatus": {
+                  "type": "string",
+                  "enum": [
+                    "not-reviewed",
+                    "needs-review",
+                    "approved",
+                    "blocked"
+                  ]
+                },
+                "reviewNotes": {
+                  "type": "string"
+                },
+                "reviewedAt": {
+                  "type": "string",
+                  "format": "date-time"
                 },
                 "createdAt": {
                   "type": "string",
@@ -19539,6 +19571,22 @@
                                 }
                               }
                             }
+                          },
+                          "reviewStatus": {
+                            "type": "string",
+                            "enum": [
+                              "not-reviewed",
+                              "needs-review",
+                              "approved",
+                              "blocked"
+                            ]
+                          },
+                          "reviewNotes": {
+                            "type": "string"
+                          },
+                          "reviewedAt": {
+                            "type": "string",
+                            "format": "date-time"
                           },
                           "createdAt": {
                             "type": "string",
@@ -23600,6 +23648,22 @@
                   }
                 }
               },
+              "reviewStatus": {
+                "type": "string",
+                "enum": [
+                  "not-reviewed",
+                  "needs-review",
+                  "approved",
+                  "blocked"
+                ]
+              },
+              "reviewNotes": {
+                "type": "string"
+              },
+              "reviewedAt": {
+                "type": "string",
+                "format": "date-time"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -26441,6 +26505,22 @@
                         }
                       }
                     }
+                  },
+                  "reviewStatus": {
+                    "type": "string",
+                    "enum": [
+                      "not-reviewed",
+                      "needs-review",
+                      "approved",
+                      "blocked"
+                    ]
+                  },
+                  "reviewNotes": {
+                    "type": "string"
+                  },
+                  "reviewedAt": {
+                    "type": "string",
+                    "format": "date-time"
                   },
                   "createdAt": {
                     "type": "string",
@@ -30018,6 +30098,22 @@
                     }
                   }
                 },
+                "reviewStatus": {
+                  "type": "string",
+                  "enum": [
+                    "not-reviewed",
+                    "needs-review",
+                    "approved",
+                    "blocked"
+                  ]
+                },
+                "reviewNotes": {
+                  "type": "string"
+                },
+                "reviewedAt": {
+                  "type": "string",
+                  "format": "date-time"
+                },
                 "createdAt": {
                   "type": "string",
                   "format": "date-time"
@@ -33115,6 +33211,22 @@
                   "example": "string or id"
                 }
               },
+              "reviewStatus": {
+                "type": "string",
+                "enum": [
+                  "not-reviewed",
+                  "needs-review",
+                  "approved",
+                  "blocked"
+                ]
+              },
+              "reviewNotes": {
+                "type": "string"
+              },
+              "reviewedAt": {
+                "type": "string",
+                "format": "date-time"
+              },
               "locale": {
                 "type": "string"
               },
@@ -34910,6 +35022,22 @@
                         }
                       }
                     },
+                    "reviewStatus": {
+                      "type": "string",
+                      "enum": [
+                        "not-reviewed",
+                        "needs-review",
+                        "approved",
+                        "blocked"
+                      ]
+                    },
+                    "reviewNotes": {
+                      "type": "string"
+                    },
+                    "reviewedAt": {
+                      "type": "string",
+                      "format": "date-time"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -35184,6 +35312,22 @@
                 }
               }
             }
+          },
+          "reviewStatus": {
+            "type": "string",
+            "enum": [
+              "not-reviewed",
+              "needs-review",
+              "approved",
+              "blocked"
+            ]
+          },
+          "reviewNotes": {
+            "type": "string"
+          },
+          "reviewedAt": {
+            "type": "string",
+            "format": "date-time"
           },
           "createdAt": {
             "type": "string",

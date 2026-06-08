@@ -4,7 +4,8 @@
   "private": true,
   "description": "A Strapi application",
   "scripts": {
-    "build": "strapi build",
+    "build": "npm run build:data-quality && strapi build",
+    "build:data-quality": "npm --prefix src/plugins/data-quality run build",
     "deploy": "strapi deploy",
     "develop": "strapi develop",
     "github:issues": "node scripts/import-github-issues.js",
@@ -30,5 +31,8 @@
   },
   "engines": {
     "npm": ">=6.0.0"
+  },
+  "devDependencies": {
+    "@strapi/sdk-plugin": "5.4.0"
   }
 }
