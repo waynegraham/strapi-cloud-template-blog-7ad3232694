@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2026-06-08T11:31:00.364Z"
+    "x-generation-date": "2026-06-08T11:36:39.302Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -13329,6 +13329,12 @@
                       "descriptionAr": {
                         "type": "string"
                       },
+                      "additionalDescriptions": {
+                        "type": "array",
+                        "items": {
+                          "$ref": "#/components/schemas/SharedWorkDescriptionComponent"
+                        }
+                      },
                       "footnoteEn": {
                         "type": "string"
                       },
@@ -14005,6 +14011,62 @@
             ]
           },
           "position": {
+            "type": "string"
+          },
+          "author": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ]
+              },
+              "documentId": {
+                "type": "string"
+              }
+            }
+          },
+          "sortOrder": {
+            "type": "integer"
+          }
+        }
+      },
+      "SharedWorkDescriptionComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "number"
+              }
+            ]
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "manuscript",
+              "object",
+              "general"
+            ]
+          },
+          "labelEn": {
+            "type": "string"
+          },
+          "labelAr": {
+            "type": "string"
+          },
+          "bodyEn": {
+            "type": "string"
+          },
+          "bodyAr": {
             "type": "string"
           },
           "author": {
@@ -15363,6 +15425,12 @@
                 },
                 "descriptionAr": {
                   "type": "string"
+                },
+                "additionalDescriptions": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SharedWorkDescriptionComponent"
+                  }
                 },
                 "footnoteEn": {
                   "type": "string"
@@ -17886,6 +17954,12 @@
                           },
                           "descriptionAr": {
                             "type": "string"
+                          },
+                          "additionalDescriptions": {
+                            "type": "array",
+                            "items": {
+                              "$ref": "#/components/schemas/SharedWorkDescriptionComponent"
+                            }
                           },
                           "footnoteEn": {
                             "type": "string"
@@ -21649,6 +21723,12 @@
               },
               "descriptionAr": {
                 "type": "string"
+              },
+              "additionalDescriptions": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SharedWorkDescriptionComponent"
+                }
               },
               "footnoteEn": {
                 "type": "string"
@@ -26028,6 +26108,12 @@
                 "descriptionAr": {
                   "type": "string"
                 },
+                "additionalDescriptions": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SharedWorkDescriptionComponent"
+                  }
+                },
                 "footnoteEn": {
                   "type": "string"
                 },
@@ -29242,6 +29328,12 @@
               "descriptionAr": {
                 "type": "string"
               },
+              "additionalDescriptions": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SharedWorkDescriptionComponent"
+                }
+              },
               "footnoteEn": {
                 "type": "string"
               },
@@ -30337,6 +30429,12 @@
                     "descriptionAr": {
                       "type": "string"
                     },
+                    "additionalDescriptions": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/SharedWorkDescriptionComponent"
+                      }
+                    },
                     "footnoteEn": {
                       "type": "string"
                     },
@@ -30861,6 +30959,12 @@
           },
           "descriptionAr": {
             "type": "string"
+          },
+          "additionalDescriptions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SharedWorkDescriptionComponent"
+            }
           },
           "footnoteEn": {
             "type": "string"

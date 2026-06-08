@@ -114,6 +114,11 @@
         "preset": "defaultHtml"
       }
     },
+    "additionalDescriptions": {
+      "type": "component",
+      "component": "shared.work-description",
+      "repeatable": true
+    },
     "footnoteEn": {
       "type": "customField",
       "customField": "plugin::ckeditor5.CKEditor",

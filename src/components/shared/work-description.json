@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_shared_work_descriptions",
+  "info": {
+    "displayName": "Work Description",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "manuscript",
+        "object",
+        "general"
+      ],
+      "required": true,
+      "default": "general"
+    },
+    "labelEn": {
+      "type": "string"
+    },
+    "labelAr": {
+      "type": "string"
+    },
+    "bodyEn": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "bodyAr": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::agent.agent"
+    },
+    "sortOrder": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

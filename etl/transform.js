@@ -13,6 +13,10 @@ const FIELD_MAPPING_FILE =
 const OUTPUT_DIR = process.env.ETL_OUTPUT_DIR || path.join(__dirname, "intermediate");
 
 const SOURCE_SYSTEM = "airtable";
+const MANUSCRIPT_DESCRIPTION_FIELD =
+  "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)";
+const OBJECT_DESCRIPTION_FIELD =
+  "Extra Object Related Information (maker, inscription, annotation, etc)";
 
 const ROLE_LABEL_AR = {
   Curator: "أمين المعرض",
@@ -212,6 +216,37 @@ function workInscriptions(value) {
       sortOrder: 1,
     },
   ];
+}
+
+function workDescriptions(fields) {
+  const descriptions = [
+    {
+      type: "manuscript",
+      labelEn: "Manuscript description",
+      labelAr: "وصف المخطوط",
+      bodyEn: toHtml(fields[MANUSCRIPT_DESCRIPTION_FIELD]),
+      bodyAr: toHtml(fields[`${MANUSCRIPT_DESCRIPTION_FIELD} AR`]),
+      sortOrder: 1,
+    },
+    {
+      type: "object",
+      labelEn: "Object-related information",
+      labelAr: "معلومات متعلقة بالقطعة",
+      bodyEn: toHtml(fields[OBJECT_DESCRIPTION_FIELD]),
+      bodyAr: toHtml(fields[`${OBJECT_DESCRIPTION_FIELD} AR`]),
+      sortOrder: 2,
+    },
+  ];
+
+  const populated = descriptions
+    .filter((description) => description.bodyEn || description.bodyAr)
+    .map((description) =>
+      Object.fromEntries(
+        Object.entries(description).filter(([, value]) => value !== undefined),
+      ),
+    );
+
+  return populated.length > 0 ? populated : undefined;
 }
 
 function buildSearchText(parts) {
@@ -718,6 +753,7 @@ function transformWorks(records, materialLookup, fieldMapping) {
       iabCode: primaryIabCode,
       identifiers: workIdentifiers(iabCodes),
       inscriptions: workInscriptions(fields.Inscriptions),
+      additionalDescriptions: workDescriptions(fields),
       titleEn,
       titleAr,
       originEn: optional(fields.Origin),
@@ -907,6 +943,7 @@ module.exports = {
   transformCuratedStories,
   transformGalleries,
   transformWorks,
+  workDescriptions,
   workInscriptions,
   workIdentifiers,
 };

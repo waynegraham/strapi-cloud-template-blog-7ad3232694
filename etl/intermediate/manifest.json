@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-08T11:30:56.865Z",
+  "generated_at": "2026-06-08T11:36:37.493Z",
   "strapi_api_url": "http://localhost:1337",
   "source": {
     "system": "airtable",
-    "input_file": "airtable_dump.json",
-    "agents_file": "agents_distinct.csv",
-    "materials_file": "materials_distinct.csv",
-    "field_mapping_file": "field-mapping.json",
+    "input_file": "etl/airtable_dump.json",
+    "agents_file": "etl/agents_distinct.csv",
+    "materials_file": "etl/materials_distinct.csv",
+    "field_mapping_file": "etl/field-mapping.json",
     "source_record_count": 650
   },
   "load_order": [
@@ -38,21 +38,21 @@
     "source_inscription_rows": 65,
     "missing_material_lookup": 25,
     "accounted_source_fields": 41,
-    "mapped_source_fields": 29,
-    "planned_source_fields": 6,
+    "mapped_source_fields": 33,
+    "planned_source_fields": 2,
     "ignored_source_fields": 6,
     "unmapped_source_fields": 0
   },
   "files": {
-    "agent-roles": "intermediate/agent-roles.json",
-    "agents": "intermediate/agents.json",
-    "people": "intermediate/people.json",
-    "materials": "intermediate/materials.json",
-    "galleries": "intermediate/galleries.json",
-    "works": "intermediate/works.json",
-    "curated-stories": "intermediate/curated-stories.json",
-    "curated-story-review": "intermediate/curated-story-review.json",
-    "duplicates": "intermediate/duplicates.json",
-    "report": "intermediate/report.json"
+    "agent-roles": "etl/intermediate/agent-roles.json",
+    "agents": "etl/intermediate/agents.json",
+    "people": "etl/intermediate/people.json",
+    "materials": "etl/intermediate/materials.json",
+    "galleries": "etl/intermediate/galleries.json",
+    "works": "etl/intermediate/works.json",
+    "curated-stories": "etl/intermediate/curated-stories.json",
+    "curated-story-review": "etl/intermediate/curated-story-review.json",
+    "duplicates": "etl/intermediate/duplicates.json",
+    "report": "etl/intermediate/report.json"
   }
 }

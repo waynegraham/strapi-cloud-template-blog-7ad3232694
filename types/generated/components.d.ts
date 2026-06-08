@@ -98,6 +98,37 @@ export interface SharedSlider extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedWorkDescription extends Struct.ComponentSchema {
+  collectionName: 'components_shared_work_descriptions';
+  info: {
+    displayName: 'Work Description';
+    icon: 'file';
+  };
+  attributes: {
+    author: Schema.Attribute.Relation<'oneToOne', 'api::agent.agent'>;
+    bodyAr: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    bodyEn: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    labelAr: Schema.Attribute.String;
+    labelEn: Schema.Attribute.String;
+    sortOrder: Schema.Attribute.Integer;
+    type: Schema.Attribute.Enumeration<['manuscript', 'object', 'general']> &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'general'>;
+  };
+}
+
 export interface SharedWorkIdentifier extends Struct.ComponentSchema {
   collectionName: 'components_shared_work_identifiers';
   info: {
@@ -126,6 +157,7 @@ declare module '@strapi/strapi' {
       'shared.rich-text': SharedRichText;
       'shared.seo': SharedSeo;
       'shared.slider': SharedSlider;
+      'shared.work-description': SharedWorkDescription;
       'shared.work-identifier': SharedWorkIdentifier;
     }
   }

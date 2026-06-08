@@ -956,6 +956,10 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    additionalDescriptions: Schema.Attribute.Component<
+      'shared.work-description',
+      true
+    >;
     agentCredits: Schema.Attribute.Component<'shared.agent-credit', true>;
     contributorUrl: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;

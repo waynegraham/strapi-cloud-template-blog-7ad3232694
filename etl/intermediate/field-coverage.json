@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-08T11:28:28.973Z",
+  "generatedAt": "2026-06-08T11:35:44.753Z",
   "sourceRecordCount": 650,
   "observedFieldCount": 41,
   "counts": {
-    "mapped": 29,
-    "planned": 6,
+    "mapped": 33,
+    "planned": 2,
     "ignored": 6
   },
   "unmapped": [],
@@ -124,30 +124,30 @@
     {
       "sourceField": "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)",
       "populatedRecords": 128,
-      "status": "planned",
-      "target": "work-note.manuscriptDescriptionEn",
-      "notes": "Needs a note/statement content type or component."
+      "status": "mapped",
+      "target": "work.additionalDescriptions[type=manuscript].bodyEn",
+      "notes": "Paired with the Arabic value in one typed Work Description component."
     },
     {
       "sourceField": "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc) AR",
       "populatedRecords": 82,
-      "status": "planned",
-      "target": "work-note.manuscriptDescriptionAr",
-      "notes": "Needs a note/statement content type or component."
+      "status": "mapped",
+      "target": "work.additionalDescriptions[type=manuscript].bodyAr",
+      "notes": "Paired with the English value in one typed Work Description component."
     },
     {
       "sourceField": "Extra Object Related Information (maker, inscription, annotation, etc)",
       "populatedRecords": 77,
-      "status": "planned",
-      "target": "work-note.objectInformationEn",
-      "notes": "Needs a note/statement content type or component."
+      "status": "mapped",
+      "target": "work.additionalDescriptions[type=object].bodyEn",
+      "notes": "Paired with the Arabic value in one typed Work Description component."
     },
     {
       "sourceField": "Extra Object Related Information (maker, inscription, annotation, etc) AR",
       "populatedRecords": 121,
-      "status": "planned",
-      "target": "work-note.objectInformationAr",
-      "notes": "Needs a note/statement content type or component."
+      "status": "mapped",
+      "target": "work.additionalDescriptions[type=object].bodyAr",
+      "notes": "Paired with the English value in one typed Work Description component."
     },
     {
       "sourceField": "Footnote reference",
