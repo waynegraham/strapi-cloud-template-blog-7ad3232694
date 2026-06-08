@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T11:43:45.584Z",
+  "generatedAt": "2026-06-08T11:58:52.455Z",
   "sourceRecordCount": 650,
   "observedFieldCount": 41,
   "counts": {
@@ -16,14 +16,14 @@
       "populatedRecords": 33,
       "status": "mapped",
       "target": "agent.biographyEn",
-      "notes": "Biography belongs on Agent; needs artist/agent matching beyond writer/curator extraction."
+      "notes": "Imported as Strapi Blocks only when biography-reconciliation-decisions.json confirms the source row and Agent. Conflicts prevent import."
     },
     {
       "sourceField": "Artist Biography for the Islamic Arts Biennale AR",
       "populatedRecords": 28,
       "status": "mapped",
       "target": "agent.biographyAr",
-      "notes": "Arabic biography belongs on Agent; needs artist/agent matching beyond writer/curator extraction."
+      "notes": "Kept paired with the English biography and imported only for a confirmed, conflict-free Agent."
     },
     {
       "sourceField": "Comments",

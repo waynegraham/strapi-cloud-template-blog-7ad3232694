@@ -112,6 +112,7 @@ This reads:
 airtable_dump.json
 agents_distinct.csv
 materials_distinct.csv
+biography-reconciliation-decisions.json
 ```
 
 and writes intermediate JSON files to:
@@ -131,12 +132,41 @@ galleries.json
 works.json
 curated-stories.json
 curated-story-review.json
+agent-biography-review.json
 duplicates.json
 report.json
 manifest.json
 ```
 
 `manifest.json` records the generated file list, load order, source counts, and transform counts.
+
+## Agent Biography Reconciliation
+
+`agent-biography-review.json` contains every Airtable row with an English or
+Arabic artist biography, its Work title and IAB codes, the exact bilingual
+biography pair, a proposed Agent when the biography has a usable heading, the
+matching basis/confidence, and the current review decision.
+
+Proposals are review aids only. To confirm a match, add an entry to
+`biography-reconciliation-decisions.json`:
+
+```json
+[
+  {
+    "source_record_id": "rec...",
+    "decision": "confirmed",
+    "agent_name_en": "Artist Name",
+    "agent_name_ar": "Artist Name AR",
+    "notes": "Confirmed by cataloging staff."
+  }
+]
+```
+
+Use `"rejected"` for a reviewed non-match. Missing entries remain `"pending"`.
+Only confirmed rows can create an Artist Agent or populate `Agent.biographyEn`
+and `Agent.biographyAr`. Repeated identical bilingual pairs produce one Agent.
+Conflicting pairs for the same confirmed Agent are written to `report.json` and
+none of the conflicting biography text is imported.
 
 ## Intermediate Record Shape
 
@@ -231,10 +261,10 @@ does not emit `work.institution`; existing CMS assignments are preserved by the
 schema migration, and new assignments remain a staff cataloging task until a
 reliable source field or reconciliation file is provided.
 
-The mapping config tracks planned destinations that are not emitted yet. These
-currently include Agent biographies, manuscript/object notes, and image/folio-level
-metadata. Airtable workflow fields such as `For Wen to Check` are explicitly
-ignored.
+The mapping config tracks planned destinations that are not emitted yet.
+Image/folio-level metadata remains planned. Agent biographies are implemented
+through the explicit reconciliation workflow above. Airtable workflow fields
+such as `For Wen to Check` are explicitly ignored.
 
 Long text fields are converted to HTML paragraphs for the CKEditor custom fields.
 `Inscriptions` is the exception: each populated source value is preserved as one

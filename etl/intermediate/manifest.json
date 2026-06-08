@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T11:43:45.662Z",
+  "generated_at": "2026-06-08T11:58:52.572Z",
   "strapi_api_url": "http://localhost:1337",
   "source": {
     "system": "airtable",
@@ -7,6 +7,7 @@
     "agents_file": "agents_distinct.csv",
     "materials_file": "materials_distinct.csv",
     "field_mapping_file": "field-mapping.json",
+    "biography_decisions_file": "biography-reconciliation-decisions.json",
     "source_record_count": 650
   },
   "load_order": [
@@ -21,6 +22,11 @@
   "counts": {
     "agent_roles": 35,
     "agents": 31,
+    "biography_source_rows": 34,
+    "biography_confirmed_rows": 0,
+    "biography_imported_agents": 0,
+    "biography_pending_rows": 34,
+    "biography_conflicts": 0,
     "people": 31,
     "materials": 240,
     "galleries": 16,
@@ -47,6 +53,7 @@
   "files": {
     "agent-roles": "intermediate/agent-roles.json",
     "agents": "intermediate/agents.json",
+    "agent-biography-review": "intermediate/agent-biography-review.json",
     "people": "intermediate/people.json",
     "materials": "intermediate/materials.json",
     "galleries": "intermediate/galleries.json",

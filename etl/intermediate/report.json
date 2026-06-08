@@ -544,13 +544,13 @@
         "source_field": "Artist Biography for the Islamic Arts Biennale",
         "status": "mapped",
         "target": "agent.biographyEn",
-        "notes": "Biography belongs on Agent; needs artist/agent matching beyond writer/curator extraction."
+        "notes": "Imported as Strapi Blocks only when biography-reconciliation-decisions.json confirms the source row and Agent. Conflicts prevent import."
       },
       {
         "source_field": "Artist Biography for the Islamic Arts Biennale AR",
         "status": "mapped",
         "target": "agent.biographyAr",
-        "notes": "Arabic biography belongs on Agent; needs artist/agent matching beyond writer/curator extraction."
+        "notes": "Kept paired with the English biography and imported only for a confirmed, conflict-free Agent."
       },
       {
         "source_field": "Comments",
@@ -881,5 +881,12 @@
   "iiif_images": {
     "unresolved_source_rows": 9,
     "matched_source_rows": 0
+  },
+  "agent_biographies": {
+    "source_rows": 34,
+    "confirmed_rows": 0,
+    "imported_agents": 0,
+    "pending_rows": 34,
+    "conflicts": []
   }
 }

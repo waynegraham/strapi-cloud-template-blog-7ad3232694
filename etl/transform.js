@@ -10,6 +10,9 @@ const MATERIALS_FILE =
   process.env.ETL_MATERIALS_FILE || path.join(__dirname, "materials_distinct.csv");
 const FIELD_MAPPING_FILE =
   process.env.ETL_FIELD_MAPPING_FILE || path.join(__dirname, "field-mapping.json");
+const BIOGRAPHY_DECISIONS_FILE =
+  process.env.ETL_BIOGRAPHY_DECISIONS_FILE ||
+  path.join(__dirname, "biography-reconciliation-decisions.json");
 const OUTPUT_DIR = process.env.ETL_OUTPUT_DIR || path.join(__dirname, "intermediate");
 
 const SOURCE_SYSTEM = "airtable";
@@ -17,6 +20,8 @@ const MANUSCRIPT_DESCRIPTION_FIELD =
   "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)";
 const OBJECT_DESCRIPTION_FIELD =
   "Extra Object Related Information (maker, inscription, annotation, etc)";
+const BIOGRAPHY_EN_FIELD = "Artist Biography for the Islamic Arts Biennale";
+const BIOGRAPHY_AR_FIELD = "Artist Biography for the Islamic Arts Biennale AR";
 
 const ROLE_LABEL_AR = {
   Curator: "أمين المعرض",
@@ -154,6 +159,28 @@ function toHtml(value) {
     .split(/\n{2,}/)
     .map((paragraph) => `<p>${escapeHtml(paragraph).replace(/\n/g, "<br>")}</p>`)
     .join("\n");
+}
+
+function toBlocks(value) {
+  const text = cleanMultiline(value);
+  if (!text) return undefined;
+
+  return text.split(/\n{2,}/).map((paragraph) => {
+    const lines = paragraph.split("\n");
+    const children = [];
+
+    lines.forEach((line, lineIndex) => {
+      const parts = line.split(/(\*\*[^*]+\*\*)/g).filter(Boolean);
+      for (const part of parts) {
+        const bold = part.startsWith("**") && part.endsWith("**");
+        const content = bold ? part.slice(2, -2) : part;
+        if (content) children.push({ type: "text", text: content, ...(bold ? { bold: true } : {}) });
+      }
+      if (lineIndex < lines.length - 1) children.push({ type: "text", text: "\n" });
+    });
+
+    return { type: "paragraph", children };
+  });
 }
 
 function optional(value) {
@@ -308,18 +335,168 @@ function transformAgentRoles(agents) {
     .sort((a, b) => a.key.localeCompare(b.key));
 }
 
-function transformAgents(agents) {
+function transformAgents(agents, biographies = new Map()) {
   return agents
     .map((agent) => {
       const name = compactWhitespace(agent.name_en);
+      const biography = biographies.get(slugify(name));
 
       return buildEndpointRecord("agent", "agents", slugify(name), {
         nameEn: name,
         nameAr: optional(agent.name_ar),
         slug: slugify(name),
+        biographyEn: biography && toBlocks(biography.biography_en),
+        biographyAr: biography && toBlocks(biography.biography_ar),
       });
     })
     .sort((a, b) => a.key.localeCompare(b.key));
+}
+
+function proposedAgentForBiography(fields) {
+  const biography = cleanMultiline(fields[BIOGRAPHY_EN_FIELD]);
+  const heading = biography.match(/^\*\*([^*]+)\*\*/);
+  if (!heading) return undefined;
+
+  const name = compactWhitespace(heading[1]).replace(/[,\s]+$/, "");
+  if (!name) return undefined;
+
+  const creditLine = compactWhitespace(fields["Credit Line"]);
+  const creditMatches = normalizeLookupText(creditLine).startsWith(normalizeLookupText(name));
+
+  return {
+    key: slugify(name),
+    name_en: name,
+    match_basis: creditMatches
+      ? "Biography heading matches the start of Credit Line."
+      : "Biography heading only; Credit Line does not confirm the same name.",
+    confidence: creditMatches ? "high" : "medium",
+  };
+}
+
+function transformAgentBiographies(records, decisions = []) {
+  const decisionsBySourceId = new Map(
+    decisions.map((decision) => [decision.source_record_id, decision]),
+  );
+  const review = [];
+  const confirmedByAgent = new Map();
+
+  for (const sourceRecord of records) {
+    const fields = sourceRecord.fields || {};
+    const biographyEn = optional(fields[BIOGRAPHY_EN_FIELD]);
+    const biographyAr = optional(fields[BIOGRAPHY_AR_FIELD]);
+    if (!biographyEn && !biographyAr) continue;
+
+    const decision = decisionsBySourceId.get(sourceRecord.id);
+    const proposedAgent = proposedAgentForBiography(fields);
+    const confirmed =
+      decision &&
+      decision.decision === "confirmed" &&
+      compactWhitespace(decision.agent_name_en);
+    const agentName = confirmed ? compactWhitespace(decision.agent_name_en) : undefined;
+    const agentKey = agentName ? slugify(agentName) : undefined;
+
+    review.push({
+      source_record_id: sourceRecord.id,
+      work_title: optional(fields["Title of Object"]),
+      iab_codes: splitIabCodes(fields["IAB Code"]),
+      biography_en: biographyEn,
+      biography_ar: biographyAr,
+      proposed_agent: proposedAgent,
+      review_decision: decision
+        ? {
+            decision: decision.decision,
+            agent_name_en: optional(decision.agent_name_en),
+            agent_name_ar: optional(decision.agent_name_ar),
+            notes: optional(decision.notes),
+          }
+        : { decision: "pending" },
+    });
+
+    if (!confirmed) continue;
+    if (!confirmedByAgent.has(agentKey)) confirmedByAgent.set(agentKey, []);
+    confirmedByAgent.get(agentKey).push({
+      source_record_id: sourceRecord.id,
+      agent_name_en: agentName,
+      agent_name_ar: optional(decision.agent_name_ar),
+      biography_en: biographyEn,
+      biography_ar: biographyAr,
+    });
+  }
+
+  const biographies = new Map();
+  const confirmedAgents = [];
+  const conflicts = [];
+
+  for (const [agentKey, matches] of confirmedByAgent) {
+    const biographyPairs = uniqueByKey(
+      matches.map((match) => ({
+        biography_en: match.biography_en,
+        biography_ar: match.biography_ar,
+      })),
+      (pair) => JSON.stringify(pair),
+    );
+
+    if (biographyPairs.length > 1) {
+      conflicts.push({
+        agent_key: agentKey,
+        agent_name_en: matches[0].agent_name_en,
+        source_record_ids: matches.map((match) => match.source_record_id),
+        biography_pairs: biographyPairs,
+        resolution: "No biography imported until the conflicting bilingual pairs are reviewed.",
+      });
+      continue;
+    }
+
+    biographies.set(agentKey, biographyPairs[0]);
+    confirmedAgents.push({
+      name_en: matches[0].agent_name_en,
+      name_ar: matches.map((match) => match.agent_name_ar).find(Boolean) || "",
+      roles: "Artist",
+    });
+  }
+
+  return {
+    biographies,
+    confirmedAgents,
+    review,
+    report: {
+      source_rows: review.length,
+      confirmed_rows: Array.from(confirmedByAgent.values()).reduce(
+        (count, matches) => count + matches.length,
+        0,
+      ),
+      imported_agents: biographies.size,
+      pending_rows: review.filter(
+        (item) => item.review_decision.decision !== "confirmed",
+      ).length,
+      conflicts,
+    },
+  };
+}
+
+function mergeAgents(extractedAgents, confirmedAgents) {
+  const merged = new Map();
+
+  for (const agent of [...extractedAgents, ...confirmedAgents]) {
+    const key = slugify(agent.name_en);
+    const existing = merged.get(key);
+    if (!existing) {
+      merged.set(key, { ...agent });
+      continue;
+    }
+
+    const roles = uniqueByKey(
+      `${existing.roles || ""};${agent.roles || ""}`.split(";").map(compactWhitespace),
+      normalizeKey,
+    ).filter(Boolean);
+    merged.set(key, {
+      ...existing,
+      name_ar: existing.name_ar || agent.name_ar,
+      roles: roles.join(";"),
+    });
+  }
+
+  return Array.from(merged.values());
 }
 
 function transformPeople(agents) {
@@ -846,6 +1023,9 @@ function main() {
 
   const airtableRecords = readJson(INPUT_FILE);
   const agents = readCsv(AGENTS_FILE);
+  const biographyDecisions = fs.existsSync(BIOGRAPHY_DECISIONS_FILE)
+    ? readJson(BIOGRAPHY_DECISIONS_FILE)
+    : [];
   const materials = readCsv(MATERIALS_FILE);
   const fieldMapping = readJson(FIELD_MAPPING_FILE);
   const materialLookup = {
@@ -866,8 +1046,10 @@ function main() {
       .sort((a, b) => b.normalized.length - a.normalized.length),
   };
 
-  const agentRoles = transformAgentRoles(agents);
-  const transformedAgents = transformAgents(agents);
+  const biographyResult = transformAgentBiographies(airtableRecords, biographyDecisions);
+  const allAgents = mergeAgents(agents, biographyResult.confirmedAgents);
+  const agentRoles = transformAgentRoles(allAgents);
+  const transformedAgents = transformAgents(allAgents, biographyResult.biographies);
   const people = transformPeople(agents);
   const transformedMaterials = transformMaterials(materials);
   const { works, report } = transformWorks(airtableRecords, materialLookup, fieldMapping);
@@ -880,10 +1062,15 @@ function main() {
     unresolved_source_rows: iiifImageReview.length,
     matched_source_rows: 0,
   };
+  report.agent_biographies = biographyResult.report;
 
   const files = {
     "agent-roles": writeIntermediate("agent-roles", agentRoles),
     agents: writeIntermediate("agents", transformedAgents),
+    "agent-biography-review": writeIntermediate(
+      "agent-biography-review",
+      biographyResult.review,
+    ),
     people: writeIntermediate("people", people),
     materials: writeIntermediate("materials", transformedMaterials),
     galleries: writeIntermediate("galleries", galleries),
@@ -907,6 +1094,7 @@ function main() {
       agents_file: path.relative(process.cwd(), AGENTS_FILE),
       materials_file: path.relative(process.cwd(), MATERIALS_FILE),
       field_mapping_file: path.relative(process.cwd(), FIELD_MAPPING_FILE),
+      biography_decisions_file: path.relative(process.cwd(), BIOGRAPHY_DECISIONS_FILE),
       source_record_count: airtableRecords.length,
     },
     load_order: [
@@ -921,6 +1109,11 @@ function main() {
     counts: {
       agent_roles: agentRoles.length,
       agents: transformedAgents.length,
+      biography_source_rows: biographyResult.report.source_rows,
+      biography_confirmed_rows: biographyResult.report.confirmed_rows,
+      biography_imported_agents: biographyResult.report.imported_agents,
+      biography_pending_rows: biographyResult.report.pending_rows,
+      biography_conflicts: biographyResult.report.conflicts.length,
       people: people.length,
       materials: transformedMaterials.length,
       galleries: galleries.length,
@@ -972,9 +1165,12 @@ module.exports = {
   gallerySectionKey,
   splitIabCodes,
   transformCuratedStories,
+  transformAgentBiographies,
+  transformAgents,
   transformGalleries,
   transformIiifImageReview,
   transformWorks,
+  toBlocks,
   workDescriptions,
   workInscriptions,
   workIdentifiers,
