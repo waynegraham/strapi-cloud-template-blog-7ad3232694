@@ -78,6 +78,24 @@ export interface SharedSlider extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedWorkIdentifier extends Struct.ComponentSchema {
+  collectionName: 'components_shared_work_identifiers';
+  info: {
+    displayName: 'Work Identifier';
+    icon: 'key';
+  };
+  attributes: {
+    preferred: Schema.Attribute.Boolean &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<false>;
+    source: Schema.Attribute.String;
+    type: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'IAB'>;
+    value: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
@@ -87,6 +105,7 @@ declare module '@strapi/strapi' {
       'shared.rich-text': SharedRichText;
       'shared.seo': SharedSeo;
       'shared.slider': SharedSlider;
+      'shared.work-identifier': SharedWorkIdentifier;
     }
   }
 }

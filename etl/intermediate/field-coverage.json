@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T01:07:02.030Z",
+  "generatedAt": "2026-06-08T01:29:07.704Z",
   "sourceRecordCount": 650,
   "observedFieldCount": 41,
   "counts": {
@@ -183,7 +183,8 @@
       "sourceField": "IAB Code",
       "populatedRecords": 649,
       "status": "mapped",
-      "target": "work.iabCode"
+      "target": "work.identifiers + work.iabCode",
+      "notes": "All comma-separated values become Work identifiers; the first is preferred and denormalized to iabCode."
     },
     {
       "sourceField": "Image annotation",

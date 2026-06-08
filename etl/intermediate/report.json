@@ -685,7 +685,8 @@
       {
         "source_field": "IAB Code",
         "status": "mapped",
-        "target": "work.iabCode"
+        "target": "work.identifiers + work.iabCode",
+        "notes": "All comma-separated values become Work identifiers; the first is preferred and denormalized to iabCode."
       },
       {
         "source_field": "Image annotation",

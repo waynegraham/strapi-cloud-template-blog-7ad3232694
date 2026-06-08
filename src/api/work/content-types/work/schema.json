@@ -13,8 +13,13 @@
   "attributes": {
     "iabCode": {
       "type": "string",
-      "required": true,
-      "unique": true
+      "required": true
+    },
+    "identifiers": {
+      "type": "component",
+      "component": "shared.work-identifier",
+      "repeatable": true,
+      "required": true
     },
     "titleEn": {
       "type": "string",

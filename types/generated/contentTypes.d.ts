@@ -925,9 +925,9 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
         }
       >;
     gallery: Schema.Attribute.Relation<'manyToOne', 'api::gallery.gallery'>;
-    iabCode: Schema.Attribute.String &
-      Schema.Attribute.Required &
-      Schema.Attribute.Unique;
+    iabCode: Schema.Attribute.String & Schema.Attribute.Required;
+    identifiers: Schema.Attribute.Component<'shared.work-identifier', true> &
+      Schema.Attribute.Required;
     iiif_assets: Schema.Attribute.Relation<
       'oneToMany',
       'api::iiif-asset.iiif-asset'

@@ -202,7 +202,7 @@ Airtable object rows are currently transformed into Strapi `work` records.
 Important mappings:
 
 ```txt
-IAB Code              -> iabCode
+IAB Code              -> identifiers[] + iabCode
 Title of Object       -> titleEn
 Title of Object AR    -> titleAr
 Description           -> descriptionEn
@@ -240,7 +240,12 @@ Gregorian display attributes. Splitting mixed Hijri/Gregorian strings and derivi
 
 Some Airtable rows contain multiple comma-separated IAB codes.
 
-The transform only creates one intermediate work for these rows, using the first IAB code as the primary value. The full row is also written to:
+The transform creates one intermediate Work for each source row and preserves every
+comma-separated code in `identifiers`. The first code is marked `preferred: true`
+and copied to `iabCode` for list search and display. All identifiers use type `IAB`
+and source `Airtable IAB Code`.
+
+The full source row is also written to:
 
 ```txt
 intermediate/duplicates.json
@@ -257,7 +262,9 @@ additional_iab_codes
 iab_codes
 ```
 
-These rows require manual review before deciding whether the additional IAB codes should become separate works, aliases, related records, or be ignored.
+These rows remain in the reconciliation report so staff can review whether the
+source grouped codes correctly. The transform does not merge Works or discard
+duplicate codes.
 
 ## Reports
 
@@ -273,7 +280,8 @@ source_field_coverage
 
 `skipped` currently includes rows that cannot become works because required source fields are missing.
 
-`duplicate_iab_codes` reports repeated primary IAB codes after the multiple-code rows have been reduced to their first code.
+`duplicate_iab_codes` reports repeated preferred IAB codes across Works. Duplicate
+codes remain valid migration inputs but require manual reconciliation.
 
 `missing_material_lookup` reports source material display values that could not be matched to `materials_distinct.csv`.
 

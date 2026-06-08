@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2026-06-08T01:20:53.876Z"
+    "x-generation-date": "2026-06-08T01:29:10.629Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -12317,6 +12317,12 @@
                       "iabCode": {
                         "type": "string"
                       },
+                      "identifiers": {
+                        "type": "array",
+                        "items": {
+                          "$ref": "#/components/schemas/SharedWorkIdentifierComponent"
+                        }
+                      },
                       "titleEn": {
                         "type": "string"
                       },
@@ -13236,6 +13242,33 @@
           },
           "sortOrder": {
             "type": "integer"
+          }
+        }
+      },
+      "SharedWorkIdentifierComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "number"
+              }
+            ]
+          },
+          "value": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "preferred": {
+            "type": "boolean"
+          },
+          "source": {
+            "type": "string"
           }
         }
       },
@@ -14897,6 +14930,12 @@
                           },
                           "iabCode": {
                             "type": "string"
+                          },
+                          "identifiers": {
+                            "type": "array",
+                            "items": {
+                              "$ref": "#/components/schemas/SharedWorkIdentifierComponent"
+                            }
                           },
                           "titleEn": {
                             "type": "string"
@@ -17808,6 +17847,12 @@
               },
               "iabCode": {
                 "type": "string"
+              },
+              "identifiers": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SharedWorkIdentifierComponent"
+                }
               },
               "titleEn": {
                 "type": "string"
@@ -22931,6 +22976,12 @@
                 "iabCode": {
                   "type": "string"
                 },
+                "identifiers": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SharedWorkIdentifierComponent"
+                  }
+                },
                 "titleEn": {
                   "type": "string"
                 },
@@ -26967,12 +27018,19 @@
           "data": {
             "required": [
               "iabCode",
+              "identifiers",
               "titleEn"
             ],
             "type": "object",
             "properties": {
               "iabCode": {
                 "type": "string"
+              },
+              "identifiers": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SharedWorkIdentifierComponent"
+                }
               },
               "titleEn": {
                 "type": "string"
@@ -27153,6 +27211,7 @@
         "type": "object",
         "required": [
           "iabCode",
+          "identifiers",
           "titleEn"
         ],
         "properties": {
@@ -27171,6 +27230,12 @@
           },
           "iabCode": {
             "type": "string"
+          },
+          "identifiers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SharedWorkIdentifierComponent"
+            }
           },
           "titleEn": {
             "type": "string"
@@ -28576,6 +28641,12 @@
                     },
                     "iabCode": {
                       "type": "string"
+                    },
+                    "identifiers": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/SharedWorkIdentifierComponent"
+                      }
                     },
                     "titleEn": {
                       "type": "string"

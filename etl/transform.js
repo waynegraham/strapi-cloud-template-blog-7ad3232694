@@ -191,6 +191,15 @@ function splitIabCodes(value) {
     .filter(Boolean);
 }
 
+function workIdentifiers(iabCodes) {
+  return iabCodes.map((value, index) => ({
+    value,
+    type: "IAB",
+    preferred: index === 0,
+    source: "Airtable IAB Code",
+  }));
+}
+
 function buildSearchText(parts) {
   return parts.map(compactWhitespace).filter(Boolean).join(" ");
 }
@@ -522,6 +531,7 @@ function transformWorks(records, materialLookup, fieldMapping) {
     const titleAr = optional(fields["Title of Object AR"]);
     const data = {
       iabCode: primaryIabCode,
+      identifiers: workIdentifiers(iabCodes),
       titleEn,
       titleAr,
       originEn: optional(fields.Origin),
@@ -691,6 +701,8 @@ if (require.main === module) {
 module.exports = {
   galleryKey,
   gallerySectionKey,
+  splitIabCodes,
   transformGalleries,
   transformWorks,
+  workIdentifiers,
 };

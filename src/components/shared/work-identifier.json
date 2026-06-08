@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_work_identifiers",
+  "info": {
+    "displayName": "Work Identifier",
+    "icon": "key"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "default": "IAB"
+    },
+    "preferred": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "source": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

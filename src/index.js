@@ -3,6 +3,9 @@
 const {
   registerGalleryValidation,
 } = require('./api/gallery/content-types/gallery/validation');
+const {
+  registerWorkValidation,
+} = require('./api/work/content-types/work/validation');
 
 module.exports = {
   /**
@@ -13,6 +16,7 @@ module.exports = {
    */
   register({ strapi }) {
     registerGalleryValidation(strapi);
+    registerWorkValidation(strapi);
   },
 
   /**
