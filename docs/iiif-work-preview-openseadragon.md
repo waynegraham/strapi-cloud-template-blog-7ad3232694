@@ -49,7 +49,8 @@ width
 height
 infoJsonUrl
 thumbnailUrl
-rights
+rightsStatement
+rightsNote
 ```
 
 `infoJsonUrl` should point to Cantaloupe:

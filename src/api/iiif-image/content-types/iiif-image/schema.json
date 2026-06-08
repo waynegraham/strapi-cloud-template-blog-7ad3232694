@@ -55,8 +55,13 @@
     "captionAr": {
       "type": "string"
     },
-    "rights": {
-      "type": "string"
+    "rightsStatement": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::rights-statement.rights-statement"
+    },
+    "rightsNote": {
+      "type": "text"
     },
     "iiifAsset": {
       "type": "relation",

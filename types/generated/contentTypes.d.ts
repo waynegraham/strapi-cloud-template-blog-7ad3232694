@@ -807,7 +807,11 @@ export interface ApiIiifImageIiifImage extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
-    rights: Schema.Attribute.String;
+    rightsNote: Schema.Attribute.Text;
+    rightsStatement: Schema.Attribute.Relation<
+      'manyToOne',
+      'api::rights-statement.rights-statement'
+    >;
     s3key: Schema.Attribute.String;
     sequence: Schema.Attribute.Integer &
       Schema.Attribute.Required &

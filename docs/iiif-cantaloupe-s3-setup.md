@@ -231,8 +231,12 @@ Type: Text
 caption
 Type: Text
 
-rights
+rightsStatement
+Type: Relation (many-to-one) to Rights Statement
+
+rightsNote
 Type: Text
+Use only for unmatched or verbatim local wording.
 ```
 
 ## 6. Derive the Cantaloupe Identifier
