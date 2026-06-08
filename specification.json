@@ -132,7 +132,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.081Z",
+                          "default": "2026-06-08T12:19:36.139Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -279,7 +279,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.084Z",
+                          "default": "2026-06-08T12:19:36.141Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -339,7 +339,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.083Z",
+                        "default": "2026-06-08T12:19:36.140Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -462,7 +462,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.085Z",
+                          "default": "2026-06-08T12:19:36.141Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -902,7 +902,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T11:52:29.089Z",
+                            "default": "2026-06-08T12:19:36.145Z",
                             "type": "string"
                           },
                           "image": {
@@ -1145,7 +1145,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.099Z",
+                          "default": "2026-06-08T12:19:36.158Z",
                           "type": "string"
                         },
                         "image": {
@@ -1235,7 +1235,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.099Z",
+                        "default": "2026-06-08T12:19:36.157Z",
                         "type": "string"
                       },
                       "image": {
@@ -1591,7 +1591,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.097Z",
+                          "default": "2026-06-08T12:19:36.156Z",
                           "type": "string"
                         },
                         "image": {
@@ -1845,7 +1845,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.102Z",
+                          "default": "2026-06-08T12:19:36.161Z",
                           "type": "string"
                         },
                         "image": {
@@ -1935,7 +1935,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.101Z",
+                        "default": "2026-06-08T12:19:36.160Z",
                         "type": "string"
                       },
                       "image": {
@@ -2190,7 +2190,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.104Z",
+                          "default": "2026-06-08T12:19:36.162Z",
                           "type": "string"
                         },
                         "image": {
@@ -2616,7 +2616,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T11:52:29.107Z",
+                            "default": "2026-06-08T12:19:36.165Z",
                             "type": "string"
                           },
                           "agents": {
@@ -2841,7 +2841,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.110Z",
+                          "default": "2026-06-08T12:19:36.169Z",
                           "type": "string"
                         },
                         "agents": {
@@ -2917,7 +2917,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.110Z",
+                        "default": "2026-06-08T12:19:36.168Z",
                         "type": "string"
                       },
                       "agents": {
@@ -3246,7 +3246,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.109Z",
+                          "default": "2026-06-08T12:19:36.167Z",
                           "type": "string"
                         },
                         "agents": {
@@ -3482,7 +3482,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.112Z",
+                          "default": "2026-06-08T12:19:36.171Z",
                           "type": "string"
                         },
                         "agents": {
@@ -3558,7 +3558,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.112Z",
+                        "default": "2026-06-08T12:19:36.170Z",
                         "type": "string"
                       },
                       "agents": {
@@ -3796,7 +3796,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.113Z",
+                          "default": "2026-06-08T12:19:36.172Z",
                           "type": "string"
                         },
                         "agents": {
@@ -4240,7 +4240,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T11:52:29.116Z",
+                            "default": "2026-06-08T12:19:36.175Z",
                             "type": "string"
                           },
                           "agentCredits": {
@@ -4489,7 +4489,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.132Z",
+                          "default": "2026-06-08T12:19:36.189Z",
                           "type": "string"
                         },
                         "agentCredits": {
@@ -4585,7 +4585,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.131Z",
+                        "default": "2026-06-08T12:19:36.189Z",
                         "type": "string"
                       },
                       "agentCredits": {
@@ -4946,7 +4946,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.130Z",
+                          "default": "2026-06-08T12:19:36.188Z",
                           "type": "string"
                         },
                         "agentCredits": {
@@ -5206,7 +5206,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.137Z",
+                          "default": "2026-06-08T12:19:36.192Z",
                           "type": "string"
                         },
                         "agentCredits": {
@@ -5302,7 +5302,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.133Z",
+                        "default": "2026-06-08T12:19:36.191Z",
                         "type": "string"
                       },
                       "agentCredits": {
@@ -5561,7 +5561,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.138Z",
+                          "default": "2026-06-08T12:19:36.193Z",
                           "type": "string"
                         },
                         "agentCredits": {
@@ -6035,7 +6035,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T11:52:29.142Z",
+                            "default": "2026-06-08T12:19:36.197Z",
                             "type": "string"
                           },
                           "authors": {
@@ -6300,7 +6300,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.146Z",
+                          "default": "2026-06-08T12:19:36.206Z",
                           "type": "string"
                         },
                         "authors": {
@@ -6408,7 +6408,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.145Z",
+                        "default": "2026-06-08T12:19:36.205Z",
                         "type": "string"
                       },
                       "authors": {
@@ -6797,7 +6797,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.144Z",
+                          "default": "2026-06-08T12:19:36.199Z",
                           "type": "string"
                         },
                         "authors": {
@@ -7073,7 +7073,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.148Z",
+                          "default": "2026-06-08T12:19:36.208Z",
                           "type": "string"
                         },
                         "authors": {
@@ -7181,7 +7181,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.147Z",
+                        "default": "2026-06-08T12:19:36.207Z",
                         "type": "string"
                       },
                       "authors": {
@@ -7461,7 +7461,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.150Z",
+                          "default": "2026-06-08T12:19:36.210Z",
                           "type": "string"
                         },
                         "authors": {
@@ -7974,7 +7974,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T11:52:29.153Z",
+                            "default": "2026-06-08T12:19:36.213Z",
                             "type": "string"
                           },
                           "coverMedia": {
@@ -8278,7 +8278,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.159Z",
+                          "default": "2026-06-08T12:19:36.219Z",
                           "type": "string"
                         },
                         "coverMedia": {
@@ -8417,7 +8417,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.158Z",
+                        "default": "2026-06-08T12:19:36.218Z",
                         "type": "string"
                       },
                       "coverMedia": {
@@ -8861,7 +8861,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.156Z",
+                          "default": "2026-06-08T12:19:36.216Z",
                           "type": "string"
                         },
                         "coverMedia": {
@@ -9176,7 +9176,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.162Z",
+                          "default": "2026-06-08T12:19:36.222Z",
                           "type": "string"
                         },
                         "coverMedia": {
@@ -9315,7 +9315,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.161Z",
+                        "default": "2026-06-08T12:19:36.221Z",
                         "type": "string"
                       },
                       "coverMedia": {
@@ -9641,7 +9641,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.164Z",
+                          "default": "2026-06-08T12:19:36.224Z",
                           "type": "string"
                         },
                         "coverMedia": {
@@ -9853,7 +9853,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.165Z",
+                          "default": "2026-06-08T12:19:36.226Z",
                           "type": "string"
                         },
                         "favicon": {
@@ -10012,7 +10012,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.167Z",
+                          "default": "2026-06-08T12:19:36.228Z",
                           "type": "string"
                         },
                         "favicon": {
@@ -10081,7 +10081,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.166Z",
+                        "default": "2026-06-08T12:19:36.228Z",
                         "type": "string"
                       },
                       "favicon": {
@@ -10212,7 +10212,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.168Z",
+                          "default": "2026-06-08T12:19:36.229Z",
                           "type": "string"
                         },
                         "favicon": {
@@ -10653,7 +10653,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T11:52:29.170Z",
+                            "default": "2026-06-08T12:19:36.231Z",
                             "type": "string"
                           },
                           "work": {
@@ -10896,7 +10896,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.174Z",
+                          "default": "2026-06-08T12:19:36.235Z",
                           "type": "string"
                         },
                         "work": {
@@ -10987,7 +10987,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.173Z",
+                        "default": "2026-06-08T12:19:36.234Z",
                         "type": "string"
                       },
                       "work": {
@@ -11341,7 +11341,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.172Z",
+                          "default": "2026-06-08T12:19:36.233Z",
                           "type": "string"
                         },
                         "work": {
@@ -11595,7 +11595,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.181Z",
+                          "default": "2026-06-08T12:19:36.237Z",
                           "type": "string"
                         },
                         "work": {
@@ -11686,7 +11686,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.180Z",
+                        "default": "2026-06-08T12:19:36.236Z",
                         "type": "string"
                       },
                       "work": {
@@ -11944,7 +11944,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.182Z",
+                          "default": "2026-06-08T12:19:36.238Z",
                           "type": "string"
                         },
                         "work": {
@@ -12457,7 +12457,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T11:52:29.185Z",
+                            "default": "2026-06-08T12:19:36.242Z",
                             "type": "string"
                           },
                           "file": {
@@ -12738,7 +12738,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.191Z",
+                          "default": "2026-06-08T12:19:36.252Z",
                           "type": "string"
                         },
                         "file": {
@@ -12858,7 +12858,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.190Z",
+                        "default": "2026-06-08T12:19:36.251Z",
                         "type": "string"
                       },
                       "file": {
@@ -13284,7 +13284,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.188Z",
+                          "default": "2026-06-08T12:19:36.249Z",
                           "type": "string"
                         },
                         "file": {
@@ -13576,7 +13576,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.194Z",
+                          "default": "2026-06-08T12:19:36.254Z",
                           "type": "string"
                         },
                         "file": {
@@ -13696,7 +13696,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.193Z",
+                        "default": "2026-06-08T12:19:36.253Z",
                         "type": "string"
                       },
                       "file": {
@@ -13996,7 +13996,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.196Z",
+                          "default": "2026-06-08T12:19:36.256Z",
                           "type": "string"
                         },
                         "file": {
@@ -14455,7 +14455,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T11:52:29.198Z",
+                            "default": "2026-06-08T12:19:36.259Z",
                             "type": "string"
                           },
                           "logo": {
@@ -14702,7 +14702,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.202Z",
+                          "default": "2026-06-08T12:19:36.263Z",
                           "type": "string"
                         },
                         "logo": {
@@ -14795,7 +14795,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.202Z",
+                        "default": "2026-06-08T12:19:36.262Z",
                         "type": "string"
                       },
                       "logo": {
@@ -15160,7 +15160,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.200Z",
+                          "default": "2026-06-08T12:19:36.261Z",
                           "type": "string"
                         },
                         "logo": {
@@ -15418,7 +15418,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.204Z",
+                          "default": "2026-06-08T12:19:36.265Z",
                           "type": "string"
                         },
                         "logo": {
@@ -15511,7 +15511,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.204Z",
+                        "default": "2026-06-08T12:19:36.264Z",
                         "type": "string"
                       },
                       "logo": {
@@ -15771,7 +15771,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.206Z",
+                          "default": "2026-06-08T12:19:36.267Z",
                           "type": "string"
                         },
                         "logo": {
@@ -16171,7 +16171,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T11:52:29.208Z",
+                            "default": "2026-06-08T12:19:36.269Z",
                             "type": "string"
                           }
                         },
@@ -16373,7 +16373,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.210Z",
+                          "default": "2026-06-08T12:19:36.271Z",
                           "type": "string"
                         }
                       },
@@ -16432,7 +16432,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:31.247Z",
+                        "default": "2026-06-08T12:19:38.241Z",
                         "type": "string"
                       }
                     },
@@ -16726,7 +16726,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.209Z",
+                          "default": "2026-06-08T12:19:36.270Z",
                           "type": "string"
                         }
                       },
@@ -16939,7 +16939,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.211Z",
+                          "default": "2026-06-08T12:19:36.272Z",
                           "type": "string"
                         }
                       },
@@ -16998,7 +16998,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.211Z",
+                        "default": "2026-06-08T12:19:36.272Z",
                         "type": "string"
                       }
                     },
@@ -17209,7 +17209,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.212Z",
+                          "default": "2026-06-08T12:19:36.273Z",
                           "type": "string"
                         }
                       },
@@ -17642,7 +17642,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T11:52:29.214Z",
+                            "default": "2026-06-08T12:19:36.275Z",
                             "type": "string"
                           }
                         },
@@ -17872,7 +17872,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.217Z",
+                          "default": "2026-06-08T12:19:36.279Z",
                           "type": "string"
                         }
                       },
@@ -17955,7 +17955,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:31.438Z",
+                        "default": "2026-06-08T12:19:38.427Z",
                         "type": "string"
                       }
                     },
@@ -18297,7 +18297,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.216Z",
+                          "default": "2026-06-08T12:19:36.277Z",
                           "type": "string"
                         }
                       },
@@ -18538,7 +18538,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.219Z",
+                          "default": "2026-06-08T12:19:36.280Z",
                           "type": "string"
                         }
                       },
@@ -18621,7 +18621,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.218Z",
+                        "default": "2026-06-08T12:19:36.280Z",
                         "type": "string"
                       }
                     },
@@ -18862,7 +18862,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.224Z",
+                          "default": "2026-06-08T12:19:36.281Z",
                           "type": "string"
                         }
                       },
@@ -19261,7 +19261,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T11:52:29.226Z",
+                            "default": "2026-06-08T12:19:36.283Z",
                             "type": "string"
                           }
                         },
@@ -19468,7 +19468,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.229Z",
+                          "default": "2026-06-08T12:19:36.286Z",
                           "type": "string"
                         }
                       },
@@ -19531,7 +19531,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:31.626Z",
+                        "default": "2026-06-08T12:19:38.611Z",
                         "type": "string"
                       }
                     },
@@ -19835,7 +19835,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.228Z",
+                          "default": "2026-06-08T12:19:36.285Z",
                           "type": "string"
                         }
                       },
@@ -20053,7 +20053,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.230Z",
+                          "default": "2026-06-08T12:19:36.287Z",
                           "type": "string"
                         }
                       },
@@ -20116,7 +20116,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.229Z",
+                        "default": "2026-06-08T12:19:36.286Z",
                         "type": "string"
                       }
                     },
@@ -20333,7 +20333,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.231Z",
+                          "default": "2026-06-08T12:19:36.288Z",
                           "type": "string"
                         }
                       },
@@ -20391,6 +20391,7 @@
                 "type": "string",
                 "enum": [
                   "iabCode",
+                  "displayTitle",
                   "titleEn",
                   "titleAr",
                   "originEn",
@@ -20432,6 +20433,7 @@
                 "type": "string",
                 "enum": [
                   "iabCode",
+                  "displayTitle",
                   "titleEn",
                   "titleAr",
                   "originEn",
@@ -20556,6 +20558,7 @@
                   "type": "string",
                   "enum": [
                     "iabCode",
+                    "displayTitle",
                     "titleEn",
                     "titleAr",
                     "originEn",
@@ -20588,6 +20591,7 @@
                     "type": "string",
                     "enum": [
                       "iabCode",
+                      "displayTitle",
                       "titleEn",
                       "titleAr",
                       "originEn",
@@ -20621,6 +20625,7 @@
                     "type": "string",
                     "enum": [
                       "iabCode",
+                      "displayTitle",
                       "titleEn",
                       "titleAr",
                       "originEn",
@@ -20663,6 +20668,7 @@
                       "type": "string",
                       "enum": [
                         "iabCode",
+                        "displayTitle",
                         "titleEn",
                         "titleAr",
                         "originEn",
@@ -20846,6 +20852,10 @@
                             "description": "A string field",
                             "type": "string"
                           },
+                          "displayTitle": {
+                            "description": "A string field",
+                            "type": "string"
+                          },
                           "titleEn": {
                             "description": "A string field",
                             "type": "string"
@@ -20944,7 +20954,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T11:52:29.237Z",
+                            "default": "2026-06-08T12:19:36.301Z",
                             "type": "string"
                           },
                           "identifiers": {
@@ -21061,6 +21071,7 @@
                 "type": "string",
                 "enum": [
                   "iabCode",
+                  "displayTitle",
                   "titleEn",
                   "titleAr",
                   "originEn",
@@ -21232,6 +21243,10 @@
                           "description": "A string field",
                           "type": "string"
                         },
+                        "displayTitle": {
+                          "description": "A string field",
+                          "type": "string"
+                        },
                         "titleEn": {
                           "description": "A string field",
                           "type": "string"
@@ -21330,7 +21345,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.247Z",
+                          "default": "2026-06-08T12:19:36.310Z",
                           "type": "string"
                         },
                         "identifiers": {
@@ -21443,6 +21458,10 @@
                         "description": "A string field",
                         "type": "string"
                       },
+                      "displayTitle": {
+                        "description": "A string field",
+                        "type": "string"
+                      },
                       "titleEn": {
                         "description": "A string field",
                         "type": "string"
@@ -21533,7 +21552,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.245Z",
+                        "default": "2026-06-08T12:19:36.308Z",
                         "type": "string"
                       },
                       "identifiers": {
@@ -21644,6 +21663,7 @@
                 "type": "string",
                 "enum": [
                   "iabCode",
+                  "displayTitle",
                   "titleEn",
                   "titleAr",
                   "originEn",
@@ -21736,6 +21756,7 @@
                 "type": "string",
                 "enum": [
                   "iabCode",
+                  "displayTitle",
                   "titleEn",
                   "titleAr",
                   "originEn",
@@ -21778,6 +21799,7 @@
                   "type": "string",
                   "enum": [
                     "iabCode",
+                    "displayTitle",
                     "titleEn",
                     "titleAr",
                     "originEn",
@@ -21810,6 +21832,7 @@
                     "type": "string",
                     "enum": [
                       "iabCode",
+                      "displayTitle",
                       "titleEn",
                       "titleAr",
                       "originEn",
@@ -21843,6 +21866,7 @@
                     "type": "string",
                     "enum": [
                       "iabCode",
+                      "displayTitle",
                       "titleEn",
                       "titleAr",
                       "originEn",
@@ -21885,6 +21909,7 @@
                       "type": "string",
                       "enum": [
                         "iabCode",
+                        "displayTitle",
                         "titleEn",
                         "titleAr",
                         "originEn",
@@ -22015,6 +22040,10 @@
                           "description": "A string field",
                           "type": "string"
                         },
+                        "displayTitle": {
+                          "description": "A string field",
+                          "type": "string"
+                        },
                         "titleEn": {
                           "description": "A string field",
                           "type": "string"
@@ -22113,7 +22142,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.242Z",
+                          "default": "2026-06-08T12:19:36.305Z",
                           "type": "string"
                         },
                         "identifiers": {
@@ -22241,6 +22270,7 @@
                 "type": "string",
                 "enum": [
                   "iabCode",
+                  "displayTitle",
                   "titleEn",
                   "titleAr",
                   "originEn",
@@ -22412,6 +22442,10 @@
                           "description": "A string field",
                           "type": "string"
                         },
+                        "displayTitle": {
+                          "description": "A string field",
+                          "type": "string"
+                        },
                         "titleEn": {
                           "description": "A string field",
                           "type": "string"
@@ -22510,7 +22544,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.252Z",
+                          "default": "2026-06-08T12:19:36.315Z",
                           "type": "string"
                         },
                         "identifiers": {
@@ -22623,6 +22657,10 @@
                         "description": "A string field",
                         "type": "string"
                       },
+                      "displayTitle": {
+                        "description": "A string field",
+                        "type": "string"
+                      },
                       "titleEn": {
                         "description": "A string field",
                         "type": "string"
@@ -22713,7 +22751,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T11:52:29.250Z",
+                        "default": "2026-06-08T12:19:36.313Z",
                         "type": "string"
                       },
                       "identifiers": {
@@ -22816,6 +22854,7 @@
                 "type": "string",
                 "enum": [
                   "iabCode",
+                  "displayTitle",
                   "titleEn",
                   "titleAr",
                   "originEn",
@@ -22908,6 +22947,7 @@
                 "type": "string",
                 "enum": [
                   "iabCode",
+                  "displayTitle",
                   "titleEn",
                   "titleAr",
                   "originEn",
@@ -23029,6 +23069,10 @@
                           "description": "A string field",
                           "type": "string"
                         },
+                        "displayTitle": {
+                          "description": "A string field",
+                          "type": "string"
+                        },
                         "titleEn": {
                           "description": "A string field",
                           "type": "string"
@@ -23127,7 +23171,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T11:52:29.254Z",
+                          "default": "2026-06-08T12:19:36.319Z",
                           "type": "string"
                         },
                         "identifiers": {
@@ -29249,7 +29293,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T11:52:29.091Z",
+            "default": "2026-06-08T12:19:36.148Z",
             "type": "string"
           },
           "related": {}
@@ -29325,7 +29369,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T11:52:29.093Z",
+            "default": "2026-06-08T12:19:36.150Z",
             "type": "string"
           },
           "image": {
@@ -29398,7 +29442,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T11:52:29.092Z",
+            "default": "2026-06-08T12:19:36.149Z",
             "type": "string"
           },
           "agents": {
@@ -29497,7 +29541,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T11:52:29.119Z",
+            "default": "2026-06-08T12:19:36.177Z",
             "type": "string"
           },
           "agentCredits": {
@@ -29675,7 +29719,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T11:52:29.122Z",
+            "default": "2026-06-08T12:19:36.181Z",
             "type": "string"
           },
           "logo": {
@@ -29760,7 +29804,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T11:52:29.123Z",
+            "default": "2026-06-08T12:19:36.181Z",
             "type": "string"
           }
         },
@@ -29863,7 +29907,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T11:52:29.126Z",
+            "default": "2026-06-08T12:19:36.184Z",
             "type": "string"
           }
         },
@@ -29959,7 +30003,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T11:52:29.126Z",
+            "default": "2026-06-08T12:19:36.183Z",
             "type": "string"
           },
           "file": {
@@ -30044,7 +30088,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T11:52:29.125Z",
+            "default": "2026-06-08T12:19:36.182Z",
             "type": "string"
           },
           "work": {
@@ -30132,7 +30176,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T11:52:29.127Z",
+            "default": "2026-06-08T12:19:36.185Z",
             "type": "string"
           },
           "authors": {
@@ -30188,6 +30232,10 @@
             ]
           },
           "iabCode": {
+            "description": "A string field",
+            "type": "string"
+          },
+          "displayTitle": {
             "description": "A string field",
             "type": "string"
           },
@@ -30289,7 +30337,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T11:52:29.121Z",
+            "default": "2026-06-08T12:19:36.179Z",
             "type": "string"
           },
           "identifiers": {
@@ -30440,7 +30488,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T11:52:29.118Z",
+            "default": "2026-06-08T12:19:36.177Z",
             "type": "string"
           },
           "coverMedia": {

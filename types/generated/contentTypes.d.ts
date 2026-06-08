@@ -1012,6 +1012,7 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
       >;
     dimensionAr: Schema.Attribute.Text;
     dimensionEn: Schema.Attribute.Text;
+    displayTitle: Schema.Attribute.String;
     earliestDate: Schema.Attribute.Integer;
     footnoteAr: Schema.Attribute.RichText &
       Schema.Attribute.CustomField<

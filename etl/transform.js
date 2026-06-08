@@ -928,6 +928,7 @@ function transformWorks(records, materialLookup, fieldMapping) {
     const titleAr = optional(fields["Title of Object AR"]);
     const data = {
       iabCode: primaryIabCode,
+      displayTitle: `${primaryIabCode} - ${titleEn}`,
       identifiers: workIdentifiers(iabCodes),
       inscriptions: workInscriptions(fields.Inscriptions),
       additionalDescriptions: workDescriptions(fields),

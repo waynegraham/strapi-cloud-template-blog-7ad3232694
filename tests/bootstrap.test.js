@@ -17,17 +17,32 @@ function javascriptFiles(directory) {
   });
 }
 
-test('application bootstrap performs no data or permission initialization', async () => {
-  const strapi = new Proxy(
-    {},
-    {
-      get(_target, property) {
-        throw new Error(`bootstrap accessed strapi.${String(property)}`);
-      },
+test('application bootstrap only synchronizes Content Manager configuration', async () => {
+  const writes = [];
+  const values = new Map();
+  const strapi = {
+    store(options) {
+      assert.deepEqual(options, {
+        type: 'plugin',
+        name: 'content_manager',
+      });
+      return {
+        async get({ key }) {
+          return values.get(key);
+        },
+        async set({ key, value }) {
+          values.set(key, value);
+          writes.push(key);
+        },
+      };
     },
-  );
+  };
 
-  await assert.doesNotReject(app.bootstrap({ strapi }));
+  await app.bootstrap({ strapi });
+  assert.ok(writes.length > 0);
+  assert.ok(
+    writes.every((key) => key.startsWith('configuration_')),
+  );
 });
 
 test('runtime code does not reference obsolete blog APIs or permission seeding', () => {

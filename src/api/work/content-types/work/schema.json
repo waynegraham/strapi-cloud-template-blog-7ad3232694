@@ -15,6 +15,9 @@
       "type": "string",
       "required": true
     },
+    "displayTitle": {
+      "type": "string"
+    },
     "identifiers": {
       "type": "component",
       "component": "shared.work-identifier",

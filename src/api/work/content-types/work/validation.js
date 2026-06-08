@@ -4,6 +4,13 @@ const { errors } = require('@strapi/utils');
 
 const WORK_UID = 'api::work.work';
 
+function workDisplayTitle({ iabCode, titleEn } = {}) {
+  return [iabCode, titleEn]
+    .map((value) => String(value || '').trim())
+    .filter(Boolean)
+    .join(' - ');
+}
+
 function cleanIdentifier(identifier) {
   return {
     ...(identifier.id === undefined ? {} : { id: identifier.id }),
@@ -137,11 +144,24 @@ async function validateWorkWrite(strapi, context) {
   const normalized = validateIdentifiers(
     await identifiersForWrite(strapi, context),
   );
+  let titleEn = context.params.data && context.params.data.titleEn;
+
+  if (!titleEn && context.action === 'update') {
+    const existing = await strapi.documents(WORK_UID).findOne({
+      documentId: context.params.documentId,
+      fields: ['titleEn'],
+    });
+    titleEn = existing && existing.titleEn;
+  }
 
   context.params.data = {
     ...(context.params.data || {}),
     identifiers: normalized.identifiers,
     iabCode: normalized.iabCode,
+    displayTitle: workDisplayTitle({
+      iabCode: normalized.iabCode,
+      titleEn,
+    }),
   };
 
   if (Object.prototype.hasOwnProperty.call(context.params.data, 'inscriptions')) {
@@ -160,6 +180,7 @@ function registerWorkValidation(strapi) {
 
 module.exports = {
   registerWorkValidation,
+  workDisplayTitle,
   validateInscriptions,
   validateIdentifiers,
   validateWorkWrite,

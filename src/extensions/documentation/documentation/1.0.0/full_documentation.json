@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2026-06-08T11:53:01.954Z"
+    "x-generation-date": "2026-06-08T12:21:43.744Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -24,7 +24,7 @@
   },
   "servers": [
     {
-      "url": "http://localhost:1349/api",
+      "url": "http://localhost:1337/api",
       "description": "Development server"
     }
   ],
@@ -12823,6 +12823,9 @@
                       "iabCode": {
                         "type": "string"
                       },
+                      "displayTitle": {
+                        "type": "string"
+                      },
                       "identifiers": {
                         "type": "array",
                         "items": {
@@ -14703,6 +14706,9 @@
                   "type": "string"
                 },
                 "iabCode": {
+                  "type": "string"
+                },
+                "displayTitle": {
                   "type": "string"
                 },
                 "identifiers": {
@@ -18285,6 +18291,9 @@
                           "iabCode": {
                             "type": "string"
                           },
+                          "displayTitle": {
+                            "type": "string"
+                          },
                           "identifiers": {
                             "type": "array",
                             "items": {
@@ -21853,6 +21862,9 @@
               "iabCode": {
                 "type": "string"
               },
+              "displayTitle": {
+                "type": "string"
+              },
               "identifiers": {
                 "type": "array",
                 "items": {
@@ -25222,6 +25234,9 @@
                   "iabCode": {
                     "type": "string"
                   },
+                  "displayTitle": {
+                    "type": "string"
+                  },
                   "identifiers": {
                     "type": "array",
                     "items": {
@@ -28263,6 +28278,9 @@
                   "type": "string"
                 },
                 "iabCode": {
+                  "type": "string"
+                },
+                "displayTitle": {
                   "type": "string"
                 },
                 "identifiers": {
@@ -32931,6 +32949,9 @@
               "iabCode": {
                 "type": "string"
               },
+              "displayTitle": {
+                "type": "string"
+              },
               "identifiers": {
                 "type": "array",
                 "items": {
@@ -33160,6 +33181,9 @@
             "type": "string"
           },
           "iabCode": {
+            "type": "string"
+          },
+          "displayTitle": {
             "type": "string"
           },
           "identifiers": {
@@ -33635,6 +33659,9 @@
                       "type": "string"
                     },
                     "iabCode": {
+                      "type": "string"
+                    },
+                    "displayTitle": {
                       "type": "string"
                     },
                     "identifiers": {
