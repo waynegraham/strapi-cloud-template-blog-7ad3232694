@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-08T00:17:00.113Z",
+  "generatedAt": "2026-06-08T01:07:02.030Z",
   "sourceRecordCount": 650,
   "observedFieldCount": 41,
   "counts": {
-    "mapped": 23,
-    "planned": 12,
+    "mapped": 24,
+    "planned": 11,
     "ignored": 6
   },
   "unmapped": [],
@@ -239,9 +239,9 @@
     {
       "sourceField": "Sub-gallery",
       "populatedRecords": 36,
-      "status": "planned",
-      "target": "sub-gallery.nameEn",
-      "notes": "Needs Sub-gallery content type and relation to Gallery/Work."
+      "status": "mapped",
+      "target": "work.gallery",
+      "notes": "Creates a child Gallery and assigns the Work to it; falls back to Gallery when empty."
     },
     {
       "sourceField": "Title of Object",

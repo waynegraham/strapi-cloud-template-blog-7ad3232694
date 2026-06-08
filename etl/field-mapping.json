@@ -158,9 +158,9 @@
       "reason": "Source workflow field."
     },
     "Sub-gallery": {
-      "status": "planned",
-      "target": "sub-gallery.nameEn",
-      "notes": "Needs Sub-gallery content type and relation to Gallery/Work."
+      "status": "mapped",
+      "target": "work.gallery",
+      "notes": "Creates a child Gallery and assigns the Work to it; falls back to Gallery when empty."
     },
     "Title of Object": {
       "status": "mapped",

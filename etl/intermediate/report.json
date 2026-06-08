@@ -532,17 +532,23 @@
       "material": "60 stools"
     }
   ],
+  "gallery_hierarchy": {
+    "section_assignments": 36,
+    "unique_sections": 9,
+    "missing_parent": [],
+    "duplicate_child_names": []
+  },
   "source_field_coverage": {
     "accounted": [
       {
         "source_field": "Artist Biography for the Islamic Arts Biennale",
-        "status": "planned",
+        "status": "mapped",
         "target": "agent.biographyEn",
         "notes": "Biography belongs on Agent; needs artist/agent matching beyond writer/curator extraction."
       },
       {
         "source_field": "Artist Biography for the Islamic Arts Biennale AR",
-        "status": "planned",
+        "status": "mapped",
         "target": "agent.biographyAr",
         "notes": "Arabic biography belongs on Agent; needs artist/agent matching beyond writer/curator extraction."
       },
@@ -726,9 +732,9 @@
       },
       {
         "source_field": "Sub-gallery",
-        "status": "planned",
-        "target": "sub-gallery.nameEn",
-        "notes": "Needs Sub-gallery content type and relation to Gallery/Work."
+        "status": "mapped",
+        "target": "work.gallery",
+        "notes": "Creates a child Gallery and assigns the Work to it; falls back to Gallery when empty."
       },
       {
         "source_field": "Title of Object",
@@ -759,8 +765,8 @@
     "unmapped": [],
     "configured_but_unobserved": [],
     "counts": {
-      "mapped": 21,
-      "planned": 14,
+      "mapped": 24,
+      "planned": 11,
       "ignored": 6
     }
   }

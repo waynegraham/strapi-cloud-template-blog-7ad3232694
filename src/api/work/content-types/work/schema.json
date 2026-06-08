@@ -70,8 +70,9 @@
     },
     "gallery": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::gallery.gallery"
+      "relation": "manyToOne",
+      "target": "api::gallery.gallery",
+      "inversedBy": "works"
     },
     "institution": {
       "type": "relation",

@@ -234,6 +234,38 @@ async function upsertSimpleRecords(records, stats) {
   return index;
 }
 
+async function upsertGalleries(records, stats) {
+  const galleryIndex = new Map();
+  const topLevel = records.filter((record) => !(record.relations && record.relations.parent));
+  const sections = records.filter((record) => record.relations && record.relations.parent);
+
+  for (const record of topLevel) {
+    const data = stripUndefined(record.request.body.data);
+    const result = await upsertRecord(record, "nameEn", data.nameEn, data, stats);
+    galleryIndex.set(record.key, result);
+  }
+
+  for (const record of sections) {
+    const parentRef = record.relations.parent;
+    const parent = galleryIndex.get(parentRef.key);
+    if (!parent) {
+      stats.skip += 1;
+      console.warn(`Skipping Gallery section ${record.key}; missing parent ${parentRef.key}`);
+      continue;
+    }
+
+    const data = {
+      ...stripUndefined(record.request.body.data),
+      parent: parent.documentId,
+    };
+    const result = await upsertRecord(record, "slug", data.slug, data, stats);
+    galleryIndex.set(record.key, result);
+    stats.relate += 1;
+  }
+
+  return galleryIndex;
+}
+
 async function main() {
   requireEnv();
 
@@ -276,7 +308,7 @@ async function main() {
 
   const agentIndex = await upsertSimpleRecords(agents, stats);
   await attachAgentRoles(agentRoles, agentIndex, roleIndex, stats);
-  await upsertSimpleRecords(galleries, stats);
+  await upsertGalleries(galleries, stats);
   await upsertSimpleRecords(materials, stats);
 
   console.log("Load summary:");

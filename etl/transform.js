@@ -170,6 +170,14 @@ function relationRefs(contentType, keys) {
   return keys.filter(Boolean).map((key) => relationRef(contentType, key));
 }
 
+function galleryKey(value) {
+  return slugify(value);
+}
+
+function gallerySectionKey(parentName, sectionName) {
+  return `${galleryKey(parentName)}--${slugify(sectionName)}`;
+}
+
 function splitArrayField(value) {
   if (Array.isArray(value)) return value.map(compactWhitespace).filter(Boolean);
   const text = compactWhitespace(value);
@@ -294,35 +302,97 @@ function transformMaterials(materials) {
     .sort((a, b) => a.key.localeCompare(b.key));
 }
 
-function transformGalleries(records) {
+function transformGalleries(records, report) {
   const galleries = uniqueByKey(
     records.map((record) => compactWhitespace(record.fields && record.fields.Gallery)).filter(Boolean),
     normalizeKey,
   ).sort((a, b) => a.localeCompare(b, "en", { sensitivity: "base" }));
 
-  return galleries.map((gallery, index) =>
-    buildEndpointRecord("gallery", "galleries", slugify(gallery), {
+  const topLevel = galleries.map((gallery, index) =>
+    buildEndpointRecord("gallery", "galleries", galleryKey(gallery), {
       eyebrowEn: `Gallery ${index + 1}`,
       nameEn: gallery,
+      displayTitle: gallery,
+      slug: galleryKey(gallery),
+      sortOrder: index + 1,
+      level: "gallery",
     }),
   );
-}
 
-function transformSubGalleries(records) {
-  const subGalleries = uniqueByKey(
-    records
-      .map((record) => compactWhitespace(record.fields && record.fields["Sub-gallery"]))
-      .filter(Boolean),
-    normalizeKey,
-  ).sort((a, b) => a.localeCompare(b, "en", { sensitivity: "base" }));
+  const sourceSections = new Map();
+  for (const record of records) {
+    const fields = record.fields || {};
+    const parentName = compactWhitespace(fields.Gallery);
+    const sectionName = compactWhitespace(fields["Sub-gallery"]);
+    if (!sectionName) continue;
 
-  return subGalleries.map((subGallery, index) =>
-    buildEndpointRecord("sub-gallery", "sub-galleries", slugify(subGallery), {
-      title_en: subGallery,
-      slug: slugify(subGallery),
-      sort_order: index + 1,
-    }),
-  );
+    if (!parentName) {
+      report.gallery_hierarchy.missing_parent.push({
+        source_record_id: record.id,
+        section_name: sectionName,
+      });
+      continue;
+    }
+
+    const key = gallerySectionKey(parentName, sectionName);
+    const existing = sourceSections.get(key);
+    if (existing && existing.sectionName !== sectionName) {
+      report.gallery_hierarchy.duplicate_child_names.push({
+        parent_name: parentName,
+        normalized_child_key: key,
+        child_names: uniqueByKey([existing.sectionName, sectionName], normalizeKey),
+      });
+      continue;
+    }
+
+    if (!existing) {
+      sourceSections.set(key, { key, parentName, sectionName });
+    }
+  }
+
+  const sectionsByParent = new Map();
+  for (const section of sourceSections.values()) {
+    const parentKey = galleryKey(section.parentName);
+    if (!sectionsByParent.has(parentKey)) sectionsByParent.set(parentKey, []);
+    sectionsByParent.get(parentKey).push(section);
+  }
+
+  const sections = [];
+  for (const parentSections of sectionsByParent.values()) {
+    parentSections.sort((a, b) =>
+      a.sectionName.localeCompare(b.sectionName, "en", { sensitivity: "base" }),
+    );
+
+    parentSections.forEach((section, index) => {
+      sections.push(
+        buildEndpointRecord(
+          "gallery",
+          "galleries",
+          section.key,
+          {
+            nameEn: section.sectionName,
+            displayTitle: `${section.parentName} / ${section.sectionName}`,
+            slug: section.key,
+            sortOrder: index + 1,
+            level: "section",
+          },
+          {
+            parent: relationRef("gallery", galleryKey(section.parentName)),
+          },
+          {
+            slug: section.key,
+          },
+        ),
+      );
+    });
+  }
+
+  report.gallery_hierarchy.section_assignments = records.filter((record) =>
+    compactWhitespace((record.fields || {})["Sub-gallery"]),
+  ).length;
+  report.gallery_hierarchy.unique_sections = sections.length;
+
+  return [...topLevel, ...sections];
 }
 
 function materialKeysForRecord(fields, materialLookup) {
@@ -394,6 +464,12 @@ function transformWorks(records, materialLookup, fieldMapping) {
     duplicate_iab_codes: [],
     duplicate_source_rows: [],
     missing_material_lookup: [],
+    gallery_hierarchy: {
+      section_assignments: 0,
+      unique_sections: 0,
+      missing_parent: [],
+      duplicate_child_names: [],
+    },
     source_field_coverage: sourceFieldCoverage(records, fieldMapping),
   };
   const iabCounts = new Map();
@@ -480,7 +556,13 @@ function transformWorks(records, materialLookup, fieldMapping) {
             ...agentKeysForRecord(fields, "Writer(s)", "Writer"),
             ...agentKeysForRecord(fields, "Curator(s)", "Curator"),
           ]),
-          gallery: relationRefFromValue("gallery", fields.Gallery),
+          gallery:
+            compactWhitespace(fields["Sub-gallery"]) && compactWhitespace(fields.Gallery)
+            ? relationRef(
+                "gallery",
+                gallerySectionKey(fields.Gallery, fields["Sub-gallery"]),
+              )
+            : relationRefFromValue("gallery", fields.Gallery),
           materials: relationRefs("material", materialRefs),
         },
         { iabCode: primaryIabCode },
@@ -532,9 +614,8 @@ function main() {
   const transformedAgents = transformAgents(agents);
   const people = transformPeople(agents);
   const transformedMaterials = transformMaterials(materials);
-  const galleries = transformGalleries(airtableRecords);
-  const subGalleries = transformSubGalleries(airtableRecords);
   const { works, report } = transformWorks(airtableRecords, materialLookup, fieldMapping);
+  const galleries = transformGalleries(airtableRecords, report);
 
   const files = {
     "agent-roles": writeIntermediate("agent-roles", agentRoles),
@@ -542,7 +623,6 @@ function main() {
     people: writeIntermediate("people", people),
     materials: writeIntermediate("materials", transformedMaterials),
     galleries: writeIntermediate("galleries", galleries),
-    "sub-galleries": writeIntermediate("sub-galleries", subGalleries),
     works: writeIntermediate("works", works),
     duplicates: writeIntermediate("duplicates", report.duplicate_source_rows),
     report: writeIntermediate("report", report),
@@ -565,7 +645,6 @@ function main() {
       "people",
       "materials",
       "galleries",
-      "sub-galleries",
       "works",
     ],
     counts: {
@@ -574,7 +653,11 @@ function main() {
       people: people.length,
       materials: transformedMaterials.length,
       galleries: galleries.length,
-      sub_galleries: subGalleries.length,
+      gallery_sections: report.gallery_hierarchy.unique_sections,
+      gallery_section_assignments: report.gallery_hierarchy.section_assignments,
+      gallery_hierarchy_errors:
+        report.gallery_hierarchy.missing_parent.length +
+        report.gallery_hierarchy.duplicate_child_names.length,
       works: works.length,
       skipped_works: report.skipped.length,
       duplicate_iab_codes: report.duplicate_iab_codes.length,
@@ -595,6 +678,19 @@ function main() {
 
   console.log(`Wrote Strapi intermediate files to ${OUTPUT_DIR}`);
   console.log(JSON.stringify(manifest.counts, null, 2));
+
+  if (manifest.counts.gallery_hierarchy_errors > 0) {
+    process.exitCode = 1;
+  }
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = {
+  galleryKey,
+  gallerySectionKey,
+  transformGalleries,
+  transformWorks,
+};

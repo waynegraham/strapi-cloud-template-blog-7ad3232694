@@ -23,9 +23,24 @@
     "nameAr": {
       "type": "string"
     },
+    "displayTitle": {
+      "type": "string"
+    },
     "slug": {
       "type": "uid",
       "targetField": "nameEn"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "min": 0
+    },
+    "level": {
+      "type": "enumeration",
+      "enum": [
+        "gallery",
+        "section"
+      ],
+      "default": "gallery"
     },
     "coverMedia": {
       "type": "media",
@@ -48,6 +63,24 @@
       "relation": "manyToOne",
       "target": "api::biennale-edition.biennale-edition",
       "inversedBy": "galleries"
+    },
+    "parent": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::gallery.gallery",
+      "inversedBy": "children"
+    },
+    "children": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::gallery.gallery",
+      "mappedBy": "parent"
+    },
+    "works": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::work.work",
+      "mappedBy": "gallery"
     }
   }
 }

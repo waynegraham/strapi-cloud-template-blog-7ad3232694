@@ -587,6 +587,7 @@ export interface ApiGalleryGallery extends Struct.CollectionTypeSchema {
       'manyToOne',
       'api::biennale-edition.biennale-edition'
     >;
+    children: Schema.Attribute.Relation<'oneToMany', 'api::gallery.gallery'>;
     coverMedia: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',
       true
@@ -596,8 +597,11 @@ export interface ApiGalleryGallery extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     descriptionAr: Schema.Attribute.Blocks;
     descriptionEn: Schema.Attribute.Blocks;
+    displayTitle: Schema.Attribute.String;
     eyebrowAr: Schema.Attribute.String;
     eyebrowEn: Schema.Attribute.String;
+    level: Schema.Attribute.Enumeration<['gallery', 'section']> &
+      Schema.Attribute.DefaultTo<'gallery'>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -606,11 +610,20 @@ export interface ApiGalleryGallery extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     nameAr: Schema.Attribute.String;
     nameEn: Schema.Attribute.String;
+    parent: Schema.Attribute.Relation<'manyToOne', 'api::gallery.gallery'>;
     publishedAt: Schema.Attribute.DateTime;
     slug: Schema.Attribute.UID<'nameEn'>;
+    sortOrder: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          min: 0;
+        },
+        number
+      >;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    works: Schema.Attribute.Relation<'oneToMany', 'api::work.work'>;
   };
 }
 
@@ -910,7 +923,7 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
           preset: 'defaultHtml';
         }
       >;
-    gallery: Schema.Attribute.Relation<'oneToOne', 'api::gallery.gallery'>;
+    gallery: Schema.Attribute.Relation<'manyToOne', 'api::gallery.gallery'>;
     iabCode: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;

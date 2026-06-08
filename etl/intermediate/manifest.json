@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T23:04:06.487Z",
+  "generated_at": "2026-06-08T01:07:02.107Z",
   "strapi_api_url": "http://localhost:1337",
   "source": {
     "system": "airtable",
@@ -15,7 +15,6 @@
     "people",
     "materials",
     "galleries",
-    "sub-galleries",
     "works"
   ],
   "counts": {
@@ -23,16 +22,18 @@
     "agents": 31,
     "people": 31,
     "materials": 240,
-    "galleries": 7,
-    "sub_galleries": 9,
+    "galleries": 16,
+    "gallery_sections": 9,
+    "gallery_section_assignments": 36,
+    "gallery_hierarchy_errors": 0,
     "works": 649,
     "skipped_works": 1,
     "duplicate_iab_codes": 30,
     "duplicate_source_rows": 16,
     "missing_material_lookup": 25,
     "accounted_source_fields": 41,
-    "mapped_source_fields": 21,
-    "planned_source_fields": 14,
+    "mapped_source_fields": 24,
+    "planned_source_fields": 11,
     "ignored_source_fields": 6,
     "unmapped_source_fields": 0
   },
@@ -42,7 +43,6 @@
     "people": "intermediate/people.json",
     "materials": "intermediate/materials.json",
     "galleries": "intermediate/galleries.json",
-    "sub-galleries": "intermediate/sub-galleries.json",
     "works": "intermediate/works.json",
     "duplicates": "intermediate/duplicates.json",
     "report": "intermediate/report.json"

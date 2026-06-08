@@ -12,7 +12,11 @@
       "body": {
         "data": {
           "eyebrowEn": "Gallery 1",
-          "nameEn": "AlBidayah"
+          "nameEn": "AlBidayah",
+          "displayTitle": "AlBidayah",
+          "slug": "albidayah",
+          "sortOrder": 1,
+          "level": "gallery"
         }
       }
     },
@@ -31,7 +35,11 @@
       "body": {
         "data": {
           "eyebrowEn": "Gallery 2",
-          "nameEn": "AlMadar"
+          "nameEn": "AlMadar",
+          "displayTitle": "AlMadar",
+          "slug": "almadar",
+          "sortOrder": 2,
+          "level": "gallery"
         }
       }
     },
@@ -50,7 +58,11 @@
       "body": {
         "data": {
           "eyebrowEn": "Gallery 3",
-          "nameEn": "AlMidhallah"
+          "nameEn": "AlMidhallah",
+          "displayTitle": "AlMidhallah",
+          "slug": "almidhallah",
+          "sortOrder": 3,
+          "level": "gallery"
         }
       }
     },
@@ -69,7 +81,11 @@
       "body": {
         "data": {
           "eyebrowEn": "Gallery 4",
-          "nameEn": "AlMukarramah"
+          "nameEn": "AlMukarramah",
+          "displayTitle": "AlMukarramah",
+          "slug": "almukarramah",
+          "sortOrder": 4,
+          "level": "gallery"
         }
       }
     },
@@ -88,7 +104,11 @@
       "body": {
         "data": {
           "eyebrowEn": "Gallery 5",
-          "nameEn": "AlMunawwarah"
+          "nameEn": "AlMunawwarah",
+          "displayTitle": "AlMunawwarah",
+          "slug": "almunawwarah",
+          "sortOrder": 5,
+          "level": "gallery"
         }
       }
     },
@@ -107,7 +127,11 @@
       "body": {
         "data": {
           "eyebrowEn": "Gallery 6",
-          "nameEn": "AlMuqtani"
+          "nameEn": "AlMuqtani",
+          "displayTitle": "AlMuqtani",
+          "slug": "almuqtani",
+          "sortOrder": 6,
+          "level": "gallery"
         }
       }
     },
@@ -126,10 +150,257 @@
       "body": {
         "data": {
           "eyebrowEn": "Gallery 7",
-          "nameEn": "AlMusalla Prize"
+          "nameEn": "AlMusalla Prize",
+          "displayTitle": "AlMusalla Prize",
+          "slug": "almusalla-prize",
+          "sortOrder": 7,
+          "level": "gallery"
         }
       }
     },
     "relations": {}
+  },
+  {
+    "content_type": "gallery",
+    "endpoint": "galleries",
+    "key": "albidayah--kiswah",
+    "match": {
+      "slug": "albidayah--kiswah"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/galleries",
+      "body": {
+        "data": {
+          "nameEn": "Kiswah",
+          "displayTitle": "AlBidayah / Kiswah",
+          "slug": "albidayah--kiswah",
+          "sortOrder": 1,
+          "level": "section"
+        }
+      }
+    },
+    "relations": {
+      "parent": {
+        "content_type": "gallery",
+        "key": "albidayah"
+      }
+    }
+  },
+  {
+    "content_type": "gallery",
+    "endpoint": "galleries",
+    "key": "albidayah--pious-gifts-kawla",
+    "match": {
+      "slug": "albidayah--pious-gifts-kawla"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/galleries",
+      "body": {
+        "data": {
+          "nameEn": "Pious Gifts (KAWLA)",
+          "displayTitle": "AlBidayah / Pious Gifts (KAWLA)",
+          "slug": "albidayah--pious-gifts-kawla",
+          "sortOrder": 2,
+          "level": "section"
+        }
+      }
+    },
+    "relations": {
+      "parent": {
+        "content_type": "gallery",
+        "key": "albidayah"
+      }
+    }
+  },
+  {
+    "content_type": "gallery",
+    "endpoint": "galleries",
+    "key": "albidayah--the-creator",
+    "match": {
+      "slug": "albidayah--the-creator"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/galleries",
+      "body": {
+        "data": {
+          "nameEn": "The Creator",
+          "displayTitle": "AlBidayah / The Creator",
+          "slug": "albidayah--the-creator",
+          "sortOrder": 3,
+          "level": "section"
+        }
+      }
+    },
+    "relations": {
+      "parent": {
+        "content_type": "gallery",
+        "key": "albidayah"
+      }
+    }
+  },
+  {
+    "content_type": "gallery",
+    "endpoint": "galleries",
+    "key": "albidayah--the-guardian",
+    "match": {
+      "slug": "albidayah--the-guardian"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/galleries",
+      "body": {
+        "data": {
+          "nameEn": "The Guardian",
+          "displayTitle": "AlBidayah / The Guardian",
+          "slug": "albidayah--the-guardian",
+          "sortOrder": 4,
+          "level": "section"
+        }
+      }
+    },
+    "relations": {
+      "parent": {
+        "content_type": "gallery",
+        "key": "albidayah"
+      }
+    }
+  },
+  {
+    "content_type": "gallery",
+    "endpoint": "galleries",
+    "key": "almadar--a-curious-explorer",
+    "match": {
+      "slug": "almadar--a-curious-explorer"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/galleries",
+      "body": {
+        "data": {
+          "nameEn": "A Curious Explorer",
+          "displayTitle": "AlMadar / A Curious Explorer",
+          "slug": "almadar--a-curious-explorer",
+          "sortOrder": 1,
+          "level": "section"
+        }
+      }
+    },
+    "relations": {
+      "parent": {
+        "content_type": "gallery",
+        "key": "almadar"
+      }
+    }
+  },
+  {
+    "content_type": "gallery",
+    "endpoint": "galleries",
+    "key": "almadar--arising-from-paper",
+    "match": {
+      "slug": "almadar--arising-from-paper"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/galleries",
+      "body": {
+        "data": {
+          "nameEn": "Arising from Paper",
+          "displayTitle": "AlMadar / Arising from Paper",
+          "slug": "almadar--arising-from-paper",
+          "sortOrder": 2,
+          "level": "section"
+        }
+      }
+    },
+    "relations": {
+      "parent": {
+        "content_type": "gallery",
+        "key": "almadar"
+      }
+    }
+  },
+  {
+    "content_type": "gallery",
+    "endpoint": "galleries",
+    "key": "almadar--faith-practice",
+    "match": {
+      "slug": "almadar--faith-practice"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/galleries",
+      "body": {
+        "data": {
+          "nameEn": "Faith & Practice",
+          "displayTitle": "AlMadar / Faith & Practice",
+          "slug": "almadar--faith-practice",
+          "sortOrder": 3,
+          "level": "section"
+        }
+      }
+    },
+    "relations": {
+      "parent": {
+        "content_type": "gallery",
+        "key": "almadar"
+      }
+    }
+  },
+  {
+    "content_type": "gallery",
+    "endpoint": "galleries",
+    "key": "almadar--gazing-upon-the-stars",
+    "match": {
+      "slug": "almadar--gazing-upon-the-stars"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/galleries",
+      "body": {
+        "data": {
+          "nameEn": "Gazing Upon the Stars",
+          "displayTitle": "AlMadar / Gazing Upon the Stars",
+          "slug": "almadar--gazing-upon-the-stars",
+          "sortOrder": 4,
+          "level": "section"
+        }
+      }
+    },
+    "relations": {
+      "parent": {
+        "content_type": "gallery",
+        "key": "almadar"
+      }
+    }
+  },
+  {
+    "content_type": "gallery",
+    "endpoint": "galleries",
+    "key": "almadar--symbol-object",
+    "match": {
+      "slug": "almadar--symbol-object"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/galleries",
+      "body": {
+        "data": {
+          "nameEn": "Symbol & Object",
+          "displayTitle": "AlMadar / Symbol & Object",
+          "slug": "almadar--symbol-object",
+          "sortOrder": 5,
+          "level": "section"
+        }
+      }
+    },
+    "relations": {
+      "parent": {
+        "content_type": "gallery",
+        "key": "almadar"
+      }
+    }
   }
 ]

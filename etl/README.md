@@ -128,7 +128,6 @@ agents.json
 people.json
 materials.json
 galleries.json
-sub-galleries.json
 works.json
 duplicates.json
 report.json
@@ -187,13 +186,14 @@ agents
 people
 materials
 galleries
-sub-galleries
 works
 ```
 
 `works` should be loaded after `agents`, because works reference agents.
 
-`people`, `materials`, `galleries`, and `sub-galleries` are currently generated as normalized vocabularies for review and future CMS use. The current `work` schema does not relate to all of them.
+`people`, `materials`, and `galleries` are generated as normalized vocabularies.
+Sub-gallery source values are emitted as child Gallery records and related to their
+parent Gallery.
 
 ## Works
 
@@ -216,12 +216,12 @@ Origin / Origin AR    -> originEn / originAr
 Credit Line fields    -> creditLineEn / creditLineAr
 Date / Date AR        -> dateDisplayGregorianEn / dateDisplayGregorianAr
 Gallery               -> gallery relation
-Sub-gallery           -> subGallery
+Sub-gallery           -> child gallery relation (preferred over Gallery when populated)
 Writer(s), Curator(s) -> agentCredits relation references
 ```
 
 The mapping config tracks planned destinations that are not emitted yet. These
-currently include Agent biographies, Curated Stories, Inscriptions, Sub-galleries,
+currently include Agent biographies, Curated Stories, Inscriptions,
 manuscript/object notes, and image/folio-level metadata. Airtable workflow fields
 such as `For Wen to Check` are explicitly ignored.
 
