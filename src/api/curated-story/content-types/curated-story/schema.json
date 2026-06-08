@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "curated_stories",
+  "info": {
+    "singularName": "curated-story",
+    "pluralName": "curated-stories",
+    "displayName": "Curated Story",
+    "description": "Shared editorial stories related to Works and Galleries"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titleEn": {
+      "type": "string",
+      "required": true
+    },
+    "titleAr": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titleEn",
+      "required": true
+    },
+    "essayEn": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "essayAr": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "footnotesEn": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "footnotesAr": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "authors": {
+      "type": "component",
+      "component": "shared.agent-credit",
+      "repeatable": true
+    },
+    "works": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::work.work",
+      "inversedBy": "curatedStories"
+    },
+    "galleries": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::gallery.gallery",
+      "inversedBy": "curatedStories"
+    },
+    "sortOrder": {
+      "type": "integer",
+      "min": 0
+    }
+  }
+}

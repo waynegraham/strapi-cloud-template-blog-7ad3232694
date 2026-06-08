@@ -81,6 +81,12 @@
       "relation": "oneToMany",
       "target": "api::work.work",
       "mappedBy": "gallery"
+    },
+    "curatedStories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::curated-story.curated-story",
+      "mappedBy": "galleries"
     }
   }
 }

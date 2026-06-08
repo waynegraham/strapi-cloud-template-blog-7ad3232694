@@ -1,0 +1,791 @@
+[
+  {
+    "content_type": "curated-story",
+    "endpoint": "curated-stories",
+    "key": "the-guardian",
+    "match": {
+      "slug": "the-guardian"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/curated-stories",
+      "body": {
+        "data": {
+          "titleEn": "THE GUARDIAN",
+          "slug": "the-guardian",
+          "essayEn": "<p>**THE GUARDIAN **</p>\n<p>The Holy Qur’an, chapter Al-Hajj (22:78)</p>\n<p>“It is He Who has named you Muslims both before and in this (the Qur’an), and the Messenger may be a witness over you and you be witnesses over mankind! So perform As-Salât, give Zakât and hold fast to Allâh. He is your Maulâ, what an Excellent Maulâ and what an Excellent Helper!”</p>\n<p>The corollary of Allah’s majesty is mankind’s humility. Humility lies at the very heart of Islam—the word ‘Islam’ means ‘submission’. In the daily ritual of prayer—whether individual or communal—Muslims express that submission by performing physical prostrations as part of their worship. For those who believe, Allah is their Guardian.</p>\n<p>The following three artists reflect on prayer and the bonds of community.</p>\n<p>Prayer is a private and silent ritual, yet it is also a collective and communal act. It is shared not only with those standing side-by-side but also with the millions around the world who are praying at that very moment.</p>\n<p>Oriented towards Makkah al-Mukarramah, Nour Jaouda’s installation seeks to evoke the symbolic act of prayer. It is formed of three textiles draped to represent the integral postures of prayer—bowing, kneeling and prostration. A heavenward gaze is reflected in the projecting metal gates of the installation, while the humility, fragility, and imperfections of human existence are symbolized by the three frayed prayer mats.</p>\n<p>Hayat Osamah’s work, installed in a long passage, twists different textiles together into a skein. Meshed into a gigantic arch, the sculpture reflects the close-knit spirit and customs of the artist’s densely populated neighborhood in Riyadh, notable for its ubiquitous use of textiles. Simultaneously the sculpture symbolizes the connectedness of Muslim communities across the world.</p>\n<p>This theme about the significance of community also runs through Nafas, the installation by Saeed Gebaan. He employs golden filaments rising and falling, inhaling and exhaling in harmony—in a collective breath—to celebrate how Muslim worship is an act that transcends the boundaries of language and dialects.</p>",
+          "sortOrder": 1
+        }
+      }
+    },
+    "relations": {
+      "authors": [
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "ana-salazar-herrera"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "ana-salazar-herrera--writer"
+          },
+          "sortOrder": 1
+        }
+      ],
+      "works": [
+        {
+          "content_type": "work",
+          "key": "25-g1-01-5034--recojoTvbjSQYdjo4"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g1-02-5042--recoarZxOdT1bLrSd"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g1-08-5044--recNTV3QeG9qJh5oj"
+        }
+      ],
+      "galleries": [
+        {
+          "content_type": "gallery",
+          "key": "albidayah--the-guardian"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "curated-story",
+    "endpoint": "curated-stories",
+    "key": "the-creator",
+    "match": {
+      "slug": "the-creator"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/curated-stories",
+      "body": {
+        "data": {
+          "titleEn": "THE CREATOR",
+          "slug": "the-creator",
+          "essayEn": "<p>**THE CREATOR **</p>\n<p>The Holy Qur’an, chapter Al-Fussilat (41:11)</p>\n<p>“Allah created heaven when it was smoke, and heaven and earth obeyed him willingly…”</p>\n<p>In expressively succinct fashion the Holy Qur’an conveys the creation of the cosmos, and the subservience of all to Allah.</p>\n<p>Witness to the connection between heaven and earth is the Black Stone set into the southeastern corner of the Ka‘bah. The stone remains on the building but is represented here by a silver mount that once protected it.</p>\n<p>In this section, two art installations explore cosmogony—that transformation of “smoke”—and the initiation of cosmic, celestial, geological, and human time.</p>",
+          "sortOrder": 2
+        }
+      }
+    },
+    "relations": {
+      "authors": [
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "ana-salazar-herrera"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "ana-salazar-herrera--writer"
+          },
+          "sortOrder": 1
+        },
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "dr-yahya-nurgat"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "dr-yahya-nurgat--writer"
+          },
+          "sortOrder": 2
+        },
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "dr-bilal-badat"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "dr-bilal-badat--writer"
+          },
+          "sortOrder": 3
+        },
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "sarah-al-abdali"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "sarah-al-abdali--writer"
+          },
+          "sortOrder": 4
+        }
+      ],
+      "works": [
+        {
+          "content_type": "work",
+          "key": "25-g1-03-5025--recsNSxaEzvHy3eMZ"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g1-04-0126--recPGMnZjOAUr86rS"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g1-05-0127--recQk9gjgX7r2IZMY"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g1-06-5054--rec3VAsZ0WAkKABqM"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g1-07-5108--recCpoOJlcbEzTELD"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g1-07-5124--rectNjBWCNmBhyRjj"
+        }
+      ],
+      "galleries": [
+        {
+          "content_type": "gallery",
+          "key": "albidayah--the-creator"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "curated-story",
+    "endpoint": "curated-stories",
+    "key": "priceless-treasures-of-the-endowment-libraries",
+    "match": {
+      "slug": "priceless-treasures-of-the-endowment-libraries"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/curated-stories",
+      "body": {
+        "data": {
+          "titleEn": "Priceless Treasures of the Endowment Libraries",
+          "slug": "priceless-treasures-of-the-endowment-libraries",
+          "essayEn": "<p>**Priceless Treasures of the Endowment Libraries**</p>\n<p>(by DR. FAHAD MUBARAK ALWAHBI)</p>\n<p>Al-Madinah al-Munawwarah—a revered destination for Muslims—is home to a rich legacy of intellectual and scholarly tradition. A cornerstone of this legacy is the practice of waqf (endowment), which provides a sustainable and long-term mechanism for the preservation of valuable assets and their dedication to the public good. The benefit of these assets extends far beyond their original owners, with donors dedicating their profits—whether from property and real estate such as ribats (hostels), or movable objects like books and Qur’ans—to serve the broader community. This practice is exemplified in the history of the Two Holy Mosques, especially in Madinah, where over 100 endowment libraries flourished around the Prophet’s Mosque. These libraries, which greatly enriched the cultural and intellectual landscape of Madinah, stand as a compelling testament to the transmission and exchange of knowledge, underscoring their immense value.</p>\n<p>Traditionally, books and manuscripts were registered in the names of their patrons, as seen in numerous examples bearing multiple inscriptions from various regions of the Islamic world. As a manuscript embarked on a unique journey, passing from owner to owner, library to library, and city to city, it often acquired notations along the way—until it found its final resting place, in our case Madinah. This journey is a critical focus for researchers, offering insights into the accuracy of manuscripts, ancient trade routes, and historical centers of learning and culture.</p>\n<p>Recognizing Madinah’s profound importance to Muslims, the leadership of Saudi Arabia embarked on an expansion of the area surrounding the Prophet’s Mosque to better serve the needs of worshippers. This transformative development, aimed at enhancing access and accommodating larger congregations, necessitated the relocation of many adjacent buildings and endowment libraries in the mosque’s vicinity. To preserve and house the priceless manuscripts and other treasures from these libraries, the King Abdulaziz Library was established under the direction of His Royal Highness Prince Faisal bin Salman bin Abdulaziz Al Saud. Over time, as the expansion works continued, the library itself grew and relocated to a new facility in 2015, now known as the King Abdulaziz Waqf Libraries Assembly. Today, this complex houses 64 endowment libraries in their entirety.</p>\n<p>Among the most notable collections transferred were the treasures of the Al-Rawdhah Al-Sharifah, which had long received gifts and precious offerings from around the world. The Al-Rawdhah Al-Sharifah collection includes gilded copper candlesticks and gold embroidered velvet textiles that once adorned the Rawdhah and the Prophet’s Mosque. It also features exquisite cabinets gifted by Princess Aminah Hanim, daughter of Hantamkan Ilhami Pasha and wife of the late Tawfiq Pasha, Khedive of Egypt. These cabinets are crafted from the finest oak wood and inlaid with mother-of-pearl and ivory. The collection is crowned by a set of Qur’ans endowed to the Prophet’s Mosque and its visitors.</p>\n<p>The treasures of the King Abdulaziz Complex for Endowment Libraries include numerous historic libraries that shaped the cultural and social history of Madinah. Among them is the library of Arif Hikmet, who collected one of the rarest and most significant manuscript collections from Madinah, Makkah, and various Arab and Islamic regions. His collection includes books he personally endowed, bearing his seal: “From what was donated by the humble worshipper seeking his generous Lord, Ahmed Arif bin Hikmet Allah bin Ismat Allah al-Husaini.” The collection also contains books donated by his wife, Fatimah al-Zahra Kujuk Khanum. The library earned high praise from Muhammad Kurd ‘Ali (AH 1372–1293/1876–1953 CE), who described it as follows:</p>\n<p>_“Perhaps the finest library [...] both in its organization and the quality of its collection, is the library of Arif Hikmet Efendi. It contains about ten thousand volumes, written by renowned calligraphers.... This library offers readers an unparalleled level of assistance and care for their comfort, surpassing even the Khedivial Library in Egypt during our time.”_</p>\n<p>Also among the complex’s collections is one of the oldest libraries, the Mahmudiyyah Library. Initially housed in the Madrasah al-Ashrafiyah established by Al Ashraf Qaitbay in AH 887/1482 CE, the library continued to operate until it was renewed and renamed Al Mahmoudiah after Sultan Mahmud II, who renovated it in AH 1237/1821 CE. Other holdings within the complex include the Madrasah al-Shifa Library, the ribat of ‘Uthman bin ‘Affan, the Library of Abdulqadir al-Jaza’iri, as well as the ribat of Qara Bash and Bashir Agha.</p>\n<p>I have discussed our ongoing efforts to preserve the invaluable legacy of endowment libraries and our commitment to integrating new technologies and broadening access. A more recent example of these efforts is the library of Sheikh Jaafar bin Ibrahim Faqih (d. AH 1411/1991 CE), a prominent figure from Madinah, which was transferred in its entirety to the complex. Even its plaque was carefully preserved for scholars and researchers.</p>\n<p>Along with its regional collections, the complex houses valuable holdings from across the Kingdom, including the collection of Dr. Abdul Rahman Al Ansari, the renowned archaeologist who discovered the Archaeological site of Qaryat Al Faw, among others.</p>\n<p>The manuscripts and contents of the endowment libraries are accessible through a public digital repository, which currently lists 16,000 works. The complex is also dedicated to the restoration and preservation of manuscripts from both private and public collections. Its management actively works to raise awareness of its invaluable holdings and the importance of endowment libraries.</p>\n<p>As part of these efforts, the complex regularly participates in local and regional bookfairs and engages in high–profile cultural initiatives, such as the Islamic Arts Biennale, in both its first and second editions.</p>\n<p>**Pious Gifts**<br>(By Dr. Marcus Fraser)</p>\n<p>The Qur’an manuscripts in this section embody a moving and profoundly spiritual tradition, where the faithful from every corner of the Muslim world offered their most cherished scripture to the Prophet’s Mosque and other institutions in Al-Madinah al-Munawwarah. Presenting Qur’an manuscripts enabled visitors and designated readers to select a copy to recite during their time in this hallowed space. The donors usually inscribed their copy with a heartfelt prayer that God will bestow the spiritual reward of recitation to the reciter, the benefactor, their families, and faithful believers worldwide.</p>\n<p>With examples ranging from western and central North Africa to the eastern edges of the present-day Chinese province of Xinjiang, the manuscripts underline the widespread origin of donations to the holy city.</p>\n<p>These manuscripts are arranged into the following sections, each highlighting a particular theme:<br>1\\. A distinctive tradition in the Maghrib<br>2\\. A shared aesthetic<br>3\\. Notable donors<br>4\\. A chain of tradition<br>5\\. From Iran and the distant East</p>",
+          "sortOrder": 3
+        }
+      }
+    },
+    "relations": {
+      "authors": [
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "dr-marcus-fraser"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "dr-marcus-fraser--writer"
+          },
+          "sortOrder": 1
+        },
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "dr-fahad-mubarak-alwahbi"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "dr-fahad-mubarak-alwahbi--writer"
+          },
+          "sortOrder": 2
+        },
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "dr-bilal-badat"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "dr-bilal-badat--writer"
+          },
+          "sortOrder": 3
+        }
+      ],
+      "works": [
+        {
+          "content_type": "work",
+          "key": "25-g2-04-0344--rec9wmoDBDAUhBcxd"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g2-04-0837--recFTbwbVWwkGJtIg"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g2-04-0860--recQfRkHLpdDAF4L2"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g2-04-0861--recq4oSOdRUssKbAn"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g2-05-0336--recC7Qt3tnJL8r99U"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g2-05-0339--recTsJMStUcCFyYQG"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g2-06-0343--rechbCgXStQNXX2ml"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g2-06-0836--rec4pYNx3Q4mTDjA5"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g2-06-0859--recPSgCGB7g3XbCdH"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g2-07-0337--recsOjj1ftXKMxEUb"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g2-07-0340--recU3p42wwybSkEEM"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g2-07-0341--recDmI0bKOtRBNDcU"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g2-07-0342--rechjCk9U1Mp9aMvo"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g2-08-0335--recDRcvgkczbRhMTy"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g2-08-0838--recftZHMdsGI8yT9Y"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g2-08-0862--recyZ7LzUJ1OUYGdk"
+        }
+      ],
+      "galleries": [
+        {
+          "content_type": "gallery",
+          "key": "albidayah--pious-gifts-kawla"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "curated-story",
+    "endpoint": "curated-stories",
+    "key": "gazing-upon-the-stars",
+    "match": {
+      "slug": "gazing-upon-the-stars"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/curated-stories",
+      "body": {
+        "data": {
+          "titleEn": "Gazing Upon the Stars",
+          "titleAr": "نجـــــــــوم السّـــــــــماء ومنـــــــــازل القـــــــــمر",
+          "slug": "gazing-upon-the-stars",
+          "essayEn": "<p>**Title: **Gazing Upon the Stars<br>**Institution Collaboration: **Vatican Apostolic Library, Museum of Islamic Art, Doha. Victoria and Albert Museum. History of Science Museum, University of Oxford** **</p>\n<p>Abdulrahman al-Sufi (AH 291–376/903–86 CE) was an Abbasid-era astronomer from Rayy, Iran, who served at the court of the Buyid ruler known as Adud al-Dawla AH 324–72/936–83 CE. Of his various surviving works, the most renowned is a study of the magnitudes of the stars of the Greek cosmos as described by Ptolemy in the Almagest. This work, the Kitab Suwar al-Kawakib al-Thabitah (Book of the Images of the Fixed Star Constellations) is a book of firsts, of structural innovations that kept it engaging and relevant, ensuring its broad dissemination and driving its translation into various languages—Eastern and Western.</p>\n<p>Al-Sufi was the first to insert figural star maps taken from a celestial globe alongside Ptolemy’s updated tables of celestial coordinates,**1** recognizing that the scale of a globe lent itself to the scale of a codex, the loss of curvature notwithstanding. The transfer to paper of the figural drawings is significant as paper is relatively cheap, abundant, and easy to carry, unlike a heavy globe. In this sense, Al-Sufi brought Ptolemy’s cosmos into a format that almost anyone could copy and afford. After all, the Suwar al-Kawakib was intended as a manual for stargazers, not as a work for training professional astronomers.</p>\n<p>The drawings appear in mirror image (sky and globe views), aiding the stargazer to relate what they read to what they could see in nature. In this sense, the work served as an empirical experience—Al-Sufi famously recommends that the book be held above the head while observing the night sky directly. At the same time, his work was narrative and speculative. Al-Sufi was the first to overlay the anwa’, or rain stars, from the indigenous traditions of the Arabian Peninsula, over the Greek star constellations, creating a binary knowledge system of the sky. The anwa’ tradition was collected by earlier writers, like Ibn Qutaibah, who made a systematic review of the Arabic poetic corpus to uncover hundreds of stars.2 However, Al-Sufi was the first to reconcile them with the Greek system.</p>\n<p>Interestingly, Al-Sufi knew perfectly well how to draw a flat projection—over the course of his life he wrote three treatises on the construction of astrolabes—but his drawings were never integrated with the gridlines of ecliptic latitude and longitude, an aspect of his work some historians have viewed as a flaw. Instead, his drawings represent a distinct class of images within the Islamic tradition, without groundlines, foreground, or background, and which stay within the bounds of a particular visual encoding of knowledge. As images, they draw on Hellenistic, Sasanian, and local traditions, which vary in every copy. The annotations to the drawings are largely concerned with the Ptolemaic numbering system for each constellation, as reflected in tables, and the names of the anwa’ stars and asterisms. It is the reader or star-gazer who must take the three elements—the coordinates in the tables, the descriptions of magnitude in the text, and the pairs of drawings—and unify them into a single, cognitive system.</p>",
+          "essayAr": "<p>العنوان: نجـــــــــوم السّـــــــــماء ومنـــــــــازل القـــــــــمر</p>\n<p>المؤسسات المشاركة: مكتبة الفاتيكان الأبوستولية<br>متحف الفن الإسلامي، الدوح، متحف فكتوريا وألبرت ،مكتبة متحف تاريخ العلوم، جامعة أكسفورد</p>\n<p>عبدالرحمن الصوفي (291-376هـ/903-986م) هو عالم فَلَك من العهد العباسي من منطقة الرَّيّ في إيران، عمل في بلاط الحاكم البُوَيْهي عَضُد الدولة (324-372هـ/936-983م)، وله مؤلَّفات رائدة، على رأسها كتاب «صور الكواكب الثابتة»، الذي يُعَدّ دراسةً لأقدار نجوم الكون اليوناني كما أوردها بطليموس في مؤلَّفه «المجسطي». تميَّز هذا الكتاب بكونه إضافة علميّة قيّمة؛ مما أتاح له انتشاراً واسعاً وترجمات متعدّدة إلى لغات شرقية وغربية.</p>\n<p>كان الصوفي أول من دمج الخرائط النجمية التصويرية المستمَدّة من الكرة السماوية مع جداول بطليموس مُحَدَّثة للإحداثيات الفَلَكية،1 مستفيداً من توافق مقياس الكرة مع المخطوط، رغم غياب انحناءاتها. وتمثِّل هذه النقلة إلى الورق إنجازاً فارقاً، إذ إنّ الورق خفيف ومتوافر وسهل الحمل، على عكس الكرة السماوية الثقيلة. بهذا التجديد العلمي؛ جعل الصوفي الكون البطلمي في متناول الجميع، فكان كتاب «صور الكواكب» دليلاً لهواة رصد النجوم، وليس مخصَّصاً لتدريب الفلكيين المتمرِّسين.</p>\n<p>تَظهر الرسومات في هيئة معكوسة (عرض السماء والكُرة)، مما يمكِّن مراقب النجوم من ربط ما يقرؤه بما يراه في السماء. وفي هذا الإطار، يصبح الكتاب تجربة حسّية فريدة، إذ اشتهر الصوفي بنصيحته برفع الكتاب فوق الرأس أثناء رصد السماء ليلاً. ومع ذلك، يزاوِج عمله بين السّردية والتأمُّل. كان الصوفي أول من دمج نظام الأنواء، أو «نجوم المطر» المستوحى من تقاليد شبه الجزيرة العربية، مع مجموعات النجوم اليونانية؛ ليبتكر نظاماً ثنائيّاً للمعرفة السماوية. ورغم أن تقليد الأنواء سبق أن جمعه كُتّاب آخرون، مثل ابن قتيبة الذي استخلص مئات النجوم من الشعر العربي،2 فإن الصوفي كان السبّاق إلى التوفيق بينه وبين النظام اليوناني.</p>\n<p>الجدير بالذكر أن الصوفي أتقن رسم الإسقاط المسطَّح -فقد كتب خلال حياته ثلاث رسائل حول صناعة الأسطرلابات- غير أن رسوماته لم تُدمَج مع خطوط شبكة البروجية، وهو جانب اعتبره بعض المؤرِّخين نقصاً في عمله. بدلاً من ذلك، جاءت رسوماته كفئةٍ مميَّزةٍ في التراث الإسلامي، تخلو من خطوط الأرض والمقدِّمة والخلفيّة، وتلتزم بتشفير بصري فريد للمعرفة. استَلهمت هذه الرسومات عناصرها من التقاليد الهلنستية والساسانية والمحلّية، والتي اختلفت تفاصيلها بين النُّسَخ. تُركِّز التعليقات المرافقة للرسومات على نظام الترقيم البطلمي لكل مجموعةٍ نجميةٍ، كما يَظهر في الجداول، بالإضافة إلى أسماء نجوم الأنواء وتجمُّعاتها. ويبقى على القارئ أو مراقب النجوم دمج العناصر الثلاثة -الإحداثيات في الجداول، ووصف أقدار النجوم في النص، والرسومات الثنائية- لصياغتها في نظام معرفي متكامل.</p>",
+          "footnotesEn": "<p>**1**.He updated Ptolemy’s stellar longitudes from the year 137 to 964 CE by adding 12° and 42' to Ptolemy’s.<br>**2**.Abu Muhammad Abdullah bin Muslim Ibn Qutayba al-Dinawari, Kitab al-Anwa’ (fi Mawasim al-‘Arab) (Hyderabad: Matba‘at Majlis Da’irat al-Ma‘arif al-‘Uthmaniyyah, 1956); Paul Kunitzsch, Untersuchungen zur Sternnomenklatur der Araber (Wiesbaden: Otto Harrassowitz, 1961).</p>",
+          "footnotesAr": "<p>1- قام بتحديث الطوالع النجمية لبطليموس من عام 137 حتى عام 964 للميلاد، مضيفاً 12 درجة و42 دقيقة إلى قياسات بطليموس.</p>\n<p>2- أبو محمد عبد الله بن مسلم ابن قتيبة الدينوري، «كتاب الأنواء (في مواسم العرب)» (حيدر آباد: مطبعة مجلس دائرة المعارف العثمانية، 1956)؛ بول كونيتزش،«دراسات في تسمية النجوم عند العرب» (فيسبادن: أوتو هاراسوفتز، 1961).</p>",
+          "sortOrder": 4
+        }
+      }
+    },
+    "relations": {
+      "authors": [
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "dr-heather-ecker"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "dr-heather-ecker--writer"
+          },
+          "sortOrder": 1
+        }
+      ],
+      "works": [
+        {
+          "content_type": "work",
+          "key": "25-g3-02-0176--recDCx8VBPI51QhkW"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g3-02-0265--rec7TsCM01YeVXoJt"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g3-03-0085--recUVSPNrBCqEwaNd"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g3-03-0175--reckLnx4fM4eOEXHy"
+        }
+      ],
+      "galleries": [
+        {
+          "content_type": "gallery",
+          "key": "almadar"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "curated-story",
+    "endpoint": "curated-stories",
+    "key": "gazing-upon-the-stars-2",
+    "match": {
+      "slug": "gazing-upon-the-stars-2"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/curated-stories",
+      "body": {
+        "data": {
+          "titleEn": "Gazing Upon the Stars",
+          "titleAr": "نجـــــــــوم السّـــــــــماء ومنـــــــــازل القـــــــــمر",
+          "slug": "gazing-upon-the-stars-2",
+          "essayEn": "<p>**Title: **Gazing Upon the Stars<br>**Institution Collaboration: **Vatican Apostolic Library, Museum of Islamic Art, Doha. Victoria and Albert Museum. History of Science Museum, University of Oxford** **</p>\n<p>Abdulrahman al-Sufi (AH 291–376/903–86 CE) was an Abbasid-era astronomer from Rayy, Iran, who served at the court of the Buyid ruler known as Adud al-Dawla AH 324–72/936–83 CE. Of his various surviving works, the most renowned is a study of the magnitudes of the stars of the Greek cosmos as described by Ptolemy in the Almagest. This work, the Kitab Suwar al-Kawakib al-Thabitah (Book of the Images of the Fixed Star Constellations) is a book of firsts, of structural innovations that kept it engaging and relevant, ensuring its broad dissemination and driving its translation into various languages—Eastern and Western.</p>\n<p>Al-Sufi was the first to insert figural star maps taken from a celestial globe alongside Ptolemy’s updated tables of celestial coordinates,**1** recognizing that the scale of a globe lent itself to the scale of a codex, the loss of curvature notwithstanding. The transfer to paper of the figural drawings is significant as paper is relatively cheap, abundant, and easy to carry, unlike a heavy globe. In this sense, Al-Sufi brought Ptolemy’s cosmos into a format that almost anyone could copy and afford. After all, the Suwar al-Kawakib was intended as a manual for stargazers, not as a work for training professional astronomers.</p>\n<p>The drawings appear in mirror image (sky and globe views), aiding the stargazer to relate what they read to what they could see in nature. In this sense, the work served as an empirical experience—Al-Sufi famously recommends that the book be held above the head while observing the night sky directly. At the same time, his work was narrative and speculative. Al-Sufi was the first to overlay the anwa’, or rain stars, from the indigenous traditions of the Arabian Peninsula, over the Greek star constellations, creating a binary knowledge system of the sky. The anwa’ tradition was collected by earlier writers, like Ibn Qutaibah, who made a systematic review of the Arabic poetic corpus to uncover hundreds of stars.2 However, Al-Sufi was the first to reconcile them with the Greek system.</p>\n<p>Interestingly, Al-Sufi knew perfectly well how to draw a flat projection—over the course of his life he wrote three treatises on the construction of astrolabes—but his drawings were never integrated with the gridlines of ecliptic latitude and longitude, an aspect of his work some historians have viewed as a flaw. Instead, his drawings represent a distinct class of images within the Islamic tradition, without groundlines, foreground, or background, and which stay within the bounds of a particular visual encoding of knowledge. As images, they draw on Hellenistic, Sasanian, and local traditions, which vary in every copy. The annotations to the drawings are largely concerned with the Ptolemaic numbering system for each constellation, as reflected in tables, and the names of the anwa’ stars and asterisms. It is the reader or star-gazer who must take the three elements—the coordinates in the tables, the descriptions of magnitude in the text, and the pairs of drawings—and unify them into a single, cognitive system.</p>",
+          "essayAr": "<p>العنوان: نجـــــــــوم السّـــــــــماء ومنـــــــــازل القـــــــــمر</p>\n<p>المؤسسات المشاركة: مكتبة الفاتيكان الأبوستولية<br>متحف الفن الإسلامي، الدوح، متحف فكتوريا وألبرت ،مكتبة متحف تاريخ العلوم، جامعة أكسفورد</p>\n<p>عبدالرحمن الصوفي (291-376هـ/903-986م) هو عالم فَلَك من العهد العباسي من منطقة الرَّيّ في إيران، عمل في بلاط الحاكم البُوَيْهي عَضُد الدولة (324-372هـ/936-983م)، وله مؤلَّفات رائدة، على رأسها كتاب «صور الكواكب الثابتة»، الذي يُعَدّ دراسةً لأقدار نجوم الكون اليوناني كما أوردها بطليموس في مؤلَّفه «المجسطي». تميَّز هذا الكتاب بكونه إضافة علميّة قيّمة؛ مما أتاح له انتشاراً واسعاً وترجمات متعدّدة إلى لغات شرقية وغربية.</p>\n<p>كان الصوفي أول من دمج الخرائط النجمية التصويرية المستمَدّة من الكرة السماوية مع جداول بطليموس مُحَدَّثة للإحداثيات الفَلَكية،1 مستفيداً من توافق مقياس الكرة مع المخطوط، رغم غياب انحناءاتها. وتمثِّل هذه النقلة إلى الورق إنجازاً فارقاً، إذ إنّ الورق خفيف ومتوافر وسهل الحمل، على عكس الكرة السماوية الثقيلة. بهذا التجديد العلمي؛ جعل الصوفي الكون البطلمي في متناول الجميع، فكان كتاب «صور الكواكب» دليلاً لهواة رصد النجوم، وليس مخصَّصاً لتدريب الفلكيين المتمرِّسين.</p>\n<p>تَظهر الرسومات في هيئة معكوسة (عرض السماء والكُرة)، مما يمكِّن مراقب النجوم من ربط ما يقرؤه بما يراه في السماء. وفي هذا الإطار، يصبح الكتاب تجربة حسّية فريدة، إذ اشتهر الصوفي بنصيحته برفع الكتاب فوق الرأس أثناء رصد السماء ليلاً. ومع ذلك، يزاوِج عمله بين السّردية والتأمُّل. كان الصوفي أول من دمج نظام الأنواء، أو «نجوم المطر» المستوحى من تقاليد شبه الجزيرة العربية، مع مجموعات النجوم اليونانية؛ ليبتكر نظاماً ثنائيّاً للمعرفة السماوية. ورغم أن تقليد الأنواء سبق أن جمعه كُتّاب آخرون، مثل ابن قتيبة الذي استخلص مئات النجوم من الشعر العربي،2 فإن الصوفي كان السبّاق إلى التوفيق بينه وبين النظام اليوناني.</p>\n<p>الجدير بالذكر أن الصوفي أتقن رسم الإسقاط المسطَّح -فقد كتب خلال حياته ثلاث رسائل حول صناعة الأسطرلابات- غير أن رسوماته لم تُدمَج مع خطوط شبكة البروجية، وهو جانب اعتبره بعض المؤرِّخين نقصاً في عمله. بدلاً من ذلك، جاءت رسوماته كفئةٍ مميَّزةٍ في التراث الإسلامي، تخلو من خطوط الأرض والمقدِّمة والخلفيّة، وتلتزم بتشفير بصري فريد للمعرفة. استَلهمت هذه الرسومات عناصرها من التقاليد الهلنستية والساسانية والمحلّية، والتي اختلفت تفاصيلها بين النُّسَخ. تُركِّز التعليقات المرافقة للرسومات على نظام الترقيم البطلمي لكل مجموعةٍ نجميةٍ، كما يَظهر في الجداول، بالإضافة إلى أسماء نجوم الأنواء وتجمُّعاتها. ويبقى على القارئ أو مراقب النجوم دمج العناصر الثلاثة -الإحداثيات في الجداول، ووصف أقدار النجوم في النص، والرسومات الثنائية- لصياغتها في نظام معرفي متكامل.</p>",
+          "footnotesEn": "<p>**1**.He updated Ptolemy’s stellar longitudes from the year 137 to 964 CE by adding 12° and 42' to Ptolemy’s.<br>**2**.Abu Muhammad Abdullah bin Muslim Ibn Qutayba al-Dinawari, Kitab al-Anwa’ (fi Mawasim al-‘Arab) (Hyderabad: Matba‘at Majlis Da’irat al-Ma‘arif al-‘Uthmaniyyah, 1956); Paul Kunitzsch, Untersuchungen zur Sternnomenklatur der Araber (Wiesbaden: Otto Harrassowitz, 1961).</p>",
+          "footnotesAr": "<p>1- قام بتحديث الطوالع النجمية لبطليموس من عام 137 حتى عام 964 للميلاد، مضيفاً 12 درجة و42 دقيقة إلى قياسات بطليموس.</p>\n<p>2- أبو محمد عبد الله بن مسلم ابن قتيبة الدينوري، «كتاب الأنواء (في مواسم العرب)» (حيدر آباد: مطبعة مجلس دائرة المعارف العثمانية، 1956)؛ بول كونيتزش،«دراسات في تسمية النجوم عند العرب» (فيسبادن: أوتو هاراسوفتز، 1961).</p>",
+          "sortOrder": 5
+        }
+      }
+    },
+    "relations": {
+      "authors": [
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "dr-heather-ecker"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "dr-heather-ecker--writer"
+          },
+          "sortOrder": 1
+        }
+      ],
+      "works": [
+        {
+          "content_type": "work",
+          "key": "25-g3-02-0267--recPhkzLUGU0dhDJW"
+        }
+      ],
+      "galleries": [
+        {
+          "content_type": "gallery",
+          "key": "almadar--gazing-upon-the-stars"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "curated-story",
+    "endpoint": "curated-stories",
+    "key": "the-algorithm-of-genius",
+    "match": {
+      "slug": "the-algorithm-of-genius"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/curated-stories",
+      "body": {
+        "data": {
+          "titleEn": "The Algorithm of Genius",
+          "titleAr": "خـــــــــــوارزميّــــــــــــــة العــــــــــبقريّــــــــــــــــــــة",
+          "slug": "the-algorithm-of-genius",
+          "essayEn": "<p>**Title:** The Algorithm of Genius<br>**Institution Collaboration: **King Abdulaziz Waqf Libraries Assembly, Vatican Apostolic Library, Qatar National Library</p>\n<p>An algorithm is a set of steps to follow in calculations or other problem-solving operations. In Arabic and a host of European languages, the term for these sets of processes comes from the name of Muhammad bin Musa al-Khwarizmi (AH c. 184–232/c. 800–47 CE), a brilliant scholar who worked at the court of the Abbasid ruler Al-Ma’mun in Baghdad (r. AH 198–218/813–33 CE).</p>\n<p>Al-Khwarizmi’s connection to algorithms came about through his writing on the system of numbers developed in India and the complex operations it enabled. Although this numerical system was known to specialists prior to Al-Khwarizmi’s time, his treatise Kitab al-Jam‘ wa-al-Tafriq bi-Hisab al-Hind (Book of Addition and Subtraction According to Indian Calculation) spread it to an even wider audience. The most powerful concept the system introduced was that of positional notation: the idea that the position of a number in its written sequence should indicate its value—whether ones, tens, hundreds, or thousands. In other numeral systems, a symbol or number represented a single, specific value, and so complex numbers could not be easily added, subtracted, multiplied, or divided.**23** The Indian system came to be so strongly associated with Al-Khwarizmi and Arab mathematicians that these numbers came to be called Arabic numerals, and the methods Al-Khwarizmi described for the related operations, such as multiplication, division, and square and cubic root extraction came to be known as khwarizmiyah, or algorithms.</p>\n<p>Al-Khwarizmi’s influence extended to other areas of mathematics as well. The title of another one of his works, Kitab al-Jabr wa-al-Muqabalah (Book of Restoration and Balancing), lent its name to the branch of mathematics that uses abstract symbols rather than specific numbers to perform arithmetical operations. The concept existed before Al-Khwarizmi’s time, but his introduction of the notions of “restoring” and “balancing”—referring to the premise of canceling out like terms on opposite sides of an equation to solve for the variables—was a powerful contribution to the field. Since Al-Khwarizmi’s time, this field of mathematics has been known as al-jabr (algebra).**24**</p>\n<p>Al Khwarizmi also wrote on other topics such as astronomy, including treatises on the astrolabe and the sundial, and geography, making contributions to the world map commissioned by the Abbasid ruler Al-Ma’mun. He was part of the group charged with measuring the length of one degree along a meridian; this measurement was then used to derive a more precise estimate of the Earth’s circumference than was previously known.**25**</p>\n<p>Many of these works had long afterlives in adaptations and translations by later authors. In Europe in particular, his studies would prove influential—the first known translations of Al-Khwarizmi from the 6th century AH/12th century CE would have an enormous impact on mathematicians in England, France, Italy, Norway, and beyond.**26**</p>",
+          "essayAr": "<p>العنوان: خـــــــــــوارزميّــــــــــــــة العــــــــــبقريّــــــــــــــــــــة<br>المؤسسات المشاركة: مجمع الملك عبدالعزيز للمكتبات الوقفية ،مكتبة الفاتيكان الأبوستولية ،مكتبة قطر الوطنية</p>\n<p>الخوارزمية هي مجموعة من الخطوات المتسلسلة التي تُتَّبَع في العمليات الحسابية أو المتعلّقة بحلّ المشكلات.<br>ويعود مصطلح «الخوارزمية» في اللغة العربية وعدد من اللغات الأوروبية إلى اسم العالِم العبقري محمد بن موسى الخُوَارَزْمي (نحو 184-232هـ/800-847م)، الذي بَزَغَ نجمه في عهد الخليفة العباسي المأمون في بغداد (حكم بين عامي 813-833م).</p>\n<p>ارتبط اسم هذا العالِم الجليل بالخوارزميات من خلال كتاباته حول نظام الأرقام الذي نشأ في الهند. ورغم أن هذا النظام كان معروفاً لدى المتخصّصين قبل زمن الخوارزمي، إلا أن كتابه «الجمع والتفريق بحساب الهند» أسهم في نشره بشكلٍ أوسع وأعمق. وقد حمل هذا النظام مفهوماً بالغ الأهمية، وهو الترقيم الموضعي، الذي يعني أن موضع الرقم في تسلسل كتابته يحدِّد قيمته، سواء في خانة الآحاد أو العشرات أو المئات أو الآلاف. كان كل رمز في الأنظمة العددية الأخرى يمثِّل قيمة ثابتة؛ مما جعل إجراء العمليات الحسابية كالجمع والطرح والضرب والقسمة23 على الأعداد المعقَّدة أمراً عسيراً. غير أن النظام العددي الهندي ارتبط بالخوارزمي وعلماء الرياضيات العرب ارتباطاً وثيقاً، حتى عُرفَت هذه الأرقام بمصطلح الأرقام العربية، أما أساليب الخوارزمي في الحساب، كاستخراج الجذور والضرب والقسمة، فأصبحت تُعرَف باسم الخوارزميات.</p>\n<p>لم يتوقَّف تأثير الخوارزمي عند هذا الحدّ، بل إن جزءاً من عنوان أحد مؤلَّفاته وهو كتاب «الجبر والمقابلة»، تحوَّل إلى فرع قائم بذاته من علم الرياضيات، وهو الجبر الذي يعتمد على الرموز المجرَّدة بدلاً من الأعداد المحدَّدة لإجراء العمليات الحسابية. ورغم أن أساس هذا الفرع كان موجوداً قبل زمن الخوارزمي، فإن تقديمه لمفهومي «الإكمال» و«الموازنة» -<br>في إشارة إلى مبدأ إلغاء الحدود المتماثلة على طرفَي المعادلة لحلّها- كان إسهاماً عظيماً في هذا المجال. وأصبح هذا الفرع من الرياضيات يُعرَف باسم «الجبر» منذ زمن الخوارزمي.24</p>\n<p>في عصر الخوارزمي، كان هذا الفرع من الرياضيات يُعرَف باسم الجبر. وقد تجلَّت عبقرية الخوارزمي في امتدادها إلى ميادين أخرى، مثل علم الفلك، حيث تناول في مؤلفاته الأسطرلاب والمِزْوَلة والجغرافيا، وكان له دور بارز في إعداد خريطة العالم التي أوعز الخليفة العباسي المأمون برسمها. ولم يقف عطاؤه عند هذا الحد، بل ساهم في قياس طول الدرجة الواحدة على أحد خطوط الطول، وهي خطوة نوعيّة أسهمت في تحقيق تقديرٍ أكثر دقّةً لمحيط الأرض مقارنةً بما كان معروفاً في ذلك الزمان.25</p>\n<p>واستمرّت أعماله في التأثير على مرّ القرون من خلال الترجمة والاقتباس، حيث حملت ترجماته إلى اللاتينية في القرن السادس الهجري/الثاني عشر الميلادي تأثيراً عميقاً في أوساط علماء الرياضيات في أوروبا. وقد ألهمت دراساته عقولاً لامعةً في إنجلترا وفرنسا وإيطاليا والنرويج وبلدان أخرى.26</p>",
+          "footnotesEn": "<p>**23**.Nadia Ambrosetti, “Algorithmic in the 12th Century: The Carmen de Algorismo by Alexander de Villa Dei,” in 3rd International Conference on History and Philosophy of Computing (HaPoC), ed. F. Gadducci and M. Tavosanis (2016), 71 and 73; Alessandra Petrocchi and Martin Maiden, “Italian Zero: A Comparative History,” Romanische Forschungen 135 (2023): 327-29.<br>**24**.Carl B. Boyer and Uta C. Merzbach, History of Mathematics (John Wiley &amp; Sons, Inc., 1991), 229.<br>**25**.J. L. Berggren, Episodes in the Mathematics of Medieval Islam (Springer, 2016), 9–10.<br>**26**.For a Norse translation, see: Daniel Sloughter, “Algorismus in GKS 1812 4: Transcription and Translation,” Gripla 32 (2021): 73–99.</p>",
+          "footnotesAr": "<p>**23**-  ناديا أمبروسيتي، «الخوارزميات في القرن الثاني عشر: قصيدة 'كرمن دي ألجوريسمو' لألكسندر دي فيلا دي»، ضمن «وقائع المؤتمر الدولي الثالث حول تاريخ وفلسفة الحوسبة (HaPoC)»، تحرير ف. غادوتشي وم. تافوسانيس (2016)، ص 71 و73؛ أليساندرا بيتروكي ومارتن مايدن، «الصفر الإيطالي: تاريخ مقارن»، «الدراسات الرومانسية»، العدد 135 (2023): ص 329-327.<br>**24**- كارل ب. بوير وأوتا ك. ميرزباخ، «تاريخ الرياضيات» (جون وايلي وأبناؤه، 1991)، ص 229.<br>**25**- ج. ل. بيرغرين، «حلقات من رياضيات الإسلام في العصور الوسطى» (سبرينغر، 2016)، ص 10-9.<br>**26**- للحصول على ترجمة نوردية، انظر: دانيال سلوجتر، «ألجوريسموس في مخطوطة GKS 1812 4: تفريغ وترجمة»، «جريبلا»، العدد 32 (2021): ص 99-73.</p>",
+          "sortOrder": 6
+        }
+      }
+    },
+    "relations": {
+      "authors": [
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "dr-marika-sardar"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "dr-marika-sardar--writer"
+          },
+          "sortOrder": 1
+        },
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "dr-heather-ecker"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "dr-heather-ecker--writer"
+          },
+          "sortOrder": 2
+        }
+      ],
+      "works": [
+        {
+          "content_type": "work",
+          "key": "25-g3-15-0222--recYo8oUlKctkipsl"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g3-15-0237--rec7K1JEgm5zQ39F8"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g3-15-0841--reclggHG1k5ka25fM"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g3-57-0268--recIVsUDNd2eqwvsV"
+        }
+      ],
+      "galleries": [
+        {
+          "content_type": "gallery",
+          "key": "almadar"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "curated-story",
+    "endpoint": "curated-stories",
+    "key": "devotion-and-memory",
+    "match": {
+      "slug": "devotion-and-memory"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/curated-stories",
+      "body": {
+        "data": {
+          "titleEn": "Devotion and Memory",
+          "titleAr": "المحـــــــــــــــــــــــــــفوظ والمكــــــــــــــــــــــــــنون",
+          "slug": "devotion-and-memory",
+          "essayEn": "<p>**Title: **Devotion and Memory<br>**Institution Collaboration: **King Abdulaziz Center for World Culture—Ithra, Muslim Board of Uzbekistan, Museum of Islamic Art, Cairo</p>\n<p>These four devotional objects—a minbar (a set of stairs in a mosque from which the imam delivers sermons), leaves from an early Qur’an manuscript, a portable mihrab (usually a niche in the wall of a mosque indicating the direction of prayer), and a pair of inner doors—made for mosques and mausoleums, are preserved today in museum and library collections. Together they provide a tangible sense of the devotions of Muslims across time and place, and a sense of the faith’s spread from the Arabian Peninsula outward into lands where it has flourished for a millennium and a half.</p>\n<p>These objects are also works of art that bear the distinctive hand of the artisans who made them. Each was cherished, either for its intrinsic connection to memory or through the craftsman’s or artist’s knowledge of established traditions. For example, the memory of the Prophets’ minbar endures as a powerful symbol. Crafted by a local carpenter in Al-Madinah al-Munawwarah, its three steps served as the Prophet’s platform for sermons and as a model of prayer for the community. All subsequent minbars echo and evolve from this first example.</p>\n<p>Through their abiding presence among believers at prayer, these objects are, in a sense, witnesses to the deep spiritual connection with the practice and tradition of the Divine Revelation that defines a Muslim’s life.</p>",
+          "essayAr": "<p>العنوان: المحـــــــــــــــــــــــــــفوظ والمكــــــــــــــــــــــــــنون<br>المؤسسات المشاركة: مركز الملك عبدالعزيز الثقافي العالمي - إثراء ،إدارة مسلمي أوزبكستان ،متحف الفن الإسلامي</p>\n<p>تضمّ هذه المقتنيات الدينية أربعة عناصر، وهي: المنبر، وأوراق من مخطوطة قرآنية قديمة، ومحراب محمول (يشير إلى اتجاه القِبلة في المسجد)، ودرفتا باب داخليّ، وقد صُنعَت جميعها خصّيصاً للمساجد والمزارات، وهي محفوظة اليوم في المتاحف والمكتبات. وتمنحنا تصوّراً محسوساً لمظاهر العبادة لدى المسلمين، وتُجسِّد انتشار الدعوة من جزيرة العرب إلى الأراضي التي عاش فيها المسلمون على مدى قرن ونصف من الزمن.</p>\n<p>كما أنها أعمال تتجلَّى فيها لَمَسات الصُّنّاع المهرة. وقد نال كلٌّ منها مكانتها؛ بفضل ارتباطها بذكرى كريمة، وارتباطها بالمعارف الفنية والتقاليد المحلّية التي حَفظها الحِرَفيّون والفنانون. فعلى سبيل المثال، منبر النبي ﷺ، الذي بقي رمزاً خالداً، صُنِعَ على يد نجّار من أهل المدينة المنوّرة. وكان هذا المنبر، المكوَّن من ثلاث درجات، يصعد عليه النبي ﷺ في خُطَبه المباركة، وقد أصبحت كل المنابر التي جاءت بعده انعكاساً لهذا النموذج وتطوّراً منه.</p>\n<p>أما بقاء هذه الآثار الشريفة في الأمة على مرِّ العصور فإنما هو شاهدٌ على تنزُّل الوحي في هذه الرحاب المباركة، وإقامة الصلاة، والمشاعر الإيمانية التي تميِّز حياة المسلم.</p>",
+          "sortOrder": 7
+        }
+      }
+    },
+    "relations": {
+      "authors": [
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "dr-heather-ecker"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "dr-heather-ecker--writer"
+          },
+          "sortOrder": 1
+        }
+      ],
+      "works": [
+        {
+          "content_type": "work",
+          "key": "25-g3-16-0165--recNOQ6dKLNxPHnvZ"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g3-16-0166--recXFEFfBzjJE3dSZ"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g3-17-0106--recA4x2QgI45yuYKU"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g3-18-0363--rec8TzOJCZ51iJj9q"
+        }
+      ],
+      "galleries": [
+        {
+          "content_type": "gallery",
+          "key": "almadar"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "curated-story",
+    "endpoint": "curated-stories",
+    "key": "the-cartographer-and-the-king",
+    "match": {
+      "slug": "the-cartographer-and-the-king"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/curated-stories",
+      "body": {
+        "data": {
+          "titleEn": "The Cartographer and the King",
+          "titleAr": "مَلِك ورسّــــــــــــــــام وخـــــــــريطـــــــــــــــــــــة",
+          "slug": "the-cartographer-and-the-king",
+          "essayEn": "<p>**Title:** The Cartographer and the King<br>**Institution Collaboration: **The Bodleian Libraries,University of Oxford,  Factum Foundation</p>\n<p>The medieval geographer Abu Abdullah Muhammad al-Idrisi remains well-known today for his extraordinary study of world geography, the Kitab Nuzhat al-Mushtaq fi Ikhtiraq al-Afaq (The Book of Pleasant Journeys into Faraway Lands), composed in Palermo, Sicily in the mid-6th century AH/12th century CE. He worked at the court of the Norman ruler Roger II (r. AH 524–48/1130–54 CE) on the project, producing both a manuscript text and an engraved, silver map. Al-Idrisi continued to work for several years under Roger’s son and successor, William I (r. AH 548–61/1154–66 CE), before leaving Sicily for good. The Nuzhat al-Mushtaq captures the most detailed vision of the ‘inhabited’ world as it was known at a time when empirical studies were shifting the authority of ancient models. The work was composed collaboratively by a team led by Al-Idrisi to bring knowledge of world geography up to date.</p>\n<p>Despite the details he provided in the Nuzhat al-Mushtaq about his approach and working methods, little is known for certain about Al-Idrisi’s life. It is often repeated that he was born in Ceuta in the Maghrib, but it is more likely that he was born in Sicily or Calabria, probably around AH 493/1100 CE. He was a scion of the Hammudids, a ta’ifah dynasty that ruled Málaga during the first half of the 5th century AH/11th century CE, and through them the Idrisids of Morocco. His father had sought refuge at the court of Roger I in Sicily after the Almoravid conquest of al-Andalus in the late 5th century AH/11th century CE, and so there was a family tie that bound him to the Norman court and to the service and legitimacy of its king from the beginning. It is not certain where he was educated. Al-Idrisi travelled to al-Andalus, which he referred to as “our country,” and to the Maghrib and Ifriqiyya where he carried out research by collecting oral accounts of travelers, supplementing and bringing up to date existing knowledge stored in books—a novel approach, especially for the Islamic west. His date and place of death are also uncertain, but it is likely to have been in AH 571/1175 CE, in Ifriqiyya.**44**</p>\n<p>Roger II ordered a silver “sphere” to be made weighing 400 Roman rottols, a unit of weight between 0.5 and 2.5 kg. Al-Idrisi called the sphere, actually a disk.**45** or planisphere “comprehensive, massive, bulky.” All of the details of countries, coastlines, seas, rivers, roads, and distances Al-Idrisi had compiled were engraved upon the silver disk. It was oriented with the south toward the top and the center at Makkah al-Mukarramah, marking the start of a tradition for the orientation and centering of this kind of world map on a holy city. Destroyed in AH 555/1161 CE, it became a legendary object that Factum Foundation has rematerialized based upon the manuscript copy of the Nuzhat al-Mushtaq housed in the Bodleian Libraries, Oxford.</p>",
+          "essayAr": "<p>العنوان: مَلِك ورسّــــــــــــــــام وخـــــــــريطـــــــــــــــــــــة<br>المؤسسات المشاركة: مكتبات بودليان، جامعة أكسفورد ،مؤسسة فاكتوم</p>\n<p>يُعَدّ أبو عبدالله محمد الإدريسي من أبرز علماء الجغرافيا في العصور الوسطى، ولا يزال اسمه حاضراً إلى يومنا هذا؛ بفضل دراسته الاستثنائية لجغرافيا العالم في كتابه «نزهة المشتاق في اختراق الآفاق»، الذي أتمّه في باليرمو في جزيرة صِقِلِّيَّة، في منتصف القرن السادس الهجري/الثاني عشر الميلادي. عَمِل الإدريسي على هذا المشروع في بلاط الملك النورماني روجر الثاني (524-548هـ/1130-1154م)، حيث كرَّس جهده لتأليف كتاب وتقديم خريطة محفورة على قرص من الفضة. وقد استمرّ في خدمة الملك النورماني لعدة سنوات تحت رعاية خَلَفه وليام الأول (حكم بين عامي 548-561هـ/1154-1166م)، قبل أن يغادر صِقِلِّيَّة دون عودة. يمثِّل كتاب «نزهة المشتاق» رؤية متقدِّمة ودقيقة للعالَم «المأهول» بحسب النظرة السائدة إبّان فترة شهدت تحوّلاً جذريّاً نحو الدراسات التجريبية التي بدأت تتحدَّى النماذج المعرفية التقليدية. وقد أُنجز هذا العمل بفضل جهود جماعية تحت إشراف الإدريسي؛ بهدف تحديث المعرفة بجغرافيا العالم.</p>\n<p>على الرغم من التفاصيل التي قدَّمها الإدريسي في كتابه «نزهة المشتاق» حول منهجه وأساليب عمله، إلّا أن الكثير من جوانب حياته غير معروفة. ورغم شيوع الاعتقاد بأنه وُلد في مدينة سَبْتة بالمغرب، تشير الدلائل الأرجح إلى ولادته في صِقِلِّيَّة أو قِلَّوْرِيَة (كالابريا) حوالي عام 493هـ/1100م. ينتمي الإدريسي إلى سلالة الحَمُّوديّين، إحدى دول الطوائف التي حكمت مالَقة خلال النصف الأول من القرن الخامس الهجري/الحادي عشر الميلادي، والتي ترتبط بالأدارسة في المغرب. وبعد فتح المرابطين للأندلس في أواخر القرن الخامس الهجري/الحادي عشر الميلادي، لجأ والده إلى بلاط روجر الأول في صِقِلِّيَّة؛ مما عزَّز ارتباط العائلة بالبلاط النورماني وبدورها في إضفاء الشرعية على حكمه. لا تُعرَف تفاصيل دقيقة عن مكان تلقّي الإدريسي تعليمه، إلّا أنه زار الأندلس التي وصفها بـ «بلدنا»، إضافةً إلى المغرب ومنطقة أفريقيّة. اعتمد هناك منهجاً مبتكراً لجمع الروايات الشفوية من المسافرين، ومن ثَمَّ استكمال أو تحديث المصادر المدوَّنة، مما مثَّل أسلوباً جديداً في ذلك العصر، ولا سيما في الغرب الإسلامي. أما تاريخ ومكان وفاته، فلا يزال غير معلوم بدقّة، إلا أن المرجَّح أنه توفي في إفريقيّة عام 571هـ/1175م.44</p>\n<p>أمر روجر الثاني بصناعة كرة فضية تزن 400 رطل روماني (وحدة وزن تتراوح بين نصف و2.5 كيلوغرام)، وصفها الإدريسي بأنها «شاملة وضخمة ومهيبة»، وكانت في الواقع قرصاً مسطَّحاً أو خريطة مستوية. وقد نُقشَت على هذا القرص الفضي تفاصيل دقيقة للبلدان والسواحل والبحار والأنهار والطرق والمسافات التي جمعها الإدريسي.45 أُعدَّت الخريطة بحيث يكون الجنوب في الأعلى، وجُعلَت مكة المكرمة مركزاً لها؛ ليكون ذلك بداية تقليد بجعل المدينة المقدَّسة مركزاً للخريطة. تعرَّضت هذه الكرة الفضية للتدمير عام 555هـ/1161م، لكنها اكتسبت عبر الزمن بُعداً أسطوريّاً. وفي وقت لاحق، أعادت مؤسسة فاكتوم إحياءها؛ استناداً إلى نسخة مخطوطة من كتاب «نزهة المشتاق» محفوظة في مكتبات بودليان في مدينة أكسفورد.</p>",
+          "footnotesEn": "<p>**44**. J. Ducène, “Al-Idrīsī, Abū ʿAbdallāh,” in Encyclopaedia of Islam Three Online, ed. K. Fleet, G. Krämer, D. Matringe, J. Nawas, and D. J. Stewart (Brill, 2018).<br>**45**. Muhammad al-Idrisi, Al-Idrisi’s Norman Kingdom in the South: The Book of Roger in Translation, ed. and trans. Katherine Jacka, Ahmed Fatima Kzzo, Matt King, and Sherif Abdelkarim (Arc Humanities Press, 2024).</p>",
+          "footnotesAr": "<p>**44**- ج. دوسين، «الإدريسي، أبو عبد الله»، ضمن «دائرة المعارف الإسلامية، الطبعة الثالثة»، تحرير ك. فليت، ج. كرامر، د. ماترينج، ج. نواز، ود. ج. ستيوارت (بريل، 2018).<br>**45**- محمد الإدريسي، «مملكة الإدريسي النورمانية في الجنوب: كتاب روجر مترجماً»، تحرير وترجمة كاثرين جاكا، أحمد فاطمة كزو، مات كينغ، وشريف عبد الكريم (أرك هيومانتيز برس، 2024).</p>",
+          "sortOrder": 8
+        }
+      }
+    },
+    "relations": {
+      "authors": [
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "dr-heather-ecker"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "dr-heather-ecker--writer"
+          },
+          "sortOrder": 1
+        }
+      ],
+      "works": [
+        {
+          "content_type": "work",
+          "key": "25-g3-32-0032--recI1i3gVKm00xsRs"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g3-63-0067--recNEmmUa2MCGrj0q"
+        }
+      ],
+      "galleries": [
+        {
+          "content_type": "gallery",
+          "key": "almadar"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "curated-story",
+    "endpoint": "curated-stories",
+    "key": "a-curious-explorer",
+    "match": {
+      "slug": "a-curious-explorer"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/curated-stories",
+      "body": {
+        "data": {
+          "titleEn": "A Curious Explorer",
+          "titleAr": "فضـــــــــــــــــــــول الرَّحَّــــــــــــــــــــال",
+          "slug": "a-curious-explorer",
+          "essayEn": "<p>**Title: **A Curious Explorer<br>**Institution Collaboration: **Vatican Apostolic Library, Qatar National Library** **</p>\n<p>“For mine is a heart whose very depths longed to travel…” —Evliya Çelebi**57**</p>\n<p>These two extraordinary maps, each approximately 5 meters in length, have been attributed to the remarkable Evliya Çelebi (AH 1020–c. 1097/1611–c. 1685 CE). Fired by an insatiable curiosity to see the world and a desire to experience its many cultures in all their fascinating diversity, Çelebi spent 40 years traveling. Because of his family’s connection to the Ottoman court, where he himself was raised and educated, he was able to make these journeys in the company of the army or with the support of local officials. These wanderings took him first through the many neighborhoods of Istanbul where he lived, and then further afield through other parts of Türkiye, as well as to Azerbaijan, Armenia, Syria, Palestine, Arabia, Egypt, Iraq, Russia, Crimea, Hungary, Austria, and Greece.**58 **</p>\n<p>Settling down in Cairo towards the end of his life, Çelebi set about gathering his travel notes into a memoir called the Seyahatname (Book of Travels). Alongside this extensive ten-volume written log, it is believed the two maps shown here were drawn as a visual record of Çelebi’s voyages. The maps themselves survived into the 14th century AH/20th century CE without any name or signature, and for many years it was unclear when or by whom they were made. Scholars eventually connected the maps with Çelebi, as they represent the places he visited during his travels along the Nile, Tigris, and Euphrates rivers. Moreover, the descriptions of the locations marked on the maps closely align with those in the Seyahatname. Since the handwriting on the maps differs from Çelebi’s, as known from other documents, it has been suggested that they were drawn by an assistant working closely with him.**59**</p>\n<p>As a cartographic exercise, the maps depict the physical relationships—though not precise distances or locations—between the cities, rivers, mountains, and other features. While they are not to scale, they follow contemporary mapping conventions, reflecting relative locations. Elevation views of named cities, villages, and geographical features are included,**60** alongside occasional traditional representations, such as the depiction of the Nile River’s source. These maps also differ in detail from earlier Turkish mappings of the region, such as Piri Reis’ 10th-century AH/16th-century CE maps of the Nile and Cairo, or Ebu Bekr bin Behram ed-Dimaşki’s 11th-century AH/17th-century CE documentation of the Nile. These are considered yet further indications that the maps were made specifically for the Seyahatname and based on Çelebi’s observations.**61**</p>",
+          "essayAr": "<p>العنوان: فضـــــــــــــــــــــول الرَّحَّــــــــــــــــــــال<br>المؤسسات المشاركة: مكتبة الفاتيكان الأبوستولية ،مكتبة قطر الوطنية</p>\n<p>«فإنَّ لي قلباً يَتُوق من أعماقه للسفر...» —أوليا جلبي57</p>\n<p>تُنسَبُ هاتان الخريطتان الاستثنائيّتان، اللتان يبلغ طول كلِّ منهما حوالي خمسة أمتار، إلى الشخصية الفذَّة أوليا جلبي (حوالي 1020-1097هـ/1611-1685م). وقد أمضى جلبي أربعين عاماً من عمره في التَّرحال مدفوعاً بشَغَفٍ لا يعرف الحدود لرؤية العالم، ورغبةٍ عميقةٍ في التعرُّف على ثقافاته المتنوّعة واكتشاف سحرها الآسر. وبفضل انتماء عائلته إلى بلاط الدولة العثمانية؛ حيث ترعرع وتلقّى تعليمه، أُتيح له السفر برفقة الجيش أو بدعمٍ من المسؤولين المحلّيّين. وقد قادَه ترحاله أولاً إلى أحياء إسطنبول، حيث عاش، ثم إلى بقاعٍ أوسع تشمل تركيا وأذربيجان وأرمينيا وسوريا وفلسطين والحجاز ومصر والعراق وروسيا والقِرِم والمَجَر والنمسا واليونان.58</p>\n<p>استقرّ جلبي في القاهرة في آخر حياته، وبدأ في جمع مذكّراته عن أسفاره التي عُرفَت باسم «سِياحَتْنامَهْ» (كتاب الأسفار).<br>وإلى جانب هذا السِّجِلّ المكتوب الشامل في عشرة مجلدات، يُعتقَد أنّ الخريطتين المعروضتين هنا قد رُسمتا كتسجيلٍ بصري لرحلاته.</p>\n<p>بقيت هذه الخرائط صامدة حتى القرن الرابع عشر الهجري/العشرين الميلادي من دون أن تحمل اسماً أو توقيعاً يكشف عن هويّتها، وظلَّت لفترة طويلة لغزاً فيما يتعلّق بزمن إعدادها وصانعها. غير أن العلماء تمكِّنوا لاحقاً من ربطها برحلات جلبي، إذ تصوِّر الأماكن التي زارها خلال أسفاره على طول نهر النيل ودجلة والفرات. كما أن وصف المواقع المرسومة على الخرائط يتطابق بشكلٍ وثيقٍ مع ما ورد في كتابه «سياحتنامه». ولأن الخط الذي رُسمت به الخرائط يختلف عن خط جلبي المعروف من وثائق أخرى، فقد فسَّر الباحثون ذلك بأن من رسمها كان مساعداً مقرَّباً عمل تحت إشرافه.59</p>\n<p>تعكس هذه الخرائط العلاقات المكانية بين المدن والأنهار والجبال والمعالم الأخرى، وإن لم تكن دقيقةً في تحديد المسافات أو المواقع. وعلى الرغم من افتقارها لمقياس ثابت، إلّا أنها التزمت بتقاليد رسم الخرائط المعاصرة لذلك العصر، مظهِرةً المواقع النسبية. وتتضمَّن الخرائط أيضاً إسقاطات عمودية للمدن والقرى والمعالم الجغرافية المذكورة،60 إلى جانب رموز تقليدية تَظهر أحياناً، مثل تصوير منبع نهر النيل. تختلف هذه الخرائط في تفاصيلها عن تلك التركية السابقة لنفس المنطقة، مثل خرائط بيري ريس من القرن العاشر الهجري/السادس عشر الميلادي لنهر النيل والقاهرة، أو وثائق أبي بكر بن بهرام الدمشقي من القرن الحادي عشر الهجري/السابع عشر الميلادي لنهر النيل. وتُظهِر هذه الفروقات أن هذه الخرائط أُعِدَّت خصّيصاً لكتاب «سياحتنامه»، واستندت إلى ملاحظات جلبي الدقيقة.61</p>",
+          "footnotesEn": "<p>**57.**Evliya Çelebi, Seyhatname 10, translated in Robert Dankoff, Nuran Tezcan, and Michael D. Sheridan, Ottoman Explorations of the Nile, Evliya Çelebi’s ‘Matchless Pearl These Reports of the Nile’ Map and His Accounts of the Nile and the Horn of Africa in The Book of Travels (Gingko Library, 2018), 195. Original Turkish text: Zîrâ derûn-u dilden o câniblerin seyâhatin bu dil ârzû ëderdi (For this heart longed from the depths to undertake the journey (in) this direction); Evliya Çelebi, Seyahatnamesi: Mısır, Sudan, Habeş (1672–1680) (Devlet Basımevi, 1938), 775.</p>\n<p>**58.**Robert Dankoff, An Ottoman Mentality: The World of Evliya Celebi (Brill, 2004), 1-6.</p>\n<p>**59.**Ettore Rossi, “A Turkish Map of the Nile River, about 1685,” Imago Mundi 6 (1946): 73–75; and Dankoff et al., Ottoman Explorations of the Nile, 22.</p>\n<p>**60.**Compare these maps to those described in A.T. Karamustafa, “Military, Administrative, and Scholarly Maps and Plans,” in The History of Cartography, Vol. 2, Book 1.</p>\n<p>**61.**Dankoff et al., Ottoman Explorations, 15–18.</p>",
+          "footnotesAr": "<p>**57**- أوليا جلبي، «سياحت نامه» 10، ترجمة روبرت دانكوف، نوران تِزجان، ومايكل د. شيريدان، «الاستكشافات العثمانية لنهر النيل: 'اللؤلؤة الفريدة' لأوليا جلبي»، «مكتبة جينغو»، 2018، ص 195. النص التركي الأصلي: «زيراً درون-و ديلدن أو جانبلرين سياحتن بو ديل آرزو إيدردي» (لأن هذا القلب كان يتوق من أعماقه للقيام بهذه الرحلة (في) هذا الاتجاه)؛ أوليا جلبي، «سياحت نامه: مصر، السودان، الحبشة (1680-1672)» (دار الطباعة الحكومية، 1938)، ص 775.</p>\n<p>**58**- روبرت دانكوف، «عقلية عثمانية: عالم أوليا جلبي» (بريل، 2004)، ص 6-1.</p>\n<p>**59**- إيتوري روسي، «خريطة عثمانية لنهر النيل، حوالي 1685»، «إيماغو موندي»، العدد 6 (1946): ص 75-73؛ ودانكوف وآخرون، «الاستكشافات العثمانية لنهر النيل»، ص 22.</p>\n<p>**60**- قارن هذه الخرائط بتلك المذكورة في: أ. ت. كرمستفا، «الخرائط والخطط العسكرية والإدارية والعلمية»، ضمن «تاريخ رسم الخرائط»، المجلد 2، الكتاب 1.</p>\n<p>**61**- دانكوف وآخرون، «الاستكشافات العثمانية»، ص 18-15.</p>",
+          "sortOrder": 9
+        }
+      }
+    },
+    "relations": {
+      "authors": [
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "dr-marika-sardar"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "dr-marika-sardar--writer"
+          },
+          "sortOrder": 1
+        }
+      ],
+      "works": [
+        {
+          "content_type": "work",
+          "key": "25-g3-50-0276--recu7yvZdE3B65gWi"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g3-51-0220--recLqPn0h6yeuec8C"
+        }
+      ],
+      "galleries": [
+        {
+          "content_type": "gallery",
+          "key": "almadar--a-curious-explorer"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "curated-story",
+    "endpoint": "curated-stories",
+    "key": "the-alhambra-as-a-living-monument",
+    "match": {
+      "slug": "the-alhambra-as-a-living-monument"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/curated-stories",
+      "body": {
+        "data": {
+          "titleEn": "The Alhambra as a living monument",
+          "titleAr": "قصر الحمراء: نصب تذكاري ينبض بالحياة ومصدر للإلهام",
+          "slug": "the-alhambra-as-a-living-monument",
+          "essayEn": "<p>**Title: **The Alhambra as a living monument<br>and source of artistic inspiration</p>\n<p>The Museum of the Alhambra, Granada and the Victoria and Albert Museum, London present an exploration of Nasrid-era geometric aesthetics and their reception by the British architect Owen Jones (AH 1223–90/1809–74 CE), who studied the Alhambra’s ornamental schemes in an attempt to understand its underlying design principles.<br>The Alhambra was built iteratively from at least the 5th century AH/11th century CE, when it was the site of a Zirid military fortress. From AH 633 to 897/1236 to 1492 CE, the Nasrid family developed it extensively, building a new fortress (al-qasabah) and a royal city equipped with palaces, mosques, gardens, irrigation systems as well as workshops to supply its needs. Surrounded by a fortified curtain wall, the Alhambra became a world apart, a site for artistic expression, where pattern, color and the written and spoken word were integrated into the study of optics, physics and emotional effect. Today, the Alhambra still evokes a perception of striking beauty.<br>Owen Jones arrived at the Alhambra in AH 1249/1834 CE together with a friend, the French architect Jules Goury. A cholera epidemic enforced a six-month stay during which the two men studied the design principles on which the Alhambra’s unique ornament was based, painstakingly drawing every inch of the palaces in an informed and realistic style.<br>The V&amp;A holds an important collection of Owen Jones’s drawings, which formed the foundation for his landmark publications, Plans, Elevations, Sections and Details of the Alhambra (1842–1845) and The Grammar of Ornament (1856). By reuniting these seminal drawings with the Alhambra objects that inspired them, this presentation celebrates Jones’ meticulous work and role in inspiring an enduring fascination for the Alhambra style amongst artists and architects alike.</p>",
+          "essayAr": "<p>العنوان: قصر الحمراء: نصب تذكاري ينبض بالحياة ومصدر للإلهام</p>\n<p>يُقدِّم متحف الحمراء في غرناطة ومتحف فيكتوريا وألبرت في لندن، استكشافاً للجماليات الهندسية في عصر بني نصر، ودراستها من قِبل المهندس المعماري البريطاني أوين جونز (1223-1290هـ/1809-1874م)، الذي انكبّ على مخططات الزخارف في قصر الحمراء في محاولة لفهم المبادئ التصميمية التي بُنيت عليها.</p>\n<p>تم بناء قصر الحمراء بشكل متدرِّج منذ القرن الخامس الهجري/الحادي عشر الميلادي على أقل تقدير، عندما كان موقعاً لقلعة عسكرية زيرية. وخلال الفترة بين عامي 633-897هـ/1236-1492م، قام بنو نصر بتطويره بشكل واسع النطاق، فشيّدوا حصناً جديداً (القصبة) ومدينة ملكية تضم القصور والمساجد والحدائق وأنظمة الري وورش العمل لتلبية احتياجاتها. محاطاً بجدار محصّن، أصبح قصر الحمراء بمثابة عالم قائم بذاته وموقع للتعبير الفني، تتداخل فيه الأنماط والألوان والنصوص المكتوبة والمنطوقة مع دراسات البصريات والفيزياء والجوانب العاطفية. ويستمر قصر الحمراء إلى يومنا هذا في بعث إحساسٍ بالجمال المذهل.</p>\n<p>وصل أوين جونز إلى قصر الحمراء عام 1249هـ/1834م رفقة صديقه المهندس المعماري الفرنسي جول جوري. وأدى انتشار وباء الكوليرا إلى إقامة طويلة استمرت ستة أشهر، عمل خلالها الاثنان على دراسة المبادئ التصميمية التي استندت إليها الزخارف الفريدة لقصر الحمراء، ورسم كل شبر من القصور بأسلوب واقعي ودقيق.</p>\n<p>يضم متحف فيكتوريا وألبرت مجموعة مهمة من رسومات أوين جونز، التي شكّلت أساساً لأهم مؤلفاته «مخططات وواجهات ومقاطع وتفاصيل قصر الحمراء» (1842-1845م) و«قواعد الزخرفة» (1856م). ومن خلال إعادة جمع هذه الرسومات الأساسية مع القطع الفنية من قصر الحمراء التي ألهمتها، يحتفي هذا العرض التقديمي بعمل جونز الدقيق ودوره في إلهام مستمر بأسلوب الحمراء بين الفنانين والمهندسين المعماريين.</p>",
+          "sortOrder": 10
+        }
+      }
+    },
+    "relations": {
+      "authors": [
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "dr-heather-ecker"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "dr-heather-ecker--writer"
+          },
+          "sortOrder": 1
+        },
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "dr-mariam-rosser-owen"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "dr-mariam-rosser-owen--writer"
+          },
+          "sortOrder": 2
+        },
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "dr-purificacion-marinetto-sanchez"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "dr-purificacion-marinetto-sanchez--writer"
+          },
+          "sortOrder": 3
+        }
+      ],
+      "works": [
+        {
+          "content_type": "work",
+          "key": "25-g4-76-0206--recxUkIimkNtzWGLs"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g4-76-0254--recmuitnWLuhCq7ig"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g4-79-0260--recLtNDIn6WFSxKRC"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g4-80-0209--recYmPrQlfZmOJJxj"
+        }
+      ],
+      "galleries": [
+        {
+          "content_type": "gallery",
+          "key": "almadar"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "curated-story",
+    "endpoint": "curated-stories",
+    "key": "arising-from-paper",
+    "match": {
+      "slug": "arising-from-paper"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1337/api/curated-stories",
+      "body": {
+        "data": {
+          "titleEn": "Arising from Paper",
+          "titleAr": "بُنيــــــــــــان من وَرَق",
+          "slug": "arising-from-paper",
+          "essayEn": "<p>**Title: **Arising from Paper<br>**Institution Collaboration: **Abu Rayhan Beruni Institute of Oriental<br>Studies, Uzbekistan Academy of Sciences<br>The Manuscript Institution of Türkiye (TYEK)</p>\n<p>An enduring question in the history of architecture is how a building concept made its way from the mind of the designer to the craftsmen and then on to its final physical form. Today, architects, engineers, and builders communicate through paper documents and a specialized language of visual notations that indicate the precise measurements of each element in the design, as well as how each trade will contribute to the eventual built structure. However, such information is generally lacking for earlier periods.<br>Materials that offer even a small glimpse into building practices in Iran and Central Asia during the 9th to 11th centuries AH/15th to 17th centuries CE are therefore of immense significance. These materials include several architectural drawings by draftsmen from Bukhara and treatises that attempt to make principles of mathematics, geometry, and design accessible to those engaged in the building arts.<br>The drawings, discovered in a repository in Bukhara in the 1360s AH/1940s CE, were brought to Tashkent for scientific study along with other historical materials from across Uzbekistan. They are now held in the Abu Rayhan Beruni Institute of Oriental Studies and are known collectively as the \"Tashkent Scrolls\". In terms of date and format, they are a disparate group, but the two sets illustrated here appear to be from the 10th century AH/16th century CE. Though now cut into separate pieces and pasted to cardboard, they were once part of continuous scrolls—a format specific to architectural drawings. Surviving scrolls in other collections are attached to a dowel at one end and a leather flap at the other, which allows the scrolls to be rolled, secured, and easily carried. The Tashkent scrolls include floor plans, designs for calligraphic and geometric motifs, and many drawings of muqarnas—a type of architectural decoration widespread in the Islamic world. Connections have been made between the forms they depict and the architecture of the region spanning northeastern Iran, Turkmenistan, and Uzbekistan during the Timurid and post-Timurid period of the 8th to 11th centuries AH/14th to 17th<br>centuries CE.**85**<br>A study of those buildings, and indeed the scrolls themselves, shows a heavy reliance on geometric principles.**86** Clearly, knowledge of geometry was essential for designers of the era. As part of an extraordinary loan to the Islamic Arts Biennale, the scrolls are united for the first time with treatises from The Manuscript Institution of Türkiye that give a sense of the educational material available to builders at the time. Of roughly the same time period and milieu as the scrolls, these treatises provide evidence for the great intellectual energy poured into creating the complex geometric forms that characterize architecture of the period, as well as a glimpse into how these designs were executed.</p>",
+          "essayAr": "<p>العنوان:  بُنيــــــــــــان من وَرَق<br>المؤسسات المشاركة:  معهد أبي الريحان البيروني للدراسات الشرقية، أكاديمية العلوم الأوزبكية، المعهد التركي للمخطوطات</p>\n<p>لطالما أثار سؤالٌ جوهريٌّ اهتمامَ المؤرِّخين في تاريخ العمارة، ألا وهو كيف انتقلت فكرة تصميم المبنى من ذهن المصمِّم إلى أيدي الحرفيِّين، حتى اكتمل في شكله المادي النهائي؟ يتواصل المعماريون والمهندسون والبنّاؤون في العصر الحالي عبر وثائق ورقية ولغة متخصِّصة تستخدم رموزاً بصرية، تُفصِّل الأبعاد الدقيقة لكل عنصر من عناصر التصميم، وتُبيِّن بإحكامٍ دورَ كلِّ صَنعةٍ في المساهمة ببناء الهيكل النهائي، لكننا نفتقر إلى مثل هذه المعلومات عن الفترات الزمنية السابقة.</p>\n<p>ولهذا السبب؛ تكتسب مجموعة من المواد التي تفتح نافذةً على أساليب البناء في إيران وآسيا الوسطى بين القرنين التاسع والحادي عشر الهجريّين/الخامس عشر والسابع عشر الميلاديّين أهميةً استثنائيةً. وتشمل هذه المجموعة عدّة رسومات معمارية من تصميم رسّامين من بخارى، إلى جانب رسائل علمية تشرح مبادئ علوم الرياضيات والهندسة وفنون التصميم، لتضعها في متناول يد الحِرفيّين العاملين في مجال البناء.</p>\n<p>اكتُشفَت هذه الرسومات في مستودعٍ ببخارى خلال العِقد السادس من القرن الرابع عشر الهجري/العِقد الرابع من القرن العشرين الميلادي، وجُلبت إلى طشقند لتخضع للدراسة العلمية إلى جانب مقتنيات تاريخية أخرى من أرجاء أوزبكستان، وهي محفوظة الآن في معهد أبي الريحان البيروني للدراسات الشرقية بطشقند، وأصبحت تُعرَف باسم «مخطوطات طَشْقَنْد». ورغم تباين أزمنتها وأشكالها، تُنسَب مخطوطات المجموعتين الظاهرتين هنا إلى القرن العاشر الهجري/السادس عشر الميلادي. كانت هذه الرسومات، قبل قَصِّها وتثبيتها على ألواح من الورق المقوَّى، جزءاً من مخطوطات متَّصلة، وهو شكل مميَّز للرسومات المعمارية، تُلَفّ عادةً حول محور خشبي من جهة وتُغلَق بغطاء جِلدي من الجهة الأخرى؛ مما يُسهِّل طيَّها ونقلها. تتضمَّن مخطوطات طشقند مخطَّطات أرضية، وتصاميم زخرفية خطية وهندسية، ورسومات عديدة للمُقرنَصات، التي تُعَدّ من أبرز أنماط الزخارف المعمارية التي ازدهرت في العالم الإسلامي. وقد تم الربط بين الأشكال التي تُصوِّرها هذه المخطوطات وعمارة المنطقة الممتدّة من شمال شرق إيران إلى تركمانستان وأوزبكستان خلال العصر التيموري وما تلاه بين القرنيْن الثامن والحادي عشر الهجريّين/الرابع عشر والسابع عشر الميلاديّين.85</p>\n<p>تكشف دراسة هذه المباني، بل وحتى المخطوطات نفسها، عن اعتمادٍ كبيرٍ على المبادئ الهندسية، ومعرفة معمَّقة بعِلم الهندسة.86 وفي إطار إعارةٍ استثنائيةٍ لبينالي الفنون الإسلامية، تجتمع هذه المخطوطات لأول مرة مع رسائل علمية من معهد المخطوطات في تركيا؛ لتُقدِّم إضاءات على المواد التعليمية التي كانت متاحةً للبنّائين في تلك الفترة. تعود هذه الرسائل العلمية إلى الحقبة ذاتها والبيئة التي برزت فيها اللفائف، وتسعى إلى تبسيط مبادئ الرياضيات والهندسة والتصميم للعاملين في فنون البناء، مقدِّمةً دليلاً على الجهد الفكري الكبير المبذول في إنشاء الأشكال الهندسية المعقَّدة التي تميِّز عمارة تلك الحِقبة، ونظرةً على كيفية تنفيذ تلك التصاميم.</p>",
+          "footnotesEn": "<p>**85**. For an important early publication, see: Nikolai Baklanov, “Arkhitekturnye Chertezhi Uzbekskogo Mastera xvi Veka [Architectural drawings of an Uzbek master of the sixteenth century],”Soobshcheniia Instituta Istorii i Teorii Arkhitektury, Akademii Arkhitektury USSR 4 (1944): 1–21.<br>**86**. Elaborated in Lisa Golombek and Donald Wilber, The Timurid Architecture of Iran and Turan (Princeton University Press, 1988), 137–163.</p>",
+          "footnotesAr": "<p>**85**- للاطّلاع على أحد أهم المنشورات المبكرة، انظر: نيكولاي باكلانوف، «المخططات المعمارية لمعلم أوزبكي من القرن السادس عشر»، «تقارير معهد التاريخ والنظريات المعمارية، أكاديمية العمارة في الاتحاد السوفييتي»، العدد 4 (1944): ص 21-1.<br>**86**- ورد بشيءٍ من التفصيل في: ليزا جولومبك ودونالد ويلبر، «العمارة التيمورية في إيران وتوران» (دار نشر جامعة برينستون، 1988)، ص 163-137.</p>",
+          "sortOrder": 11
+        }
+      }
+    },
+    "relations": {
+      "authors": [
+        {
+          "agent": {
+            "content_type": "agent",
+            "key": "dr-marika-sardar"
+          },
+          "agent_role": {
+            "content_type": "agent-role",
+            "key": "dr-marika-sardar--writer"
+          },
+          "sortOrder": 1
+        }
+      ],
+      "works": [
+        {
+          "content_type": "work",
+          "key": "25-g4-89-0005--receWZ7qjSpT4Mf7I"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g4-89-0362--recCVm8WGiUsk0hpu"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g4-100-0894--recX8VhVBw3zomXME"
+        },
+        {
+          "content_type": "work",
+          "key": "25-g4-100-0895--rec8oKVKWJRNHh1nW"
+        }
+      ],
+      "galleries": [
+        {
+          "content_type": "gallery",
+          "key": "almadar--arising-from-paper"
+        }
+      ]
+    }
+  }
+]

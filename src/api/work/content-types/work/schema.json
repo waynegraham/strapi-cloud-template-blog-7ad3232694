@@ -128,6 +128,12 @@
       "relation": "oneToMany",
       "target": "api::iiif-asset.iiif-asset",
       "mappedBy": "work"
+    },
+    "curatedStories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::curated-story.curated-story",
+      "mappedBy": "works"
     }
   }
 }

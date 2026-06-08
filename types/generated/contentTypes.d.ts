@@ -572,6 +572,76 @@ export interface ApiBiennaleEditionBiennaleEdition
   };
 }
 
+export interface ApiCuratedStoryCuratedStory
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'curated_stories';
+  info: {
+    description: 'Shared editorial stories related to Works and Galleries';
+    displayName: 'Curated Story';
+    pluralName: 'curated-stories';
+    singularName: 'curated-story';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    authors: Schema.Attribute.Component<'shared.agent-credit', true>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    essayAr: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    essayEn: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    footnotesAr: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    footnotesEn: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    galleries: Schema.Attribute.Relation<'manyToMany', 'api::gallery.gallery'>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::curated-story.curated-story'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    slug: Schema.Attribute.UID<'titleEn'> & Schema.Attribute.Required;
+    sortOrder: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          min: 0;
+        },
+        number
+      >;
+    titleAr: Schema.Attribute.String;
+    titleEn: Schema.Attribute.String & Schema.Attribute.Required;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    works: Schema.Attribute.Relation<'manyToMany', 'api::work.work'>;
+  };
+}
+
 export interface ApiGalleryGallery extends Struct.CollectionTypeSchema {
   collectionName: 'galleries';
   info: {
@@ -595,6 +665,10 @@ export interface ApiGalleryGallery extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    curatedStories: Schema.Attribute.Relation<
+      'manyToMany',
+      'api::curated-story.curated-story'
+    >;
     descriptionAr: Schema.Attribute.Blocks;
     descriptionEn: Schema.Attribute.Blocks;
     displayTitle: Schema.Attribute.String;
@@ -889,6 +963,10 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     creditLineAr: Schema.Attribute.String;
     creditLineEn: Schema.Attribute.String;
+    curatedStories: Schema.Attribute.Relation<
+      'manyToMany',
+      'api::curated-story.curated-story'
+    >;
     dateDisplayGregorianAr: Schema.Attribute.String;
     dateDisplayGregorianEn: Schema.Attribute.String;
     dateDisplayHijriAr: Schema.Attribute.String;
@@ -1472,6 +1550,7 @@ declare module '@strapi/strapi' {
       'api::agent-role.agent-role': ApiAgentRoleAgentRole;
       'api::agent.agent': ApiAgentAgent;
       'api::biennale-edition.biennale-edition': ApiBiennaleEditionBiennaleEdition;
+      'api::curated-story.curated-story': ApiCuratedStoryCuratedStory;
       'api::gallery.gallery': ApiGalleryGallery;
       'api::global.global': ApiGlobalGlobal;
       'api::iiif-asset.iiif-asset': ApiIiifAssetIiifAsset;

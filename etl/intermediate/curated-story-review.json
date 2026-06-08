@@ -1,0 +1,107 @@
+{
+  "exact_groups": 11,
+  "source_rows": 50,
+  "near_duplicates": [
+    {
+      "reason": "Essays differ in source formatting but normalize to the same text.",
+      "candidates": [
+        {
+          "title_en": "Gazing Upon the Stars",
+          "source_length": 3274,
+          "source_record_ids": [
+            "recDCx8VBPI51QhkW",
+            "rec7TsCM01YeVXoJt",
+            "recUVSPNrBCqEwaNd",
+            "reckLnx4fM4eOEXHy"
+          ]
+        },
+        {
+          "title_en": "Gazing Upon the Stars",
+          "source_length": 3275,
+          "source_record_ids": [
+            "recPhkzLUGU0dhDJW"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata_conflicts": [
+    {
+      "story_key": "the-creator",
+      "field": "authors",
+      "resolution": "All distinct writers were retained as Agent Credits; review possible over-attribution.",
+      "source_record_ids": [
+        "recsNSxaEzvHy3eMZ",
+        "recPGMnZjOAUr86rS",
+        "recQk9gjgX7r2IZMY",
+        "rec3VAsZ0WAkKABqM",
+        "recCpoOJlcbEzTELD",
+        "rectNjBWCNmBhyRjj"
+      ],
+      "values": [
+        "Ana Salazar Herrera",
+        "Dr. Yahya Nurgat",
+        "Dr. Bilal Badat | Sarah Al Abdali"
+      ]
+    },
+    {
+      "story_key": "priceless-treasures-of-the-endowment-libraries",
+      "field": "authors",
+      "resolution": "All distinct writers were retained as Agent Credits; review possible over-attribution.",
+      "source_record_ids": [
+        "rec9wmoDBDAUhBcxd",
+        "recFTbwbVWwkGJtIg",
+        "recQfRkHLpdDAF4L2",
+        "recq4oSOdRUssKbAn",
+        "recC7Qt3tnJL8r99U",
+        "recTsJMStUcCFyYQG",
+        "rechbCgXStQNXX2ml",
+        "rec4pYNx3Q4mTDjA5",
+        "recPSgCGB7g3XbCdH",
+        "recsOjj1ftXKMxEUb",
+        "recU3p42wwybSkEEM",
+        "recDmI0bKOtRBNDcU",
+        "rechjCk9U1Mp9aMvo",
+        "recDRcvgkczbRhMTy",
+        "recftZHMdsGI8yT9Y",
+        "recyZ7LzUJ1OUYGdk"
+      ],
+      "values": [
+        "Dr. Marcus Fraser",
+        "Dr. Fahad Mubarak AlWahbi | Dr. Marcus Fraser",
+        "Dr. Bilal Badat"
+      ]
+    },
+    {
+      "story_key": "the-algorithm-of-genius",
+      "field": "authors",
+      "resolution": "All distinct writers were retained as Agent Credits; review possible over-attribution.",
+      "source_record_ids": [
+        "recYo8oUlKctkipsl",
+        "rec7K1JEgm5zQ39F8",
+        "reclggHG1k5ka25fM",
+        "recIVsUDNd2eqwvsV"
+      ],
+      "values": [
+        "Dr. Marika Sardar",
+        "Dr. Heather Ecker"
+      ]
+    },
+    {
+      "story_key": "the-alhambra-as-a-living-monument",
+      "field": "authors",
+      "resolution": "All distinct writers were retained as Agent Credits; review possible over-attribution.",
+      "source_record_ids": [
+        "recxUkIimkNtzWGLs",
+        "recmuitnWLuhCq7ig",
+        "recLtNDIn6WFSxKRC",
+        "recYmPrQlfZmOJJxj"
+      ],
+      "values": [
+        "Dr. Heather Ecker",
+        "Dr. Mariam Rosser-Owen",
+        "Dr. Heather Ecker | Dr. Purificación Marinetto Sánchez"
+      ]
+    }
+  ]
+}

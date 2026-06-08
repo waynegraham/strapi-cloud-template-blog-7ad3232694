@@ -132,7 +132,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.025Z",
+                          "default": "2026-06-08T11:05:50.029Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -279,7 +279,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.028Z",
+                          "default": "2026-06-08T11:05:50.032Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -339,7 +339,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.027Z",
+                        "default": "2026-06-08T11:05:50.031Z",
                         "type": "string"
                       },
                       "blocks": {
@@ -462,7 +462,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.029Z",
+                          "default": "2026-06-08T11:05:50.033Z",
                           "type": "string"
                         },
                         "blocks": {
@@ -902,7 +902,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T01:27:14.034Z",
+                            "default": "2026-06-08T11:05:50.038Z",
                             "type": "string"
                           },
                           "image": {
@@ -1145,7 +1145,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.052Z",
+                          "default": "2026-06-08T11:05:50.055Z",
                           "type": "string"
                         },
                         "image": {
@@ -1235,7 +1235,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.051Z",
+                        "default": "2026-06-08T11:05:50.054Z",
                         "type": "string"
                       },
                       "image": {
@@ -1591,7 +1591,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.050Z",
+                          "default": "2026-06-08T11:05:50.053Z",
                           "type": "string"
                         },
                         "image": {
@@ -1845,7 +1845,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.054Z",
+                          "default": "2026-06-08T11:05:50.058Z",
                           "type": "string"
                         },
                         "image": {
@@ -1935,7 +1935,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.053Z",
+                        "default": "2026-06-08T11:05:50.057Z",
                         "type": "string"
                       },
                       "image": {
@@ -2190,7 +2190,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.056Z",
+                          "default": "2026-06-08T11:05:50.059Z",
                           "type": "string"
                         },
                         "image": {
@@ -2616,7 +2616,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T01:27:14.059Z",
+                            "default": "2026-06-08T11:05:50.062Z",
                             "type": "string"
                           },
                           "agents": {
@@ -2841,7 +2841,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.063Z",
+                          "default": "2026-06-08T11:05:50.065Z",
                           "type": "string"
                         },
                         "agents": {
@@ -2917,7 +2917,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.063Z",
+                        "default": "2026-06-08T11:05:50.064Z",
                         "type": "string"
                       },
                       "agents": {
@@ -3246,7 +3246,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.061Z",
+                          "default": "2026-06-08T11:05:50.063Z",
                           "type": "string"
                         },
                         "agents": {
@@ -3482,7 +3482,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.065Z",
+                          "default": "2026-06-08T11:05:50.067Z",
                           "type": "string"
                         },
                         "agents": {
@@ -3558,7 +3558,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.064Z",
+                        "default": "2026-06-08T11:05:50.066Z",
                         "type": "string"
                       },
                       "agents": {
@@ -3796,7 +3796,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.066Z",
+                          "default": "2026-06-08T11:05:50.068Z",
                           "type": "string"
                         },
                         "agents": {
@@ -4240,7 +4240,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T01:27:14.069Z",
+                            "default": "2026-06-08T11:05:50.071Z",
                             "type": "string"
                           },
                           "agentCredits": {
@@ -4489,7 +4489,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.081Z",
+                          "default": "2026-06-08T11:05:50.082Z",
                           "type": "string"
                         },
                         "agentCredits": {
@@ -4585,7 +4585,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.081Z",
+                        "default": "2026-06-08T11:05:50.082Z",
                         "type": "string"
                       },
                       "agentCredits": {
@@ -4946,7 +4946,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.079Z",
+                          "default": "2026-06-08T11:05:50.081Z",
                           "type": "string"
                         },
                         "agentCredits": {
@@ -5206,7 +5206,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.084Z",
+                          "default": "2026-06-08T11:05:50.084Z",
                           "type": "string"
                         },
                         "agentCredits": {
@@ -5302,7 +5302,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.083Z",
+                        "default": "2026-06-08T11:05:50.084Z",
                         "type": "string"
                       },
                       "agentCredits": {
@@ -5561,7 +5561,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.085Z",
+                          "default": "2026-06-08T11:05:50.085Z",
                           "type": "string"
                         },
                         "agentCredits": {
@@ -5616,6 +5616,1912 @@
         },
         "tags": [
           "biennale-edition"
+        ]
+      }
+    },
+    "/curated-stories": {
+      "get": {
+        "operationId": "curated-story/get/curated_stories",
+        "parameters": [
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "titleEn",
+                  "titleAr",
+                  "slug",
+                  "essayEn",
+                  "essayAr",
+                  "footnotesEn",
+                  "footnotesAr",
+                  "sortOrder",
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "filters",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "Filters to apply to the query",
+              "type": "object",
+              "propertyNames": {
+                "type": "string",
+                "enum": [
+                  "titleEn",
+                  "titleAr",
+                  "slug",
+                  "essayEn",
+                  "essayAr",
+                  "footnotesEn",
+                  "footnotesAr",
+                  "sortOrder",
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              },
+              "additionalProperties": {}
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "_q",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "string"
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "pagination",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "Pagination parameters",
+              "allOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "withCount": {
+                      "description": "Include total count in response",
+                      "type": "boolean"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                {
+                  "anyOf": [
+                    {
+                      "description": "Page-based pagination",
+                      "type": "object",
+                      "properties": {
+                        "page": {
+                          "description": "Page number (1-based)",
+                          "type": "integer",
+                          "exclusiveMinimum": 0,
+                          "maximum": 9007199254740991
+                        },
+                        "pageSize": {
+                          "description": "Number of entries per page",
+                          "type": "integer",
+                          "exclusiveMinimum": 0,
+                          "maximum": 9007199254740991
+                        }
+                      },
+                      "required": [
+                        "page",
+                        "pageSize"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "description": "Offset-based pagination",
+                      "type": "object",
+                      "properties": {
+                        "start": {
+                          "description": "Number of entries to skip",
+                          "type": "integer",
+                          "minimum": 0,
+                          "maximum": 9007199254740991
+                        },
+                        "limit": {
+                          "description": "Maximum number of entries to return",
+                          "type": "integer",
+                          "exclusiveMinimum": 0,
+                          "maximum": 9007199254740991
+                        }
+                      },
+                      "required": [
+                        "start",
+                        "limit"
+                      ],
+                      "additionalProperties": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "Sort the result",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "titleEn",
+                    "titleAr",
+                    "slug",
+                    "essayEn",
+                    "essayAr",
+                    "footnotesEn",
+                    "footnotesAr",
+                    "sortOrder",
+                    "createdAt",
+                    "updatedAt",
+                    "publishedAt"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "titleEn",
+                      "titleAr",
+                      "slug",
+                      "essayEn",
+                      "essayAr",
+                      "footnotesEn",
+                      "footnotesAr",
+                      "sortOrder",
+                      "createdAt",
+                      "updatedAt",
+                      "publishedAt"
+                    ]
+                  }
+                },
+                {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string",
+                    "enum": [
+                      "titleEn",
+                      "titleAr",
+                      "slug",
+                      "essayEn",
+                      "essayAr",
+                      "footnotesEn",
+                      "footnotesAr",
+                      "sortOrder",
+                      "createdAt",
+                      "updatedAt",
+                      "publishedAt"
+                    ]
+                  },
+                  "additionalProperties": {
+                    "type": "string",
+                    "enum": [
+                      "asc",
+                      "desc"
+                    ]
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "propertyNames": {
+                      "type": "string",
+                      "enum": [
+                        "titleEn",
+                        "titleAr",
+                        "slug",
+                        "essayEn",
+                        "essayAr",
+                        "footnotesEn",
+                        "footnotesAr",
+                        "sortOrder",
+                        "createdAt",
+                        "updatedAt",
+                        "publishedAt"
+                      ]
+                    },
+                    "additionalProperties": {
+                      "type": "string",
+                      "enum": [
+                        "asc",
+                        "desc"
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "description": "Populate a single relation, component, file, or dynamic zone",
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "authors",
+                    "works",
+                    "galleries"
+                  ]
+                },
+                {
+                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "authors",
+                      "works",
+                      "galleries"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "Derived publication cohort: pair-scoped (per documentId+locale), document-scoped variants (-document), or published-slice diagnostics (published-without-draft / published-with-draft)",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "[Deprecated: prefer publicationFilter] Filter documents by whether they have a published version. Use with status=draft to find documents that have never been published",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "documentId": {
+                            "description": "The document ID, represented by a UUID",
+                            "type": "string",
+                            "format": "uuid",
+                            "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                          },
+                          "id": {
+                            "anyOf": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "number"
+                              }
+                            ]
+                          },
+                          "titleEn": {
+                            "description": "A string field",
+                            "type": "string"
+                          },
+                          "titleAr": {
+                            "description": "A string field",
+                            "type": "string"
+                          },
+                          "slug": {
+                            "description": "A UID field",
+                            "type": "string"
+                          },
+                          "essayEn": {
+                            "description": "A richtext field",
+                            "type": "string"
+                          },
+                          "essayAr": {
+                            "description": "A richtext field",
+                            "type": "string"
+                          },
+                          "footnotesEn": {
+                            "description": "A richtext field",
+                            "type": "string"
+                          },
+                          "footnotesAr": {
+                            "description": "A richtext field",
+                            "type": "string"
+                          },
+                          "sortOrder": {
+                            "description": "An integer field",
+                            "type": "integer",
+                            "minimum": -9007199254740991,
+                            "maximum": 9007199254740991
+                          },
+                          "createdAt": {
+                            "description": "A datetime field",
+                            "type": "string"
+                          },
+                          "updatedAt": {
+                            "description": "A datetime field",
+                            "type": "string"
+                          },
+                          "publishedAt": {
+                            "description": "A datetime field",
+                            "default": "2026-06-08T11:05:50.088Z",
+                            "type": "string"
+                          },
+                          "authors": {
+                            "description": "A component field",
+                            "type": "array",
+                            "items": {
+                              "$ref": "#/components/schemas/SharedAgentCreditEntry"
+                            }
+                          },
+                          "works": {
+                            "description": "A relational field",
+                            "type": "array",
+                            "items": {
+                              "$ref": "#/components/schemas/ApiWorkWorkDocument"
+                            }
+                          },
+                          "galleries": {
+                            "description": "A relational field",
+                            "type": "array",
+                            "items": {
+                              "$ref": "#/components/schemas/ApiGalleryGalleryDocument"
+                            }
+                          }
+                        },
+                        "required": [
+                          "documentId",
+                          "id",
+                          "titleEn",
+                          "slug",
+                          "publishedAt"
+                        ],
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "curated-story"
+        ]
+      },
+      "post": {
+        "operationId": "curated-story/post/curated_stories",
+        "parameters": [
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "titleEn",
+                  "titleAr",
+                  "slug",
+                  "essayEn",
+                  "essayAr",
+                  "footnotesEn",
+                  "footnotesAr",
+                  "sortOrder",
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "description": "Populate a single relation, component, file, or dynamic zone",
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "authors",
+                    "works",
+                    "galleries"
+                  ]
+                },
+                {
+                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "authors",
+                      "works",
+                      "galleries"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "Derived publication cohort: pair-scoped (per documentId+locale), document-scoped variants (-document), or published-slice diagnostics (published-without-draft / published-with-draft)",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "[Deprecated: prefer publicationFilter] Filter documents by whether they have a published version. Use with status=draft to find documents that have never been published",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "documentId": {
+                          "description": "The document ID, represented by a UUID",
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        },
+                        "id": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        },
+                        "titleEn": {
+                          "description": "A string field",
+                          "type": "string"
+                        },
+                        "titleAr": {
+                          "description": "A string field",
+                          "type": "string"
+                        },
+                        "slug": {
+                          "description": "A UID field",
+                          "type": "string"
+                        },
+                        "essayEn": {
+                          "description": "A richtext field",
+                          "type": "string"
+                        },
+                        "essayAr": {
+                          "description": "A richtext field",
+                          "type": "string"
+                        },
+                        "footnotesEn": {
+                          "description": "A richtext field",
+                          "type": "string"
+                        },
+                        "footnotesAr": {
+                          "description": "A richtext field",
+                          "type": "string"
+                        },
+                        "sortOrder": {
+                          "description": "An integer field",
+                          "type": "integer",
+                          "minimum": -9007199254740991,
+                          "maximum": 9007199254740991
+                        },
+                        "createdAt": {
+                          "description": "A datetime field",
+                          "type": "string"
+                        },
+                        "updatedAt": {
+                          "description": "A datetime field",
+                          "type": "string"
+                        },
+                        "publishedAt": {
+                          "description": "A datetime field",
+                          "default": "2026-06-08T11:05:50.093Z",
+                          "type": "string"
+                        },
+                        "authors": {
+                          "description": "A component field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/SharedAgentCreditEntry"
+                          }
+                        },
+                        "works": {
+                          "description": "A relational field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/ApiWorkWorkDocument"
+                          }
+                        },
+                        "galleries": {
+                          "description": "A relational field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/ApiGalleryGalleryDocument"
+                          }
+                        }
+                      },
+                      "required": [
+                        "documentId",
+                        "id",
+                        "titleEn",
+                        "slug",
+                        "publishedAt"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "curated-story"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$schema": "https://json-schema.org/draft/2020-12/schema",
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "type": "object",
+                    "properties": {
+                      "titleEn": {
+                        "description": "A string field",
+                        "type": "string"
+                      },
+                      "titleAr": {
+                        "description": "A string field",
+                        "type": "string"
+                      },
+                      "slug": {
+                        "description": "A UID field",
+                        "type": "string"
+                      },
+                      "essayEn": {
+                        "description": "A richtext field",
+                        "type": "string"
+                      },
+                      "essayAr": {
+                        "description": "A richtext field",
+                        "type": "string"
+                      },
+                      "footnotesEn": {
+                        "description": "A richtext field",
+                        "type": "string"
+                      },
+                      "footnotesAr": {
+                        "description": "A richtext field",
+                        "type": "string"
+                      },
+                      "sortOrder": {
+                        "description": "A float field",
+                        "type": "integer",
+                        "minimum": -9007199254740991,
+                        "maximum": 9007199254740991
+                      },
+                      "publishedAt": {
+                        "description": "A datetime field",
+                        "default": "2026-06-08T11:05:50.092Z",
+                        "type": "string"
+                      },
+                      "authors": {
+                        "description": "A component field",
+                        "type": "array",
+                        "items": {}
+                      },
+                      "works": {
+                        "description": "A relational field",
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        }
+                      },
+                      "galleries": {
+                        "description": "A relational field",
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        }
+                      }
+                    },
+                    "required": [
+                      "titleEn",
+                      "slug",
+                      "publishedAt"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "data"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        }
+      }
+    },
+    "/curated-stories/{id}": {
+      "get": {
+        "operationId": "curated-story/get/curated_stories_by_id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "The document ID, represented by a UUID",
+              "type": "string",
+              "format": "uuid",
+              "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+            }
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "titleEn",
+                  "titleAr",
+                  "slug",
+                  "essayEn",
+                  "essayAr",
+                  "footnotesEn",
+                  "footnotesAr",
+                  "sortOrder",
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "description": "Populate a single relation, component, file, or dynamic zone",
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "authors",
+                    "works",
+                    "galleries"
+                  ]
+                },
+                {
+                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "authors",
+                      "works",
+                      "galleries"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "filters",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "Filters to apply to the query",
+              "type": "object",
+              "propertyNames": {
+                "type": "string",
+                "enum": [
+                  "titleEn",
+                  "titleAr",
+                  "slug",
+                  "essayEn",
+                  "essayAr",
+                  "footnotesEn",
+                  "footnotesAr",
+                  "sortOrder",
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              },
+              "additionalProperties": {}
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "Sort the result",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "titleEn",
+                    "titleAr",
+                    "slug",
+                    "essayEn",
+                    "essayAr",
+                    "footnotesEn",
+                    "footnotesAr",
+                    "sortOrder",
+                    "createdAt",
+                    "updatedAt",
+                    "publishedAt"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "titleEn",
+                      "titleAr",
+                      "slug",
+                      "essayEn",
+                      "essayAr",
+                      "footnotesEn",
+                      "footnotesAr",
+                      "sortOrder",
+                      "createdAt",
+                      "updatedAt",
+                      "publishedAt"
+                    ]
+                  }
+                },
+                {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string",
+                    "enum": [
+                      "titleEn",
+                      "titleAr",
+                      "slug",
+                      "essayEn",
+                      "essayAr",
+                      "footnotesEn",
+                      "footnotesAr",
+                      "sortOrder",
+                      "createdAt",
+                      "updatedAt",
+                      "publishedAt"
+                    ]
+                  },
+                  "additionalProperties": {
+                    "type": "string",
+                    "enum": [
+                      "asc",
+                      "desc"
+                    ]
+                  }
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "propertyNames": {
+                      "type": "string",
+                      "enum": [
+                        "titleEn",
+                        "titleAr",
+                        "slug",
+                        "essayEn",
+                        "essayAr",
+                        "footnotesEn",
+                        "footnotesAr",
+                        "sortOrder",
+                        "createdAt",
+                        "updatedAt",
+                        "publishedAt"
+                      ]
+                    },
+                    "additionalProperties": {
+                      "type": "string",
+                      "enum": [
+                        "asc",
+                        "desc"
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "Derived publication cohort: pair-scoped (per documentId+locale), document-scoped variants (-document), or published-slice diagnostics (published-without-draft / published-with-draft)",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "[Deprecated: prefer publicationFilter] Filter documents by whether they have a published version. Use with status=draft to find documents that have never been published",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "documentId": {
+                          "description": "The document ID, represented by a UUID",
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        },
+                        "id": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        },
+                        "titleEn": {
+                          "description": "A string field",
+                          "type": "string"
+                        },
+                        "titleAr": {
+                          "description": "A string field",
+                          "type": "string"
+                        },
+                        "slug": {
+                          "description": "A UID field",
+                          "type": "string"
+                        },
+                        "essayEn": {
+                          "description": "A richtext field",
+                          "type": "string"
+                        },
+                        "essayAr": {
+                          "description": "A richtext field",
+                          "type": "string"
+                        },
+                        "footnotesEn": {
+                          "description": "A richtext field",
+                          "type": "string"
+                        },
+                        "footnotesAr": {
+                          "description": "A richtext field",
+                          "type": "string"
+                        },
+                        "sortOrder": {
+                          "description": "An integer field",
+                          "type": "integer",
+                          "minimum": -9007199254740991,
+                          "maximum": 9007199254740991
+                        },
+                        "createdAt": {
+                          "description": "A datetime field",
+                          "type": "string"
+                        },
+                        "updatedAt": {
+                          "description": "A datetime field",
+                          "type": "string"
+                        },
+                        "publishedAt": {
+                          "description": "A datetime field",
+                          "default": "2026-06-08T11:05:50.090Z",
+                          "type": "string"
+                        },
+                        "authors": {
+                          "description": "A component field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/SharedAgentCreditEntry"
+                          }
+                        },
+                        "works": {
+                          "description": "A relational field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/ApiWorkWorkDocument"
+                          }
+                        },
+                        "galleries": {
+                          "description": "A relational field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/ApiGalleryGalleryDocument"
+                          }
+                        }
+                      },
+                      "required": [
+                        "documentId",
+                        "id",
+                        "titleEn",
+                        "slug",
+                        "publishedAt"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "curated-story"
+        ]
+      },
+      "put": {
+        "operationId": "curated-story/put/curated_stories_by_id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "The document ID, represented by a UUID",
+              "type": "string",
+              "format": "uuid",
+              "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+            }
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "titleEn",
+                  "titleAr",
+                  "slug",
+                  "essayEn",
+                  "essayAr",
+                  "footnotesEn",
+                  "footnotesAr",
+                  "sortOrder",
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "description": "Populate a single relation, component, file, or dynamic zone",
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "authors",
+                    "works",
+                    "galleries"
+                  ]
+                },
+                {
+                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "authors",
+                      "works",
+                      "galleries"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "Derived publication cohort: pair-scoped (per documentId+locale), document-scoped variants (-document), or published-slice diagnostics (published-without-draft / published-with-draft)",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "[Deprecated: prefer publicationFilter] Filter documents by whether they have a published version. Use with status=draft to find documents that have never been published",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "documentId": {
+                          "description": "The document ID, represented by a UUID",
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        },
+                        "id": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        },
+                        "titleEn": {
+                          "description": "A string field",
+                          "type": "string"
+                        },
+                        "titleAr": {
+                          "description": "A string field",
+                          "type": "string"
+                        },
+                        "slug": {
+                          "description": "A UID field",
+                          "type": "string"
+                        },
+                        "essayEn": {
+                          "description": "A richtext field",
+                          "type": "string"
+                        },
+                        "essayAr": {
+                          "description": "A richtext field",
+                          "type": "string"
+                        },
+                        "footnotesEn": {
+                          "description": "A richtext field",
+                          "type": "string"
+                        },
+                        "footnotesAr": {
+                          "description": "A richtext field",
+                          "type": "string"
+                        },
+                        "sortOrder": {
+                          "description": "An integer field",
+                          "type": "integer",
+                          "minimum": -9007199254740991,
+                          "maximum": 9007199254740991
+                        },
+                        "createdAt": {
+                          "description": "A datetime field",
+                          "type": "string"
+                        },
+                        "updatedAt": {
+                          "description": "A datetime field",
+                          "type": "string"
+                        },
+                        "publishedAt": {
+                          "description": "A datetime field",
+                          "default": "2026-06-08T11:05:50.095Z",
+                          "type": "string"
+                        },
+                        "authors": {
+                          "description": "A component field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/SharedAgentCreditEntry"
+                          }
+                        },
+                        "works": {
+                          "description": "A relational field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/ApiWorkWorkDocument"
+                          }
+                        },
+                        "galleries": {
+                          "description": "A relational field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/ApiGalleryGalleryDocument"
+                          }
+                        }
+                      },
+                      "required": [
+                        "documentId",
+                        "id",
+                        "titleEn",
+                        "slug",
+                        "publishedAt"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "curated-story"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$schema": "https://json-schema.org/draft/2020-12/schema",
+                "type": "object",
+                "properties": {
+                  "data": {
+                    "type": "object",
+                    "properties": {
+                      "titleEn": {
+                        "description": "A string field",
+                        "type": "string"
+                      },
+                      "titleAr": {
+                        "description": "A string field",
+                        "type": "string"
+                      },
+                      "slug": {
+                        "description": "A UID field",
+                        "type": "string"
+                      },
+                      "essayEn": {
+                        "description": "A richtext field",
+                        "type": "string"
+                      },
+                      "essayAr": {
+                        "description": "A richtext field",
+                        "type": "string"
+                      },
+                      "footnotesEn": {
+                        "description": "A richtext field",
+                        "type": "string"
+                      },
+                      "footnotesAr": {
+                        "description": "A richtext field",
+                        "type": "string"
+                      },
+                      "sortOrder": {
+                        "description": "A float field",
+                        "type": "integer",
+                        "minimum": -9007199254740991,
+                        "maximum": 9007199254740991
+                      },
+                      "publishedAt": {
+                        "description": "A datetime field",
+                        "default": "2026-06-08T11:05:50.094Z",
+                        "type": "string"
+                      },
+                      "authors": {
+                        "description": "A component field",
+                        "type": "array",
+                        "items": {}
+                      },
+                      "works": {
+                        "description": "A relational field",
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        }
+                      },
+                      "galleries": {
+                        "description": "A relational field",
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        }
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "data"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "operationId": "curated-story/delete/curated_stories_by_id",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "The document ID, represented by a UUID",
+              "type": "string",
+              "format": "uuid",
+              "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+            }
+          },
+          {
+            "name": "fields",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "The fields to return, this doesn't include populatable fields like relations, components, files, or dynamic zones",
+              "readOnly": true,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "titleEn",
+                  "titleAr",
+                  "slug",
+                  "essayEn",
+                  "essayAr",
+                  "footnotesEn",
+                  "footnotesAr",
+                  "sortOrder",
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              }
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "populate",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "anyOf": [
+                {
+                  "description": "Populate all the first level relations, components, files, and dynamic zones for the entry",
+                  "readOnly": true,
+                  "type": "string",
+                  "const": "*"
+                },
+                {
+                  "description": "Populate a single relation, component, file, or dynamic zone",
+                  "readOnly": true,
+                  "type": "string",
+                  "enum": [
+                    "authors",
+                    "works",
+                    "galleries"
+                  ]
+                },
+                {
+                  "description": "Populate a selection of multiple relations, components, files, or dynamic zones",
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "authors",
+                      "works",
+                      "galleries"
+                    ]
+                  }
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "filters",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "Filters to apply to the query",
+              "type": "object",
+              "propertyNames": {
+                "type": "string",
+                "enum": [
+                  "titleEn",
+                  "titleAr",
+                  "slug",
+                  "essayEn",
+                  "essayAr",
+                  "footnotesEn",
+                  "footnotesAr",
+                  "sortOrder",
+                  "createdAt",
+                  "updatedAt",
+                  "publishedAt"
+                ]
+              },
+              "additionalProperties": {}
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "Fetch documents based on their status. Default to \"published\" if not specified.",
+              "type": "string",
+              "enum": [
+                "draft",
+                "published"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "publicationFilter",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "Derived publication cohort: pair-scoped (per documentId+locale), document-scoped variants (-document), or published-slice diagnostics (published-without-draft / published-with-draft)",
+              "type": "string",
+              "enum": [
+                "never-published",
+                "has-published-version",
+                "modified",
+                "unmodified",
+                "never-published-document",
+                "has-published-version-document",
+                "published-without-draft",
+                "published-with-draft"
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          },
+          {
+            "name": "hasPublishedVersion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "description": "[Deprecated: prefer publicationFilter] Filter documents by whether they have a published version. Use with status=draft to find documents that have never been published",
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "true",
+                    "false"
+                  ]
+                }
+              ]
+            },
+            "x-strapi-serialize": "querystring"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "documentId": {
+                          "description": "The document ID, represented by a UUID",
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        },
+                        "id": {
+                          "anyOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        },
+                        "titleEn": {
+                          "description": "A string field",
+                          "type": "string"
+                        },
+                        "titleAr": {
+                          "description": "A string field",
+                          "type": "string"
+                        },
+                        "slug": {
+                          "description": "A UID field",
+                          "type": "string"
+                        },
+                        "essayEn": {
+                          "description": "A richtext field",
+                          "type": "string"
+                        },
+                        "essayAr": {
+                          "description": "A richtext field",
+                          "type": "string"
+                        },
+                        "footnotesEn": {
+                          "description": "A richtext field",
+                          "type": "string"
+                        },
+                        "footnotesAr": {
+                          "description": "A richtext field",
+                          "type": "string"
+                        },
+                        "sortOrder": {
+                          "description": "An integer field",
+                          "type": "integer",
+                          "minimum": -9007199254740991,
+                          "maximum": 9007199254740991
+                        },
+                        "createdAt": {
+                          "description": "A datetime field",
+                          "type": "string"
+                        },
+                        "updatedAt": {
+                          "description": "A datetime field",
+                          "type": "string"
+                        },
+                        "publishedAt": {
+                          "description": "A datetime field",
+                          "default": "2026-06-08T11:05:50.097Z",
+                          "type": "string"
+                        },
+                        "authors": {
+                          "description": "A component field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/SharedAgentCreditEntry"
+                          }
+                        },
+                        "works": {
+                          "description": "A relational field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/ApiWorkWorkDocument"
+                          }
+                        },
+                        "galleries": {
+                          "description": "A relational field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/ApiGalleryGalleryDocument"
+                          }
+                        }
+                      },
+                      "required": [
+                        "documentId",
+                        "id",
+                        "titleEn",
+                        "slug",
+                        "publishedAt"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not found"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "tags": [
+          "curated-story"
         ]
       }
     },
@@ -5897,7 +7803,8 @@
                     "biennale_edition",
                     "parent",
                     "children",
-                    "works"
+                    "works",
+                    "curatedStories"
                   ]
                 },
                 {
@@ -5910,7 +7817,8 @@
                       "biennale_edition",
                       "parent",
                       "children",
-                      "works"
+                      "works",
+                      "curatedStories"
                     ]
                   }
                 }
@@ -6066,7 +7974,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T01:27:14.089Z",
+                            "default": "2026-06-08T11:05:50.103Z",
                             "type": "string"
                           },
                           "coverMedia": {
@@ -6096,6 +8004,13 @@
                             "type": "array",
                             "items": {
                               "$ref": "#/components/schemas/ApiWorkWorkDocument"
+                            }
+                          },
+                          "curatedStories": {
+                            "description": "A relational field",
+                            "type": "array",
+                            "items": {
+                              "$ref": "#/components/schemas/ApiCuratedStoryCuratedStoryDocument"
                             }
                           }
                         },
@@ -6194,7 +8109,8 @@
                     "biennale_edition",
                     "parent",
                     "children",
-                    "works"
+                    "works",
+                    "curatedStories"
                   ]
                 },
                 {
@@ -6207,7 +8123,8 @@
                       "biennale_edition",
                       "parent",
                       "children",
-                      "works"
+                      "works",
+                      "curatedStories"
                     ]
                   }
                 }
@@ -6361,7 +8278,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.097Z",
+                          "default": "2026-06-08T11:05:50.108Z",
                           "type": "string"
                         },
                         "coverMedia": {
@@ -6391,6 +8308,13 @@
                           "type": "array",
                           "items": {
                             "$ref": "#/components/schemas/ApiWorkWorkDocument"
+                          }
+                        },
+                        "curatedStories": {
+                          "description": "A relational field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/ApiCuratedStoryCuratedStoryDocument"
                           }
                         }
                       },
@@ -6493,7 +8417,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.095Z",
+                        "default": "2026-06-08T11:05:50.107Z",
                         "type": "string"
                       },
                       "coverMedia": {
@@ -6523,6 +8447,15 @@
                         }
                       },
                       "works": {
+                        "description": "A relational field",
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        }
+                      },
+                      "curatedStories": {
                         "description": "A relational field",
                         "type": "array",
                         "items": {
@@ -6619,7 +8552,8 @@
                     "biennale_edition",
                     "parent",
                     "children",
-                    "works"
+                    "works",
+                    "curatedStories"
                   ]
                 },
                 {
@@ -6632,7 +8566,8 @@
                       "biennale_edition",
                       "parent",
                       "children",
-                      "works"
+                      "works",
+                      "curatedStories"
                     ]
                   }
                 }
@@ -6926,7 +8861,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.093Z",
+                          "default": "2026-06-08T11:05:50.106Z",
                           "type": "string"
                         },
                         "coverMedia": {
@@ -6956,6 +8891,13 @@
                           "type": "array",
                           "items": {
                             "$ref": "#/components/schemas/ApiWorkWorkDocument"
+                          }
+                        },
+                        "curatedStories": {
+                          "description": "A relational field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/ApiCuratedStoryCuratedStoryDocument"
                           }
                         }
                       },
@@ -7065,7 +9007,8 @@
                     "biennale_edition",
                     "parent",
                     "children",
-                    "works"
+                    "works",
+                    "curatedStories"
                   ]
                 },
                 {
@@ -7078,7 +9021,8 @@
                       "biennale_edition",
                       "parent",
                       "children",
-                      "works"
+                      "works",
+                      "curatedStories"
                     ]
                   }
                 }
@@ -7232,7 +9176,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.100Z",
+                          "default": "2026-06-08T11:05:50.111Z",
                           "type": "string"
                         },
                         "coverMedia": {
@@ -7262,6 +9206,13 @@
                           "type": "array",
                           "items": {
                             "$ref": "#/components/schemas/ApiWorkWorkDocument"
+                          }
+                        },
+                        "curatedStories": {
+                          "description": "A relational field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/ApiCuratedStoryCuratedStoryDocument"
                           }
                         }
                       },
@@ -7364,7 +9315,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.099Z",
+                        "default": "2026-06-08T11:05:50.110Z",
                         "type": "string"
                       },
                       "coverMedia": {
@@ -7394,6 +9345,15 @@
                         }
                       },
                       "works": {
+                        "description": "A relational field",
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        }
+                      },
+                      "curatedStories": {
                         "description": "A relational field",
                         "type": "array",
                         "items": {
@@ -7482,7 +9442,8 @@
                     "biennale_edition",
                     "parent",
                     "children",
-                    "works"
+                    "works",
+                    "curatedStories"
                   ]
                 },
                 {
@@ -7495,7 +9456,8 @@
                       "biennale_edition",
                       "parent",
                       "children",
-                      "works"
+                      "works",
+                      "curatedStories"
                     ]
                   }
                 }
@@ -7679,7 +9641,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.102Z",
+                          "default": "2026-06-08T11:05:50.113Z",
                           "type": "string"
                         },
                         "coverMedia": {
@@ -7709,6 +9671,13 @@
                           "type": "array",
                           "items": {
                             "$ref": "#/components/schemas/ApiWorkWorkDocument"
+                          }
+                        },
+                        "curatedStories": {
+                          "description": "A relational field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/ApiCuratedStoryCuratedStoryDocument"
                           }
                         }
                       },
@@ -7884,7 +9853,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.106Z",
+                          "default": "2026-06-08T11:05:50.115Z",
                           "type": "string"
                         },
                         "favicon": {
@@ -8043,7 +10012,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.112Z",
+                          "default": "2026-06-08T11:05:50.117Z",
                           "type": "string"
                         },
                         "favicon": {
@@ -8112,7 +10081,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.111Z",
+                        "default": "2026-06-08T11:05:50.116Z",
                         "type": "string"
                       },
                       "favicon": {
@@ -8243,7 +10212,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.112Z",
+                          "default": "2026-06-08T11:05:50.117Z",
                           "type": "string"
                         },
                         "favicon": {
@@ -8682,7 +10651,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T01:27:14.115Z",
+                            "default": "2026-06-08T11:05:50.119Z",
                             "type": "string"
                           },
                           "work": {
@@ -8916,7 +10885,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.118Z",
+                          "default": "2026-06-08T11:05:50.122Z",
                           "type": "string"
                         },
                         "work": {
@@ -9000,7 +10969,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.118Z",
+                        "default": "2026-06-08T11:05:50.122Z",
                         "type": "string"
                       },
                       "work": {
@@ -9343,7 +11312,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.116Z",
+                          "default": "2026-06-08T11:05:50.121Z",
                           "type": "string"
                         },
                         "work": {
@@ -9588,7 +11557,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.119Z",
+                          "default": "2026-06-08T11:05:50.124Z",
                           "type": "string"
                         },
                         "work": {
@@ -9672,7 +11641,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.119Z",
+                        "default": "2026-06-08T11:05:50.123Z",
                         "type": "string"
                       },
                       "work": {
@@ -9919,7 +11888,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.121Z",
+                          "default": "2026-06-08T11:05:50.125Z",
                           "type": "string"
                         },
                         "work": {
@@ -10411,7 +12380,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T01:27:14.124Z",
+                            "default": "2026-06-08T11:05:50.128Z",
                             "type": "string"
                           },
                           "file": {
@@ -10673,7 +12642,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.129Z",
+                          "default": "2026-06-08T11:05:50.132Z",
                           "type": "string"
                         },
                         "file": {
@@ -10779,7 +12748,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.128Z",
+                        "default": "2026-06-08T11:05:50.132Z",
                         "type": "string"
                       },
                       "file": {
@@ -11177,7 +13146,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.126Z",
+                          "default": "2026-06-08T11:05:50.130Z",
                           "type": "string"
                         },
                         "file": {
@@ -11450,7 +13419,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.131Z",
+                          "default": "2026-06-08T11:05:50.135Z",
                           "type": "string"
                         },
                         "file": {
@@ -11556,7 +13525,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.130Z",
+                        "default": "2026-06-08T11:05:50.134Z",
                         "type": "string"
                       },
                       "file": {
@@ -11834,7 +13803,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.133Z",
+                          "default": "2026-06-08T11:05:50.136Z",
                           "type": "string"
                         },
                         "file": {
@@ -12283,7 +14252,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T01:27:14.135Z",
+                            "default": "2026-06-08T11:05:50.144Z",
                             "type": "string"
                           },
                           "logo": {
@@ -12530,7 +14499,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.138Z",
+                          "default": "2026-06-08T11:05:50.147Z",
                           "type": "string"
                         },
                         "logo": {
@@ -12623,7 +14592,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.138Z",
+                        "default": "2026-06-08T11:05:50.147Z",
                         "type": "string"
                       },
                       "logo": {
@@ -12988,7 +14957,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.137Z",
+                          "default": "2026-06-08T11:05:50.146Z",
                           "type": "string"
                         },
                         "logo": {
@@ -13246,7 +15215,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.140Z",
+                          "default": "2026-06-08T11:05:50.150Z",
                           "type": "string"
                         },
                         "logo": {
@@ -13339,7 +15308,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.140Z",
+                        "default": "2026-06-08T11:05:50.149Z",
                         "type": "string"
                       },
                       "logo": {
@@ -13599,7 +15568,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.142Z",
+                          "default": "2026-06-08T11:05:50.151Z",
                           "type": "string"
                         },
                         "logo": {
@@ -13999,7 +15968,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T01:27:14.144Z",
+                            "default": "2026-06-08T11:05:50.153Z",
                             "type": "string"
                           }
                         },
@@ -14201,7 +16170,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.146Z",
+                          "default": "2026-06-08T11:05:50.156Z",
                           "type": "string"
                         }
                       },
@@ -14260,7 +16229,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:15.206Z",
+                        "default": "2026-06-08T11:05:51.471Z",
                         "type": "string"
                       }
                     },
@@ -14554,7 +16523,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.145Z",
+                          "default": "2026-06-08T11:05:50.154Z",
                           "type": "string"
                         }
                       },
@@ -14767,7 +16736,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.152Z",
+                          "default": "2026-06-08T11:05:50.157Z",
                           "type": "string"
                         }
                       },
@@ -14826,7 +16795,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.152Z",
+                        "default": "2026-06-08T11:05:50.156Z",
                         "type": "string"
                       }
                     },
@@ -15037,7 +17006,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.153Z",
+                          "default": "2026-06-08T11:05:50.157Z",
                           "type": "string"
                         }
                       },
@@ -15470,7 +17439,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T01:27:14.155Z",
+                            "default": "2026-06-08T11:05:50.160Z",
                             "type": "string"
                           }
                         },
@@ -15700,7 +17669,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.158Z",
+                          "default": "2026-06-08T11:05:50.163Z",
                           "type": "string"
                         }
                       },
@@ -15783,7 +17752,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:15.301Z",
+                        "default": "2026-06-08T11:05:51.589Z",
                         "type": "string"
                       }
                     },
@@ -16125,7 +18094,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.156Z",
+                          "default": "2026-06-08T11:05:50.161Z",
                           "type": "string"
                         }
                       },
@@ -16366,7 +18335,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.159Z",
+                          "default": "2026-06-08T11:05:50.164Z",
                           "type": "string"
                         }
                       },
@@ -16449,7 +18418,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.159Z",
+                        "default": "2026-06-08T11:05:50.164Z",
                         "type": "string"
                       }
                     },
@@ -16690,7 +18659,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.161Z",
+                          "default": "2026-06-08T11:05:50.165Z",
                           "type": "string"
                         }
                       },
@@ -17089,7 +19058,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T01:27:14.163Z",
+                            "default": "2026-06-08T11:05:50.167Z",
                             "type": "string"
                           }
                         },
@@ -17296,7 +19265,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.166Z",
+                          "default": "2026-06-08T11:05:50.170Z",
                           "type": "string"
                         }
                       },
@@ -17359,7 +19328,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:15.397Z",
+                        "default": "2026-06-08T11:05:51.704Z",
                         "type": "string"
                       }
                     },
@@ -17663,7 +19632,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.165Z",
+                          "default": "2026-06-08T11:05:50.168Z",
                           "type": "string"
                         }
                       },
@@ -17881,7 +19850,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.167Z",
+                          "default": "2026-06-08T11:05:50.171Z",
                           "type": "string"
                         }
                       },
@@ -17944,7 +19913,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.167Z",
+                        "default": "2026-06-08T11:05:50.171Z",
                         "type": "string"
                       }
                     },
@@ -18161,7 +20130,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.168Z",
+                          "default": "2026-06-08T11:05:50.172Z",
                           "type": "string"
                         }
                       },
@@ -18553,7 +20522,8 @@
                     "institution",
                     "materials",
                     "agentCredits",
-                    "iiif_assets"
+                    "iiif_assets",
+                    "curatedStories"
                   ]
                 },
                 {
@@ -18567,7 +20537,8 @@
                       "institution",
                       "materials",
                       "agentCredits",
-                      "iiif_assets"
+                      "iiif_assets",
+                      "curatedStories"
                     ]
                   }
                 }
@@ -18766,7 +20737,7 @@
                           },
                           "publishedAt": {
                             "description": "A datetime field",
-                            "default": "2026-06-08T01:27:14.172Z",
+                            "default": "2026-06-08T11:05:50.176Z",
                             "type": "string"
                           },
                           "identifiers": {
@@ -18803,6 +20774,13 @@
                             "type": "array",
                             "items": {
                               "$ref": "#/components/schemas/ApiIiifAssetIiifAssetDocument"
+                            }
+                          },
+                          "curatedStories": {
+                            "description": "A relational field",
+                            "type": "array",
+                            "items": {
+                              "$ref": "#/components/schemas/ApiCuratedStoryCuratedStoryDocument"
                             }
                           }
                         },
@@ -18914,7 +20892,8 @@
                     "institution",
                     "materials",
                     "agentCredits",
-                    "iiif_assets"
+                    "iiif_assets",
+                    "curatedStories"
                   ]
                 },
                 {
@@ -18928,7 +20907,8 @@
                       "institution",
                       "materials",
                       "agentCredits",
-                      "iiif_assets"
+                      "iiif_assets",
+                      "curatedStories"
                     ]
                   }
                 }
@@ -19125,7 +21105,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.180Z",
+                          "default": "2026-06-08T11:05:50.189Z",
                           "type": "string"
                         },
                         "identifiers": {
@@ -19162,6 +21142,13 @@
                           "type": "array",
                           "items": {
                             "$ref": "#/components/schemas/ApiIiifAssetIiifAssetDocument"
+                          }
+                        },
+                        "curatedStories": {
+                          "description": "A relational field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/ApiCuratedStoryCuratedStoryDocument"
                           }
                         }
                       },
@@ -19307,7 +21294,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.179Z",
+                        "default": "2026-06-08T11:05:50.187Z",
                         "type": "string"
                       },
                       "identifiers": {
@@ -19342,6 +21329,15 @@
                         "items": {}
                       },
                       "iiif_assets": {
+                        "description": "A relational field",
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        }
+                      },
+                      "curatedStories": {
                         "description": "A relational field",
                         "type": "array",
                         "items": {
@@ -19451,7 +21447,8 @@
                     "institution",
                     "materials",
                     "agentCredits",
-                    "iiif_assets"
+                    "iiif_assets",
+                    "curatedStories"
                   ]
                 },
                 {
@@ -19465,7 +21462,8 @@
                       "institution",
                       "materials",
                       "agentCredits",
-                      "iiif_assets"
+                      "iiif_assets",
+                      "curatedStories"
                     ]
                   }
                 }
@@ -19862,7 +21860,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.176Z",
+                          "default": "2026-06-08T11:05:50.180Z",
                           "type": "string"
                         },
                         "identifiers": {
@@ -19899,6 +21897,13 @@
                           "type": "array",
                           "items": {
                             "$ref": "#/components/schemas/ApiIiifAssetIiifAssetDocument"
+                          }
+                        },
+                        "curatedStories": {
+                          "description": "A relational field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/ApiCuratedStoryCuratedStoryDocument"
                           }
                         }
                       },
@@ -20021,7 +22026,8 @@
                     "institution",
                     "materials",
                     "agentCredits",
-                    "iiif_assets"
+                    "iiif_assets",
+                    "curatedStories"
                   ]
                 },
                 {
@@ -20035,7 +22041,8 @@
                       "institution",
                       "materials",
                       "agentCredits",
-                      "iiif_assets"
+                      "iiif_assets",
+                      "curatedStories"
                     ]
                   }
                 }
@@ -20232,7 +22239,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.184Z",
+                          "default": "2026-06-08T11:05:50.194Z",
                           "type": "string"
                         },
                         "identifiers": {
@@ -20269,6 +22276,13 @@
                           "type": "array",
                           "items": {
                             "$ref": "#/components/schemas/ApiIiifAssetIiifAssetDocument"
+                          }
+                        },
+                        "curatedStories": {
+                          "description": "A relational field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/ApiCuratedStoryCuratedStoryDocument"
                           }
                         }
                       },
@@ -20414,7 +22428,7 @@
                       },
                       "publishedAt": {
                         "description": "A datetime field",
-                        "default": "2026-06-08T01:27:14.183Z",
+                        "default": "2026-06-08T11:05:50.192Z",
                         "type": "string"
                       },
                       "identifiers": {
@@ -20449,6 +22463,15 @@
                         "items": {}
                       },
                       "iiif_assets": {
+                        "description": "A relational field",
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "format": "uuid",
+                          "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+                        }
+                      },
+                      "curatedStories": {
                         "description": "A relational field",
                         "type": "array",
                         "items": {
@@ -20550,7 +22573,8 @@
                     "institution",
                     "materials",
                     "agentCredits",
-                    "iiif_assets"
+                    "iiif_assets",
+                    "curatedStories"
                   ]
                 },
                 {
@@ -20564,7 +22588,8 @@
                       "institution",
                       "materials",
                       "agentCredits",
-                      "iiif_assets"
+                      "iiif_assets",
+                      "curatedStories"
                     ]
                   }
                 }
@@ -20803,7 +22828,7 @@
                         },
                         "publishedAt": {
                           "description": "A datetime field",
-                          "default": "2026-06-08T01:27:14.187Z",
+                          "default": "2026-06-08T11:05:50.197Z",
                           "type": "string"
                         },
                         "identifiers": {
@@ -20840,6 +22865,13 @@
                           "type": "array",
                           "items": {
                             "$ref": "#/components/schemas/ApiIiifAssetIiifAssetDocument"
+                          }
+                        },
+                        "curatedStories": {
+                          "description": "A relational field",
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/ApiCuratedStoryCuratedStoryDocument"
                           }
                         }
                       },
@@ -26904,7 +28936,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T01:27:14.044Z",
+            "default": "2026-06-08T11:05:50.048Z",
             "type": "string"
           },
           "related": {}
@@ -26980,7 +29012,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T01:27:14.047Z",
+            "default": "2026-06-08T11:05:50.050Z",
             "type": "string"
           },
           "image": {
@@ -27053,7 +29085,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T01:27:14.046Z",
+            "default": "2026-06-08T11:05:50.049Z",
             "type": "string"
           },
           "agents": {
@@ -27152,7 +29184,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T01:27:14.072Z",
+            "default": "2026-06-08T11:05:50.073Z",
             "type": "string"
           },
           "agentCredits": {
@@ -27278,7 +29310,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T01:27:14.075Z",
+            "default": "2026-06-08T11:05:50.076Z",
             "type": "string"
           },
           "logo": {
@@ -27363,7 +29395,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T01:27:14.076Z",
+            "default": "2026-06-08T11:05:50.077Z",
             "type": "string"
           }
         },
@@ -27435,7 +29467,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T01:27:14.076Z",
+            "default": "2026-06-08T11:05:50.078Z",
             "type": "string"
           },
           "work": {
@@ -27451,6 +29483,105 @@
         ],
         "additionalProperties": false,
         "id": "ApiIiifAssetIiifAssetDocument"
+      },
+      "ApiCuratedStoryCuratedStoryDocument": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "properties": {
+          "documentId": {
+            "description": "The document ID, represented by a UUID",
+            "type": "string",
+            "format": "uuid",
+            "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000)$"
+          },
+          "id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "number"
+              }
+            ]
+          },
+          "titleEn": {
+            "description": "A string field",
+            "type": "string"
+          },
+          "titleAr": {
+            "description": "A string field",
+            "type": "string"
+          },
+          "slug": {
+            "description": "A UID field",
+            "type": "string"
+          },
+          "essayEn": {
+            "description": "A richtext field",
+            "type": "string"
+          },
+          "essayAr": {
+            "description": "A richtext field",
+            "type": "string"
+          },
+          "footnotesEn": {
+            "description": "A richtext field",
+            "type": "string"
+          },
+          "footnotesAr": {
+            "description": "A richtext field",
+            "type": "string"
+          },
+          "sortOrder": {
+            "description": "An integer field",
+            "type": "integer",
+            "minimum": -9007199254740991,
+            "maximum": 9007199254740991
+          },
+          "createdAt": {
+            "description": "A datetime field",
+            "type": "string"
+          },
+          "updatedAt": {
+            "description": "A datetime field",
+            "type": "string"
+          },
+          "publishedAt": {
+            "description": "A datetime field",
+            "default": "2026-06-08T11:05:50.078Z",
+            "type": "string"
+          },
+          "authors": {
+            "description": "A component field",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SharedAgentCreditEntry"
+            }
+          },
+          "works": {
+            "description": "A relational field",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ApiWorkWorkDocument"
+            }
+          },
+          "galleries": {
+            "description": "A relational field",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ApiGalleryGalleryDocument"
+            }
+          }
+        },
+        "required": [
+          "documentId",
+          "id",
+          "titleEn",
+          "slug",
+          "publishedAt"
+        ],
+        "additionalProperties": false,
+        "id": "ApiCuratedStoryCuratedStoryDocument"
       },
       "ApiWorkWorkDocument": {
         "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -27574,7 +29705,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T01:27:14.074Z",
+            "default": "2026-06-08T11:05:50.075Z",
             "type": "string"
           },
           "identifiers": {
@@ -27611,6 +29742,13 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/ApiIiifAssetIiifAssetDocument"
+            }
+          },
+          "curatedStories": {
+            "description": "A relational field",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ApiCuratedStoryCuratedStoryDocument"
             }
           }
         },
@@ -27704,7 +29842,7 @@
           },
           "publishedAt": {
             "description": "A datetime field",
-            "default": "2026-06-08T01:27:14.071Z",
+            "default": "2026-06-08T11:05:50.072Z",
             "type": "string"
           },
           "coverMedia": {
@@ -27734,6 +29872,13 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/ApiWorkWorkDocument"
+            }
+          },
+          "curatedStories": {
+            "description": "A relational field",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ApiCuratedStoryCuratedStoryDocument"
             }
           }
         },

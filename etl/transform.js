@@ -432,6 +432,177 @@ function agentKeysForRecord(fields, fieldName, role) {
   return splitArrayField(fields[fieldName]).map((name) => `${slugify(name)}--${roleKey}`);
 }
 
+function titleFromStory(value, fallback) {
+  const firstLine = String(value || "")
+    .replace(/\r\n/g, "\n")
+    .replace(/\r/g, "\n")
+    .split("\n")
+    .map((line) => line.trim())
+    .find(Boolean);
+  const title = compactWhitespace(
+    String(firstLine || "")
+      .replace(/\*\*/g, "")
+      .replace(/^(?:title|العنوان)\s*:\s*/i, ""),
+  );
+
+  return title || fallback;
+}
+
+function exactStoryText(value) {
+  return String(value || "").replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+}
+
+function normalizedStoryText(value) {
+  return cleanMultiline(value).normalize("NFKC").toLocaleLowerCase();
+}
+
+function distinctPopulatedValues(records, fieldName) {
+  return uniqueByKey(
+    records
+      .map((record) => optional((record.fields || {})[fieldName]))
+      .filter(Boolean),
+    (value) => value,
+  );
+}
+
+function workKeyForSourceRecord(sourceRecord) {
+  const iabCodes = splitIabCodes((sourceRecord.fields || {})["IAB Code"]);
+  return iabCodes.length > 0 ? `${slugify(iabCodes[0])}--${sourceRecord.id}` : undefined;
+}
+
+function galleryRefForFields(fields) {
+  if (compactWhitespace(fields["Sub-gallery"]) && compactWhitespace(fields.Gallery)) {
+    return relationRef("gallery", gallerySectionKey(fields.Gallery, fields["Sub-gallery"]));
+  }
+
+  return relationRefFromValue("gallery", fields.Gallery);
+}
+
+function transformCuratedStories(records) {
+  const groups = new Map();
+  const report = {
+    exact_groups: 0,
+    source_rows: 0,
+    near_duplicates: [],
+    metadata_conflicts: [],
+  };
+
+  for (const sourceRecord of records) {
+    const essayEn = exactStoryText((sourceRecord.fields || {})["Curated Story Essay"]);
+    if (!essayEn.trim()) continue;
+
+    report.source_rows += 1;
+    if (!groups.has(essayEn)) groups.set(essayEn, []);
+    groups.get(essayEn).push(sourceRecord);
+  }
+
+  const normalizedGroups = new Map();
+  for (const [essayEn, sourceRecords] of groups) {
+    const normalized = normalizedStoryText(essayEn);
+    if (!normalizedGroups.has(normalized)) normalizedGroups.set(normalized, []);
+    normalizedGroups.get(normalized).push({ essayEn, sourceRecords });
+  }
+
+  for (const candidates of normalizedGroups.values()) {
+    if (candidates.length < 2) continue;
+    report.near_duplicates.push({
+      reason: "Essays differ in source formatting but normalize to the same text.",
+      candidates: candidates.map(({ essayEn, sourceRecords }) => ({
+        title_en: titleFromStory(essayEn, "Curated Story"),
+        source_length: essayEn.length,
+        source_record_ids: sourceRecords.map((record) => record.id),
+      })),
+    });
+  }
+
+  const usedKeys = new Map();
+  const stories = Array.from(groups.entries()).map(([essayEn, sourceRecords], index) => {
+    const titleEn = titleFromStory(essayEn, `Curated Story ${index + 1}`);
+    const baseKey = slugify(titleEn, `curated-story-${index + 1}`);
+    const occurrence = (usedKeys.get(baseKey) || 0) + 1;
+    usedKeys.set(baseKey, occurrence);
+    const key = occurrence === 1 ? baseKey : `${baseKey}-${occurrence}`;
+    const values = {
+      essayAr: distinctPopulatedValues(sourceRecords, "Curated Story Essay AR"),
+      footnotesEn: distinctPopulatedValues(sourceRecords, "Curated Story Footnote"),
+      footnotesAr: distinctPopulatedValues(sourceRecords, "Curated Story Footnote AR"),
+    };
+
+    for (const [field, fieldValues] of Object.entries(values)) {
+      if (fieldValues.length > 1) {
+        report.metadata_conflicts.push({
+          story_key: key,
+          field,
+          source_record_ids: sourceRecords.map((record) => record.id),
+          values: fieldValues,
+        });
+      }
+    }
+
+    const authorNames = uniqueByKey(
+      sourceRecords.flatMap((record) => splitArrayField((record.fields || {})["Writer(s)"])),
+      normalizeKey,
+    );
+    const authorVariants = uniqueByKey(
+      sourceRecords.map((record) =>
+        splitArrayField((record.fields || {})["Writer(s)"])
+          .map(compactWhitespace)
+          .sort((a, b) => a.localeCompare(b))
+          .join(" | "),
+      ),
+      (value) => value,
+    ).filter(Boolean);
+    if (authorVariants.length > 1) {
+      report.metadata_conflicts.push({
+        story_key: key,
+        field: "authors",
+        resolution:
+          "All distinct writers were retained as Agent Credits; review possible over-attribution.",
+        source_record_ids: sourceRecords.map((record) => record.id),
+        values: authorVariants,
+      });
+    }
+    const workKeys = uniqueByKey(sourceRecords.map(workKeyForSourceRecord).filter(Boolean), (value) => value);
+    const galleryRefs = uniqueByKey(
+      sourceRecords.map((record) => galleryRefForFields(record.fields || {})).filter(Boolean),
+      (reference) => reference.key,
+    );
+
+    return buildEndpointRecord(
+      "curated-story",
+      "curated-stories",
+      key,
+      {
+        titleEn,
+        titleAr: values.essayAr[0]
+          ? titleFromStory(values.essayAr[0], undefined)
+          : undefined,
+        slug: key,
+        essayEn: toHtml(essayEn),
+        essayAr: values.essayAr.length === 1 ? toHtml(values.essayAr[0]) : undefined,
+        footnotesEn:
+          values.footnotesEn.length === 1 ? toHtml(values.footnotesEn[0]) : undefined,
+        footnotesAr:
+          values.footnotesAr.length === 1 ? toHtml(values.footnotesAr[0]) : undefined,
+        sortOrder: index + 1,
+      },
+      {
+        authors: authorNames.map((name, authorIndex) => ({
+          agent: relationRef("agent", slugify(name)),
+          agent_role: relationRef("agent-role", `${slugify(name)}--writer`),
+          sortOrder: authorIndex + 1,
+        })),
+        works: relationRefs("work", workKeys),
+        galleries: galleryRefs,
+      },
+      { slug: key },
+    );
+  });
+
+  report.exact_groups = stories.length;
+  return { stories, report };
+}
+
 function sourceFieldCoverage(records, fieldMapping) {
   const observedSourceFields = Array.from(
     new Set(records.flatMap((record) => Object.keys(record.fields || {}))),
@@ -626,6 +797,9 @@ function main() {
   const transformedMaterials = transformMaterials(materials);
   const { works, report } = transformWorks(airtableRecords, materialLookup, fieldMapping);
   const galleries = transformGalleries(airtableRecords, report);
+  const { stories: curatedStories, report: curatedStoryReport } =
+    transformCuratedStories(airtableRecords);
+  report.curated_stories = curatedStoryReport;
 
   const files = {
     "agent-roles": writeIntermediate("agent-roles", agentRoles),
@@ -634,6 +808,11 @@ function main() {
     materials: writeIntermediate("materials", transformedMaterials),
     galleries: writeIntermediate("galleries", galleries),
     works: writeIntermediate("works", works),
+    "curated-stories": writeIntermediate("curated-stories", curatedStories),
+    "curated-story-review": writeIntermediate(
+      "curated-story-review",
+      curatedStoryReport,
+    ),
     duplicates: writeIntermediate("duplicates", report.duplicate_source_rows),
     report: writeIntermediate("report", report),
   };
@@ -656,6 +835,7 @@ function main() {
       "materials",
       "galleries",
       "works",
+      "curated-stories",
     ],
     counts: {
       agent_roles: agentRoles.length,
@@ -669,6 +849,10 @@ function main() {
         report.gallery_hierarchy.missing_parent.length +
         report.gallery_hierarchy.duplicate_child_names.length,
       works: works.length,
+      curated_stories: curatedStories.length,
+      curated_story_source_rows: curatedStoryReport.source_rows,
+      curated_story_near_duplicates: curatedStoryReport.near_duplicates.length,
+      curated_story_metadata_conflicts: curatedStoryReport.metadata_conflicts.length,
       skipped_works: report.skipped.length,
       duplicate_iab_codes: report.duplicate_iab_codes.length,
       duplicate_source_rows: report.duplicate_source_rows.length,
@@ -702,6 +886,7 @@ module.exports = {
   galleryKey,
   gallerySectionKey,
   splitIabCodes,
+  transformCuratedStories,
   transformGalleries,
   transformWorks,
   workIdentifiers,

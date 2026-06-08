@@ -29,24 +29,24 @@
       "target": "work.creditLineAr"
     },
     "Curated Story Essay": {
-      "status": "planned",
+      "status": "mapped",
       "target": "curated-story.essayEn",
-      "notes": "Needs Curated Story content type related to Work."
+      "notes": "Exact source essay values create shared Curated Story records related to every matching Work."
     },
     "Curated Story Essay AR": {
-      "status": "planned",
+      "status": "mapped",
       "target": "curated-story.essayAr",
-      "notes": "Needs Curated Story content type related to Work."
+      "notes": "Preserved with its exact English essay group; conflicting values are reported for review."
     },
     "Curated Story Footnote": {
-      "status": "planned",
-      "target": "curated-story.footnoteEn",
-      "notes": "Needs Curated Story content type related to Work."
+      "status": "mapped",
+      "target": "curated-story.footnotesEn",
+      "notes": "Preserved with its exact English essay group; conflicting values are reported for review."
     },
     "Curated Story Footnote AR": {
-      "status": "planned",
-      "target": "curated-story.footnoteAr",
-      "notes": "Needs Curated Story content type related to Work."
+      "status": "mapped",
+      "target": "curated-story.footnotesAr",
+      "notes": "Preserved with its exact English essay group; conflicting values are reported for review."
     },
     "Curator(s)": {
       "status": "mapped",

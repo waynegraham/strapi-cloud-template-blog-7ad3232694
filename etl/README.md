@@ -129,6 +129,8 @@ people.json
 materials.json
 galleries.json
 works.json
+curated-stories.json
+curated-story-review.json
 duplicates.json
 report.json
 manifest.json
@@ -187,9 +189,12 @@ people
 materials
 galleries
 works
+curated-stories
 ```
 
 `works` should be loaded after `agents`, because works reference agents.
+`curated-stories` loads after Works because each shared story owns its Work
+relations and embeds ordered Agent Credit references for its writers.
 
 `people`, `materials`, and `galleries` are generated as normalized vocabularies.
 Sub-gallery source values are emitted as child Gallery records and related to their
@@ -226,11 +231,31 @@ schema migration, and new assignments remain a staff cataloging task until a
 reliable source field or reconciliation file is provided.
 
 The mapping config tracks planned destinations that are not emitted yet. These
-currently include Agent biographies, Curated Stories, Inscriptions,
+currently include Agent biographies, Inscriptions,
 manuscript/object notes, and image/folio-level metadata. Airtable workflow fields
 such as `For Wen to Check` are explicitly ignored.
 
 Long text fields are converted to HTML paragraphs for the CKEditor custom fields.
+
+## Curated Stories
+
+Every byte-distinct populated `Curated Story Essay` value becomes one shared
+Curated Story record. Its related source rows become symbolic Work relations, and
+their Galleries are added as optional Gallery relations. `Writer(s)` values become
+ordered Agent Credit references using the existing Agent and Writer-role records.
+
+English/Arabic essays and footnotes stay associated with the exact English source
+essay. When one exact essay group contains conflicting translations or footnotes,
+the transform leaves that destination field unset and writes every candidate value
+to `intermediate/curated-story-review.json`.
+
+Writer sets can differ between Works sharing an essay. The transform retains the
+union as Agent Credits so no named writer is discarded, and reports every differing
+source writer set for staff review because this may over-attribute story authorship.
+
+The same report lists near-duplicate essays after whitespace and Unicode
+normalization. Near-duplicates remain separate records for staff review and are
+never merged automatically.
 
 The date fields currently preserve the complete source display strings in the
 Gregorian display attributes. Splitting mixed Hijri/Gregorian strings and deriving
@@ -275,6 +300,7 @@ skipped
 duplicate_iab_codes
 duplicate_source_rows
 missing_material_lookup
+curated_stories
 source_field_coverage
 ```
 
