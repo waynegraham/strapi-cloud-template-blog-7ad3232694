@@ -1,6 +1,6 @@
 'use strict';
 
-const LAYOUT_VERSION = 1;
+const LAYOUT_VERSION = 2;
 
 function edit(
   label,
@@ -371,7 +371,9 @@ const contentManagerLayouts = {
   },
 
   'components::shared.agent-credit': {
-    settings: settings('agent'),
+    // Component main fields must be scalar because Strapi renders their form
+    // value directly in repeatable-component headers.
+    settings: settings('sortOrder'),
     layouts: {
       edit: [
         row(['agent', 6], ['agent_role', 6]),

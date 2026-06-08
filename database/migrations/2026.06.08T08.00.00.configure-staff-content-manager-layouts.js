@@ -86,6 +86,7 @@ async function backfillWorkDisplayTitles(knex) {
 module.exports = {
   configureLayouts,
   mergeConfiguration,
+  upsertConfiguration,
 
   async up(knex) {
     return {

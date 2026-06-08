@@ -9,6 +9,12 @@ applies the configuration to Strapi's `strapi_core_store_settings` table. It
 inserts missing layout records and updates existing records while preserving
 metadata that is not managed by this configuration.
 
+The follow-up migration
+`database/migrations/2026.06.08T10.00.00.fix-agent-credit-component-main-field.js`
+updates existing installations to layout version 2. It replaces the Agent Credit
+relation-valued component heading with the scalar `sortOrder` field so Strapi
+does not attempt to render its `{connect, disconnect}` form state as text.
+
 Configured content types:
 
 - Work
@@ -31,6 +37,8 @@ Curated Story editing workflows.
   allow a shared row.
 - Relation selectors use staff-facing fields such as Gallery `displayTitle` and
   Work `displayTitle`.
+- Repeatable component `mainField` settings use scalar attributes. Relation form
+  values are mutation objects and cannot be rendered directly as headings.
 - Work `displayTitle` is derived as `IAB code - English title`; it is populated by
   ETL, synchronized on Work writes, and backfilled by the migration.
 - Inverse relations are read-only in the edit layout. Staff edit the owning side.

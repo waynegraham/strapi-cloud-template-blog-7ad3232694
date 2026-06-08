@@ -18,6 +18,7 @@ const fieldMapping = require('../etl/field-mapping.json');
 const WORK_KEY = 'content_types::api::work.work';
 const GALLERY_KEY = 'content_types::api::gallery.gallery';
 const IIIF_IMAGE_KEY = 'content_types::api::iiif-image.iiif-image';
+const AGENT_CREDIT_KEY = 'components::shared.agent-credit';
 const projectRoot = path.join(__dirname, '..');
 
 function flattenedEditLayout(configuration) {
@@ -92,6 +93,26 @@ test('staff metadata distinguishes controlled data and relation display titles',
   assert.equal(work.settings.mainField, 'displayTitle');
 });
 
+test('component main fields use scalar values that Strapi can render', () => {
+  const componentSchemas = {
+    [AGENT_CREDIT_KEY]: require('../src/components/shared/agent-credit.json'),
+    'components::shared.work-identifier': require('../src/components/shared/work-identifier.json'),
+    'components::shared.inscription': require('../src/components/shared/inscription.json'),
+    'components::shared.work-description': require('../src/components/shared/work-description.json'),
+  };
+
+  for (const [key, schema] of Object.entries(componentSchemas)) {
+    const mainField = contentManagerLayouts[key].settings.mainField;
+    assert.notEqual(
+      schema.attributes[mainField].type,
+      'relation',
+      `${key} cannot render relation field ${mainField} as its component heading`,
+    );
+  }
+
+  assert.equal(contentManagerLayouts[AGENT_CREDIT_KEY].settings.mainField, 'sortOrder');
+});
+
 test('technical IIIF Image fields are hidden and list view remains useful', () => {
   const image = contentManagerLayouts[IIIF_IMAGE_KEY];
 
@@ -162,12 +183,56 @@ test('layout migration inserts, updates, and preserves unrelated metadata', asyn
   assert.equal(stored.settings.pageSize, 20);
   assert.equal(stored.settings.mainField, 'displayTitle');
   assert.equal(stored.metadatas.titleEn.edit.placeholder, '');
-  assert.equal(stored.options.staffLayoutVersion, 1);
+  assert.equal(stored.options.staffLayoutVersion, 2);
   assert.equal(
     (await knex('works').where({ id: 1 }).first()).display_title,
     '25-G1-01-5034 - Soft Gates',
   );
   assert.equal(second.workDisplayTitles.updated, 0);
+});
+
+test('Agent Credit layout repair migration replaces the relation main field', async (context) => {
+  const knex = await layoutDatabase();
+  context.after(() => knex.destroy());
+  const key = `plugin_content_manager_configuration_${AGENT_CREDIT_KEY}`;
+  await knex('strapi_core_store_settings').insert({
+    key,
+    type: 'object',
+    value: JSON.stringify({
+      settings: { mainField: 'agent' },
+      metadatas: {},
+      layouts: {},
+      options: { staffLayoutVersion: 1 },
+    }),
+  });
+  await knex('strapi_core_store_settings').insert({
+    key: 'plugin_content_manager_configuration_unrelated',
+    type: 'object',
+    value: JSON.stringify({ preserved: true }),
+  });
+
+  const repair = require('../database/migrations/2026.06.08T10.00.00.fix-agent-credit-component-main-field');
+  const first = await repair.up(knex);
+  const second = await repair.up(knex);
+  const stored = JSON.parse(
+    (await knex('strapi_core_store_settings').where({ key }).first()).value,
+  );
+
+  assert.equal(first.layout.status, 'updated');
+  assert.equal(second.layout.status, 'updated');
+  assert.equal(first.layout.modelKey, AGENT_CREDIT_KEY);
+  assert.equal(stored.settings.mainField, 'sortOrder');
+  assert.equal(stored.options.staffLayoutVersion, 2);
+  assert.deepEqual(
+    JSON.parse(
+      (
+        await knex('strapi_core_store_settings')
+          .where({ key: 'plugin_content_manager_configuration_unrelated' })
+          .first()
+      ).value,
+    ),
+    { preserved: true },
+  );
 });
 
 test('Work display titles are generated in validation helpers and ETL payloads', () => {
