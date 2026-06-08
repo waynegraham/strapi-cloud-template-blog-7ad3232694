@@ -214,6 +214,7 @@ Description           -> descriptionEn
 Description AR        -> descriptionAr
 Footnote reference    -> footnoteEn
 Footnote reference AR -> footnoteAr
+Inscriptions          -> inscriptions[] source text
 Dimension             -> dimensionEn
 Dimension AR          -> dimensionAr
 Material / Material AR-> materialDisplayEn / materialDisplayAr
@@ -231,11 +232,14 @@ schema migration, and new assignments remain a staff cataloging task until a
 reliable source field or reconciliation file is provided.
 
 The mapping config tracks planned destinations that are not emitted yet. These
-currently include Agent biographies, Inscriptions,
-manuscript/object notes, and image/folio-level metadata. Airtable workflow fields
-such as `For Wen to Check` are explicitly ignored.
+currently include Agent biographies, manuscript/object notes, and image/folio-level
+metadata. Airtable workflow fields such as `For Wen to Check` are explicitly
+ignored.
 
 Long text fields are converted to HTML paragraphs for the CKEditor custom fields.
+`Inscriptions` is the exception: each populated source value is preserved as one
+plain-text `inscriptions[]` component so staff can later split text, translation,
+position, author, and type without losing the original wording.
 
 ## Curated Stories
 

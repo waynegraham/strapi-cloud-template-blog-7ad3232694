@@ -129,9 +129,9 @@
       "notes": "Needs image-level matching before loading."
     },
     "Inscriptions": {
-      "status": "planned",
-      "target": "inscription.body",
-      "notes": "Needs Inscription content type related to Work."
+      "status": "mapped",
+      "target": "work.inscriptions[].text",
+      "notes": "Each populated Airtable value becomes one Work Inscription component with source text preserved verbatim."
     },
     "Material": {
       "status": "mapped",

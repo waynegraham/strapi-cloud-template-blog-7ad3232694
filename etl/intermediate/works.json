@@ -736,6 +736,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nThere is no god but Allah;\nMuhammad is the Messenger of Allah\n\nGlory be to Allah and praise be to Him,\nGlory be to Allah, the Almighty\n\nO Benefactor, O Glorious, O Merciful, O Sovereign\n\nVerily! We have seen the turning of your face towards\nthe heaven. Surely, We shall turn you to a qiblah that\nshall please you, so turn your face in the direction of\nAl-Masjid Al-Haram [Holy Qur’an 2:144].\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Interior textiles of the Ka‘bah",
           "titleAr": "كسوة داخلية للكعبة المشرّفة",
           "originEn": "Likely Bursa, Türkiye",
@@ -801,6 +808,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_Inscriptions, above arch:_\nThe needy one of The Self-Sufficient The Greatest,\nHis slave, Al-Raji Muhammad Munawwir. 1240\n[AH/1824–25 CE]\n\n_Inscriptions, Reverse of staircase:_\nYour slave Munawwir\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Ka‘bah staircase (madraj)",
@@ -2281,6 +2295,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_Inscriptions, right panel:_\nThis radiant mizab was renewed for the sake of\nAllah, The Generous and All-Aware, by the Sultan of\nThe Two Continents and the Two Seas, the one who\nis honored in serving the Two Noble Sanctuaries,\nThe Victorious Sultan Abdulmajid Khan, son of the\nVictorious Sultan.\n\n_Left panel:_\nMahmud Khan, son of Sultan Abdulhamid Khan, after\nthe mizab that his grandfather, the exalted Sultan\nAhmed Khan—may The Benevolent have mercy on\nhim—had previously restored in 1021 [AH/1612–13CE],\nhad deteriorated. O Lord of this\n\n_Underside:_\nSacred House, preserve the state of Islam, as long as\npeople circumambulate Your House. Protect it from all\nharm, by the honor of our Prophet Muhammad, peace\nand blessings be upon him. This renovation took place\nin 1273 AH.\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Water spout of the Ka‘bah (mizab)",
           "titleAr": "ميزاب الكعبة",
           "originEn": "Istanbul, Türkiye",
@@ -2427,6 +2448,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_Inscriptions: _\n_key shank:_\nVerily, the first House appointed for mankind was at\nBakkah (Makkah), full of blessing, and a guidance\nfor Al-‘Alamin. In it are manifest signs, the Maqam of\nIbrahim; whosoever enters it, he attains security\nAnd Hajj to the House is a duty that mankind owes to\nAllah, those who can afford the expenses\n[Holy Qur’an 3:96–97]\nAnd His word, may He be exalted: And proclaim to\nmankind . . . [Qur’anic verse continues onto the faces\nof the handle]\n\n_Handle:_\n. . . the Hajj. They will come to you on foot and on\nevery lean camel, they will come from every deep and\ndistant mountain highway [Holy Qur’an 22:27]\nEffort [i.e. work] of Abdulaziz.\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Ka‘bah key",
           "titleAr": "مفتاح باب الكعبة المشرّ ّ فة",
           "originEn": "Likely Makkah al-Mukarramah, Saudi Arabia",
@@ -2496,6 +2524,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nVerily, the first House appointed for mankind was at\nBakkah (Makkah), full of blessing, and a guidance\nfor Al-‘Alamin. In it are manifest signs, the Maqam\nof Ibrahim; whosoever enters it, he attains security.\nAnd Hajj to the House is a duty that mankind owes to\nAllah, those who can afford the expenses\n[Holy Qur’an 3:96–97].\n\nThe Sovereign has restored the door to His House\nTo which every creature prays and prostrates\nHe has earned a great reward, following his forefather\nThe King of the descendants of ‘Uthman, Ahmad,\npraised and honored.\n\nSo offer in his praise whatever you can, and record:\nAhmed has triumphed in renewing the House.\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Ka‘bah overdoor inscription",
@@ -25050,6 +25085,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads (a rhyming couplet):_\nEndowed to the Razavi Shrine | By Mahīn Bānū, the Safavid\nوقف عتبه رضویه / عن ماهين بانوی صفویه\n\n_A weight measure in black:_\n'252 tulah'\n٢٥٢ توله\n\n_Shah Jahan inscription:_\nShãh Jahān son of Jahāngīr Shãh; 16, 1053\nشاه جهان ابن جهانگير شاه؛ ۳،۱۶ ۱۰۵\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "The Mahin Banu dish",
           "titleAr": "طبق ماهين بانو",
           "originEn": "Jingdezhen, China",
@@ -25342,6 +25384,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_This mirror has an inscription on the reverse which reads:_\nO your face is in its grace the mirror of the soul,\nI would take as the morning draught cups (of wine) containing a vision of you,\nI would willingly place the thorns of (your) lashes on my eyes,\nBut I fear the feet of your vision would be wounded by them.**128**\nای روی تو در لطافت آیینه روح\nخواهم که قدحهای خیالت بصبوح\nبر دیده نهم ولي ز خار مژه ام\nترسم که شود پای خیالت مجروح\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Mirror",
           "titleAr": "مرآة",
           "originEn": "Iran, perhaps Isfahan",
@@ -25492,6 +25541,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_Signature panel:_\nThis is the work of Diya’ al-Din Muhammad, son of Qa’im Muhammad, son of Mulla ‘Isa, son of Mulla Allahdad the astrolabist of Humayun, of Lahore in the Hijri year 1057 [1647–48 CE].\nاین صنعت ضیاء الدین محمد ابن قایم محمد\nابـن ملا عـیسى ابـن ملا الهـداد اسـطرلابي همایـونى لاهـوری في\nسنـة ١٠٥٧ هجـری\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Celestial globe",
           "titleAr": "كرة سماوية\nصنع: ضياء الدين محمد",
           "originEn": "Lahore, Pakistan",
@@ -25563,6 +25619,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nIn the time of the Emperor of the Ages, Sultan Husain,\nthe Protector of Religion, the lowliest slave Ali Akbar\nmade this stand and spoke its date.\nدر زمان شهنشه دوران/ سلطان حسين دين پرور\nساخت اين رحل و گفت تاریخش/ بنده كمرتين علي اكبر\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Qur’an stand",
           "titleAr": "حامل قرآن\nصنع: علي أكبر",
           "originEn": "Iran",
@@ -25630,6 +25693,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_The signature on the reverse of the throne (the main body) in Persian reads:_\nIt was completed on the order of His Exalted Excellency, the one with Holy Titles, of the lineage of Sayyids, Mirza Ata Allah al-Husaini, Sheikh al-Islam in\nthe Dar al-Saltana, the splendour-inducing Tabriz.**129**\nحسب الفرموده عالیجناب مقدس القاب سلاله السادات\nميرزا عطاء الله الحسیني شیخ الااسالم دار السلطنه تبریز\nبهجت انگيز سر انجام [يا]فت\n\nThe palmette above bears the date AH 1117/1705–06 CE.\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Astrolabe",
@@ -29537,6 +29607,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "The inscription reads:\nGlory and prosperity and wealth and happiness.\n\nالعز و الاقبال و الدولة و السعادة\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Saber blade",
           "titleAr": "نَصْل سيف",
           "originEn": "Iran",
@@ -29746,6 +29823,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nThe owner, the [A]mir, the Victorious, the Learned,\nthe Just, the Crown of State and Religion, protector\nof Islam and Muslims, esteemed by Kings and\nSultans. May the Creator of the World [God] protect\n[him] whomever the Master of this may be. With\nthe strength of heart, I will shatter the enemy. Glory\nand prosperity and wealth–this was renewed of the\nTreasury of the accession of Malik Shah,\nhe who (?) will do that.** 223**\n\n...........الصا حبة (ال) عمير سفها (؟)\nلا..........منصؤر العلم العادل تاج\nالدؤلطٌ و الد(ين) حا(مي) السلام (الاسلام) و مسلمينن مقرب؟\nالملوك اسطين (كذا) السلطين نكهدار بادا جهان افزين\nبهر جكه باشهد خوداوند اين قوت ا دلي من عدو داغاكنم\nوا) لا قبل و دوله (الدوالت))\n...حدد هده....كهزاني...؟ بجلوس ؟ ملكشاه ؟ انكه\nبان كنم ...(اصاحبه)\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Dagger",
           "titleAr": "خنجر",
           "originEn": "Afghanistan",
@@ -29821,6 +29905,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_Inscriptions, interior:_\nBlessing and felicity and joy and happiness and well-\nbeing and victory and sovereignty(?) and elevation\nand mercy and favour and long life(?). The work of ‘Ali\nbin Muhammad.\n\nبركة ويمن وسرور وسعادة وسلامة ونصرة وسك لك [سلطة؟]\nورفعة ورحمة ونعمةوبقـ[ـا؟] عمل علي بن محمد\n\n_Exterior wall, in Kufic script:_\nBlessing and felicity and bliss and well-being and\nhappiness and elevation(?) and mercy and elevation\nand sovereignty and authority and ...\n\nبركة ويمن وسرور وسلامة وسعادة ورى ـعة [رفعة؟] ورحمة ورفعة\nوسلطة وتكين [تمكين؟] و\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Bowl",
           "titleAr": "وعاء",
           "originEn": "Afghanistan",
@@ -29882,6 +29973,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_Inscriptions, on the lid in cursive script:_\nGlory and success and good fortune and constancy\nand generosity and plenitude and happiness and well-\nbeing for its owner.\n\nالعز والاقبال والدولة والدوامة والكرامة والتامة والسعادة والسلامة\n[والصاحبه [كذا\n\n_Around the rim of the lid, in Kufic script:_\nWith felicity and blessing and good turn of fortune\nand ... With felicity and blessing and good turn of\nfortune and ... With felicity and blessing and good turn\nof fortune and ...\n\nباليمن والربكة والدوالة والدو / باليمن والربكة والدوالة والـ ى ـا\nبا]ليمن والربكة والدوالة والـ ى ـا]\n\n_Inside, around the opening, in cursive:_\nGlory and success and good fortune and constancy\nand generosity and plenitude and ...\n\nالعز والاقبال والدولة والدوامة والكرامة والتامة واا\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Inkwell",
@@ -30016,6 +30114,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_Inscriptions, on the front in Kufic script:_\nIts owner is Muhammad bin Zangi.\nصاحبه محمد بن زنگی\n\n_On the back, in Kufic script:_\nThe work of Zaki al-Naqqash.\nعمل زکی النقاش\n\n_Along the top of the front, continuing along the top of the_\n_back, in cursive script:_\nMay you have perpetual glory and long life as long as\nthe morning and the evening succeed one another.\nدام لك العز والبقاء / [ما ا] ختلف الصبح والمساء\n\n_Along the top of the two sides in cursive script:_\nThe world is but an hour, so make it (full of) obedience.\nالد[نیا] ساعة / فاج‍ع‍‍‍[ـ‍ل‍‍]ـها طاعة\n\n_Down one of the sides in cursive script:_\nCome let us not give this world over to evil,\nLet us all strive to act well.\nSince nothing of good or bad remains,\nIt is better that it is good that is remembered.\nبیا تا جهانرا ببد نسپریم\nبکوشش همه دستى [کذا] نیکی بریم\nنماند همه نیکو بد پای دار\nهمان به که نیکی بود یادگار\n\n_Down the other side in cursive script:_\nThe soft spoken hears no roughness from any person,\nSeek only the good from fortune.\nThe world is a memorial and we are transient,\nOf mankind there remains only the\n(report of) his virtue.\nدرشتي ز کس نشنود نرم گوی\nبجز نیکویی در زمانه نجویی\nجهان یادگارست و ما رفتنى\nز مردم نماند بجز مردمی\n\nThe couplets along each side are from the _Shahnama_,\nand probably represent the first appearance of the\n_Shahnama_ text on metalwork.**224**\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Penbox (qalamdan)",
@@ -30351,6 +30456,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nPerpetual glory and increasing fortune.\n\nالعزّ الدائم والإقبال الزائد \n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Dagger of a Crusader",
           "titleAr": "خنجر‭ ‬مع‭ ‬غمد",
           "originEn": "Palestine or Syria",
@@ -30558,6 +30670,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_The inscriptions read: **225**_\nIn the name of Allah the Merciful,\nthe Compassionate, there is no god but Allah all the\npower is of Allah. Allah is the best protector and\nmerciful among the merciful.\nThe year seven hundred and forty-seven of the\nHegira, my lord the sultan, son of my lord the\nsultan the warrior of the faith the fair,\nAbu Abd Allah Muhammad bin al-Nasr may\nGod help and protect him.\nVerily, We have given you a manifest victory, that\nAllah may forgive you your sins of the past and the\nfuture [Qur’an 48:1-2].\n\nبسم الله الرحمن الرحيم//\n لا اله الا الله الامر كله لله//\nالله خير حافظ و هو ارحم الرحيم//\nعام سبعة و اربعون بعد سبع مائة من الهجر\nمولالي [sic] السلطان ابن مولاي السلطان المجاهد العادل ابي عبد \nمحمد ابن النصر // ايده الله و نصره\nانا فتحنا لك فتحا مبينا ليغفر لك الله ما تقدم من ذنبك و ما تأخر\n\nBlessed be He who has entrusted\nyou with command of His servants\nAnd how many infidel lands did\nyou reach in the morning\nonly to become arbiter of their lives in the evening.\nYou put on them the yoke of captives so\nthat they appear at your doorstep to build\npalaces in servitude;\nYou conquered Algeciras by the sword and opened\na gate which had been denied to our victory. \n\nتبارك من ولاك امر عباده 1\nفاولى بك الاسلام فضلا و انعما\nفكم بلدة صبحت اهلها للكفر 2\nو امسيت في اعمارهم متحكما\nو طوقتهم طوق الاسار 8 فصبحوا 3\nبباك 9 يبنون القصور\nفتحتت بالسيوف و الجزيرة عنوة 4\nففتحت بابا كان للنرص مبهما\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Sword blade",
@@ -30917,6 +31036,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nPerpetual glory, increasing prosperity, penetrating\nauthority, ascending good fortune, helping destiny,\ncomplete grace, perfect blessing, ascending good\nfortune, helping destiny, grace.\n\nالعز الدائم، والإقبال الزائد، والأمر النافذ، والجد السعيد، والدهر\nالمساعد، والنعمة الشاملة، والبركة الكاملة\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Belt mounts",
           "titleAr": "مثبِّتات‭ ‬حزام",
           "originEn": "Syria or the Jazira Region",
@@ -31047,6 +31173,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nGood fortune and elevation and well-being and\nsupport [and] (God’s) favour and long life.\nالدولة والرفعة والسلا/مة والتأيد [التأييد] [و]النعمة والبقاء\n\n\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Ewer",
           "titleAr": "إبريق",
           "originEn": "Mosul, Iraq",
@@ -31112,6 +31245,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nOpen the inkwell of happiness and advancement …\nlasting glory, success(?)\nافتح دوات سعادة وتراق ... عز باق اقال [اقبال؟]\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Inkwell",
@@ -31391,6 +31531,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nIf you open the pen case of glory and divine favors,\nThen make your ink from liberality and generosity.\n\n\"إذ[ا] فتحْتَ دَواةَ العِزِّ والّنِعَمِ \nفاجعلْ مِدادَكَ من جُودٍ ومن كَرَمِ\"\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Royal inkwell and cover",
           "titleAr": "محبرة‭ ‬ملكية‭ ‬مع‭ ‬غطائها",
           "originEn": "Mosul, Iraq",
@@ -31466,6 +31613,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscriptions read:_\nGlory to our lord the greatest sultan, the possessor of\nthe necks of nations, the sultan of the sultans of the\nArabs and the Persians, the learned, the just, the one\nsupported by the firmament, the rendered victorious\nover enemies, the...\nالعز لمولانا السلطان / الاعظم مالك رقاب الامم / السلطان\nسلاطين [كذا] لا / العرب والعجم العالم / العادل المؤيد من\nالسماء / المنصور على الاعداء والملـ\n\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Bowl",
           "titleAr": "وعاء",
           "originEn": "South Iran",
@@ -31537,6 +31691,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_Inscriptions, front:_\nMay fortune be a friend! May happiness be a friend!\nMy victory be a friend!\nدولت یارد [کذا] باد / سعا[د]ت یار باد / نرصت یار باد\n\n_Back:_\nMay the ending be good! May the ending be\npraiseworthy! The world is the sowing ground for\nthe afterlife.\nعاقبت بخير باد / عاقبت محمو[د] باد / الدنیا مزرعة الآخرة\n\n_Sides:_\n_Starting on side B, continuing on side A,_\n_a Persian quatrain:_\nI am sharp like the glance of the beloveds,\nI am blood-thirsty like _Dhu’l-Faqar_.\nSometimes I serve the guest of the master(?),\nAt other times I hang from the liver of his enemy.\nماننده ذوالفقار خون ریزم من               چون غمزه دلبران تيزم من\nگه بر جگر دشمنش آویزم من        گه خدمت مهمان خداوند(؟) کنم\n\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Sword hilt",
           "titleAr": "مقبض‭ ‬سيف",
           "originEn": "Iran or Central Asia",
@@ -31602,6 +31763,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nOh Allah, open the gates of prosperous rule and\nblessings and future victories every day before the face\nof the commander, Lord of the Conjunction, Amir\nTimur Gurkan, in the months of the year eight hundred.\n\nاللهم افتح أبواب الدولة والسعادة والفتوحة العصّية (ربما الغشيّة)\"\nفي كل يوم على وجه أمير صاحب كران امير تيمور گوركان في شهور\n\"سنة ثمانمئة\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Bowl bearing the name and titles of Timur",
@@ -32057,6 +32225,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription engraved at top of front_\n_right proper panel reads:_\nOn the order of the treasury of Abu al-Fath\nIbrahim Sultan.\nبرسم خزانة أبو الفتح إبراهيم سلطان\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Mail and plate armor coat\nBearing the name of Ibrahim Sultan",
           "titleAr": "درع‭ ‬من‭ ‬الزَّرَد‭ ‬والألواح‭ ‬المعدنية\nيحمل‭ ‬اسم‭ ‬إبراهيم‭ ‬سلطان",
           "originEn": "Probably Shiraz, Iran",
@@ -32191,6 +32366,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nGlory to our lord the sultan, the mighty Khagan,\nlasting glory, auspicious fate, spiritual immunity, good\nfortune, happiness, blessings, integrity and power.\nالعـز المـولى يـا السـلطان الخاقـان الأعظم\nالعـز الدائـم والإقبـال والعافيـة والدولـة والسـعادة والبركة\n والسلامـة والسـلطنة\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Helmet",
           "titleAr": "خوذة",
           "originEn": "Türkiye",
@@ -32254,6 +32436,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nGlory lies in obedience and wealth lies in contentment\nand righteousness; in sufficiency and blessing; in\nmajesty, lasting might, auspicious fate, good fortune,\nand power.\nالعز في الطاعة والغنى في القناعة والبر في الكفاية والبركة في الجلال\nالعز الدائم والإقبال والدولة والسلطان\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Helmet",
@@ -32384,6 +32573,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nThe Sultan, son of Sultan amir Khalilullah….\nGlory to our Lord, the Great Sultan, the mighty Khaqan\nPerpetual Glory, and Prosperity, and Wealth, and\nPraise....and forgiveness, and Glory...Prosperity....\nGlory is in obedience, Wealth is in self restraint.\nالسلطان بن سلطان امير خليل الله خلد....\nالعز في الطاعة ......الحرام ......العفو..... الدولة والشا والإقبال......\nالعز مولا العادل يا الشان ................ أعظم خاقان الشان يا المعظم\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Helmet",
@@ -32520,6 +32716,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nFor the Treasury of the People’s Guide, Sultan Yusuf.\nبرسم خزانة (ارشاد) عالميان سلطان يوسف \n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Chamfron\nInscribed with the name and titles of Sultan Yusuf",
           "titleAr": "درع‭ ‬رأس‭ ‬الفَرَس\nمنقوش‭ ‬عليه‭ ‬اسم‭ ‬وألقاب‭ ‬السلطان‭ ‬يوسف",
           "originEn": "East Türkiye or Iran",
@@ -32583,6 +32786,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nHelp from Allah and a near victory. And give glad\ntidings to the believers [Holy Qur’an 61:13].\nنصر من الله و فتح قريب و بشر المؤمنين\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Chamfron",
           "titleAr": "درع‭ ‬رأس‭ ‬الفَرَس",
           "originEn": "Türkiye or Iran",
@@ -32644,6 +32854,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nMight is in worshipping Allah, the learned Sultan,\nwealth is in Good Fortune.\nالعز في الطآعره ,السلطان العلم, الدولة في الغن\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Chamfron",
@@ -32715,6 +32932,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nGlory to our lord Sultan, the victorious king, the grand\nKhunkar, lord of all nations, king of the two earths and\nthe two seas, sultan of the two noble sanctuaries, Selim\nKhan bin Bayazid Khan, may his victory be glorious.\n\nالمجد لمولانا السلطان، الملك المُظَفَّر، الخونكار العظيم، سيد \n،الأمم قاطبة، ملك الأرضين والبحرين، سلطان الحرمين الشريفين\nسليم خان بن بايزيد خان، أدام الله نصره مؤزَّراً\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Chamfron\nInscribed with the name and titles of Sultan Selim I",
           "titleAr": "درع‭ ‬رأس‭ ‬الفَرَس\nمنقوش‭ ‬عليه‭ ‬اسم‭ ‬وألقاب‭ ‬السلطان‭ ‬سليم‭ ‬الأول",
           "originEn": "Türkiye or Egypt",
@@ -32778,6 +33002,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription:_\nHoly Qur’an 24:64\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Chamfron",
           "titleAr": "درع‭ ‬رأس‭ ‬الفَرَس",
           "originEn": "Iran or Central Asia",
@@ -32839,6 +33070,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_Inscriptions, front panels:_\nOn the order of the most honorable authority, the\nhigh, the lordly, the amir, the Saifi (i.e. Saif al-Din) …\nthe viceroy, the associated with al-Malik al-Ashraf,\nmay [Allah] glorify his victories.\nبرسم المقر الاشرف العالى / المولوی الاميری السیفی ... / نائب”\n“السلطنة الشريفة الملكي / الاشرفى اعز انصاره\n\n_Back panels: _\n[While Allah] encompasses them from behind. No.\nIt is a glorious Recitation, preserved on a table \n[Holy Qur’an 85:20–22].\n\"والله / من ورائهم محيط بل هو قرآن مجيد / في لوح محفوظ]\"\n(الآيات 20-22) سورة البروج\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Mail and plate armor coat\nBearing the blazon and titles of al-Ashraf Inal",
@@ -32975,6 +33213,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nHoly Qur’an 24:64\nMade by order of his highness in the cause of Allah.\nThe work of Ibrahim ibn Sa‘id al-Makari (?)\n(24:64) سورة النور\nصُنِعَ بأمرٍ من سموّه في سبيل الله\n(؟) من عمل إبراهيم بن سعيد المَقَّري\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Sword blade\nSigned Ibrahim bin Sa‘id al-Makari",
@@ -33243,6 +33488,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_Inscriptions, main band:_\nGlory to our lord, the sultan, the king, the champion\nof the faith, the learned, the just, the holy warrior, the\ndefender, the protector of frontiers, the assisted (by\nAllah), the rendered victorious, the Sultan of Islam.\n/ عز لمولانا السلطان الملك المجاهد العا/لم العادل الغازى \nالمرابط المثاغر المؤ/يد المنصور سلطان الاسلام\n\n_Finial:_\nThe noble authority, the high, the lordly, the\npossessor, the amir.\nالمقر الكريم العالى المولوى المالكى الاميرى\n\nThe upper band contains Kufic combinations of the\nletters kaf, alif, lam and ‘ayn. The lower kufic band is\nsimilar but less legible.\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Lantern",
           "titleAr": "فانوس",
           "originEn": "Egypt or Syria",
@@ -33381,6 +33633,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_Inscriptions, around the body, in thuluth script:_\nThe high authority, the lordly, the possessor, the great\namir, the learned, the diligent, the holy warrior, the\nchampion of the faith, the defender, the protector of\nfrontiers, the assisted (by Allah), the treasure, the aid,\nthe valiant, the affiliated with Al-Malik al-Salih.\nالمقر العالى المو/لوى المالكى الأميرا/ى [كذا] الكبيرى العالمى\nالعاملى/ الغازى المجاهدى المرابطى/ المثاغرى المؤيدى الذخرى\nالعونى ا/لهمامى الملكى الصالحى\n\n_In the radiating inscriptions in the roundels, in thuluth_\n_script, variations on the following phrase:_\nThe noble authority, the high, the lordly, the\npossessor, the learned, the diligent.\nالمقر الكريم العالى المولوى المالكى العالمى العاملى\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Bowl",
           "titleAr": "وعاء",
           "originEn": "Egypt or Syria",
@@ -33452,6 +33711,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription engraved at top of front_\n_right proper panel reads:_\nPerpetual glory, increasing success, lasting good\nfortune and complete well-being and manifest\nfavour and exalted generosity, perfect happiness and\nbrilliant power, ascending luck, helping destiny and\ntriumphant victory and secure life and enduring long\nlife and happiness for its owner\nالعز الدائم الا[ق‍ب‍]ـال الزائد الدولة الباقية والسلامة الشاملة والنعمة\nالشائعة والكرامة العالية السعادة الكاملة والقدرة الباهر[ة] الجد\nالـ[ـ‍ص‍]ـاعد والدهر المساعد والنصر الغالب والعمر السالم والبقاء\nالدائم والسعادة لصاحبه\n\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Domed casket",
           "titleAr": "صندوق‭ ‬ذو‭ ‬قُبّة",
           "originEn": "Mosul, Iraq",
@@ -33517,6 +33783,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_Inscriptions, border:_\nThe high authority, the lordly, the great amir, the holy\nwarrior, the champion of the faith, the possessor, the\naffiliated with al-Malik al-Nasir.\nالمقر العالى ا/لمولوى الاميرى الكبير[ى] / الغازى المجاهدى\n ا/لمالكى الناصرى\n\n_Top:_\nThe high authority, the lordly, the amir, the treasure(?),\nthe possessor … the affiliated with al-Malik al-Nasir\nالمقـر العـالى ا/لمولـوى االميرى الذ/خـر\\[ى]\\(؟) المـالكى\nالـرا / المـلكى النـاصرى\n\n_Body:_\nThe high authority, the lordly, the great amir, the holy\nwarrior, the champion of the faith, the defender … the\nlearned, the just, the valiant, the organiser, the support, the\nleader, the possessor, the affiliated with al-Malik al-Nasir.\nال‍م‍قرالعالى المو/لوى الاميرى الكبيرى الغازى / المجاهدى\n/المرابطى ... / ... العالمى العاد/لى الهمامى النضامى [كذا] القوا\nمى الزعيمى المالكى الناصرى\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Domed casket",
@@ -33655,6 +33928,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_The inscription along the spine of the blade reads:_\nThe Rustam of the age, the hero that breaks the ranks\n[of the enemy], that wielder of the weighty mace,\nThe master of the sword and the standard, Ahmed bin\nHersek Khan.\n\nThis dagger, whose Mars (i.e. steel) is Jupiter,\n… the harp (claw?) … became its date.\n\nرستم عصر یل صف شکن آن گرز گران\nصاحب تیغ و علم احمد بن هرسک خان\n\nاین قبضه که هست مشترى مریخش، چون...\nچنگ ز ... شد تاریخش\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Yataghan with scabbard\nBearing the name and titles of Ahmad bin Hersek Khan",
@@ -34042,6 +34322,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription includes:_\n“Swords open the gates of paradise, Ya Muhammad”\n»السيوف مفاتح الجنة»، »يا محمد»\n\nThe _bismillah _(in the name of God). Verses from the\nHoly Qur’an (48:1–4, 61:13, and 48:5–6).\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Saber blade",
           "titleAr": "نصل‭ ‬سيف",
           "originEn": "Egypt, Syria",
@@ -34350,6 +34637,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_Inscription_\nHoly Qur'an 61:13\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Shield",
           "titleAr": "تُرْس",
           "originEn": "Türkiye",
@@ -34510,6 +34804,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_Inscription:_\nHoly Qur’an 48:1–2\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Shield",
@@ -34865,6 +35166,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nThere is no god but Allah, Muhammad is the Messenger of Allah.\nلا إله إلا الله محمد رسول الله\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "War mask",
@@ -35247,6 +35555,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_Inscriptions, around the body, in thuluth script:_\nYou strike with the blade and yet I do\nnot die—what a disgrace!\nOne would say that your soul-bestowing\nblade has the water of life.\nميزینى تیغ و نمی ميرم زهى شرمندگى\nتیغ جان بخش تو گوئي دارد آب زندگي\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Dagger",
           "titleAr": "خنجر",
           "originEn": "Türkiye or Iran",
@@ -35387,6 +35702,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_Inscriptions, side A (Persian quatrain and couplet):_\nWhenever your dagger has struck its point\nout of vengeance,\nIts bloodthirstiness has thrown the universe\ninto confusion.\nIn slenderness and the purity of its essence,\nIt resembles the dew-soaked willow leaf.**226**\n\nDraw the dagger and bring the heart\nout of our breast\nSo that you may see our liver among\nthe ranks of the lovers.\nهـر گاه کـه خنجـرت ز کين دم زده اسـت خـون ریـزی او\nزمانـه بـر هـم زده اسـت\nاز نازکى و صفای جوهر که در اوست ماننده برگ بید شبنم زده است\n\nخنجر بکش و دل بدر آور ز بر ما تا در صف عشاق به بینى جگر ما\n\nبید خنجر میکشد هر صبحدم بر روی ما من درین فکرم که او\nبیدست خنجر چون کشد\n\n_Side B (three Persian couplets):_\nThe willow draws a dagger each morning across\nour face, I ask myself, ‘How can it draw a dagger\nwith no hands?’**227**\nStrike several daggers upon my breast,\nFor [my] relief, open several doors into my heart!\nThe final couplet which is also on the subject of the\ndagger is undeciphered.**228**\nبید خنجر میکشد هر صبحدم بر روی ما من درین فکرم که او\nبیدست خنجر چون کشد\n\nبزن بر سینه من خنجری چند ز راحت بر دلم بگشا دری چند\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Dagger",
@@ -35531,6 +35853,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nOn the night when the moon of your face was the lamp\nthat lit our seclusion,\nThe candle melted since it could not stand the heat\nof our companionship.\nThe moment you throw off the veil from your\nmoon-like face\nIs the rising of the sun of our fortune.**229**\nشبى که ماه رخت شد چراغ خل وت [خلوت] ما\nگداخت شمع نیاورد تاب صحبت ما\nدمی که از رخ چون مه نقاب بر فکنى\nبود بر آمدن آفتاب دولت ما\n\n_In a quatrefoil cartouche between the verses:_\nThe work of Abul Fath (Abu al-Fath?) ibn\nMammu (Mahmud?)’\n[محمود؟] عمل ابل فتح [ابو الفتح؟] بن مّمو\n\n_In a cartouche in the uppermost register, partly effaced:_\nFor Hasan ‘Ali made [an endowment] by way of\nsincerity and purity.\nکه کرد [وقف] حسن علي ز صدق (و) صفا\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Torch stand",
           "titleAr": "حامل‭ ‬مِشعل",
           "originEn": "Iran",
@@ -35596,6 +35925,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_Inscriptions:_\nThe _bismillah_ and Holy Qur’an 48:1–12.\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Armor with five plates",
@@ -36290,6 +36626,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nAli Adil Shah. Its name is Ran-Daula\n(Fortune in Battle).\nعلي عادل شاه / اسمه رن دوله\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Saber (talwar)\nIn the name of Sultan Ali Adil Shah",
           "titleAr": "سيف (تلوار)\nباسم السلطان علي عادل شاه",
           "originEn": "Bijapur, India",
@@ -36353,6 +36696,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nHe is Allah; Glory be to Him.\nAllah, light of the heaven and the earth.\nO Victorious one.\n1097\nهو الله، سبحانه وتعالى.\nالله نور السماوات والأرض.\nيا غالب.\n1097\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Processional standard (‘alam)",
@@ -37679,6 +38029,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "_The inscription on the sheath reads:_\nFrom M. General Baird who commanded the assault\non Seringapatam on the 4th day of May 1799 when\nTippoo Sultan fell to Lt Col Gordon.\n\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Dagger with sheath",
           "titleAr": "خنجر‭ ‬مع‭ ‬غِمد",
           "originEn": "Mysore, India",
@@ -38042,6 +38399,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "_The inscription reads:_\nThere is no hero like ‘Ali and no sword like\nDhu al-Faqar.\n\"لا فتى إلا عليّ ولا سيفَ إلا ذو الفِقار\"\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Shield",
@@ -38669,6 +39033,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "**_The inscription reads:_**\nSometimes a gentle breeze from Madinah, sometimes the light, eastern, dawn breeze blows\n\nAs long as that dawn breeze blows, the eastern breeze is like the water of life for him.\n\nIts owner, Muhammad bin Ali\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Madinah Tile Panel",
           "titleAr": "لوح من بلاطتَين تصو ِ ران المدينة المنوّرة",
           "originEn": "Iznik, Türkiye",
@@ -38862,6 +39233,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "**_The inscription reads:_**\nBlessings and peace be upon you,\nO one whom Allah has adorned.\nThere is no god but Allah;\nMuhammad is the Messenger of Allah.\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Curtain (sitarah) for the Hujrah screen",
           "titleAr": "ستارة الحجرة النبوية الشريفة",
           "originEn": "Istanbul, Türkiye",
@@ -38939,6 +39317,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "**_The inscription reads:_**\nIndeed, Allah has angels who travel the earth,\nconveying to me the greetings of my nation.\nThere is no god but Allah;\nMuhammad is the Messenger of Allah.\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Curtain (sitarah) for the Hujrah screen",
@@ -39020,6 +39405,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "**_The inscription reads:_**\nAnd We have sent you, not but as a mercy for the ‘Alamin [Holy Qur’an 21:107].\nAnd Verily, you are on an exalted [standard of ] character [Holy Qur’an 68:4].\nMahmud Khan, son of Abdulhamid, ever victorious\nThe just\n1232 [AH/1816–17 CE]\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Curtain (sitarah) for the Hujrah screen",
           "titleAr": "ستارة الحجرة النبوية الشريفة",
           "originEn": "Istanbul, Türkiye",
@@ -39093,6 +39485,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "**_The inscription reads:_**\nBlessings and peace be upon you,\nO one whom Allah has honored.\nThere is no god but Allah.\nMuhammad is the Messenger of Allah.\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Curtain (sitarah) for the Hujrah screen",
@@ -39174,6 +39573,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "**_The inscription reads:_**\nAnd We have sent you, not but as a mercy for the ‘Alamin [Holy Qur’an 21:107].\nThere is no god but Allah;\nMuhammad is the Messenger of Allah.\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Curtain (sitarah) for the Hujrah screen",
           "titleAr": "ستارة الحجرة النبوية الشريفة",
           "originEn": "Istanbul, Türkiye",
@@ -39253,6 +39659,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "**_The inscription reads:_**\nBlessings and peace be upon you,\nO chosen one of Allah.\nThere is no god but Allah;\nMuhammad is the Messenger of Allah.\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Curtain (sitarah) for the Hujrah screen",
           "titleAr": "ستارة الحجرة النبوية الشريفة",
           "originEn": "Istanbul, Türkiye",
@@ -39330,6 +39743,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "**_The inscription reads:_**\nThis is the noble curtain for the Gate of Mercy.\nPeace be upon you, O Prophet,\nand the mercy and blessings of Allah.\nThere is no god but Allah;\nMuhammad is the Messenger of Allah.\nHoly Qur’an 59:22–24 + Allah has spoken the truth\nAbu Bakr al-Siddiq (may Allah be pleased with him)\n‘Uthman (may Allah be pleased with him)\nHasan (may Allah be pleased with him)\n‘Umar al-Faruq (may the Almighty Allah be pleased with him)\n‘Ali (may Allah be pleased with him)\nHusain (may Allah be pleased with him)\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Curtain (sitarah) for Bab al-Rahmah",
@@ -39600,6 +40020,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "**_The inscription reads:_**\nSüleyman Shah son of Selim Shah Khan, ever victorious\n\nMade by Ibrahim, head cauldron maker\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Candlestick",
           "titleAr": "شمعدان",
           "originEn": "Istanbul, Türkiye",
@@ -39663,6 +40090,13 @@
               "source": "Airtable IAB Code"
             }
           ],
+          "inscriptions": [
+            {
+              "text": "**_The inscription reads:_**\nAllah is the Light of the heavens and the earth.\n\nThe similitude of His light is as a niche wherein is a lamp [Holy Qur’an, 24:35].\n\nIt is He who appointed the sun a splendour and the moon a light [Holy Qur’an 10:5].\n\nHe is the Cleaver of the daybreak [Holy Qur’an 6:96].\n\nHe sent to us a Messenger as a bearer of glad tidings, a mercy from Allah, and a radiant light. This candlestick has been bequeathed as an endowment in exalted Medina and in the noble Prophetic presence, and its fixed place has been designated as the garden of the master of creation and the lamp in the darkness, may God’s peace and blessings be upon him. Hoping for the forgiveness of the Omnipotent King, the vizier Süleyman, in Jumada al-Ula in the year 947 of the hijrah of his prophethood.\n\nIts owner, Süleyman\n",
+              "type": "text",
+              "sortOrder": 1
+            }
+          ],
           "titleEn": "Candlestick",
           "titleAr": "شمعدان",
           "originEn": "Istanbul, Türkiye",
@@ -39724,6 +40158,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "**_The inscription reads:_**\nSüleyman Shah son of Selim Shah Khan, ever victorious\n\nMade by Ibrahim, head cauldron maker\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Candlestick",
@@ -39938,6 +40379,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "**_Inscriptions, front:_**\nThat is indeed an honorable recitation.\nIn a Book well-guarded [Holy Qur’an 56:77–78].\n\n**_Reverse panel:_**\nWhich none can touch but the purified. A revelation\nfrom the Lord of the worlds [Holy Qur’an 56:79-80].\n\n**_Left panel:_**\nSafar al-Khair, 1333\n\n**_Right panel:_**\nHasan Bey al-Sinnari\n\n**_Top of lid:_**\nThis is a waqf (endowment) of the Prophet’s Mosque.\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Multi-volume Qur’an box",
@@ -40426,6 +40874,13 @@
               "type": "IAB",
               "preferred": true,
               "source": "Airtable IAB Code"
+            }
+          ],
+          "inscriptions": [
+            {
+              "text": "**_Inscriptions: roundels along border: _**\nAllah is my Lord.\nAllah is sufficient for me.\n\n**_Upper cartouches:_**\nVerily! We have seen the turning of your face towards the heaven [Holy Qur’an 2:144].\nSurely, We shall turn you to a qiblah that shall please you [Holy Qur’an 2:144].\n\n**_Large upper central cartouche:_**\nSay: “O ‘Ibadi who have transgressed against themselves despair not of the Mercy of Allah: verily, Allah forgives all sins” [Holy Qur’an 39:53].\n\n**_Within lamp-shaped motif:_**\nAnd my guidance cannot come except from Allah [Holy Qur’an 11:88].\n\n**_Smaller horizontal cartouches:_**\nHoly Qur’an 2:255–256\n\n**_Largest cartouche:_**\nIndeed Allah shall fulfil the true vision which He showed to His Messenger in very truth. Certainly, you shall enter AI-Masjid- al-Haram, if Allah wills, secure [Holy Qur’an 48:27]. \nAbdulrahim Amin\n\n**_Roundels (x2):_**\nHoly Qur’an 112:1–4\nAllah, the Most Glorious and Exalted\n\n**_Between roundels:_**\nHoly Qur’an 7:23\nHoly Qur’an 3:8\n\n**_Cartouches below roundels:_**\nHoly Qur’an 106:1-4 \nAllah the Almighty speaks the truth\n\n**_Either side of the opening (x2):_**\nThere is no god but Allah, The Truth, The Manifest.\nMuhammad is the Messenger of Allah, truthful in his promise and trustworthy.\n\n**_Text on the opening:_**\nHoly Qur’an 14:40–41\n\n**_Sitarah border:_**\nHoly Qur’an 1:1–7\n\n**_Colophon:_**\nThis sitarah was made in Makkah al-Mukarramah and gifted to the honoured Ka‘bah by the Custodian of the Two Holy Mosques, Faisal bin Abdulaziz Al-Saud, may Allah accept it from him.\n",
+              "type": "text",
+              "sortOrder": 1
             }
           ],
           "titleEn": "Curtain (sitarah) for the Ka’bah Door",

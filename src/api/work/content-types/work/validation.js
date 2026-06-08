@@ -53,6 +53,50 @@ function validateIdentifiers(identifiers) {
   };
 }
 
+function cleanInscription(inscription) {
+  return {
+    ...(inscription.id === undefined ? {} : { id: inscription.id }),
+    text: String(inscription.text || ''),
+    ...(String(inscription.translation || '').trim()
+      ? { translation: String(inscription.translation) }
+      : {}),
+    ...(String(inscription.language || '').trim()
+      ? { language: String(inscription.language).trim() }
+      : {}),
+    ...(String(inscription.type || '').trim()
+      ? { type: String(inscription.type).trim() }
+      : {}),
+    ...(String(inscription.position || '').trim()
+      ? { position: String(inscription.position).trim() }
+      : {}),
+    ...(inscription.author === undefined || inscription.author === null
+      ? {}
+      : { author: inscription.author }),
+    ...(inscription.sortOrder === undefined || inscription.sortOrder === null
+      ? {}
+      : { sortOrder: inscription.sortOrder }),
+  };
+}
+
+function validateInscriptions(inscriptions) {
+  if (inscriptions === undefined) return undefined;
+  if (inscriptions === null) return inscriptions;
+  if (!Array.isArray(inscriptions)) {
+    throw new errors.ValidationError('Work inscriptions must be a repeatable list.');
+  }
+
+  return inscriptions.map((inscription) => {
+    const cleaned = cleanInscription(inscription || {});
+    if (!cleaned.text.trim()) {
+      throw new errors.ValidationError(
+        'Every Work inscription requires source text.',
+      );
+    }
+
+    return cleaned;
+  });
+}
+
 async function identifiersForWrite(strapi, context) {
   const { action, params } = context;
   const data = params.data || {};
@@ -99,6 +143,12 @@ async function validateWorkWrite(strapi, context) {
     identifiers: normalized.identifiers,
     iabCode: normalized.iabCode,
   };
+
+  if (Object.prototype.hasOwnProperty.call(context.params.data, 'inscriptions')) {
+    context.params.data.inscriptions = validateInscriptions(
+      context.params.data.inscriptions,
+    );
+  }
 }
 
 function registerWorkValidation(strapi) {
@@ -110,6 +160,7 @@ function registerWorkValidation(strapi) {
 
 module.exports = {
   registerWorkValidation,
+  validateInscriptions,
   validateIdentifiers,
   validateWorkWrite,
 };

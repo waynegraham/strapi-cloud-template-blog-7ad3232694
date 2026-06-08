@@ -16,6 +16,26 @@ export interface SharedAgentCredit extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedInscription extends Struct.ComponentSchema {
+  collectionName: 'components_shared_inscriptions';
+  info: {
+    displayName: 'Inscription';
+    icon: 'quote';
+  };
+  attributes: {
+    author: Schema.Attribute.Relation<'oneToOne', 'api::agent.agent'>;
+    language: Schema.Attribute.String;
+    position: Schema.Attribute.String;
+    sortOrder: Schema.Attribute.Integer;
+    text: Schema.Attribute.Text & Schema.Attribute.Required;
+    translation: Schema.Attribute.Text;
+    type: Schema.Attribute.Enumeration<
+      ['signature', 'mark', 'caption', 'date', 'text', 'translation', 'other']
+    > &
+      Schema.Attribute.DefaultTo<'text'>;
+  };
+}
+
 export interface SharedMedia extends Struct.ComponentSchema {
   collectionName: 'components_shared_media';
   info: {
@@ -100,6 +120,7 @@ declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
       'shared.agent-credit': SharedAgentCredit;
+      'shared.inscription': SharedInscription;
       'shared.media': SharedMedia;
       'shared.quote': SharedQuote;
       'shared.rich-text': SharedRichText;

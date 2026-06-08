@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-08T11:07:29.962Z",
+  "generatedAt": "2026-06-08T11:28:28.973Z",
   "sourceRecordCount": 650,
   "observedFieldCount": 41,
   "counts": {
-    "mapped": 28,
-    "planned": 7,
+    "mapped": 29,
+    "planned": 6,
     "ignored": 6
   },
   "unmapped": [],
@@ -196,9 +196,9 @@
     {
       "sourceField": "Inscriptions",
       "populatedRecords": 65,
-      "status": "planned",
-      "target": "inscription.body",
-      "notes": "Needs Inscription content type related to Work."
+      "status": "mapped",
+      "target": "work.inscriptions[].text",
+      "notes": "Each populated Airtable value becomes one Work Inscription component with source text preserved verbatim."
     },
     {
       "sourceField": "Material",

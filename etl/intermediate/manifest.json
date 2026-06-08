@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T11:07:29.731Z",
+  "generated_at": "2026-06-08T11:30:56.865Z",
   "strapi_api_url": "http://localhost:1337",
   "source": {
     "system": "airtable",
@@ -35,10 +35,11 @@
     "skipped_works": 1,
     "duplicate_iab_codes": 30,
     "duplicate_source_rows": 16,
+    "source_inscription_rows": 65,
     "missing_material_lookup": 25,
     "accounted_source_fields": 41,
-    "mapped_source_fields": 28,
-    "planned_source_fields": 7,
+    "mapped_source_fields": 29,
+    "planned_source_fields": 6,
     "ignored_source_fields": 6,
     "unmapped_source_fields": 0
   },

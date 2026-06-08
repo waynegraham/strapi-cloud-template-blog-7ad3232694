@@ -200,6 +200,20 @@ function workIdentifiers(iabCodes) {
   }));
 }
 
+function workInscriptions(value) {
+  if (value === undefined || value === null || String(value).trim() === "") {
+    return undefined;
+  }
+
+  return [
+    {
+      text: String(value),
+      type: "text",
+      sortOrder: 1,
+    },
+  ];
+}
+
 function buildSearchText(parts) {
   return parts.map(compactWhitespace).filter(Boolean).join(" ");
 }
@@ -703,6 +717,7 @@ function transformWorks(records, materialLookup, fieldMapping) {
     const data = {
       iabCode: primaryIabCode,
       identifiers: workIdentifiers(iabCodes),
+      inscriptions: workInscriptions(fields.Inscriptions),
       titleEn,
       titleAr,
       originEn: optional(fields.Origin),
@@ -856,6 +871,9 @@ function main() {
       skipped_works: report.skipped.length,
       duplicate_iab_codes: report.duplicate_iab_codes.length,
       duplicate_source_rows: report.duplicate_source_rows.length,
+      source_inscription_rows: works.filter((work) =>
+        Array.isArray(work.request.body.data.inscriptions),
+      ).length,
       missing_material_lookup: report.missing_material_lookup.length,
       accounted_source_fields: report.source_field_coverage.accounted.length,
       mapped_source_fields: report.source_field_coverage.counts.mapped || 0,
@@ -889,5 +907,6 @@ module.exports = {
   transformCuratedStories,
   transformGalleries,
   transformWorks,
+  workInscriptions,
   workIdentifiers,
 };

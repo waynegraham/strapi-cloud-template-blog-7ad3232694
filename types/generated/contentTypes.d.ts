@@ -1010,6 +1010,7 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
       'oneToMany',
       'api::iiif-asset.iiif-asset'
     >;
+    inscriptions: Schema.Attribute.Component<'shared.inscription', true>;
     institution: Schema.Attribute.Relation<
       'manyToOne',
       'api::institution.institution'

@@ -21,6 +21,11 @@
       "repeatable": true,
       "required": true
     },
+    "inscriptions": {
+      "type": "component",
+      "component": "shared.inscription",
+      "repeatable": true
+    },
     "titleEn": {
       "type": "string",
       "required": true

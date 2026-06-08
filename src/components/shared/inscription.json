@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_shared_inscriptions",
+  "info": {
+    "displayName": "Inscription",
+    "icon": "quote"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "translation": {
+      "type": "text"
+    },
+    "language": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "signature",
+        "mark",
+        "caption",
+        "date",
+        "text",
+        "translation",
+        "other"
+      ],
+      "default": "text"
+    },
+    "position": {
+      "type": "string"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::agent.agent"
+    },
+    "sortOrder": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}
