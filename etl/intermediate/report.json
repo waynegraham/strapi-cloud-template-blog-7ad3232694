@@ -713,8 +713,8 @@
       {
         "source_field": "Opening Folio No. On Display",
         "status": "planned",
-        "target": "iiif-image.label",
-        "notes": "Needs image/folio-level matching before loading."
+        "target": "iiif-image.folioLabel",
+        "notes": "Kept separate from the general image label; needs image/folio-level matching before loading."
       },
       {
         "source_field": "Origin",
@@ -877,5 +877,9 @@
         ]
       }
     ]
+  },
+  "iiif_images": {
+    "unresolved_source_rows": 9,
+    "matched_source_rows": 0
   }
 }

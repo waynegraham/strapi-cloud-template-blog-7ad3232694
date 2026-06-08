@@ -6,6 +6,9 @@ const {
 const {
   registerWorkValidation,
 } = require('./api/work/content-types/work/validation');
+const {
+  registerIiifImageValidation,
+} = require('./api/iiif-image/content-types/iiif-image/validation');
 
 module.exports = {
   /**
@@ -17,6 +20,7 @@ module.exports = {
   register({ strapi }) {
     registerGalleryValidation(strapi);
     registerWorkValidation(strapi);
+    registerIiifImageValidation(strapi);
   },
 
   /**

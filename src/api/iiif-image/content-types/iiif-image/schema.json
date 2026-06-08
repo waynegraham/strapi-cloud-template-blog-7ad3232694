@@ -20,9 +20,14 @@
       ]
     },
     "sequence": {
-      "type": "integer"
+      "type": "integer",
+      "required": true,
+      "min": 1
     },
     "label": {
+      "type": "string"
+    },
+    "folioLabel": {
       "type": "string"
     },
     "s3key": {
@@ -52,6 +57,13 @@
     },
     "rights": {
       "type": "string"
+    },
+    "iiifAsset": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::iiif-asset.iiif-asset",
+      "inversedBy": "images",
+      "required": true
     }
   }
 }

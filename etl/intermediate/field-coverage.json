@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T11:35:44.753Z",
+  "generatedAt": "2026-06-08T11:43:45.584Z",
   "sourceRecordCount": 650,
   "observedFieldCount": 41,
   "counts": {
@@ -216,8 +216,8 @@
       "sourceField": "Opening Folio No. On Display",
       "populatedRecords": 6,
       "status": "planned",
-      "target": "iiif-image.label",
-      "notes": "Needs image/folio-level matching before loading."
+      "target": "iiif-image.folioLabel",
+      "notes": "Kept separate from the general image label; needs image/folio-level matching before loading."
     },
     {
       "sourceField": "Origin",

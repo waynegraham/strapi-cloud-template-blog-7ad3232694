@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-08T11:36:37.493Z",
+  "generated_at": "2026-06-08T11:43:45.662Z",
   "strapi_api_url": "http://localhost:1337",
   "source": {
     "system": "airtable",
-    "input_file": "etl/airtable_dump.json",
-    "agents_file": "etl/agents_distinct.csv",
-    "materials_file": "etl/materials_distinct.csv",
-    "field_mapping_file": "etl/field-mapping.json",
+    "input_file": "airtable_dump.json",
+    "agents_file": "agents_distinct.csv",
+    "materials_file": "materials_distinct.csv",
+    "field_mapping_file": "field-mapping.json",
     "source_record_count": 650
   },
   "load_order": [
@@ -32,6 +32,7 @@
     "curated_story_source_rows": 50,
     "curated_story_near_duplicates": 1,
     "curated_story_metadata_conflicts": 4,
+    "unresolved_iiif_image_source_rows": 9,
     "skipped_works": 1,
     "duplicate_iab_codes": 30,
     "duplicate_source_rows": 16,
@@ -44,15 +45,16 @@
     "unmapped_source_fields": 0
   },
   "files": {
-    "agent-roles": "etl/intermediate/agent-roles.json",
-    "agents": "etl/intermediate/agents.json",
-    "people": "etl/intermediate/people.json",
-    "materials": "etl/intermediate/materials.json",
-    "galleries": "etl/intermediate/galleries.json",
-    "works": "etl/intermediate/works.json",
-    "curated-stories": "etl/intermediate/curated-stories.json",
-    "curated-story-review": "etl/intermediate/curated-story-review.json",
-    "duplicates": "etl/intermediate/duplicates.json",
-    "report": "etl/intermediate/report.json"
+    "agent-roles": "intermediate/agent-roles.json",
+    "agents": "intermediate/agents.json",
+    "people": "intermediate/people.json",
+    "materials": "intermediate/materials.json",
+    "galleries": "intermediate/galleries.json",
+    "works": "intermediate/works.json",
+    "curated-stories": "intermediate/curated-stories.json",
+    "curated-story-review": "intermediate/curated-story-review.json",
+    "iiif-image-review": "intermediate/iiif-image-review.json",
+    "duplicates": "intermediate/duplicates.json",
+    "report": "intermediate/report.json"
   }
 }

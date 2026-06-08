@@ -810,6 +810,30 @@ function transformWorks(records, materialLookup, fieldMapping) {
   return { works, report };
 }
 
+function transformIiifImageReview(records) {
+  const review = [];
+
+  for (const sourceRecord of records) {
+    const fields = sourceRecord.fields || {};
+    const annotation = optional(fields["Image annotation"]);
+    const folioLabel = optional(fields["Opening Folio No. On Display"]);
+    if (!annotation && !folioLabel) continue;
+
+    review.push({
+      source_record_id: sourceRecord.id,
+      iab_codes: splitIabCodes(fields["IAB Code"]),
+      title_en: optional(fields["Title of Object"]),
+      image_annotation: annotation,
+      opening_folio_label: folioLabel,
+      status: "unresolved",
+      reason:
+        "No confirmed IIIF Image identifier is present in the Airtable source row.",
+    });
+  }
+
+  return review;
+}
+
 function writeIntermediate(name, records) {
   const outputPath = path.join(OUTPUT_DIR, `${name}.json`);
   fs.writeFileSync(outputPath, `${JSON.stringify(records, null, 2)}\n`);
@@ -850,7 +874,12 @@ function main() {
   const galleries = transformGalleries(airtableRecords, report);
   const { stories: curatedStories, report: curatedStoryReport } =
     transformCuratedStories(airtableRecords);
+  const iiifImageReview = transformIiifImageReview(airtableRecords);
   report.curated_stories = curatedStoryReport;
+  report.iiif_images = {
+    unresolved_source_rows: iiifImageReview.length,
+    matched_source_rows: 0,
+  };
 
   const files = {
     "agent-roles": writeIntermediate("agent-roles", agentRoles),
@@ -864,6 +893,7 @@ function main() {
       "curated-story-review",
       curatedStoryReport,
     ),
+    "iiif-image-review": writeIntermediate("iiif-image-review", iiifImageReview),
     duplicates: writeIntermediate("duplicates", report.duplicate_source_rows),
     report: writeIntermediate("report", report),
   };
@@ -904,6 +934,7 @@ function main() {
       curated_story_source_rows: curatedStoryReport.source_rows,
       curated_story_near_duplicates: curatedStoryReport.near_duplicates.length,
       curated_story_metadata_conflicts: curatedStoryReport.metadata_conflicts.length,
+      unresolved_iiif_image_source_rows: iiifImageReview.length,
       skipped_works: report.skipped.length,
       duplicate_iab_codes: report.duplicate_iab_codes.length,
       duplicate_source_rows: report.duplicate_source_rows.length,
@@ -942,6 +973,7 @@ module.exports = {
   splitIabCodes,
   transformCuratedStories,
   transformGalleries,
+  transformIiifImageReview,
   transformWorks,
   workDescriptions,
   workInscriptions,

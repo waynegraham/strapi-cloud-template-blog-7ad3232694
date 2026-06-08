@@ -748,6 +748,10 @@ export interface ApiIiifAssetIiifAsset extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     iiifBaseUrl: Schema.Attribute.String;
+    images: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::iiif-image.iiif-image'
+    >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -787,7 +791,13 @@ export interface ApiIiifImageIiifImage extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     file: Schema.Attribute.Media<'images' | 'files'>;
+    folioLabel: Schema.Attribute.String;
     height: Schema.Attribute.Integer;
+    iiifAsset: Schema.Attribute.Relation<
+      'manyToOne',
+      'api::iiif-asset.iiif-asset'
+    > &
+      Schema.Attribute.Required;
     infoJsonUrl: Schema.Attribute.String;
     label: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
@@ -799,7 +809,14 @@ export interface ApiIiifImageIiifImage extends Struct.CollectionTypeSchema {
     publishedAt: Schema.Attribute.DateTime;
     rights: Schema.Attribute.String;
     s3key: Schema.Attribute.String;
-    sequence: Schema.Attribute.Integer;
+    sequence: Schema.Attribute.Integer &
+      Schema.Attribute.Required &
+      Schema.Attribute.SetMinMax<
+        {
+          min: 1;
+        },
+        number
+      >;
     thumbnailUrl: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
