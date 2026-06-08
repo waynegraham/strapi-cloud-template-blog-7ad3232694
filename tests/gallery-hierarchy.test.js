@@ -38,15 +38,8 @@ function galleryStrapi(galleries) {
         async findOne({ documentId }) {
           return galleries.find((gallery) => gallery.documentId === documentId);
         },
-        async findMany({ filters }) {
-          const parentId = filters.parent.documentId.$eq;
-          const name = filters.nameEn.$eqi.toLocaleLowerCase();
-          return galleries.filter(
-            (gallery) =>
-              gallery.parent &&
-              gallery.parent.documentId === parentId &&
-              gallery.nameEn.toLocaleLowerCase() === name,
-          );
+        async findMany() {
+          return galleries;
         },
       };
     },
@@ -126,6 +119,55 @@ test('Gallery validation rejects self-parenting', async () => {
   );
 });
 
+test('Gallery validation requires a parent for sections and rejects descendant parents', async () => {
+  await assert.rejects(
+    validateGalleryWrite(galleryStrapi([]), {
+      uid: 'api::gallery.gallery',
+      action: 'create',
+      params: {
+        data: {
+          nameEn: 'Section',
+          level: 'section',
+        },
+      },
+    }),
+    /Choose the parent Gallery/i,
+  );
+
+  await assert.rejects(
+    validateGalleryWrite(
+      galleryStrapi([
+        {
+          documentId: 'child',
+          nameEn: 'Child',
+          parent: { documentId: 'gallery-1' },
+          biennale_edition: { documentId: 'edition-1' },
+        },
+        {
+          documentId: 'grandchild',
+          nameEn: 'Grandchild',
+          parent: { documentId: 'child' },
+          biennale_edition: { documentId: 'edition-1' },
+        },
+        {
+          documentId: 'gallery-1',
+          nameEn: 'Root',
+          biennale_edition: { documentId: 'edition-1' },
+        },
+      ]),
+      {
+        uid: 'api::gallery.gallery',
+        action: 'update',
+        params: {
+          documentId: 'gallery-1',
+          data: { parent: 'grandchild' },
+        },
+      },
+    ),
+    /descendants as its parent/i,
+  );
+});
+
 test('Gallery validation rejects parent and child edition mismatches', async () => {
   const strapi = galleryStrapi([
     {
@@ -197,7 +239,40 @@ test('Gallery validation derives section metadata and rejects duplicate siblings
         },
       },
     ),
-    /cannot contain two sections/i,
+    /cannot contain two matching names/i,
+  );
+});
+
+test('Gallery duplicate validation reports normalized scoped candidates', async () => {
+  const parent = {
+    documentId: 'parent',
+    nameEn: 'AlMadar',
+    biennale_edition: { documentId: 'edition-1' },
+  };
+  await assert.rejects(
+    validateGalleryWrite(
+      galleryStrapi([
+        parent,
+        {
+          documentId: 'existing-section',
+          nameEn: 'Faith & Practice',
+          parent: { documentId: 'parent' },
+          biennale_edition: { documentId: 'edition-1' },
+        },
+      ]),
+      {
+        uid: 'api::gallery.gallery',
+        action: 'create',
+        params: {
+          data: {
+            nameEn: 'Faith Practice',
+            parent: 'parent',
+            biennale_edition: 'edition-1',
+          },
+        },
+      },
+    ),
+    /Normalized duplicate candidate/i,
   );
 });
 

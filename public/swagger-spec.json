@@ -29297,6 +29297,10 @@
             "description": "A string field",
             "type": "string"
           },
+          "externalIdentifier": {
+            "description": "A string field",
+            "type": "string"
+          },
           "slug": {
             "description": "A UID field",
             "type": "string"

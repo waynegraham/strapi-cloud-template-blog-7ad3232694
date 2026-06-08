@@ -10,6 +10,9 @@ const {
   registerIiifImageValidation,
 } = require('./api/iiif-image/content-types/iiif-image/validation');
 const {
+  registerAuthorityValidation,
+} = require('./api/shared/authority-validation');
+const {
   contentManagerLayouts,
   mergeConfiguration,
 } = require('../config/content-manager-layouts');
@@ -42,6 +45,7 @@ module.exports = {
     registerGalleryValidation(strapi);
     registerWorkValidation(strapi);
     registerIiifImageValidation(strapi);
+    registerAuthorityValidation(strapi);
   },
 
   /**

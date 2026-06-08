@@ -9105,6 +9105,9 @@
           "nameAr": {
             "type": "string"
           },
+          "externalIdentifier": {
+            "type": "string"
+          },
           "slug": {
             "type": "string"
           },

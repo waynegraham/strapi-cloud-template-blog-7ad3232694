@@ -12,6 +12,8 @@ const { transformWorks } = require('../etl/transform');
 const migration = require('../database/migrations/2026.06.08T02.00.00.preserve-work-identifiers');
 const {
   registerWorkValidation,
+  validateAgentCredits,
+  validateDateRange,
   validateIdentifiers,
   validateWorkWrite,
 } = require('../src/api/work/content-types/work/validation');
@@ -132,6 +134,67 @@ test('partial Work updates retain existing identifiers and derived iabCode', asy
   assert.deepEqual(context.params.data.identifiers, [
     { id: 9, value: 'IAB-1', type: 'IAB', preferred: true },
   ]);
+});
+
+test('Work validation rejects inverted date ranges and incomplete Agent Credits', () => {
+  assert.throws(() => validateDateRange(1900, 1800), /earliest year/i);
+  assert.doesNotThrow(() => validateDateRange(1800, 1900));
+  assert.throws(
+    () =>
+      validateAgentCredits([
+        {
+          agent: { documentId: 'agent-1' },
+        },
+      ]),
+    /requires an Agent Role/i,
+  );
+  assert.throws(
+    () =>
+      validateAgentCredits([
+        {
+          agent_role: { connect: ['role-1'] },
+        },
+      ]),
+    /requires an Agent/i,
+  );
+  assert.doesNotThrow(() =>
+    validateAgentCredits([
+      {
+        agent: { connect: ['agent-1'] },
+        agent_role: { set: ['role-1'] },
+      },
+    ]),
+  );
+});
+
+test('partial Work updates validate dates against retained values', async () => {
+  const context = {
+    uid: 'api::work.work',
+    action: 'update',
+    params: {
+      documentId: 'work-1',
+      data: { earliestDate: 1950 },
+    },
+  };
+  const strapi = {
+    documents() {
+      return {
+        async findOne() {
+          return {
+            titleEn: 'Work',
+            iabCode: 'IAB-1',
+            earliestDate: 1800,
+            latestDate: 1900,
+            identifiers: [
+              { value: 'IAB-1', type: 'IAB', preferred: true },
+            ],
+          };
+        },
+      };
+    },
+  };
+
+  await assert.rejects(validateWorkWrite(strapi, context), /earliest year/i);
 });
 
 test('register installs Work validation as Document Service middleware', () => {

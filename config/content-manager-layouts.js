@@ -197,7 +197,8 @@ const contentManagerLayouts = {
       list: ['nameEn', 'nameAr', 'agent_roles', 'publishedAt'],
       edit: [
         row(['nameEn', 6], ['nameAr', 6]),
-        row(['slug', 6], ['url', 6]),
+        row(['slug', 6], ['externalIdentifier', 6]),
+        row(['url', 6]),
         row(['agent_roles', 6]),
         row(['biographyEn', 12]),
         row(['biographyAr', 12]),
@@ -207,6 +208,7 @@ const contentManagerLayouts = {
     metadatas: {
       nameEn: edit('Name (English)', 'Preferred public name in English.'),
       nameAr: edit('Name (Arabic)', 'Arabic companion name when available.'),
+      externalIdentifier: edit('External identifier', 'Stable authority identifier used to distinguish people who share the same name.'),
       slug: edit('Slug', 'Generated from the English name; normally leave unchanged.', { editable: false }),
       agent_roles: relation('Agent roles', 'Controlled roles used for credits and filtering.', 'labelEn'),
       biographyEn: edit('Biography (English)', 'Biography owned by the Agent record, not copied onto Works.'),

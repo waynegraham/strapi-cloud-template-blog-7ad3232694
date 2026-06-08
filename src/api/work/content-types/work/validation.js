@@ -104,7 +104,75 @@ function validateInscriptions(inscriptions) {
   });
 }
 
-async function identifiersForWrite(strapi, context) {
+function relationIsPresent(value) {
+  if (value === undefined || value === null || value === '') return false;
+  if (typeof value === 'string' || typeof value === 'number') return true;
+  if (Array.isArray(value)) return value.some(relationIsPresent);
+  if (value.documentId || value.id) return true;
+  if (value.disconnect && !value.connect && !value.set) return false;
+  return ['connect', 'set'].some(
+    (operation) => value[operation] && relationIsPresent(value[operation]),
+  );
+}
+
+function validateAgentCredits(agentCredits) {
+  if (agentCredits === undefined) return undefined;
+  if (agentCredits === null) return agentCredits;
+  if (!Array.isArray(agentCredits)) {
+    throw new errors.ValidationError(
+      'Work Agent Credits must be a repeatable list.',
+    );
+  }
+
+  for (const [index, credit] of agentCredits.entries()) {
+    if (!relationIsPresent(credit && credit.agent)) {
+      throw new errors.ValidationError(
+        `Agent Credit ${index + 1} requires an Agent.`,
+      );
+    }
+    if (!relationIsPresent(credit && credit.agent_role)) {
+      throw new errors.ValidationError(
+        `Agent Credit ${index + 1} requires an Agent Role.`,
+      );
+    }
+  }
+
+  return agentCredits;
+}
+
+function validateDateRange(earliestDate, latestDate) {
+  if (
+    earliestDate !== undefined &&
+    earliestDate !== null &&
+    latestDate !== undefined &&
+    latestDate !== null &&
+    earliestDate > latestDate
+  ) {
+    throw new errors.ValidationError(
+      'Work earliest year cannot be later than its latest year.',
+    );
+  }
+}
+
+async function workForWrite(strapi, context) {
+  if (context.action === 'create') return undefined;
+
+  return strapi.documents(WORK_UID).findOne({
+    documentId: context.params.documentId,
+    fields: ['titleEn', 'iabCode', 'earliestDate', 'latestDate'],
+    populate: {
+      identifiers: true,
+      agentCredits: {
+        populate: {
+          agent: true,
+          agent_role: true,
+        },
+      },
+    },
+  });
+}
+
+function identifiersForWrite(context, existing) {
   const { action, params } = context;
   const data = params.data || {};
 
@@ -113,13 +181,6 @@ async function identifiersForWrite(strapi, context) {
   }
 
   if (action === 'create') return undefined;
-
-  const existing = await strapi.documents(WORK_UID).findOne({
-    documentId: params.documentId,
-    populate: {
-      identifiers: true,
-    },
-  });
 
   if (existing && Array.isArray(existing.identifiers) && existing.identifiers.length > 0) {
     return existing.identifiers;
@@ -141,21 +202,24 @@ async function validateWorkWrite(strapi, context) {
   if (context.uid !== WORK_UID) return;
   if (!['create', 'update'].includes(context.action)) return;
 
+  const existing = await workForWrite(strapi, context);
   const normalized = validateIdentifiers(
-    await identifiersForWrite(strapi, context),
+    identifiersForWrite(context, existing),
   );
-  let titleEn = context.params.data && context.params.data.titleEn;
+  const data = context.params.data || {};
+  const titleEn =
+    data.titleEn === undefined ? existing && existing.titleEn : data.titleEn;
+  const earliestDate =
+    data.earliestDate === undefined
+      ? existing && existing.earliestDate
+      : data.earliestDate;
+  const latestDate =
+    data.latestDate === undefined ? existing && existing.latestDate : data.latestDate;
 
-  if (!titleEn && context.action === 'update') {
-    const existing = await strapi.documents(WORK_UID).findOne({
-      documentId: context.params.documentId,
-      fields: ['titleEn'],
-    });
-    titleEn = existing && existing.titleEn;
-  }
+  validateDateRange(earliestDate, latestDate);
 
   context.params.data = {
-    ...(context.params.data || {}),
+    ...data,
     identifiers: normalized.identifiers,
     iabCode: normalized.iabCode,
     displayTitle: workDisplayTitle({
@@ -163,6 +227,10 @@ async function validateWorkWrite(strapi, context) {
       titleEn,
     }),
   };
+
+  if (Object.prototype.hasOwnProperty.call(data, 'agentCredits')) {
+    context.params.data.agentCredits = validateAgentCredits(data.agentCredits);
+  }
 
   if (Object.prototype.hasOwnProperty.call(context.params.data, 'inscriptions')) {
     context.params.data.inscriptions = validateInscriptions(
@@ -180,6 +248,9 @@ function registerWorkValidation(strapi) {
 
 module.exports = {
   registerWorkValidation,
+  relationIsPresent,
+  validateAgentCredits,
+  validateDateRange,
   workDisplayTitle,
   validateInscriptions,
   validateIdentifiers,
