@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "audit:fields": "node audit-field-mapping.js",
     "transform": "node transform.js",
     "load:materials": "node load-materials.js",
     "load:materials:apply": "node load-materials.js --apply",

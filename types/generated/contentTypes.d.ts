@@ -607,6 +607,7 @@ export interface ApiGalleryGallery extends Struct.CollectionTypeSchema {
     nameAr: Schema.Attribute.String;
     nameEn: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    slug: Schema.Attribute.UID<'nameEn'>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -840,8 +841,8 @@ export interface ApiRightsStatementRightsStatement
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    labelAr: Schema.Attribute.String;
     labelEn: Schema.Attribute.String;
-    labenAr: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -892,6 +893,8 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
           preset: 'defaultHtml';
         }
       >;
+    dimensionAr: Schema.Attribute.Text;
+    dimensionEn: Schema.Attribute.Text;
     earliestDate: Schema.Attribute.Integer;
     footnoteAr: Schema.Attribute.RichText &
       Schema.Attribute.CustomField<
@@ -923,6 +926,12 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::work.work'> &
       Schema.Attribute.Private;
+    materialDisplayAr: Schema.Attribute.Text;
+    materialDisplayEn: Schema.Attribute.Text;
+    materials: Schema.Attribute.Relation<
+      'manyToMany',
+      'api::material.material'
+    >;
     originAr: Schema.Attribute.String;
     originEn: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;

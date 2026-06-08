@@ -8,6 +8,8 @@ const INPUT_FILE = process.env.ETL_INPUT_FILE || path.join(__dirname, "airtable_
 const AGENTS_FILE = process.env.ETL_AGENTS_FILE || path.join(__dirname, "agents_distinct.csv");
 const MATERIALS_FILE =
   process.env.ETL_MATERIALS_FILE || path.join(__dirname, "materials_distinct.csv");
+const FIELD_MAPPING_FILE =
+  process.env.ETL_FIELD_MAPPING_FILE || path.join(__dirname, "field-mapping.json");
 const OUTPUT_DIR = process.env.ETL_OUTPUT_DIR || path.join(__dirname, "intermediate");
 
 const SOURCE_SYSTEM = "airtable";
@@ -133,14 +135,21 @@ function readCsv(filePath) {
   return parseCsv(fs.readFileSync(filePath, "utf8"));
 }
 
-function toBlocks(value) {
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+function toHtml(value) {
   const text = cleanMultiline(value);
   if (!text) return undefined;
 
-  return text.split(/\n{2,}/).map((paragraph) => ({
-    type: "paragraph",
-    children: [{ type: "text", text: paragraph.replace(/\n/g, " ") }],
-  }));
+  return text
+    .split(/\n{2,}/)
+    .map((paragraph) => `<p>${escapeHtml(paragraph).replace(/\n/g, "<br>")}</p>`)
+    .join("\n");
 }
 
 function optional(value) {
@@ -239,8 +248,9 @@ function transformAgents(agents) {
       const name = compactWhitespace(agent.name_en);
 
       return buildEndpointRecord("agent", "agents", slugify(name), {
-        name_en: name,
-        name_ar: optional(agent.name_ar),
+        nameEn: name,
+        nameAr: optional(agent.name_ar),
+        slug: slugify(name),
       });
     })
     .sort((a, b) => a.key.localeCompare(b.key));
@@ -272,15 +282,15 @@ function transformPeople(agents) {
 function transformMaterials(materials) {
   return materials
     .map((material) => {
-      const label = compactWhitespace(material.material_en);
+      const label = compactWhitespace(material.materialEn || material.material_en);
       const slug = slugify(label);
 
       return buildEndpointRecord("material", "materials", slug, {
-        name_en: label,
-        name_ar: optional(material.material_ar),
+        nameEn: label,
+        nameAr: optional(material.materialAr || material.material_ar),
       });
     })
-    .filter((record) => record.request.body.data.name_en)
+    .filter((record) => record.request.body.data.nameEn)
     .sort((a, b) => a.key.localeCompare(b.key));
 }
 
@@ -292,8 +302,8 @@ function transformGalleries(records) {
 
   return galleries.map((gallery, index) =>
     buildEndpointRecord("gallery", "galleries", slugify(gallery), {
-      eyebrow_en: `Gallery ${index + 1}`,
-      name_en: gallery,
+      eyebrowEn: `Gallery ${index + 1}`,
+      nameEn: gallery,
     }),
   );
 }
@@ -343,26 +353,48 @@ function agentKeysForRecord(fields, fieldName, role) {
   return splitArrayField(fields[fieldName]).map((name) => `${slugify(name)}--${roleKey}`);
 }
 
-function toDateInfo(fields) {
-  const dateInfo = {
-    display_date_en: optional(fields.Date),
-    display_date_ar: optional(fields["Date AR"]),
+function sourceFieldCoverage(records, fieldMapping) {
+  const observedSourceFields = Array.from(
+    new Set(records.flatMap((record) => Object.keys(record.fields || {}))),
+  ).sort();
+  const configuredFields = fieldMapping.fields || {};
+
+  const accounted = observedSourceFields
+    .filter((field) => configuredFields[field])
+    .map((field) => ({
+      source_field: field,
+      status: configuredFields[field].status,
+      target: configuredFields[field].target,
+      reason: configuredFields[field].reason,
+      notes: configuredFields[field].notes,
+    }));
+
+  const counts = accounted.reduce(
+    (memo, item) => {
+      memo[item.status] = (memo[item.status] || 0) + 1;
+      return memo;
+    },
+    { mapped: 0, planned: 0, ignored: 0 },
+  );
+
+  return {
+    accounted,
+    unmapped: observedSourceFields.filter((field) => !configuredFields[field]),
+    configured_but_unobserved: Object.keys(configuredFields)
+      .filter((field) => !observedSourceFields.includes(field))
+      .sort(),
+    counts,
   };
-
-  for (const [key, value] of Object.entries(dateInfo)) {
-    if (value === undefined || value === "") delete dateInfo[key];
-  }
-
-  return Object.keys(dateInfo).length > 0 ? dateInfo : undefined;
 }
 
-function transformWorks(records, materialLookup) {
+function transformWorks(records, materialLookup, fieldMapping) {
   const works = [];
   const report = {
     skipped: [],
     duplicate_iab_codes: [],
     duplicate_source_rows: [],
     missing_material_lookup: [],
+    source_field_coverage: sourceFieldCoverage(records, fieldMapping),
   };
   const iabCounts = new Map();
 
@@ -413,20 +445,24 @@ function transformWorks(records, materialLookup) {
     const key = `${slugify(primaryIabCode)}--${sourceRecord.id}`;
     const titleAr = optional(fields["Title of Object AR"]);
     const data = {
-      iab_code: primaryIabCode,
-      title_en: titleEn,
-      text_ar: titleAr,
-      origin_en: optional(fields.Origin),
-      origin_ar: optional(fields["Origin AR"]),
-      dimension_en: optional(fields.Dimension),
-      dimension_ar: optional(fields["Dimension AR"]),
-      description_en: toBlocks(fields.Description),
-      description_ar: toBlocks(fields["Description AR"]),
-      footnotes_en: toBlocks(fields["Footnote reference"]),
-      footnotes_ar: toBlocks(fields["Footnote reference AR"]),
-      credit_line_en: optional(fields["Credit Line"]),
-      credit_line_ar: optional(fields["Credit Line AR"]),
-      date_info: toDateInfo(fields),
+      iabCode: primaryIabCode,
+      titleEn,
+      titleAr,
+      originEn: optional(fields.Origin),
+      originAr: optional(fields["Origin AR"]),
+      dimensionEn: optional(fields.Dimension),
+      dimensionAr: optional(fields["Dimension AR"]),
+      materialDisplayEn: optional(fields.Material),
+      materialDisplayAr: optional(fields["Material AR"]),
+      descriptionEn: toHtml(fields.Description),
+      descriptionAr: toHtml(fields["Description AR"]),
+      footnoteEn: toHtml(fields["Footnote reference"]),
+      footnoteAr: toHtml(fields["Footnote reference AR"]),
+      creditLineEn: optional(fields["Credit Line"]),
+      creditLineAr: optional(fields["Credit Line AR"]),
+      dateDisplayGregorianEn: optional(fields.Date),
+      dateDisplayGregorianAr: optional(fields["Date AR"]),
+      contributorUrl: optional(fields["Contributor URL"]),
     };
 
     for (const [key, value] of Object.entries(data)) {
@@ -440,12 +476,14 @@ function transformWorks(records, materialLookup) {
         key,
         data,
         {
-          agents: relationRefs("agent", [
+          agentCredits: relationRefs("agent-role", [
             ...agentKeysForRecord(fields, "Writer(s)", "Writer"),
             ...agentKeysForRecord(fields, "Curator(s)", "Curator"),
           ]),
+          gallery: relationRefFromValue("gallery", fields.Gallery),
+          materials: relationRefs("material", materialRefs),
         },
-        { iab_code: primaryIabCode },
+        { iabCode: primaryIabCode },
       ),
     );
   }
@@ -471,16 +509,20 @@ function main() {
   const airtableRecords = readJson(INPUT_FILE);
   const agents = readCsv(AGENTS_FILE);
   const materials = readCsv(MATERIALS_FILE);
+  const fieldMapping = readJson(FIELD_MAPPING_FILE);
   const materialLookup = {
     byExact: new Map(
       materials
-        .map((material) => [normalizeKey(material.material_en), slugify(material.material_en)])
+        .map((material) => {
+          const label = material.materialEn || material.material_en;
+          return [normalizeKey(label), slugify(label)];
+        })
         .filter(([key]) => key),
     ),
     byPhrase: materials
       .map((material) => ({
-        normalized: normalizeLookupText(material.material_en),
-        key: slugify(material.material_en),
+        normalized: normalizeLookupText(material.materialEn || material.material_en),
+        key: slugify(material.materialEn || material.material_en),
       }))
       .filter((material) => material.normalized)
       .sort((a, b) => b.normalized.length - a.normalized.length),
@@ -492,7 +534,7 @@ function main() {
   const transformedMaterials = transformMaterials(materials);
   const galleries = transformGalleries(airtableRecords);
   const subGalleries = transformSubGalleries(airtableRecords);
-  const { works, report } = transformWorks(airtableRecords, materialLookup);
+  const { works, report } = transformWorks(airtableRecords, materialLookup, fieldMapping);
 
   const files = {
     "agent-roles": writeIntermediate("agent-roles", agentRoles),
@@ -514,6 +556,7 @@ function main() {
       input_file: path.relative(process.cwd(), INPUT_FILE),
       agents_file: path.relative(process.cwd(), AGENTS_FILE),
       materials_file: path.relative(process.cwd(), MATERIALS_FILE),
+      field_mapping_file: path.relative(process.cwd(), FIELD_MAPPING_FILE),
       source_record_count: airtableRecords.length,
     },
     load_order: [
@@ -537,6 +580,11 @@ function main() {
       duplicate_iab_codes: report.duplicate_iab_codes.length,
       duplicate_source_rows: report.duplicate_source_rows.length,
       missing_material_lookup: report.missing_material_lookup.length,
+      accounted_source_fields: report.source_field_coverage.accounted.length,
+      mapped_source_fields: report.source_field_coverage.counts.mapped || 0,
+      planned_source_fields: report.source_field_coverage.counts.planned || 0,
+      ignored_source_fields: report.source_field_coverage.counts.ignored || 0,
+      unmapped_source_fields: report.source_field_coverage.unmapped.length,
     },
     files: Object.fromEntries(
       Object.entries(files).map(([name, filePath]) => [name, path.relative(process.cwd(), filePath)]),

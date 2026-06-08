@@ -11,8 +11,8 @@
       "url": "http://localhost:1337/api/galleries",
       "body": {
         "data": {
-          "eyebrow_en": "Gallery 1",
-          "name_en": "AlBidayah"
+          "eyebrowEn": "Gallery 1",
+          "nameEn": "AlBidayah"
         }
       }
     },
@@ -30,8 +30,8 @@
       "url": "http://localhost:1337/api/galleries",
       "body": {
         "data": {
-          "eyebrow_en": "Gallery 2",
-          "name_en": "AlMadar"
+          "eyebrowEn": "Gallery 2",
+          "nameEn": "AlMadar"
         }
       }
     },
@@ -49,8 +49,8 @@
       "url": "http://localhost:1337/api/galleries",
       "body": {
         "data": {
-          "eyebrow_en": "Gallery 3",
-          "name_en": "AlMidhallah"
+          "eyebrowEn": "Gallery 3",
+          "nameEn": "AlMidhallah"
         }
       }
     },
@@ -68,8 +68,8 @@
       "url": "http://localhost:1337/api/galleries",
       "body": {
         "data": {
-          "eyebrow_en": "Gallery 4",
-          "name_en": "AlMukarramah"
+          "eyebrowEn": "Gallery 4",
+          "nameEn": "AlMukarramah"
         }
       }
     },
@@ -87,8 +87,8 @@
       "url": "http://localhost:1337/api/galleries",
       "body": {
         "data": {
-          "eyebrow_en": "Gallery 5",
-          "name_en": "AlMunawwarah"
+          "eyebrowEn": "Gallery 5",
+          "nameEn": "AlMunawwarah"
         }
       }
     },
@@ -106,8 +106,8 @@
       "url": "http://localhost:1337/api/galleries",
       "body": {
         "data": {
-          "eyebrow_en": "Gallery 6",
-          "name_en": "AlMuqtani"
+          "eyebrowEn": "Gallery 6",
+          "nameEn": "AlMuqtani"
         }
       }
     },
@@ -125,8 +125,8 @@
       "url": "http://localhost:1337/api/galleries",
       "body": {
         "data": {
-          "eyebrow_en": "Gallery 7",
-          "name_en": "AlMusalla Prize"
+          "eyebrowEn": "Gallery 7",
+          "nameEn": "AlMusalla Prize"
         }
       }
     },

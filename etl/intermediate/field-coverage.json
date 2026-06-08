@@ -1,0 +1,277 @@
+{
+  "generatedAt": "2026-06-08T00:17:00.113Z",
+  "sourceRecordCount": 650,
+  "observedFieldCount": 41,
+  "counts": {
+    "mapped": 23,
+    "planned": 12,
+    "ignored": 6
+  },
+  "unmapped": [],
+  "invalid": [],
+  "configuredButUnobserved": [],
+  "fields": [
+    {
+      "sourceField": "Artist Biography for the Islamic Arts Biennale",
+      "populatedRecords": 33,
+      "status": "mapped",
+      "target": "agent.biographyEn",
+      "notes": "Biography belongs on Agent; needs artist/agent matching beyond writer/curator extraction."
+    },
+    {
+      "sourceField": "Artist Biography for the Islamic Arts Biennale AR",
+      "populatedRecords": 28,
+      "status": "mapped",
+      "target": "agent.biographyAr",
+      "notes": "Arabic biography belongs on Agent; needs artist/agent matching beyond writer/curator extraction."
+    },
+    {
+      "sourceField": "Comments",
+      "populatedRecords": 3,
+      "status": "ignored",
+      "reason": "Airtable working comments, not content model data."
+    },
+    {
+      "sourceField": "Contributor URL",
+      "populatedRecords": 9,
+      "status": "mapped",
+      "target": "work.contributorUrl"
+    },
+    {
+      "sourceField": "Credit Line",
+      "populatedRecords": 608,
+      "status": "mapped",
+      "target": "work.creditLineEn"
+    },
+    {
+      "sourceField": "Credit Line AR",
+      "populatedRecords": 585,
+      "status": "mapped",
+      "target": "work.creditLineAr"
+    },
+    {
+      "sourceField": "Curated Story Essay",
+      "populatedRecords": 50,
+      "status": "planned",
+      "target": "curated-story.essayEn",
+      "notes": "Needs Curated Story content type related to Work."
+    },
+    {
+      "sourceField": "Curated Story Essay AR",
+      "populatedRecords": 25,
+      "status": "planned",
+      "target": "curated-story.essayAr",
+      "notes": "Needs Curated Story content type related to Work."
+    },
+    {
+      "sourceField": "Curated Story Footnote",
+      "populatedRecords": 17,
+      "status": "planned",
+      "target": "curated-story.footnoteEn",
+      "notes": "Needs Curated Story content type related to Work."
+    },
+    {
+      "sourceField": "Curated Story Footnote AR",
+      "populatedRecords": 17,
+      "status": "planned",
+      "target": "curated-story.footnoteAr",
+      "notes": "Needs Curated Story content type related to Work."
+    },
+    {
+      "sourceField": "Curator(s)",
+      "populatedRecords": 607,
+      "status": "mapped",
+      "target": "work.agentCredits"
+    },
+    {
+      "sourceField": "Date",
+      "populatedRecords": 585,
+      "status": "mapped",
+      "target": "work.dateDisplayGregorianEn",
+      "notes": "Current transform preserves source display text; Gregorian/Hijri parsing remains separate."
+    },
+    {
+      "sourceField": "Date AR",
+      "populatedRecords": 565,
+      "status": "mapped",
+      "target": "work.dateDisplayGregorianAr",
+      "notes": "Current transform preserves source display text; Gregorian/Hijri parsing remains separate."
+    },
+    {
+      "sourceField": "Description",
+      "populatedRecords": 541,
+      "status": "mapped",
+      "target": "work.descriptionEn"
+    },
+    {
+      "sourceField": "Description AR",
+      "populatedRecords": 539,
+      "status": "mapped",
+      "target": "work.descriptionAr"
+    },
+    {
+      "sourceField": "Dimension",
+      "populatedRecords": 576,
+      "status": "mapped",
+      "target": "work.dimensionEn"
+    },
+    {
+      "sourceField": "Dimension AR",
+      "populatedRecords": 576,
+      "status": "mapped",
+      "target": "work.dimensionAr"
+    },
+    {
+      "sourceField": "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)",
+      "populatedRecords": 128,
+      "status": "planned",
+      "target": "work-note.manuscriptDescriptionEn",
+      "notes": "Needs a note/statement content type or component."
+    },
+    {
+      "sourceField": "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc) AR",
+      "populatedRecords": 82,
+      "status": "planned",
+      "target": "work-note.manuscriptDescriptionAr",
+      "notes": "Needs a note/statement content type or component."
+    },
+    {
+      "sourceField": "Extra Object Related Information (maker, inscription, annotation, etc)",
+      "populatedRecords": 77,
+      "status": "planned",
+      "target": "work-note.objectInformationEn",
+      "notes": "Needs a note/statement content type or component."
+    },
+    {
+      "sourceField": "Extra Object Related Information (maker, inscription, annotation, etc) AR",
+      "populatedRecords": 121,
+      "status": "planned",
+      "target": "work-note.objectInformationAr",
+      "notes": "Needs a note/statement content type or component."
+    },
+    {
+      "sourceField": "Footnote reference",
+      "populatedRecords": 260,
+      "status": "mapped",
+      "target": "work.footnoteEn"
+    },
+    {
+      "sourceField": "Footnote reference AR",
+      "populatedRecords": 257,
+      "status": "mapped",
+      "target": "work.footnoteAr"
+    },
+    {
+      "sourceField": "For Wen to Check",
+      "populatedRecords": 80,
+      "status": "ignored",
+      "reason": "Source workflow field."
+    },
+    {
+      "sourceField": "For designers",
+      "populatedRecords": 11,
+      "status": "ignored",
+      "reason": "Source workflow field."
+    },
+    {
+      "sourceField": "Gallery",
+      "populatedRecords": 609,
+      "status": "mapped",
+      "target": "work.gallery"
+    },
+    {
+      "sourceField": "IAB Code",
+      "populatedRecords": 649,
+      "status": "mapped",
+      "target": "work.iabCode"
+    },
+    {
+      "sourceField": "Image annotation",
+      "populatedRecords": 3,
+      "status": "planned",
+      "target": "iiif-image.captionEn",
+      "notes": "Needs image-level matching before loading."
+    },
+    {
+      "sourceField": "Inscriptions",
+      "populatedRecords": 65,
+      "status": "planned",
+      "target": "inscription.body",
+      "notes": "Needs Inscription content type related to Work."
+    },
+    {
+      "sourceField": "Material",
+      "populatedRecords": 577,
+      "status": "mapped",
+      "target": "work.materialDisplayEn + work.materials"
+    },
+    {
+      "sourceField": "Material AR",
+      "populatedRecords": 577,
+      "status": "mapped",
+      "target": "work.materialDisplayAr"
+    },
+    {
+      "sourceField": "Opening Folio No. On Display",
+      "populatedRecords": 6,
+      "status": "planned",
+      "target": "iiif-image.label",
+      "notes": "Needs image/folio-level matching before loading."
+    },
+    {
+      "sourceField": "Origin",
+      "populatedRecords": 541,
+      "status": "mapped",
+      "target": "work.originEn"
+    },
+    {
+      "sourceField": "Origin AR",
+      "populatedRecords": 542,
+      "status": "mapped",
+      "target": "work.originAr"
+    },
+    {
+      "sourceField": "Ready to export",
+      "populatedRecords": 207,
+      "status": "ignored",
+      "reason": "Source workflow field."
+    },
+    {
+      "sourceField": "Sub-gallery",
+      "populatedRecords": 36,
+      "status": "planned",
+      "target": "sub-gallery.nameEn",
+      "notes": "Needs Sub-gallery content type and relation to Gallery/Work."
+    },
+    {
+      "sourceField": "Title of Object",
+      "populatedRecords": 650,
+      "status": "mapped",
+      "target": "work.titleEn"
+    },
+    {
+      "sourceField": "Title of Object AR",
+      "populatedRecords": 587,
+      "status": "mapped",
+      "target": "work.titleAr"
+    },
+    {
+      "sourceField": "To request AV",
+      "populatedRecords": 4,
+      "status": "ignored",
+      "reason": "Source workflow field."
+    },
+    {
+      "sourceField": "To shorten titles in Arabic",
+      "populatedRecords": 19,
+      "status": "ignored",
+      "reason": "Source workflow field."
+    },
+    {
+      "sourceField": "Writer(s)",
+      "populatedRecords": 395,
+      "status": "mapped",
+      "target": "work.agentCredits"
+    }
+  ]
+}

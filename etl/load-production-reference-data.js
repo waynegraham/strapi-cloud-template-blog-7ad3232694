@@ -12,9 +12,9 @@ const DRY_RUN = !APPLY;
 
 const CONTENT_TYPES = {
   "agent-role": { endpoint: "agent-roles", matchField: "label_en" },
-  agent: { endpoint: "agents", matchField: "name_en" },
-  gallery: { endpoint: "galleries", matchField: "name_en" },
-  material: { endpoint: "materials", matchField: "name_en" },
+  agent: { endpoint: "agents", matchField: "nameEn" },
+  gallery: { endpoint: "galleries", matchField: "nameEn" },
+  material: { endpoint: "materials", matchField: "nameEn" },
 };
 
 function usage() {
@@ -256,8 +256,8 @@ async function main() {
 
   const existingAgentIndex = await upsertSimpleRecords([], stats);
   for (const agent of agents) {
-    const name = compactWhitespace(agent.request.body.data.name_en);
-    const existing = await findByField("agents", "name_en", name);
+    const name = compactWhitespace(agent.request.body.data.nameEn);
+    const existing = await findByField("agents", "nameEn", name);
     if (existing[0]) {
       existingAgentIndex.set(agent.key, {
         key: agent.key,

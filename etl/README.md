@@ -11,6 +11,32 @@ The current pipeline is intentionally split into stages:
 
 The transform stage does not write to Strapi directly. It produces reviewable JSON files under `etl/intermediate/` so data quality issues can be inspected before loading.
 
+## Field Mapping Audit
+
+The source-to-Strapi accounting is configured in:
+
+```txt
+field-mapping.json
+```
+
+Each Airtable field must have one status:
+
+```txt
+mapped   Implemented by the current transform.
+planned  Accounted for, but waiting for a content type, component, relation, or matcher.
+ignored  Intentionally excluded from Strapi.
+```
+
+Run the audit without generating Strapi payloads:
+
+```sh
+npm run audit:fields
+```
+
+This writes `intermediate/field-coverage.json` and exits unsuccessfully if a field
+in the Airtable dump is absent from the mapping config. The report also includes
+the number of populated records for each source field.
+
 ## Environment
 
 Create `etl/.env` with the Airtable and Strapi values used by the scripts:
@@ -176,24 +202,34 @@ Airtable object rows are currently transformed into Strapi `work` records.
 Important mappings:
 
 ```txt
-IAB Code              -> iab_code
-Title of Object       -> title_en
-Title of Object AR    -> text_ar
-Description           -> description_en
-Description AR        -> description_ar
-Footnote reference    -> footnotes_en
-Footnote reference AR -> footnotes_ar
-Dimension             -> dimension_en
-Dimension AR          -> dimension_ar
-Origin                -> origin_en
-Origin AR             -> origin_ar
-Credit Line           -> credit_line_en
-Credit Line AR        -> credit_line_ar
-Date / Date AR        -> date_info.display_date_en / display_date_ar
-Writer(s), Curator(s) -> agents relation references
+IAB Code              -> iabCode
+Title of Object       -> titleEn
+Title of Object AR    -> titleAr
+Description           -> descriptionEn
+Description AR        -> descriptionAr
+Footnote reference    -> footnoteEn
+Footnote reference AR -> footnoteAr
+Dimension             -> dimensionEn
+Dimension AR          -> dimensionAr
+Material / Material AR-> materialDisplayEn / materialDisplayAr
+Origin / Origin AR    -> originEn / originAr
+Credit Line fields    -> creditLineEn / creditLineAr
+Date / Date AR        -> dateDisplayGregorianEn / dateDisplayGregorianAr
+Gallery               -> gallery relation
+Sub-gallery           -> subGallery
+Writer(s), Curator(s) -> agentCredits relation references
 ```
 
-Long text fields are converted to Strapi blocks rich text by splitting paragraphs on blank lines.
+The mapping config tracks planned destinations that are not emitted yet. These
+currently include Agent biographies, Curated Stories, Inscriptions, Sub-galleries,
+manuscript/object notes, and image/folio-level metadata. Airtable workflow fields
+such as `For Wen to Check` are explicitly ignored.
+
+Long text fields are converted to HTML paragraphs for the CKEditor custom fields.
+
+The date fields currently preserve the complete source display strings in the
+Gregorian display attributes. Splitting mixed Hijri/Gregorian strings and deriving
+`earliestDate`/`latestDate` remain separate parsing work.
 
 ## Multiple IAB Codes
 
@@ -227,6 +263,7 @@ skipped
 duplicate_iab_codes
 duplicate_source_rows
 missing_material_lookup
+source_field_coverage
 ```
 
 `skipped` currently includes rows that cannot become works because required source fields are missing.
@@ -234,6 +271,10 @@ missing_material_lookup
 `duplicate_iab_codes` reports repeated primary IAB codes after the multiple-code rows have been reduced to their first code.
 
 `missing_material_lookup` reports source material display values that could not be matched to `materials_distinct.csv`.
+
+`source_field_coverage` lists every observed Airtable field, its status, and its
+configured destination or ignore reason. Its `unmapped` list should remain empty;
+a newly added Airtable column will appear there on the next audit or transform run.
 
 ## Loading Notes
 
@@ -247,4 +288,3 @@ The loader should:
 - Preserve import reports for manual review.
 
 The current transform does not publish entries explicitly. Publication behavior should be decided in the load step.
-

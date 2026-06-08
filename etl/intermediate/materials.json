@@ -11,8 +11,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Adobe finish structure",
-          "name_ar": "هيكل مع تشطيب من الطوب"
+          "nameEn": "Adobe finish structure",
+          "nameAr": "هيكل مع تشطيب من الطوب"
         }
       }
     },
@@ -30,8 +30,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Agate",
-          "name_ar": "عقيق"
+          "nameEn": "Agate",
+          "nameAr": "عقيق"
         }
       }
     },
@@ -49,8 +49,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Alabaster",
-          "name_ar": "مرمر"
+          "nameEn": "Alabaster",
+          "nameAr": "مرمر"
         }
       }
     },
@@ -68,8 +68,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Aluminosilicate glass folios",
-          "name_ar": "صفحات زجاجية من سيليكات الألومنيوم"
+          "nameEn": "Aluminosilicate glass folios",
+          "nameAr": "صفحات زجاجية من سيليكات الألومنيوم"
         }
       }
     },
@@ -87,8 +87,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Bamboo",
-          "name_ar": "خيزران"
+          "nameEn": "Bamboo",
+          "nameAr": "خيزران"
         }
       }
     },
@@ -106,8 +106,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Baroque pearl",
-          "name_ar": "لؤلؤ باروكي"
+          "nameEn": "Baroque pearl",
+          "nameAr": "لؤلؤ باروكي"
         }
       }
     },
@@ -125,8 +125,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Basil",
-          "name_ar": "ريحان"
+          "nameEn": "Basil",
+          "nameAr": "ريحان"
         }
       }
     },
@@ -144,8 +144,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Basil ink",
-          "name_ar": "حبر الريحان"
+          "nameEn": "Basil ink",
+          "nameAr": "حبر الريحان"
         }
       }
     },
@@ -163,8 +163,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Bidri alloy inlaid with silver and brass",
-          "name_ar": "سبيكة بيدارية مطعَّمة بالفضة والنحاس"
+          "nameEn": "Bidri alloy inlaid with silver and brass",
+          "nameAr": "سبيكة بيدارية مطعَّمة بالفضة والنحاس"
         }
       }
     },
@@ -182,8 +182,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Black and colored inks",
-          "name_ar": "أحبار سوداء وملونة"
+          "nameEn": "Black and colored inks",
+          "nameAr": "أحبار سوداء وملونة"
         }
       }
     },
@@ -201,8 +201,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Black and red ink",
-          "name_ar": "حبر أسود وأحمر"
+          "nameEn": "Black and red ink",
+          "nameAr": "حبر أسود وأحمر"
         }
       }
     },
@@ -220,8 +220,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Black ink",
-          "name_ar": "حبر أسود"
+          "nameEn": "Black ink",
+          "nameAr": "حبر أسود"
         }
       }
     },
@@ -239,8 +239,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Black mastic",
-          "name_ar": "مُصْطَكى أسود"
+          "nameEn": "Black mastic",
+          "nameAr": "مُصْطَكى أسود"
         }
       }
     },
@@ -258,8 +258,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Black slip",
-          "name_ar": "طين سائل أسود"
+          "nameEn": "Black slip",
+          "nameAr": "طين سائل أسود"
         }
       }
     },
@@ -277,8 +277,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Blackened composition inlay",
-          "name_ar": "مطعَّم بتشكيلات سوداء منقوشة"
+          "nameEn": "Blackened composition inlay",
+          "nameAr": "مطعَّم بتشكيلات سوداء منقوشة"
         }
       }
     },
@@ -296,8 +296,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Blown and wheel-cut glass",
-          "name_ar": "زجاج مَنفُوخ ومحفور"
+          "nameEn": "Blown and wheel-cut glass",
+          "nameAr": "زجاج مَنفُوخ ومحفور"
         }
       }
     },
@@ -315,8 +315,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Bone",
-          "name_ar": "عظم"
+          "nameEn": "Bone",
+          "nameAr": "عظم"
         }
       }
     },
@@ -334,8 +334,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Bone or ivory",
-          "name_ar": "عظم أو عاج"
+          "nameEn": "Bone or ivory",
+          "nameAr": "عظم أو عاج"
         }
       }
     },
@@ -353,8 +353,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Brass",
-          "name_ar": "نحاس"
+          "nameEn": "Brass",
+          "nameAr": "نحاس"
         }
       }
     },
@@ -372,8 +372,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Brass damascene work",
-          "name_ar": "نحاس مُدَمْشَق"
+          "nameEn": "Brass damascene work",
+          "nameAr": "نحاس مُدَمْشَق"
         }
       }
     },
@@ -391,8 +391,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Brass inlay",
-          "name_ar": "تطعيم نحاسي"
+          "nameEn": "Brass inlay",
+          "nameAr": "تطعيم نحاسي"
         }
       }
     },
@@ -410,8 +410,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Brass sheet",
-          "name_ar": "نحاس"
+          "nameEn": "Brass sheet",
+          "nameAr": "نحاس"
         }
       }
     },
@@ -429,8 +429,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Brooms",
-          "name_ar": "مكانس"
+          "nameEn": "Brooms",
+          "nameAr": "مكانس"
         }
       }
     },
@@ -448,8 +448,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Brown and red ink",
-          "name_ar": "حبر بنّي وأحمر"
+          "nameEn": "Brown and red ink",
+          "nameAr": "حبر بنّي وأحمر"
         }
       }
     },
@@ -467,8 +467,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Brown ink",
-          "name_ar": "حبر بنّي"
+          "nameEn": "Brown ink",
+          "nameAr": "حبر بنّي"
         }
       }
     },
@@ -486,8 +486,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Brown leather binding with stamped medallion",
-          "name_ar": "جلد بنّي داكن مزيَّن برصيعة منقوشة"
+          "nameEn": "Brown leather binding with stamped medallion",
+          "nameAr": "جلد بنّي داكن مزيَّن برصيعة منقوشة"
         }
       }
     },
@@ -505,8 +505,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Buffalo horn",
-          "name_ar": "قرن جاموس"
+          "nameEn": "Buffalo horn",
+          "nameAr": "قرن جاموس"
         }
       }
     },
@@ -524,8 +524,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Burnished gold",
-          "name_ar": "ذهب مصقول"
+          "nameEn": "Burnished gold",
+          "nameAr": "ذهب مصقول"
         }
       }
     },
@@ -543,8 +543,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Cables",
-          "name_ar": "أسلاك"
+          "nameEn": "Cables",
+          "nameAr": "أسلاك"
         }
       }
     },
@@ -562,8 +562,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Cane",
-          "name_ar": "قصب"
+          "nameEn": "Cane",
+          "nameAr": "قصب"
         }
       }
     },
@@ -581,8 +581,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Carnelian",
-          "name_ar": "عقيق"
+          "nameEn": "Carnelian",
+          "nameAr": "عقيق"
         }
       }
     },
@@ -600,8 +600,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Cedarwood",
-          "name_ar": "خشب أرز"
+          "nameEn": "Cedarwood",
+          "nameAr": "خشب أرز"
         }
       }
     },
@@ -619,8 +619,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Cement ballasts",
-          "name_ar": "ثقالات إسمنتية"
+          "nameEn": "Cement ballasts",
+          "nameAr": "ثقالات إسمنتية"
         }
       }
     },
@@ -638,8 +638,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Ceramic",
-          "name_ar": "سيراميك"
+          "nameEn": "Ceramic",
+          "nameAr": "سيراميك"
         }
       }
     },
@@ -657,8 +657,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Charcoal",
-          "name_ar": "فحم"
+          "nameEn": "Charcoal",
+          "nameAr": "فحم"
         }
       }
     },
@@ -676,8 +676,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Clay",
-          "name_ar": "طين"
+          "nameEn": "Clay",
+          "nameAr": "طين"
         }
       }
     },
@@ -695,8 +695,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Cloth binding",
-          "name_ar": "تغليف قماشي"
+          "nameEn": "Cloth binding",
+          "nameAr": "تغليف قماشي"
         }
       }
     },
@@ -714,8 +714,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Cobalt",
-          "name_ar": "كوبالت"
+          "nameEn": "Cobalt",
+          "nameAr": "كوبالت"
         }
       }
     },
@@ -733,8 +733,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Coco-de-mer shell",
-          "name_ar": "قشرة جوز هند بحري"
+          "nameEn": "Coco-de-mer shell",
+          "nameAr": "قشرة جوز هند بحري"
         }
       }
     },
@@ -752,8 +752,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Coconut rope",
-          "name_ar": "حبل من ألياف جوز الهند"
+          "nameEn": "Coconut rope",
+          "nameAr": "حبل من ألياف جوز الهند"
         }
       }
     },
@@ -771,8 +771,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Colored dyes",
-          "name_ar": "أصباغ ملوَّنة"
+          "nameEn": "Colored dyes",
+          "nameAr": "أصباغ ملوَّنة"
         }
       }
     },
@@ -790,8 +790,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Colored lacquer",
-          "name_ar": "ورنيش ملوَّن"
+          "nameEn": "Colored lacquer",
+          "nameAr": "ورنيش ملوَّن"
         }
       }
     },
@@ -809,8 +809,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Colored marbles",
-          "name_ar": "رخام ملوَّن"
+          "nameEn": "Colored marbles",
+          "nameAr": "رخام ملوَّن"
         }
       }
     },
@@ -828,8 +828,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Colored slips",
-          "name_ar": "طين سائل ملوّن"
+          "nameEn": "Colored slips",
+          "nameAr": "طين سائل ملوّن"
         }
       }
     },
@@ -847,8 +847,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Composite strap",
-          "name_ar": "أشرطة مركّبة"
+          "nameEn": "Composite strap",
+          "nameAr": "أشرطة مركّبة"
         }
       }
     },
@@ -866,8 +866,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Copper",
-          "name_ar": "نحاس"
+          "nameEn": "Copper",
+          "nameAr": "نحاس"
         }
       }
     },
@@ -885,8 +885,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Copper alloy",
-          "name_ar": "سبيكة نحاسية"
+          "nameEn": "Copper alloy",
+          "nameAr": "سبيكة نحاسية"
         }
       }
     },
@@ -904,8 +904,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Copper rivets",
-          "name_ar": "مسامير نحاسية"
+          "nameEn": "Copper rivets",
+          "nameAr": "مسامير نحاسية"
         }
       }
     },
@@ -923,8 +923,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Corten steel",
-          "name_ar": "فولاذ كورتن"
+          "nameEn": "Corten steel",
+          "nameAr": "فولاذ كورتن"
         }
       }
     },
@@ -942,8 +942,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Cotton",
-          "name_ar": "قطن"
+          "nameEn": "Cotton",
+          "nameAr": "قطن"
         }
       }
     },
@@ -961,8 +961,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Cotton fabric with dye",
-          "name_ar": "قماش قطني مصبوغ"
+          "nameEn": "Cotton fabric with dye",
+          "nameAr": "قماش قطني مصبوغ"
         }
       }
     },
@@ -980,8 +980,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Cotton rope",
-          "name_ar": "حبل قطني"
+          "nameEn": "Cotton rope",
+          "nameAr": "حبل قطني"
         }
       }
     },
@@ -999,8 +999,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Dark-brown leather binding",
-          "name_ar": "تغليف جلدي بنّي داكن"
+          "nameEn": "Dark-brown leather binding",
+          "nameAr": "تغليف جلدي بنّي داكن"
         }
       }
     },
@@ -1018,8 +1018,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Diamond",
-          "name_ar": "ألماس"
+          "nameEn": "Diamond",
+          "nameAr": "ألماس"
         }
       }
     },
@@ -1037,8 +1037,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Distilled water",
-          "name_ar": "ماء مقطَّر"
+          "nameEn": "Distilled water",
+          "nameAr": "ماء مقطَّر"
         }
       }
     },
@@ -1056,8 +1056,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Earthenware",
-          "name_ar": "فخّار"
+          "nameEn": "Earthenware",
+          "nameAr": "فخّار"
         }
       }
     },
@@ -1075,8 +1075,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Ebony",
-          "name_ar": "أبنوس"
+          "nameEn": "Ebony",
+          "nameAr": "أبنوس"
         }
       }
     },
@@ -1094,8 +1094,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Electrical system",
-          "name_ar": "نظام كهربائي"
+          "nameEn": "Electrical system",
+          "nameAr": "نظام كهربائي"
         }
       }
     },
@@ -1113,8 +1113,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Electronic and audio equipment",
-          "name_ar": "معدات إلكترونية وصوتية"
+          "nameEn": "Electronic and audio equipment",
+          "nameAr": "معدات إلكترونية وصوتية"
         }
       }
     },
@@ -1132,8 +1132,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Emerald",
-          "name_ar": "زمرد"
+          "nameEn": "Emerald",
+          "nameAr": "زمرد"
         }
       }
     },
@@ -1151,8 +1151,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Enamel",
-          "name_ar": "مينا"
+          "nameEn": "Enamel",
+          "nameAr": "مينا"
         }
       }
     },
@@ -1170,8 +1170,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Epoxy resin",
-          "name_ar": "راتنج الإيبوكسي"
+          "nameEn": "Epoxy resin",
+          "nameAr": "راتنج الإيبوكسي"
         }
       }
     },
@@ -1189,8 +1189,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "European-manufactured paper",
-          "name_ar": "ورق مصنَّع في أوروبا"
+          "nameEn": "European-manufactured paper",
+          "nameAr": "ورق مصنَّع في أوروبا"
         }
       }
     },
@@ -1208,8 +1208,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Fabric",
-          "name_ar": "قماش"
+          "nameEn": "Fabric",
+          "nameAr": "قماش"
         }
       }
     },
@@ -1227,8 +1227,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Faience",
-          "name_ar": "خزف"
+          "nameEn": "Faience",
+          "nameAr": "خزف"
         }
       }
     },
@@ -1246,8 +1246,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Fiber",
-          "name_ar": "ألياف"
+          "nameEn": "Fiber",
+          "nameAr": "ألياف"
         }
       }
     },
@@ -1265,8 +1265,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Fiber board",
-          "name_ar": "لوح ألياف"
+          "nameEn": "Fiber board",
+          "nameAr": "لوح ألياف"
         }
       }
     },
@@ -1284,8 +1284,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Flowers",
-          "name_ar": "أزهار"
+          "nameEn": "Flowers",
+          "nameAr": "أزهار"
         }
       }
     },
@@ -1303,8 +1303,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Fritware",
-          "name_ar": "فخّار"
+          "nameEn": "Fritware",
+          "nameAr": "فخّار"
         }
       }
     },
@@ -1322,8 +1322,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Fur",
-          "name_ar": "فرو"
+          "nameEn": "Fur",
+          "nameAr": "فرو"
         }
       }
     },
@@ -1341,8 +1341,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Gilded brass",
-          "name_ar": "نحاس مذهب"
+          "nameEn": "Gilded brass",
+          "nameAr": "نحاس مذهب"
         }
       }
     },
@@ -1360,8 +1360,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Gilded copper",
-          "name_ar": "نحاس مذهب"
+          "nameEn": "Gilded copper",
+          "nameAr": "نحاس مذهب"
         }
       }
     },
@@ -1379,8 +1379,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Gilded iron grill",
-          "name_ar": "شبك حديد مذهّب"
+          "nameEn": "Gilded iron grill",
+          "nameAr": "شبك حديد مذهّب"
         }
       }
     },
@@ -1398,8 +1398,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Gilded leather",
-          "name_ar": "جلد مُذهَّب"
+          "nameEn": "Gilded leather",
+          "nameAr": "جلد مُذهَّب"
         }
       }
     },
@@ -1417,8 +1417,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Gilding",
-          "name_ar": "تذهيب"
+          "nameEn": "Gilding",
+          "nameAr": "تذهيب"
         }
       }
     },
@@ -1436,8 +1436,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Glass",
-          "name_ar": "زجاج"
+          "nameEn": "Glass",
+          "nameAr": "زجاج"
         }
       }
     },
@@ -1455,8 +1455,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Glass enamels",
-          "name_ar": "مينا مُزجَّج"
+          "nameEn": "Glass enamels",
+          "nameAr": "مينا مُزجَّج"
         }
       }
     },
@@ -1474,8 +1474,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Glaze",
-          "name_ar": "طبقة تزجيج"
+          "nameEn": "Glaze",
+          "nameAr": "طبقة تزجيج"
         }
       }
     },
@@ -1493,8 +1493,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Glazed ceramic tiles",
-          "name_ar": "بلاط سيراميك مزجَّج"
+          "nameEn": "Glazed ceramic tiles",
+          "nameAr": "بلاط سيراميك مزجَّج"
         }
       }
     },
@@ -1512,8 +1512,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Glazed earthenware",
-          "name_ar": "فخّار مزجَّج"
+          "nameEn": "Glazed earthenware",
+          "nameAr": "فخّار مزجَّج"
         }
       }
     },
@@ -1531,8 +1531,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Glazed porcelain",
-          "name_ar": "خزف مزجج"
+          "nameEn": "Glazed porcelain",
+          "nameAr": "خزف مزجج"
         }
       }
     },
@@ -1550,8 +1550,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Glazed pottery",
-          "name_ar": "فخّار مزجَّج"
+          "nameEn": "Glazed pottery",
+          "nameAr": "فخّار مزجَّج"
         }
       }
     },
@@ -1569,8 +1569,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Glazed stonepaste ceramic",
-          "name_ar": "عجينة خزفية مغطاة بطلاء مزجَّج"
+          "nameEn": "Glazed stonepaste ceramic",
+          "nameAr": "عجينة خزفية مغطاة بطلاء مزجَّج"
         }
       }
     },
@@ -1588,8 +1588,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Gold",
-          "name_ar": "ذهب"
+          "nameEn": "Gold",
+          "nameAr": "ذهب"
         }
       }
     },
@@ -1607,8 +1607,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Gold leaf",
-          "name_ar": "رقائق ذهب"
+          "nameEn": "Gold leaf",
+          "nameAr": "رقائق ذهب"
         }
       }
     },
@@ -1626,8 +1626,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Gold-silver alloy gilding",
-          "name_ar": "تذهيب من سبيكة ذهب وفضة"
+          "nameEn": "Gold-silver alloy gilding",
+          "nameAr": "تذهيب من سبيكة ذهب وفضة"
         }
       }
     },
@@ -1645,8 +1645,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Gold-wrapped silk thread",
-          "name_ar": "خيوط حرير مغزولة بذهب"
+          "nameEn": "Gold-wrapped silk thread",
+          "nameAr": "خيوط حرير مغزولة بذهب"
         }
       }
     },
@@ -1664,8 +1664,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Gray wash",
-          "name_ar": "طبقة من طلاء رمادي"
+          "nameEn": "Gray wash",
+          "nameAr": "طبقة من طلاء رمادي"
         }
       }
     },
@@ -1683,8 +1683,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Green ink",
-          "name_ar": "حبر أخضر"
+          "nameEn": "Green ink",
+          "nameAr": "حبر أخضر"
         }
       }
     },
@@ -1702,8 +1702,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Greenhouse",
-          "name_ar": "دفيئة زراعية"
+          "nameEn": "Greenhouse",
+          "nameAr": "دفيئة زراعية"
         }
       }
     },
@@ -1721,8 +1721,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Handblown glass lamps",
-          "name_ar": "مصابيح زجاجية مصنوعة بالنفخ اليدوي"
+          "nameEn": "Handblown glass lamps",
+          "nameAr": "مصابيح زجاجية مصنوعة بالنفخ اليدوي"
         }
       }
     },
@@ -1740,8 +1740,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Hardwood",
-          "name_ar": "خشب صلب"
+          "nameEn": "Hardwood",
+          "nameAr": "خشب صلب"
         }
       }
     },
@@ -1759,8 +1759,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Healing garden with bioremedial plants",
-          "name_ar": "حديقة شفائية تضم نباتات علاجية حيوية"
+          "nameEn": "Healing garden with bioremedial plants",
+          "nameAr": "حديقة شفائية تضم نباتات علاجية حيوية"
         }
       }
     },
@@ -1778,8 +1778,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Hide",
-          "name_ar": "جلد"
+          "nameEn": "Hide",
+          "nameAr": "جلد"
         }
       }
     },
@@ -1797,8 +1797,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "High-tin bronze",
-          "name_ar": "برونز عالي القصدير"
+          "nameEn": "High-tin bronze",
+          "nameAr": "برونز عالي القصدير"
         }
       }
     },
@@ -1816,8 +1816,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Horn",
-          "name_ar": "قرن حيوان"
+          "nameEn": "Horn",
+          "nameAr": "قرن حيوان"
         }
       }
     },
@@ -1835,8 +1835,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Indigo fabric",
-          "name_ar": "قماش نيلي"
+          "nameEn": "Indigo fabric",
+          "nameAr": "قماش نيلي"
         }
       }
     },
@@ -1854,8 +1854,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Industrial oil",
-          "name_ar": "زيت صناعي"
+          "nameEn": "Industrial oil",
+          "nameAr": "زيت صناعي"
         }
       }
     },
@@ -1873,8 +1873,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Ink",
-          "name_ar": "حبر"
+          "nameEn": "Ink",
+          "nameAr": "حبر"
         }
       }
     },
@@ -1892,8 +1892,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Ink dye",
-          "name_ar": "صبغة حبر"
+          "nameEn": "Ink dye",
+          "nameAr": "صبغة حبر"
         }
       }
     },
@@ -1911,8 +1911,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Iron",
-          "name_ar": "حديد"
+          "nameEn": "Iron",
+          "nameAr": "حديد"
         }
       }
     },
@@ -1930,8 +1930,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Iron nails",
-          "name_ar": "مسامير حديدية"
+          "nameEn": "Iron nails",
+          "nameAr": "مسامير حديدية"
         }
       }
     },
@@ -1949,8 +1949,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Iron shavings",
-          "name_ar": "بُرادة حديد"
+          "nameEn": "Iron shavings",
+          "nameAr": "بُرادة حديد"
         }
       }
     },
@@ -1968,8 +1968,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Ivory",
-          "name_ar": "عاج"
+          "nameEn": "Ivory",
+          "nameAr": "عاج"
         }
       }
     },
@@ -1987,8 +1987,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Japanese paper",
-          "name_ar": "ورق ياباني"
+          "nameEn": "Japanese paper",
+          "nameAr": "ورق ياباني"
         }
       }
     },
@@ -2006,8 +2006,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Juniper wood",
-          "name_ar": "خشب عرعر"
+          "nameEn": "Juniper wood",
+          "nameAr": "خشب عرعر"
         }
       }
     },
@@ -2025,8 +2025,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Kantha embroidery",
-          "name_ar": "مطرزات كانثا"
+          "nameEn": "Kantha embroidery",
+          "nameAr": "مطرزات كانثا"
         }
       }
     },
@@ -2044,8 +2044,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Lac",
-          "name_ar": "لَك"
+          "nameEn": "Lac",
+          "nameAr": "لَك"
         }
       }
     },
@@ -2063,8 +2063,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Lacquer",
-          "name_ar": "ورنيش"
+          "nameEn": "Lacquer",
+          "nameAr": "ورنيش"
         }
       }
     },
@@ -2082,8 +2082,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Later silver foot",
-          "name_ar": "قاعدة فضية أُضيفت لاحقاً"
+          "nameEn": "Later silver foot",
+          "nameAr": "قاعدة فضية أُضيفت لاحقاً"
         }
       }
     },
@@ -2101,8 +2101,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Latex tubes",
-          "name_ar": "أنابيب لثي"
+          "nameEn": "Latex tubes",
+          "nameAr": "أنابيب لثي"
         }
       }
     },
@@ -2120,8 +2120,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Lead",
-          "name_ar": "رصاص"
+          "nameEn": "Lead",
+          "nameAr": "رصاص"
         }
       }
     },
@@ -2139,8 +2139,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Leather",
-          "name_ar": "جلد"
+          "nameEn": "Leather",
+          "nameAr": "جلد"
         }
       }
     },
@@ -2158,8 +2158,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Leather binding",
-          "name_ar": "تغليف جلدي"
+          "nameEn": "Leather binding",
+          "nameAr": "تغليف جلدي"
         }
       }
     },
@@ -2177,8 +2177,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Leather parchment",
-          "name_ar": "رَقّ جلد"
+          "nameEn": "Leather parchment",
+          "nameAr": "رَقّ جلد"
         }
       }
     },
@@ -2196,8 +2196,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Lenses",
-          "name_ar": "عدسات"
+          "nameEn": "Lenses",
+          "nameAr": "عدسات"
         }
       }
     },
@@ -2215,8 +2215,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Linen",
-          "name_ar": "كتّان"
+          "nameEn": "Linen",
+          "nameAr": "كتّان"
         }
       }
     },
@@ -2234,8 +2234,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Luster",
-          "name_ar": "طبقة لامعة"
+          "nameEn": "Luster",
+          "nameAr": "طبقة لامعة"
         }
       }
     },
@@ -2253,8 +2253,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Luster glaze",
-          "name_ar": "طبقة لامعة"
+          "nameEn": "Luster glaze",
+          "nameAr": "طبقة لامعة"
         }
       }
     },
@@ -2272,8 +2272,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Madras thorn tree",
-          "name_ar": "شجرة غاف البحر"
+          "nameEn": "Madras thorn tree",
+          "nameAr": "شجرة غاف البحر"
         }
       }
     },
@@ -2291,8 +2291,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Magnet",
-          "name_ar": "مغناطيس"
+          "nameEn": "Magnet",
+          "nameAr": "مغناطيس"
         }
       }
     },
@@ -2310,8 +2310,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Mahogany",
-          "name_ar": "ماهوني"
+          "nameEn": "Mahogany",
+          "nameAr": "ماهوني"
         }
       }
     },
@@ -2329,8 +2329,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Marble",
-          "name_ar": "رخام"
+          "nameEn": "Marble",
+          "nameAr": "رخام"
         }
       }
     },
@@ -2348,8 +2348,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Metal",
-          "name_ar": "معدن"
+          "nameEn": "Metal",
+          "nameAr": "معدن"
         }
       }
     },
@@ -2367,8 +2367,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Metal cables",
-          "name_ar": "كابلات معدنية"
+          "nameEn": "Metal cables",
+          "nameAr": "كابلات معدنية"
         }
       }
     },
@@ -2386,8 +2386,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Metal rails",
-          "name_ar": "قضبان معدنية"
+          "nameEn": "Metal rails",
+          "nameAr": "قضبان معدنية"
         }
       }
     },
@@ -2405,8 +2405,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Metal scaffolding",
-          "name_ar": "سقالات معدنية"
+          "nameEn": "Metal scaffolding",
+          "nameAr": "سقالات معدنية"
         }
       }
     },
@@ -2424,8 +2424,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Metal structure",
-          "name_ar": "هيكل معدني"
+          "nameEn": "Metal structure",
+          "nameAr": "هيكل معدني"
         }
       }
     },
@@ -2443,8 +2443,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Metal thread",
-          "name_ar": "خيط معدني"
+          "nameEn": "Metal thread",
+          "nameAr": "خيط معدني"
         }
       }
     },
@@ -2462,8 +2462,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Metallic barrels",
-          "name_ar": "براميل معدنية"
+          "nameEn": "Metallic barrels",
+          "nameAr": "براميل معدنية"
         }
       }
     },
@@ -2481,8 +2481,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Mica pigment",
-          "name_ar": "أصباغ مسحوق ميكا"
+          "nameEn": "Mica pigment",
+          "nameAr": "أصباغ مسحوق ميكا"
         }
       }
     },
@@ -2500,8 +2500,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Mirror",
-          "name_ar": "مرآة"
+          "nameEn": "Mirror",
+          "nameAr": "مرآة"
         }
       }
     },
@@ -2519,8 +2519,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Mortar",
-          "name_ar": "ملاط"
+          "nameEn": "Mortar",
+          "nameAr": "ملاط"
         }
       }
     },
@@ -2538,8 +2538,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Mother-of-pearl",
-          "name_ar": "عِرق اللؤلؤ"
+          "nameEn": "Mother-of-pearl",
+          "nameAr": "عِرق اللؤلؤ"
         }
       }
     },
@@ -2557,8 +2557,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Natural fiber ropes",
-          "name_ar": "حبال من الألياف الطبيعية"
+          "nameEn": "Natural fiber ropes",
+          "nameAr": "حبال من الألياف الطبيعية"
         }
       }
     },
@@ -2576,8 +2576,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Nephrite jade",
-          "name_ar": "يشب النفريت"
+          "nameEn": "Nephrite jade",
+          "nameAr": "يشب النفريت"
         }
       }
     },
@@ -2595,8 +2595,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Nickel",
-          "name_ar": "نيكل"
+          "nameEn": "Nickel",
+          "nameAr": "نيكل"
         }
       }
     },
@@ -2614,8 +2614,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Niello",
-          "name_ar": "نِلّ"
+          "nameEn": "Niello",
+          "nameAr": "نِلّ"
         }
       }
     },
@@ -2633,8 +2633,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Nylon",
-          "name_ar": "نايلون"
+          "nameEn": "Nylon",
+          "nameAr": "نايلون"
         }
       }
     },
@@ -2652,8 +2652,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Oak boards",
-          "name_ar": "ألواح من خشب البَلُّوط"
+          "nameEn": "Oak boards",
+          "nameAr": "ألواح من خشب البَلُّوط"
         }
       }
     },
@@ -2671,8 +2671,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Opaque pigments",
-          "name_ar": "أصباغ كتيمة"
+          "nameEn": "Opaque pigments",
+          "nameAr": "أصباغ كتيمة"
         }
       }
     },
@@ -2690,8 +2690,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Opaque watercolor",
-          "name_ar": "ألوان مائية كتيمة"
+          "nameEn": "Opaque watercolor",
+          "nameAr": "ألوان مائية كتيمة"
         }
       }
     },
@@ -2709,8 +2709,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Opaque white glaze",
-          "name_ar": "طبقة تزجيج بيضاء كتيمة"
+          "nameEn": "Opaque white glaze",
+          "nameAr": "طبقة تزجيج بيضاء كتيمة"
         }
       }
     },
@@ -2728,8 +2728,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Paint",
-          "name_ar": "طلاء"
+          "nameEn": "Paint",
+          "nameAr": "طلاء"
         }
       }
     },
@@ -2747,8 +2747,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Painted cedarwood",
-          "name_ar": "خشب أرز مَطليّ"
+          "nameEn": "Painted cedarwood",
+          "nameAr": "خشب أرز مَطليّ"
         }
       }
     },
@@ -2766,8 +2766,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Palm fronds",
-          "name_ar": "سعف نخيل"
+          "nameEn": "Palm fronds",
+          "nameAr": "سعف نخيل"
         }
       }
     },
@@ -2785,8 +2785,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Paper",
-          "name_ar": "ورق"
+          "nameEn": "Paper",
+          "nameAr": "ورق"
         }
       }
     },
@@ -2804,8 +2804,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Papier mache",
-          "name_ar": "ورق معجن"
+          "nameEn": "Papier mache",
+          "nameAr": "ورق معجن"
         }
       }
     },
@@ -2823,8 +2823,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Parchment",
-          "name_ar": "رَقّ"
+          "nameEn": "Parchment",
+          "nameAr": "رَقّ"
         }
       }
     },
@@ -2842,8 +2842,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Pearl",
-          "name_ar": "لؤلؤ"
+          "nameEn": "Pearl",
+          "nameAr": "لؤلؤ"
         }
       }
     },
@@ -2861,8 +2861,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Pencil",
-          "name_ar": "قلم رصاص"
+          "nameEn": "Pencil",
+          "nameAr": "قلم رصاص"
         }
       }
     },
@@ -2880,8 +2880,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Pigment",
-          "name_ar": "أصباغ"
+          "nameEn": "Pigment",
+          "nameAr": "أصباغ"
         }
       }
     },
@@ -2899,8 +2899,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Pigmented fiber board",
-          "name_ar": "لوح ألياف ملوّن"
+          "nameEn": "Pigmented fiber board",
+          "nameAr": "لوح ألياف ملوّن"
         }
       }
     },
@@ -2918,8 +2918,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Pine wood",
-          "name_ar": "خشب صنوبر"
+          "nameEn": "Pine wood",
+          "nameAr": "خشب صنوبر"
         }
       }
     },
@@ -2937,8 +2937,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Plants",
-          "name_ar": "نباتات"
+          "nameEn": "Plants",
+          "nameAr": "نباتات"
         }
       }
     },
@@ -2956,8 +2956,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Plexiglas box",
-          "name_ar": "صندوق من زجاج بليكسي"
+          "nameEn": "Plexiglas box",
+          "nameAr": "صندوق من زجاج بليكسي"
         }
       }
     },
@@ -2975,8 +2975,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Plywood",
-          "name_ar": "خشب رقائقي"
+          "nameEn": "Plywood",
+          "nameAr": "خشب رقائقي"
         }
       }
     },
@@ -2994,8 +2994,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Plywood boards",
-          "name_ar": "ألواح خشب رقائقي"
+          "nameEn": "Plywood boards",
+          "nameAr": "ألواح خشب رقائقي"
         }
       }
     },
@@ -3013,8 +3013,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Polished 3D printed resin",
-          "name_ar": "راتنج مطبوع بتقنية ثلاثية الأبعاد ومصقول"
+          "nameEn": "Polished 3D printed resin",
+          "nameAr": "راتنج مطبوع بتقنية ثلاثية الأبعاد ومصقول"
         }
       }
     },
@@ -3032,8 +3032,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Polished stainless steel",
-          "name_ar": "فولاذ مصقول"
+          "nameEn": "Polished stainless steel",
+          "nameAr": "فولاذ مصقول"
         }
       }
     },
@@ -3051,8 +3051,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Polychrome stone inlays",
-          "name_ar": "تطعيمات حجرية متعدّدة الألوان"
+          "nameEn": "Polychrome stone inlays",
+          "nameAr": "تطعيمات حجرية متعدّدة الألوان"
         }
       }
     },
@@ -3070,8 +3070,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Polymirror",
-          "name_ar": "مرآة مصنوعة من بولي"
+          "nameEn": "Polymirror",
+          "nameAr": "مرآة مصنوعة من بولي"
         }
       }
     },
@@ -3089,8 +3089,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Porphyry",
-          "name_ar": "حجر سُمّاقي"
+          "nameEn": "Porphyry",
+          "nameAr": "حجر سُمّاقي"
         }
       }
     },
@@ -3108,8 +3108,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Powder coated metal",
-          "name_ar": "معدن مغلّف بالبودرة"
+          "nameEn": "Powder coated metal",
+          "nameAr": "معدن مغلّف بالبودرة"
         }
       }
     },
@@ -3127,8 +3127,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Proconnesian marble",
-          "name_ar": "رخام بروكونيزي"
+          "nameEn": "Proconnesian marble",
+          "nameAr": "رخام بروكونيزي"
         }
       }
     },
@@ -3146,8 +3146,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Projected animations",
-          "name_ar": "رسمان متحرّكان مسقطان"
+          "nameEn": "Projected animations",
+          "nameAr": "رسمان متحرّكان مسقطان"
         }
       }
     },
@@ -3165,8 +3165,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Red compound",
-          "name_ar": "رصاص أحمر"
+          "nameEn": "Red compound",
+          "nameAr": "رصاص أحمر"
         }
       }
     },
@@ -3184,8 +3184,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Red ink",
-          "name_ar": "حبر أحمر"
+          "nameEn": "Red ink",
+          "nameAr": "حبر أحمر"
         }
       }
     },
@@ -3203,8 +3203,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Reed weaving",
-          "name_ar": "نسيج قصب"
+          "nameEn": "Reed weaving",
+          "nameAr": "نسيج قصب"
         }
       }
     },
@@ -3222,8 +3222,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Resin",
-          "name_ar": "راتنج"
+          "nameEn": "Resin",
+          "nameAr": "راتنج"
         }
       }
     },
@@ -3241,8 +3241,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Rock",
-          "name_ar": "صخور"
+          "nameEn": "Rock",
+          "nameAr": "صخور"
         }
       }
     },
@@ -3260,8 +3260,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Rock crystal",
-          "name_ar": "بلّور صخري"
+          "nameEn": "Rock crystal",
+          "nameAr": "بلّور صخري"
         }
       }
     },
@@ -3279,8 +3279,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Rope",
-          "name_ar": "حبل"
+          "nameEn": "Rope",
+          "nameAr": "حبل"
         }
       }
     },
@@ -3298,8 +3298,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Rosewood",
-          "name_ar": "خشب ورد"
+          "nameEn": "Rosewood",
+          "nameAr": "خشب ورد"
         }
       }
     },
@@ -3317,8 +3317,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Rounded mirrors",
-          "name_ar": "مرايا مدورة"
+          "nameEn": "Rounded mirrors",
+          "nameAr": "مرايا مدورة"
         }
       }
     },
@@ -3336,8 +3336,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Rubies",
-          "name_ar": "ياقوت"
+          "nameEn": "Rubies",
+          "nameAr": "ياقوت"
         }
       }
     },
@@ -3355,8 +3355,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Ruby",
-          "name_ar": "ياقوت"
+          "nameEn": "Ruby",
+          "nameAr": "ياقوت"
         }
       }
     },
@@ -3374,8 +3374,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Sapphire",
-          "name_ar": "ياقوت أزرق"
+          "nameEn": "Sapphire",
+          "nameAr": "ياقوت أزرق"
         }
       }
     },
@@ -3393,8 +3393,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Screen",
-          "name_ar": "شاشة"
+          "nameEn": "Screen",
+          "nameAr": "شاشة"
         }
       }
     },
@@ -3412,8 +3412,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Sediment",
-          "name_ar": "رواسب"
+          "nameEn": "Sediment",
+          "nameAr": "رواسب"
         }
       }
     },
@@ -3431,8 +3431,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Seed pearls",
-          "name_ar": "لؤلؤ صغير"
+          "nameEn": "Seed pearls",
+          "nameAr": "لؤلؤ صغير"
         }
       }
     },
@@ -3450,8 +3450,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Semi-precious stones",
-          "name_ar": "أحجار شبه كريمة"
+          "nameEn": "Semi-precious stones",
+          "nameAr": "أحجار شبه كريمة"
         }
       }
     },
@@ -3469,8 +3469,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Shagreen",
-          "name_ar": "جلد غير مدبوغ"
+          "nameEn": "Shagreen",
+          "nameAr": "جلد غير مدبوغ"
         }
       }
     },
@@ -3488,8 +3488,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Sheepskin",
-          "name_ar": "جلد غنم"
+          "nameEn": "Sheepskin",
+          "nameAr": "جلد غنم"
         }
       }
     },
@@ -3507,8 +3507,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Silicon bronze",
-          "name_ar": "سيليكون برونز"
+          "nameEn": "Silicon bronze",
+          "nameAr": "سيليكون برونز"
         }
       }
     },
@@ -3526,8 +3526,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Silk",
-          "name_ar": "حرير"
+          "nameEn": "Silk",
+          "nameAr": "حرير"
         }
       }
     },
@@ -3545,8 +3545,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Silk pile",
-          "name_ar": "حرير زَغِب"
+          "nameEn": "Silk pile",
+          "nameAr": "حرير زَغِب"
         }
       }
     },
@@ -3564,8 +3564,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Silk-satin",
-          "name_ar": "حرير-ساتان"
+          "nameEn": "Silk-satin",
+          "nameAr": "حرير-ساتان"
         }
       }
     },
@@ -3583,8 +3583,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Silkscreen print on mesh",
-          "name_ar": "طباعة بالشاشة الحريرية على قماش شاش"
+          "nameEn": "Silkscreen print on mesh",
+          "nameAr": "طباعة بالشاشة الحريرية على قماش شاش"
         }
       }
     },
@@ -3602,8 +3602,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Silver",
-          "name_ar": "فضة"
+          "nameEn": "Silver",
+          "nameAr": "فضة"
         }
       }
     },
@@ -3621,8 +3621,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Silver additions",
-          "name_ar": "إضافات من الفضة"
+          "nameEn": "Silver additions",
+          "nameAr": "إضافات من الفضة"
         }
       }
     },
@@ -3640,8 +3640,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Silver gilt",
-          "name_ar": "فضة مذهّبة"
+          "nameEn": "Silver gilt",
+          "nameAr": "فضة مذهّبة"
         }
       }
     },
@@ -3659,8 +3659,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Silver-gilt wire",
-          "name_ar": "سِلك فضي مذهّب"
+          "nameEn": "Silver-gilt wire",
+          "nameAr": "سِلك فضي مذهّب"
         }
       }
     },
@@ -3678,8 +3678,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Silver inlay",
-          "name_ar": "تطعيم بالفضة"
+          "nameEn": "Silver inlay",
+          "nameAr": "تطعيم بالفضة"
         }
       }
     },
@@ -3697,8 +3697,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Silver overlay",
-          "name_ar": "تطعيمات من فضة"
+          "nameEn": "Silver overlay",
+          "nameAr": "تطعيمات من فضة"
         }
       }
     },
@@ -3716,8 +3716,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Silver plate",
-          "name_ar": "صفيحة فضة"
+          "nameEn": "Silver plate",
+          "nameAr": "صفيحة فضة"
         }
       }
     },
@@ -3735,8 +3735,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Silver-wire thread",
-          "name_ar": "خيوط فضة مسطَّحة"
+          "nameEn": "Silver-wire thread",
+          "nameAr": "خيوط فضة مسطَّحة"
         }
       }
     },
@@ -3754,8 +3754,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Silver-wrapped thread",
-          "name_ar": "خيوط فضية مغلّفة"
+          "nameEn": "Silver-wrapped thread",
+          "nameAr": "خيوط فضية مغلّفة"
         }
       }
     },
@@ -3773,8 +3773,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Silvered brass",
-          "name_ar": "نحاس مفضَّض"
+          "nameEn": "Silvered brass",
+          "nameAr": "نحاس مفضَّض"
         }
       }
     },
@@ -3792,8 +3792,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Silvered copper",
-          "name_ar": "نحاس مطليّ بالفضة"
+          "nameEn": "Silvered copper",
+          "nameAr": "نحاس مطليّ بالفضة"
         }
       }
     },
@@ -3811,8 +3811,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Sisal rope",
-          "name_ar": "حبل سيزال"
+          "nameEn": "Sisal rope",
+          "nameAr": "حبل سيزال"
         }
       }
     },
@@ -3830,8 +3830,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Soil",
-          "name_ar": "تربة"
+          "nameEn": "Soil",
+          "nameAr": "تربة"
         }
       }
     },
@@ -3849,8 +3849,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Spinel",
-          "name_ar": "حجر الياقوت الرمّاني"
+          "nameEn": "Spinel",
+          "nameAr": "حجر الياقوت الرمّاني"
         }
       }
     },
@@ -3868,8 +3868,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Stained wood",
-          "name_ar": "خشب ملوّن"
+          "nameEn": "Stained wood",
+          "nameAr": "خشب ملوّن"
         }
       }
     },
@@ -3887,8 +3887,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Steel",
-          "name_ar": "فولاذ"
+          "nameEn": "Steel",
+          "nameAr": "فولاذ"
         }
       }
     },
@@ -3906,8 +3906,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Steel bars",
-          "name_ar": "قضبان فولاذية"
+          "nameEn": "Steel bars",
+          "nameAr": "قضبان فولاذية"
         }
       }
     },
@@ -3925,8 +3925,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Steel structure",
-          "name_ar": "هيكل فولاذي"
+          "nameEn": "Steel structure",
+          "nameAr": "هيكل فولاذي"
         }
       }
     },
@@ -3944,8 +3944,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Stonepaste ceramic",
-          "name_ar": "خزف من عجينة حجرية"
+          "nameEn": "Stonepaste ceramic",
+          "nameAr": "خزف من عجينة حجرية"
         }
       }
     },
@@ -3963,8 +3963,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Stucco",
-          "name_ar": "جبس"
+          "nameEn": "Stucco",
+          "nameAr": "جبس"
         }
       }
     },
@@ -3982,8 +3982,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Supplementary-weft woven silver-wrapped thread",
-          "name_ar": "خيوط فضية مغلّفة نُسجت باستخدام تقنية الخيوط المضافة"
+          "nameEn": "Supplementary-weft woven silver-wrapped thread",
+          "nameAr": "خيوط فضية مغلّفة نُسجت باستخدام تقنية الخيوط المضافة"
         }
       }
     },
@@ -4001,8 +4001,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Teak",
-          "name_ar": "خشب الساج"
+          "nameEn": "Teak",
+          "nameAr": "خشب الساج"
         }
       }
     },
@@ -4020,8 +4020,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Teak tablet",
-          "name_ar": "لوح من خشب الساج"
+          "nameEn": "Teak tablet",
+          "nameAr": "لوح من خشب الساج"
         }
       }
     },
@@ -4039,8 +4039,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Textile",
-          "name_ar": "نسيج"
+          "nameEn": "Textile",
+          "nameAr": "نسيج"
         }
       }
     },
@@ -4058,8 +4058,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Textile banners",
-          "name_ar": "قطع قماش"
+          "nameEn": "Textile banners",
+          "nameAr": "قطع قماش"
         }
       }
     },
@@ -4077,8 +4077,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Thread",
-          "name_ar": "خيوط"
+          "nameEn": "Thread",
+          "nameAr": "خيوط"
         }
       }
     },
@@ -4096,8 +4096,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Three-channel video installation",
-          "name_ar": "فيديو من ثلاث قنوات"
+          "nameEn": "Three-channel video installation",
+          "nameAr": "فيديو من ثلاث قنوات"
         }
       }
     },
@@ -4115,8 +4115,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Tin-glazed earthenware",
-          "name_ar": "فخّار مطليّ بقصدير"
+          "nameEn": "Tin-glazed earthenware",
+          "nameAr": "فخّار مطليّ بقصدير"
         }
       }
     },
@@ -4134,8 +4134,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Tin-opacified glaze",
-          "name_ar": "تزجيج قصديري كتيم"
+          "nameEn": "Tin-opacified glaze",
+          "nameAr": "تزجيج قصديري كتيم"
         }
       }
     },
@@ -4153,8 +4153,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Tinned brass",
-          "name_ar": "نحاس مطلي بالقصدير"
+          "nameEn": "Tinned brass",
+          "nameAr": "نحاس مطلي بالقصدير"
         }
       }
     },
@@ -4172,8 +4172,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Tortoiseshell",
-          "name_ar": "صدف سلحفاة"
+          "nameEn": "Tortoiseshell",
+          "nameAr": "صدف سلحفاة"
         }
       }
     },
@@ -4191,8 +4191,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Tourmaline",
-          "name_ar": "تورمالين"
+          "nameEn": "Tourmaline",
+          "nameAr": "تورمالين"
         }
       }
     },
@@ -4210,8 +4210,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Treated fabric",
-          "name_ar": "قماش معالَج"
+          "nameEn": "Treated fabric",
+          "nameAr": "قماش معالَج"
         }
       }
     },
@@ -4229,8 +4229,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Turquoise",
-          "name_ar": "فيروز"
+          "nameEn": "Turquoise",
+          "nameAr": "فيروز"
         }
       }
     },
@@ -4248,8 +4248,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Turquoise glaze",
-          "name_ar": "طلاء تزجيج فيروزي"
+          "nameEn": "Turquoise glaze",
+          "nameAr": "طلاء تزجيج فيروزي"
         }
       }
     },
@@ -4267,8 +4267,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Vellum binding",
-          "name_ar": "تجليد من الرَّق"
+          "nameEn": "Vellum binding",
+          "nameAr": "تجليد من الرَّق"
         }
       }
     },
@@ -4286,8 +4286,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Velvet",
-          "name_ar": "مخمل"
+          "nameEn": "Velvet",
+          "nameAr": "مخمل"
         }
       }
     },
@@ -4305,8 +4305,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Video",
-          "name_ar": "فيديو"
+          "nameEn": "Video",
+          "nameAr": "فيديو"
         }
       }
     },
@@ -4324,8 +4324,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Walnut",
-          "name_ar": "خشب الجوز"
+          "nameEn": "Walnut",
+          "nameAr": "خشب الجوز"
         }
       }
     },
@@ -4343,8 +4343,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Walrus ivory",
-          "name_ar": "عاج فرس البحر"
+          "nameEn": "Walrus ivory",
+          "nameAr": "عاج فرس البحر"
         }
       }
     },
@@ -4362,8 +4362,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Watercolor",
-          "name_ar": "ألوان مائية"
+          "nameEn": "Watercolor",
+          "nameAr": "ألوان مائية"
         }
       }
     },
@@ -4381,8 +4381,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Wax-resist batik",
-          "name_ar": "تقنية صبغ الشَّمع (باتيك)"
+          "nameEn": "Wax-resist batik",
+          "nameAr": "تقنية صبغ الشَّمع (باتيك)"
         }
       }
     },
@@ -4400,8 +4400,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "White and black clay slips",
-          "name_ar": "الطين السائل الأبيض والأسود"
+          "nameEn": "White and black clay slips",
+          "nameAr": "الطين السائل الأبيض والأسود"
         }
       }
     },
@@ -4419,8 +4419,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Wood",
-          "name_ar": "خشب"
+          "nameEn": "Wood",
+          "nameAr": "خشب"
         }
       }
     },
@@ -4438,8 +4438,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Wood box with lacquer decoration",
-          "name_ar": "صندوق خشبي مزخرف بالورنيش"
+          "nameEn": "Wood box with lacquer decoration",
+          "nameAr": "صندوق خشبي مزخرف بالورنيش"
         }
       }
     },
@@ -4457,8 +4457,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Wooden sticks",
-          "name_ar": "عصيّ خشبية"
+          "nameEn": "Wooden sticks",
+          "nameAr": "عصيّ خشبية"
         }
       }
     },
@@ -4476,8 +4476,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Wool",
-          "name_ar": "صوف"
+          "nameEn": "Wool",
+          "nameAr": "صوف"
         }
       }
     },
@@ -4495,8 +4495,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Wool applique",
-          "name_ar": "تطريز بالصوف"
+          "nameEn": "Wool applique",
+          "nameAr": "تطريز بالصوف"
         }
       }
     },
@@ -4514,8 +4514,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Wool pile",
-          "name_ar": "صوف"
+          "nameEn": "Wool pile",
+          "nameAr": "صوف"
         }
       }
     },
@@ -4533,8 +4533,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Yellow ink",
-          "name_ar": "حبر أصفر"
+          "nameEn": "Yellow ink",
+          "nameAr": "حبر أصفر"
         }
       }
     },
@@ -4552,8 +4552,8 @@
       "url": "http://localhost:1337/api/materials",
       "body": {
         "data": {
-          "name_en": "Zinc alloy",
-          "name_ar": "سبائك زنك"
+          "nameEn": "Zinc alloy",
+          "nameAr": "سبائك زنك"
         }
       }
     },

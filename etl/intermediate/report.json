@@ -531,5 +531,237 @@
       "iab_code": "25-OS-09-5114",
       "material": "60 stools"
     }
-  ]
+  ],
+  "source_field_coverage": {
+    "accounted": [
+      {
+        "source_field": "Artist Biography for the Islamic Arts Biennale",
+        "status": "planned",
+        "target": "agent.biographyEn",
+        "notes": "Biography belongs on Agent; needs artist/agent matching beyond writer/curator extraction."
+      },
+      {
+        "source_field": "Artist Biography for the Islamic Arts Biennale AR",
+        "status": "planned",
+        "target": "agent.biographyAr",
+        "notes": "Arabic biography belongs on Agent; needs artist/agent matching beyond writer/curator extraction."
+      },
+      {
+        "source_field": "Comments",
+        "status": "ignored",
+        "reason": "Airtable working comments, not content model data."
+      },
+      {
+        "source_field": "Contributor URL",
+        "status": "mapped",
+        "target": "work.contributorUrl"
+      },
+      {
+        "source_field": "Credit Line",
+        "status": "mapped",
+        "target": "work.creditLineEn"
+      },
+      {
+        "source_field": "Credit Line AR",
+        "status": "mapped",
+        "target": "work.creditLineAr"
+      },
+      {
+        "source_field": "Curated Story Essay",
+        "status": "planned",
+        "target": "curated-story.essayEn",
+        "notes": "Needs Curated Story content type related to Work."
+      },
+      {
+        "source_field": "Curated Story Essay AR",
+        "status": "planned",
+        "target": "curated-story.essayAr",
+        "notes": "Needs Curated Story content type related to Work."
+      },
+      {
+        "source_field": "Curated Story Footnote",
+        "status": "planned",
+        "target": "curated-story.footnoteEn",
+        "notes": "Needs Curated Story content type related to Work."
+      },
+      {
+        "source_field": "Curated Story Footnote AR",
+        "status": "planned",
+        "target": "curated-story.footnoteAr",
+        "notes": "Needs Curated Story content type related to Work."
+      },
+      {
+        "source_field": "Curator(s)",
+        "status": "mapped",
+        "target": "work.agentCredits"
+      },
+      {
+        "source_field": "Date",
+        "status": "mapped",
+        "target": "work.dateDisplayGregorianEn",
+        "notes": "Current transform preserves source display text; Gregorian/Hijri parsing remains separate."
+      },
+      {
+        "source_field": "Date AR",
+        "status": "mapped",
+        "target": "work.dateDisplayGregorianAr",
+        "notes": "Current transform preserves source display text; Gregorian/Hijri parsing remains separate."
+      },
+      {
+        "source_field": "Description",
+        "status": "mapped",
+        "target": "work.descriptionEn"
+      },
+      {
+        "source_field": "Description AR",
+        "status": "mapped",
+        "target": "work.descriptionAr"
+      },
+      {
+        "source_field": "Dimension",
+        "status": "mapped",
+        "target": "work.dimensionEn"
+      },
+      {
+        "source_field": "Dimension AR",
+        "status": "mapped",
+        "target": "work.dimensionAr"
+      },
+      {
+        "source_field": "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)",
+        "status": "planned",
+        "target": "work-note.manuscriptDescriptionEn",
+        "notes": "Needs a note/statement content type or component."
+      },
+      {
+        "source_field": "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc) AR",
+        "status": "planned",
+        "target": "work-note.manuscriptDescriptionAr",
+        "notes": "Needs a note/statement content type or component."
+      },
+      {
+        "source_field": "Extra Object Related Information (maker, inscription, annotation, etc)",
+        "status": "planned",
+        "target": "work-note.objectInformationEn",
+        "notes": "Needs a note/statement content type or component."
+      },
+      {
+        "source_field": "Extra Object Related Information (maker, inscription, annotation, etc) AR",
+        "status": "planned",
+        "target": "work-note.objectInformationAr",
+        "notes": "Needs a note/statement content type or component."
+      },
+      {
+        "source_field": "Footnote reference",
+        "status": "mapped",
+        "target": "work.footnoteEn"
+      },
+      {
+        "source_field": "Footnote reference AR",
+        "status": "mapped",
+        "target": "work.footnoteAr"
+      },
+      {
+        "source_field": "For Wen to Check",
+        "status": "ignored",
+        "reason": "Source workflow field."
+      },
+      {
+        "source_field": "For designers",
+        "status": "ignored",
+        "reason": "Source workflow field."
+      },
+      {
+        "source_field": "Gallery",
+        "status": "mapped",
+        "target": "work.gallery"
+      },
+      {
+        "source_field": "IAB Code",
+        "status": "mapped",
+        "target": "work.iabCode"
+      },
+      {
+        "source_field": "Image annotation",
+        "status": "planned",
+        "target": "iiif-image.captionEn",
+        "notes": "Needs image-level matching before loading."
+      },
+      {
+        "source_field": "Inscriptions",
+        "status": "planned",
+        "target": "inscription.body",
+        "notes": "Needs Inscription content type related to Work."
+      },
+      {
+        "source_field": "Material",
+        "status": "mapped",
+        "target": "work.materialDisplayEn + work.materials"
+      },
+      {
+        "source_field": "Material AR",
+        "status": "mapped",
+        "target": "work.materialDisplayAr"
+      },
+      {
+        "source_field": "Opening Folio No. On Display",
+        "status": "planned",
+        "target": "iiif-image.label",
+        "notes": "Needs image/folio-level matching before loading."
+      },
+      {
+        "source_field": "Origin",
+        "status": "mapped",
+        "target": "work.originEn"
+      },
+      {
+        "source_field": "Origin AR",
+        "status": "mapped",
+        "target": "work.originAr"
+      },
+      {
+        "source_field": "Ready to export",
+        "status": "ignored",
+        "reason": "Source workflow field."
+      },
+      {
+        "source_field": "Sub-gallery",
+        "status": "planned",
+        "target": "sub-gallery.nameEn",
+        "notes": "Needs Sub-gallery content type and relation to Gallery/Work."
+      },
+      {
+        "source_field": "Title of Object",
+        "status": "mapped",
+        "target": "work.titleEn"
+      },
+      {
+        "source_field": "Title of Object AR",
+        "status": "mapped",
+        "target": "work.titleAr"
+      },
+      {
+        "source_field": "To request AV",
+        "status": "ignored",
+        "reason": "Source workflow field."
+      },
+      {
+        "source_field": "To shorten titles in Arabic",
+        "status": "ignored",
+        "reason": "Source workflow field."
+      },
+      {
+        "source_field": "Writer(s)",
+        "status": "mapped",
+        "target": "work.agentCredits"
+      }
+    ],
+    "unmapped": [],
+    "configured_but_unobserved": [],
+    "counts": {
+      "mapped": 21,
+      "planned": 14,
+      "ignored": 6
+    }
+  }
 }

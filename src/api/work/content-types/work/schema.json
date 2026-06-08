@@ -29,6 +29,18 @@
     "originAr": {
       "type": "string"
     },
+    "dimensionEn": {
+      "type": "text"
+    },
+    "dimensionAr": {
+      "type": "text"
+    },
+    "materialDisplayEn": {
+      "type": "text"
+    },
+    "materialDisplayAr": {
+      "type": "text"
+    },
     "dateDisplayGregorianEn": {
       "type": "string"
     },
@@ -65,6 +77,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::institution.institution"
+    },
+    "materials": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::material.material"
     },
     "agentCredits": {
       "type": "component",

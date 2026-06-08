@@ -23,6 +23,10 @@
     "nameAr": {
       "type": "string"
     },
+    "slug": {
+      "type": "uid",
+      "targetField": "nameEn"
+    },
     "coverMedia": {
       "type": "media",
       "multiple": true,

@@ -11,8 +11,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Ala Younis",
-          "name_ar": "علا يونس"
+          "nameEn": "Ala Younis",
+          "nameAr": "علا يونس",
+          "slug": "ala-younis"
         }
       }
     },
@@ -30,8 +31,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Ana Salazar Herrera",
-          "name_ar": "آنا سالازار هيريرا"
+          "nameEn": "Ana Salazar Herrera",
+          "nameAr": "آنا سالازار هيريرا",
+          "slug": "ana-salazar-herrera"
         }
       }
     },
@@ -49,8 +51,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Captain Augusto Salgado",
-          "name_ar": "الكابتن أوغوستو سالغادو"
+          "nameEn": "Captain Augusto Salgado",
+          "nameAr": "الكابتن أوغوستو سالغادو",
+          "slug": "captain-augusto-salgado"
         }
       }
     },
@@ -68,8 +71,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "David Soin Tappeser",
-          "name_ar": "ديفيد سوين تابيسر"
+          "nameEn": "David Soin Tappeser",
+          "nameAr": "ديفيد سوين تابيسر",
+          "slug": "david-soin-tappeser"
         }
       }
     },
@@ -87,8 +91,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Dr. Ali Akbar",
-          "name_ar": "د. علي أكبر"
+          "nameEn": "Dr. Ali Akbar",
+          "nameAr": "د. علي أكبر",
+          "slug": "dr-ali-akbar"
         }
       }
     },
@@ -106,8 +111,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Dr. Amin Jaffer",
-          "name_ar": "د. أمين جعفر"
+          "nameEn": "Dr. Amin Jaffer",
+          "nameAr": "د. أمين جعفر",
+          "slug": "dr-amin-jaffer"
         }
       }
     },
@@ -125,8 +131,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Dr. Amina Diab",
-          "name_ar": "د. أمينة دياب"
+          "nameEn": "Dr. Amina Diab",
+          "nameAr": "د. أمينة دياب",
+          "slug": "dr-amina-diab"
         }
       }
     },
@@ -144,8 +151,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Dr. Bilal Badat",
-          "name_ar": "د. بلال بادَت"
+          "nameEn": "Dr. Bilal Badat",
+          "nameAr": "د. بلال بادَت",
+          "slug": "dr-bilal-badat"
         }
       }
     },
@@ -163,8 +171,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Dr. Fahad Mubarak AlWahbi",
-          "name_ar": "د. فهد مبارك الوهبي"
+          "nameEn": "Dr. Fahad Mubarak AlWahbi",
+          "nameAr": "د. فهد مبارك الوهبي",
+          "slug": "dr-fahad-mubarak-alwahbi"
         }
       }
     },
@@ -182,8 +191,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Dr. Heather Ecker",
-          "name_ar": "د. هيذر إيكر"
+          "nameEn": "Dr. Heather Ecker",
+          "nameAr": "د. هيذر إيكر",
+          "slug": "dr-heather-ecker"
         }
       }
     },
@@ -201,8 +211,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Dr. James Bennett",
-          "name_ar": "د. جيمس بينيت"
+          "nameEn": "Dr. James Bennett",
+          "nameAr": "د. جيمس بينيت",
+          "slug": "dr-james-bennett"
         }
       }
     },
@@ -220,8 +231,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Dr. Julian Raby",
-          "name_ar": "د. جوليان رابي"
+          "nameEn": "Dr. Julian Raby",
+          "nameAr": "د. جوليان رابي",
+          "slug": "dr-julian-raby"
         }
       }
     },
@@ -239,8 +251,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Dr. Luitgard Mols",
-          "name_ar": "د. لويتغارد مولس"
+          "nameEn": "Dr. Luitgard Mols",
+          "nameAr": "د. لويتغارد مولس",
+          "slug": "dr-luitgard-mols"
         }
       }
     },
@@ -258,8 +271,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Dr. Marcus Fraser",
-          "name_ar": "د. ماركوس فريزر"
+          "nameEn": "Dr. Marcus Fraser",
+          "nameAr": "د. ماركوس فريزر",
+          "slug": "dr-marcus-fraser"
         }
       }
     },
@@ -277,8 +291,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Dr. Mariam Rosser-Owen",
-          "name_ar": "د. مريم روسر-أوين"
+          "nameEn": "Dr. Mariam Rosser-Owen",
+          "nameAr": "د. مريم روسر-أوين",
+          "slug": "dr-mariam-rosser-owen"
         }
       }
     },
@@ -296,8 +311,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Dr. Marika Sardar",
-          "name_ar": "د. ماريكا سردار"
+          "nameEn": "Dr. Marika Sardar",
+          "nameAr": "د. ماريكا سردار",
+          "slug": "dr-marika-sardar"
         }
       }
     },
@@ -315,8 +331,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Dr. Purificación Marinetto Sánchez",
-          "name_ar": "د. بوريفيكاثيون مارينيتو سانشيز"
+          "nameEn": "Dr. Purificación Marinetto Sánchez",
+          "nameAr": "د. بوريفيكاثيون مارينيتو سانشيز",
+          "slug": "dr-purificacion-marinetto-sanchez"
         }
       }
     },
@@ -334,8 +351,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Dr. Silke Ackermann",
-          "name_ar": "د. سيلكه أكرمان"
+          "nameEn": "Dr. Silke Ackermann",
+          "nameAr": "د. سيلكه أكرمان",
+          "slug": "dr-silke-ackermann"
         }
       }
     },
@@ -353,8 +371,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Dr. Wen Wen",
-          "name_ar": "د. وين وين"
+          "nameEn": "Dr. Wen Wen",
+          "nameAr": "د. وين وين",
+          "slug": "dr-wen-wen"
         }
       }
     },
@@ -372,8 +391,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Dr. Yahya Nurgat",
-          "name_ar": "د. يحيى نورغات"
+          "nameEn": "Dr. Yahya Nurgat",
+          "nameAr": "د. يحيى نورغات",
+          "slug": "dr-yahya-nurgat"
         }
       }
     },
@@ -391,8 +411,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Ery Sustiyadi",
-          "name_ar": "إيري سوستيادي"
+          "nameEn": "Ery Sustiyadi",
+          "nameAr": "إيري سوستيادي",
+          "slug": "ery-sustiyadi"
         }
       }
     },
@@ -410,8 +431,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Faye Behbehani",
-          "name_ar": "فاي بهبهاني"
+          "nameEn": "Faye Behbehani",
+          "nameAr": "فاي بهبهاني",
+          "slug": "faye-behbehani"
         }
       }
     },
@@ -429,8 +451,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Himali Singh Soin",
-          "name_ar": "هيمالي سينغ سوين"
+          "nameEn": "Himali Singh Soin",
+          "nameAr": "هيمالي سينغ سوين",
+          "slug": "himali-singh-soin"
         }
       }
     },
@@ -448,8 +471,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Inês Bénard",
-          "name_ar": "إينيس بينار"
+          "nameEn": "Inês Bénard",
+          "nameAr": "إينيس بينار",
+          "slug": "ines-benard"
         }
       }
     },
@@ -467,8 +491,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Joana Hadjithomas",
-          "name_ar": "جوانا حاجي توما"
+          "nameEn": "Joana Hadjithomas",
+          "nameAr": "جوانا حاجي توما",
+          "slug": "joana-hadjithomas"
         }
       }
     },
@@ -486,8 +511,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Joanna Chevalier",
-          "name_ar": "جوانا شوفالييه"
+          "nameEn": "Joanna Chevalier",
+          "nameAr": "جوانا شوفالييه",
+          "slug": "joanna-chevalier"
         }
       }
     },
@@ -505,8 +531,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Juan Acevedo",
-          "name_ar": "خوان أسيفيدو"
+          "nameEn": "Juan Acevedo",
+          "nameAr": "خوان أسيفيدو",
+          "slug": "juan-acevedo"
         }
       }
     },
@@ -524,8 +551,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Khalil Joreige",
-          "name_ar": "خليل جريج"
+          "nameEn": "Khalil Joreige",
+          "nameAr": "خليل جريج",
+          "slug": "khalil-joreige"
         }
       }
     },
@@ -543,8 +571,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Muhannad Shono",
-          "name_ar": "مهند شونو"
+          "nameEn": "Muhannad Shono",
+          "nameAr": "مهند شونو",
+          "slug": "muhannad-shono"
         }
       }
     },
@@ -562,8 +591,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "Sarah Al Abdali",
-          "name_ar": "سارة العبدلي"
+          "nameEn": "Sarah Al Abdali",
+          "nameAr": "سارة العبدلي",
+          "slug": "sarah-al-abdali"
         }
       }
     },
@@ -581,8 +611,9 @@
       "url": "http://localhost:1337/api/agents",
       "body": {
         "data": {
-          "name_en": "William Robinson",
-          "name_ar": "ويليام روبنسون"
+          "nameEn": "William Robinson",
+          "nameAr": "ويليام روبنسون",
+          "slug": "william-robinson"
         }
       }
     },

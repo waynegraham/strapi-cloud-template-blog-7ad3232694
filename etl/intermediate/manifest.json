@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-05-19T13:02:31.741Z",
+  "generated_at": "2026-06-07T23:04:06.487Z",
   "strapi_api_url": "http://localhost:1337",
   "source": {
     "system": "airtable",
     "input_file": "airtable_dump.json",
     "agents_file": "agents_distinct.csv",
     "materials_file": "materials_distinct.csv",
+    "field_mapping_file": "field-mapping.json",
     "source_record_count": 650
   },
   "load_order": [
@@ -28,7 +29,12 @@
     "skipped_works": 1,
     "duplicate_iab_codes": 30,
     "duplicate_source_rows": 16,
-    "missing_material_lookup": 25
+    "missing_material_lookup": 25,
+    "accounted_source_fields": 41,
+    "mapped_source_fields": 21,
+    "planned_source_fields": 14,
+    "ignored_source_fields": 6,
+    "unmapped_source_fields": 0
   },
   "files": {
     "agent-roles": "intermediate/agent-roles.json",

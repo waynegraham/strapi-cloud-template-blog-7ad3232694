@@ -14,7 +14,7 @@
     "labelEn": {
       "type": "string"
     },
-    "labenAr": {
+    "labelAr": {
       "type": "string"
     },
     "uri": {
