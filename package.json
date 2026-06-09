@@ -10,6 +10,8 @@
     "develop": "strapi develop",
     "github:issues": "node scripts/import-github-issues.js",
     "github:issues:apply": "node scripts/import-github-issues.js --apply",
+    "permissions": "node scripts/configure-permissions.js",
+    "permissions:apply": "node scripts/configure-permissions.js --apply",
     "start": "strapi start",
     "strapi": "strapi",
     "test": "node --test tests/*.test.js"

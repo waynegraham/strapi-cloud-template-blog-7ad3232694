@@ -45,6 +45,13 @@ test('application bootstrap only synchronizes Content Manager configuration', as
   );
 });
 
+test('application bootstrap does not synchronize editorial or public permissions', async () => {
+  const source = fs.readFileSync(path.join(projectRoot, 'src/index.js'), 'utf8');
+
+  assert.doesNotMatch(source, /synchronizePermissions/);
+  assert.doesNotMatch(source, /PUBLIC_API_PROFILE/);
+});
+
 test('runtime code does not reference obsolete blog APIs or permission seeding', () => {
   const runtimeFiles = [
     ...javascriptFiles(path.join(projectRoot, 'src')),
