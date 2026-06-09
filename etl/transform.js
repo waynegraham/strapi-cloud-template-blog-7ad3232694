@@ -2,6 +2,7 @@ require("dotenv").config();
 
 const fs = require("fs");
 const path = require("path");
+const crypto = require("crypto");
 
 const STRAPI_API_URL = process.env.STRAPI_API_URL || "https://localhost:1337";
 const INPUT_FILE = process.env.ETL_INPUT_FILE || path.join(__dirname, "airtable_dump.json");
@@ -30,6 +31,68 @@ const ROLE_LABEL_AR = {
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
+function canonicalize(value) {
+  if (Array.isArray(value)) return value.map(canonicalize);
+  if (!value || typeof value !== "object") return value;
+
+  return Object.fromEntries(
+    Object.keys(value)
+      .sort()
+      .map((key) => [key, canonicalize(value[key])]),
+  );
+}
+
+function sourceChecksum(fields) {
+  return crypto
+    .createHash("sha256")
+    .update(JSON.stringify(canonicalize(fields || {})))
+    .digest("hex");
+}
+
+function importBatchId(importedAt = new Date().toISOString()) {
+  return (
+    process.env.ETL_IMPORT_BATCH_ID ||
+    `${SOURCE_SYSTEM}-${importedAt.replace(/[-:.TZ]/g, "")}-${crypto.randomUUID().slice(0, 8)}`
+  );
+}
+
+function previousChecksums(records) {
+  return new Map(
+    (records || [])
+      .map((record) => record.request?.body?.data?.importProvenance)
+      .filter((provenance) => provenance?.sourceRecordId && provenance?.sourceChecksum)
+      .map((provenance) => [
+        provenance.sourceRecordId,
+        provenance.sourceChecksum,
+      ]),
+  );
+}
+
+function compareSourceChecksums(currentWorks, previousWorks = []) {
+  const previous = previousChecksums(previousWorks);
+  const current = previousChecksums(currentWorks);
+  const report = {
+    added: [],
+    changed: [],
+    unchanged: [],
+    removed: [],
+  };
+
+  for (const [sourceRecordId, checksum] of current) {
+    if (!previous.has(sourceRecordId)) report.added.push(sourceRecordId);
+    else if (previous.get(sourceRecordId) === checksum) {
+      report.unchanged.push(sourceRecordId);
+    } else report.changed.push(sourceRecordId);
+  }
+
+  for (const sourceRecordId of previous.keys()) {
+    if (!current.has(sourceRecordId)) report.removed.push(sourceRecordId);
+  }
+
+  for (const values of Object.values(report)) values.sort();
+  return report;
 }
 
 function ensureDir(dirPath) {
@@ -863,7 +926,15 @@ function sourceFieldCoverage(records, fieldMapping) {
   };
 }
 
-function transformWorks(records, materialLookup, fieldMapping) {
+function transformWorks(
+  records,
+  materialLookup,
+  fieldMapping,
+  {
+    batchId = importBatchId(),
+    importedAt = new Date().toISOString(),
+  } = {},
+) {
   const works = [];
   const report = {
     skipped: [],
@@ -949,6 +1020,14 @@ function transformWorks(records, materialLookup, fieldMapping) {
       dateDisplayGregorianEn: optional(fields.Date),
       dateDisplayGregorianAr: optional(fields["Date AR"]),
       contributorUrl: optional(fields["Contributor URL"]),
+      importProvenance: {
+        sourceSystem: SOURCE_SYSTEM,
+        sourceRecordId: sourceRecord.id,
+        importBatchId: batchId,
+        lastImportedAt: importedAt,
+        sourceChecksum: sourceChecksum(fields),
+        reconciliationStatus: "not-required",
+      },
     };
 
     for (const [key, value] of Object.entries(data)) {
@@ -975,7 +1054,10 @@ function transformWorks(records, materialLookup, fieldMapping) {
             : relationRefFromValue("gallery", fields.Gallery),
           materials: relationRefs("material", materialRefs),
         },
-        { iabCode: primaryIabCode },
+        {
+          iabCode: primaryIabCode,
+          sourceRecordId: sourceRecord.id,
+        },
       ),
     );
   }
@@ -1022,6 +1104,12 @@ function main() {
   ensureDir(OUTPUT_DIR);
   fs.rmSync(path.join(OUTPUT_DIR, "objects.json"), { force: true });
 
+  const generatedAt = process.env.ETL_IMPORTED_AT || new Date().toISOString();
+  const batchId = importBatchId(generatedAt);
+  const previousWorksPath = path.join(OUTPUT_DIR, "works.json");
+  const previousWorks = fs.existsSync(previousWorksPath)
+    ? readJson(previousWorksPath)
+    : [];
   const airtableRecords = readJson(INPUT_FILE);
   const agents = readCsv(AGENTS_FILE);
   const biographyDecisions = fs.existsSync(BIOGRAPHY_DECISIONS_FILE)
@@ -1053,7 +1141,15 @@ function main() {
   const transformedAgents = transformAgents(allAgents, biographyResult.biographies);
   const people = transformPeople(agents);
   const transformedMaterials = transformMaterials(materials);
-  const { works, report } = transformWorks(airtableRecords, materialLookup, fieldMapping);
+  const { works, report } = transformWorks(
+    airtableRecords,
+    materialLookup,
+    fieldMapping,
+    { batchId, importedAt: generatedAt },
+  );
+  report.import_batch_id = batchId;
+  report.generated_at = generatedAt;
+  report.source_changes = compareSourceChecksums(works, previousWorks);
   const galleries = transformGalleries(airtableRecords, report);
   const { stories: curatedStories, report: curatedStoryReport } =
     transformCuratedStories(airtableRecords);
@@ -1087,7 +1183,8 @@ function main() {
   };
 
   const manifest = {
-    generated_at: new Date().toISOString(),
+    generated_at: generatedAt,
+    import_batch_id: batchId,
     strapi_api_url: STRAPI_API_URL,
     source: {
       system: SOURCE_SYSTEM,
@@ -1097,6 +1194,7 @@ function main() {
       field_mapping_file: path.relative(process.cwd(), FIELD_MAPPING_FILE),
       biography_decisions_file: path.relative(process.cwd(), BIOGRAPHY_DECISIONS_FILE),
       source_record_count: airtableRecords.length,
+      source_checksum_algorithm: "sha256",
     },
     load_order: [
       "agent-roles",
@@ -1141,6 +1239,10 @@ function main() {
       planned_source_fields: report.source_field_coverage.counts.planned || 0,
       ignored_source_fields: report.source_field_coverage.counts.ignored || 0,
       unmapped_source_fields: report.source_field_coverage.unmapped.length,
+      source_rows_added: report.source_changes.added.length,
+      source_rows_changed: report.source_changes.changed.length,
+      source_rows_unchanged: report.source_changes.unchanged.length,
+      source_rows_removed: report.source_changes.removed.length,
     },
     files: Object.fromEntries(
       Object.entries(files).map(([name, filePath]) => [name, path.relative(process.cwd(), filePath)]),
@@ -1162,9 +1264,12 @@ if (require.main === module) {
 }
 
 module.exports = {
+  canonicalize,
+  compareSourceChecksums,
   galleryKey,
   gallerySectionKey,
   splitIabCodes,
+  sourceChecksum,
   transformCuratedStories,
   transformAgentBiographies,
   transformAgents,

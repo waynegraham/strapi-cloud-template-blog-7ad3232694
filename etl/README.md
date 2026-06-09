@@ -139,6 +139,10 @@ manifest.json
 ```
 
 `manifest.json` records the generated file list, load order, source counts, and transform counts.
+It also records the import batch ID and source checksum algorithm. `report.json`
+compares source checksums with the previous generated `works.json` so reruns list
+added, changed, unchanged, and removed Airtable rows. See
+`../docs/import-provenance.md`.
 
 ## Agent Biography Reconciliation
 

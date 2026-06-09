@@ -1,5 +1,6 @@
 {
-  "generated_at": "2026-06-08T23:53:03.574Z",
+  "generated_at": "2026-06-09T12:00:00.000Z",
+  "import_batch_id": "issue-15-provenance",
   "strapi_api_url": "http://localhost:1337",
   "source": {
     "system": "airtable",
@@ -8,7 +9,8 @@
     "materials_file": "materials_distinct.csv",
     "field_mapping_file": "field-mapping.json",
     "biography_decisions_file": "biography-reconciliation-decisions.json",
-    "source_record_count": 650
+    "source_record_count": 650,
+    "source_checksum_algorithm": "sha256"
   },
   "load_order": [
     "agent-roles",
@@ -48,7 +50,11 @@
     "mapped_source_fields": 33,
     "planned_source_fields": 2,
     "ignored_source_fields": 6,
-    "unmapped_source_fields": 0
+    "unmapped_source_fields": 0,
+    "source_rows_added": 0,
+    "source_rows_changed": 0,
+    "source_rows_unchanged": 649,
+    "source_rows_removed": 0
   },
   "files": {
     "agent-roles": "intermediate/agent-roles.json",

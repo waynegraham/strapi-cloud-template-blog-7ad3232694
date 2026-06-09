@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2026-06-09T10:51:20.917Z"
+    "x-generation-date": "2026-06-09T10:59:59.949Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -14088,6 +14088,9 @@
                         "type": "string",
                         "format": "date-time"
                       },
+                      "importProvenance": {
+                        "$ref": "#/components/schemas/SharedImportProvenanceComponent"
+                      },
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"
@@ -14538,6 +14541,46 @@
           },
           "sortOrder": {
             "type": "integer"
+          }
+        }
+      },
+      "SharedImportProvenanceComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "number"
+              }
+            ]
+          },
+          "sourceSystem": {
+            "type": "string"
+          },
+          "sourceRecordId": {
+            "type": "string"
+          },
+          "importBatchId": {
+            "type": "string"
+          },
+          "lastImportedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "sourceChecksum": {
+            "type": "string"
+          },
+          "reconciliationStatus": {
+            "type": "string",
+            "enum": [
+              "not-required",
+              "pending",
+              "reconciled",
+              "blocked"
+            ]
           }
         }
       },
@@ -16477,6 +16520,9 @@
                 "reviewedAt": {
                   "type": "string",
                   "format": "date-time"
+                },
+                "importProvenance": {
+                  "$ref": "#/components/schemas/SharedImportProvenanceComponent"
                 },
                 "createdAt": {
                   "type": "string",
@@ -19587,6 +19633,9 @@
                           "reviewedAt": {
                             "type": "string",
                             "format": "date-time"
+                          },
+                          "importProvenance": {
+                            "$ref": "#/components/schemas/SharedImportProvenanceComponent"
                           },
                           "createdAt": {
                             "type": "string",
@@ -23664,6 +23713,9 @@
                 "type": "string",
                 "format": "date-time"
               },
+              "importProvenance": {
+                "$ref": "#/components/schemas/SharedImportProvenanceComponent"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -26521,6 +26573,9 @@
                   "reviewedAt": {
                     "type": "string",
                     "format": "date-time"
+                  },
+                  "importProvenance": {
+                    "$ref": "#/components/schemas/SharedImportProvenanceComponent"
                   },
                   "createdAt": {
                     "type": "string",
@@ -30114,6 +30169,9 @@
                   "type": "string",
                   "format": "date-time"
                 },
+                "importProvenance": {
+                  "$ref": "#/components/schemas/SharedImportProvenanceComponent"
+                },
                 "createdAt": {
                   "type": "string",
                   "format": "date-time"
@@ -33227,6 +33285,9 @@
                 "type": "string",
                 "format": "date-time"
               },
+              "importProvenance": {
+                "$ref": "#/components/schemas/SharedImportProvenanceComponent"
+              },
               "locale": {
                 "type": "string"
               },
@@ -35038,6 +35099,9 @@
                       "type": "string",
                       "format": "date-time"
                     },
+                    "importProvenance": {
+                      "$ref": "#/components/schemas/SharedImportProvenanceComponent"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -35328,6 +35392,9 @@
           "reviewedAt": {
             "type": "string",
             "format": "date-time"
+          },
+          "importProvenance": {
+            "$ref": "#/components/schemas/SharedImportProvenanceComponent"
           },
           "createdAt": {
             "type": "string",

@@ -16,6 +16,30 @@ export interface SharedAgentCredit extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedImportProvenance extends Struct.ComponentSchema {
+  collectionName: 'components_shared_import_provenances';
+  info: {
+    description: 'Private source traceability for imported records';
+    displayName: 'Import Provenance';
+  };
+  attributes: {
+    importBatchId: Schema.Attribute.String & Schema.Attribute.Required;
+    lastImportedAt: Schema.Attribute.DateTime & Schema.Attribute.Required;
+    reconciliationStatus: Schema.Attribute.Enumeration<
+      ['not-required', 'pending', 'reconciled', 'blocked']
+    > &
+      Schema.Attribute.DefaultTo<'not-required'>;
+    sourceChecksum: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.SetMinMaxLength<{
+        maxLength: 64;
+        minLength: 64;
+      }>;
+    sourceRecordId: Schema.Attribute.String & Schema.Attribute.Required;
+    sourceSystem: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface SharedInscription extends Struct.ComponentSchema {
   collectionName: 'components_shared_inscriptions';
   info: {
@@ -151,6 +175,7 @@ declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
       'shared.agent-credit': SharedAgentCredit;
+      'shared.import-provenance': SharedImportProvenance;
       'shared.inscription': SharedInscription;
       'shared.media': SharedMedia;
       'shared.quote': SharedQuote;

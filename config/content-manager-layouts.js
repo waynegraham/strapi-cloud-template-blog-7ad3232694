@@ -156,6 +156,7 @@ const contentManagerLayouts = {
       reviewStatus: edit('Review status', 'Internal catalog review state; never exposed through the public Content API.'),
       reviewNotes: edit('Review notes', 'Private notes for catalog review. Do not include passwords or other sensitive data.'),
       reviewedAt: edit('Reviewed at', 'Date and time of the most recent catalog review.'),
+      importProvenance: hidden('Import provenance', 'Private source traceability maintained by the ETL.'),
     },
   },
 

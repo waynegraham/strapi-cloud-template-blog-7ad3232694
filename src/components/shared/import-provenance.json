@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_shared_import_provenances",
+  "info": {
+    "displayName": "Import Provenance",
+    "description": "Private source traceability for imported records"
+  },
+  "options": {},
+  "attributes": {
+    "sourceSystem": {
+      "type": "string",
+      "required": true
+    },
+    "sourceRecordId": {
+      "type": "string",
+      "required": true
+    },
+    "importBatchId": {
+      "type": "string",
+      "required": true
+    },
+    "lastImportedAt": {
+      "type": "datetime",
+      "required": true
+    },
+    "sourceChecksum": {
+      "type": "string",
+      "required": true,
+      "minLength": 64,
+      "maxLength": 64
+    },
+    "reconciliationStatus": {
+      "type": "enumeration",
+      "enum": [
+        "not-required",
+        "pending",
+        "reconciled",
+        "blocked"
+      ],
+      "default": "not-required"
+    }
+  },
+  "config": {}
+}

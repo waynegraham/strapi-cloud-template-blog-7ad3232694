@@ -166,6 +166,12 @@
     "reviewedAt": {
       "type": "datetime",
       "private": true
+    },
+    "importProvenance": {
+      "type": "component",
+      "component": "shared.import-provenance",
+      "repeatable": false,
+      "private": true
     }
   }
 }
