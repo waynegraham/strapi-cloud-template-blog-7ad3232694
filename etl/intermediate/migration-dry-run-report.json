@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-06-09T11:09:32.453Z",
+  "mode": "dry-run",
+  "importBatchId": "issue-15-provenance",
+  "counts": {
+    "sourceRecords": 650,
+    "payloads": 982,
+    "byContentType": {
+      "agent": 31,
+      "agent-role": 35,
+      "material": 240,
+      "gallery": 16,
+      "work": 649,
+      "curated-story": 11
+    }
+  },
+  "checks": {
+    "unknownSourceFields": [],
+    "unknownSchemaDestinations": [],
+    "payloadValidationErrors": [],
+    "sourcePreservation": {
+      "sourceRecords": 650,
+      "transformedWorks": 649,
+      "skippedWorks": [
+        {
+          "source_record_id": "rec1moouz3q1ED25Z",
+          "reason": "missing IAB Code"
+        }
+      ],
+      "checksumMismatches": []
+    }
+  },
+  "representativeDataset": {
+    "subGallery": {
+      "iabCode": "25-G1-01-5034",
+      "sourceRecordId": "recojoTvbjSQYdjo4"
+    },
+    "multipleIabCodes": {
+      "iabCode": "25-G1-04-0126",
+      "sourceRecordId": "recPGMnZjOAUr86rS"
+    },
+    "curatedStory": {
+      "iabCode": "25-G1-01-5034",
+      "sourceRecordId": "recojoTvbjSQYdjo4"
+    },
+    "inscriptionsAndDescriptions": {
+      "iabCode": "25-G2-01-0198",
+      "sourceRecordId": "rec1Am67FnmvtxL5c"
+    },
+    "agentBiography": {
+      "sourceRecordId": "recojoTvbjSQYdjo4",
+      "status": "blocked-pending-reconciliation"
+    },
+    "multipleIiifImages": {
+      "status": "requires-existing-CMS-or-staff-fixture",
+      "minimumImages": 2
+    },
+    "unresolvedMaterial": {
+      "source_record_id": "recojoTvbjSQYdjo4",
+      "iab_code": "25-G1-01-5034",
+      "material": "Fabrics"
+    }
+  },
+  "unresolved": {
+    "materials": 25,
+    "agentBiographies": 34,
+    "iiifImages": 9,
+    "duplicateIabCodes": 30,
+    "curatedStoryNearDuplicates": 1,
+    "curatedStoryMetadataConflicts": 4
+  },
+  "applyResults": []
+}

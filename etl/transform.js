@@ -382,14 +382,14 @@ function transformAgentRoles(agents) {
           "agent-roles",
           `${agentKey}--${roleKey}`,
           {
-            label_en: role,
-            label_ar: ROLE_LABEL_AR[role],
+            labelEn: role,
+            labelAr: ROLE_LABEL_AR[role],
           },
           {
-            agent: relationRef("agent", agentKey),
+            agents: [relationRef("agent", agentKey)],
           },
           {
-            label_en: role,
+            labelEn: role,
             agent_key: agentKey,
           },
         );
@@ -560,29 +560,6 @@ function mergeAgents(extractedAgents, confirmedAgents) {
   }
 
   return Array.from(merged.values());
-}
-
-function transformPeople(agents) {
-  const rolePriority = ["curator", "writer"];
-
-  return agents
-    .map((agent) => {
-      const roles = compactWhitespace(agent.roles)
-        .split(";")
-        .map((role) => role.toLowerCase())
-        .filter(Boolean);
-      const role = rolePriority.find((candidate) => roles.includes(candidate)) || "unknown";
-      const name = compactWhitespace(agent.name_en);
-
-      return buildEndpointRecord("person", "people", slugify(name), {
-        name_en: name,
-        name_ar: optional(agent.name_ar),
-        slug: slugify(name),
-        role,
-        source_system: SOURCE_SYSTEM,
-      });
-    })
-    .sort((a, b) => a.key.localeCompare(b.key));
 }
 
 function transformMaterials(materials) {
@@ -1139,7 +1116,6 @@ function main() {
   const allAgents = mergeAgents(agents, biographyResult.confirmedAgents);
   const agentRoles = transformAgentRoles(allAgents);
   const transformedAgents = transformAgents(allAgents, biographyResult.biographies);
-  const people = transformPeople(agents);
   const transformedMaterials = transformMaterials(materials);
   const { works, report } = transformWorks(
     airtableRecords,
@@ -1168,7 +1144,6 @@ function main() {
       "agent-biography-review",
       biographyResult.review,
     ),
-    people: writeIntermediate("people", people),
     materials: writeIntermediate("materials", transformedMaterials),
     galleries: writeIntermediate("galleries", galleries),
     works: writeIntermediate("works", works),
@@ -1197,9 +1172,8 @@ function main() {
       source_checksum_algorithm: "sha256",
     },
     load_order: [
-      "agent-roles",
       "agents",
-      "people",
+      "agent-roles",
       "materials",
       "galleries",
       "works",
@@ -1213,7 +1187,6 @@ function main() {
       biography_imported_agents: biographyResult.report.imported_agents,
       biography_pending_rows: biographyResult.report.pending_rows,
       biography_conflicts: biographyResult.report.conflicts.length,
-      people: people.length,
       materials: transformedMaterials.length,
       galleries: galleries.length,
       gallery_sections: report.gallery_hierarchy.unique_sections,

@@ -13,9 +13,8 @@
     "source_checksum_algorithm": "sha256"
   },
   "load_order": [
-    "agent-roles",
     "agents",
-    "people",
+    "agent-roles",
     "materials",
     "galleries",
     "works",
@@ -29,7 +28,6 @@
     "biography_imported_agents": 0,
     "biography_pending_rows": 34,
     "biography_conflicts": 0,
-    "people": 31,
     "materials": 240,
     "galleries": 16,
     "gallery_sections": 9,
@@ -60,7 +58,6 @@
     "agent-roles": "intermediate/agent-roles.json",
     "agents": "intermediate/agents.json",
     "agent-biography-review": "intermediate/agent-biography-review.json",
-    "people": "intermediate/people.json",
     "materials": "intermediate/materials.json",
     "galleries": "intermediate/galleries.json",
     "works": "intermediate/works.json",

@@ -10,6 +10,8 @@
     "develop": "strapi develop",
     "github:issues": "node scripts/import-github-issues.js",
     "github:issues:apply": "node scripts/import-github-issues.js --apply",
+    "migration:dry-run": "npm --prefix etl run audit:fields && npm --prefix etl run transform && npm --prefix etl run load",
+    "migration:apply": "npm --prefix etl run load:apply",
     "permissions": "node scripts/configure-permissions.js",
     "permissions:apply": "node scripts/configure-permissions.js --apply",
     "start": "strapi start",

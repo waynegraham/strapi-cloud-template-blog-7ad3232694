@@ -126,7 +126,6 @@ Generated files:
 ```txt
 agent-roles.json
 agents.json
-people.json
 materials.json
 galleries.json
 works.json
@@ -136,6 +135,7 @@ agent-biography-review.json
 duplicates.json
 report.json
 manifest.json
+migration-dry-run-report.json
 ```
 
 `manifest.json` records the generated file list, load order, source counts, and transform counts.
@@ -217,22 +217,53 @@ The loader should create or find the referenced records first, store their Strap
 Use the load order in `manifest.json`:
 
 ```txt
-agent-roles
 agents
-people
+agent-roles
 materials
 galleries
 works
 curated-stories
 ```
 
-`works` should be loaded after `agents`, because works reference agents.
+`agent-roles` loads after `agents`, and `works` loads after both because Agent
+Credit components reference both records.
 `curated-stories` loads after Works because each shared story owns its Work
 relations and embeds ordered Agent Credit references for its writers.
 
-`people`, `materials`, and `galleries` are generated as normalized vocabularies.
-Sub-gallery source values are emitted as child Gallery records and related to their
-parent Gallery.
+`materials` and `galleries` are generated as normalized vocabularies. The legacy
+`people` artifact is not generated because this project uses `Agent`; there is no
+`Person` content type or `/api/people` endpoint. Sub-gallery source values are
+emitted as child Gallery records and related to their parent Gallery.
+
+## Migration Dry Run and Apply
+
+From the project root, run the complete audit, transform, and schema-aware dry run:
+
+```sh
+npm run migration:dry-run
+```
+
+The loader validates every manifest payload, component field, field-mapping
+destination, and symbolic relation against the current Strapi schemas. It resolves
+relations to deterministic placeholder `documentId` values but makes no HTTP
+requests. Results are written to:
+
+```txt
+etl/intermediate/migration-dry-run-report.json
+```
+
+After reviewing that report and resolving blocking reconciliation decisions, load
+the same generated manifest into a running Strapi instance:
+
+```sh
+STRAPI_API_URL=http://localhost:1337 \
+STRAPI_API_TOKEN=... \
+npm run migration:apply
+```
+
+Apply mode finds existing documents using stable source or authority fields, uses
+Strapi 5 `documentId` relation payloads, updates matches, and creates missing
+documents. It aborts on ambiguous matches or any API error.
 
 ## Works
 

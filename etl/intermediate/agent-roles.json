@@ -4,7 +4,7 @@
     "endpoint": "agent-roles",
     "key": "ala-younis--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "ala-younis"
     },
     "request": {
@@ -12,16 +12,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "ala-younis"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "ala-younis"
+        }
+      ]
     }
   },
   {
@@ -29,7 +31,7 @@
     "endpoint": "agent-roles",
     "key": "ana-salazar-herrera--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "ana-salazar-herrera"
     },
     "request": {
@@ -37,16 +39,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "ana-salazar-herrera"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "ana-salazar-herrera"
+        }
+      ]
     }
   },
   {
@@ -54,7 +58,7 @@
     "endpoint": "agent-roles",
     "key": "captain-augusto-salgado--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "captain-augusto-salgado"
     },
     "request": {
@@ -62,16 +66,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "captain-augusto-salgado"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "captain-augusto-salgado"
+        }
+      ]
     }
   },
   {
@@ -79,7 +85,7 @@
     "endpoint": "agent-roles",
     "key": "david-soin-tappeser--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "david-soin-tappeser"
     },
     "request": {
@@ -87,16 +93,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "david-soin-tappeser"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "david-soin-tappeser"
+        }
+      ]
     }
   },
   {
@@ -104,7 +112,7 @@
     "endpoint": "agent-roles",
     "key": "dr-ali-akbar--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "dr-ali-akbar"
     },
     "request": {
@@ -112,16 +120,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-ali-akbar"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-ali-akbar"
+        }
+      ]
     }
   },
   {
@@ -129,7 +139,7 @@
     "endpoint": "agent-roles",
     "key": "dr-amin-jaffer--curator",
     "match": {
-      "label_en": "Curator",
+      "labelEn": "Curator",
       "agent_key": "dr-amin-jaffer"
     },
     "request": {
@@ -137,16 +147,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Curator",
-          "label_ar": "أمين المعرض"
+          "labelEn": "Curator",
+          "labelAr": "أمين المعرض"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-amin-jaffer"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-amin-jaffer"
+        }
+      ]
     }
   },
   {
@@ -154,7 +166,7 @@
     "endpoint": "agent-roles",
     "key": "dr-amina-diab--curator",
     "match": {
-      "label_en": "Curator",
+      "labelEn": "Curator",
       "agent_key": "dr-amina-diab"
     },
     "request": {
@@ -162,16 +174,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Curator",
-          "label_ar": "أمين المعرض"
+          "labelEn": "Curator",
+          "labelAr": "أمين المعرض"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-amina-diab"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-amina-diab"
+        }
+      ]
     }
   },
   {
@@ -179,7 +193,7 @@
     "endpoint": "agent-roles",
     "key": "dr-bilal-badat--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "dr-bilal-badat"
     },
     "request": {
@@ -187,16 +201,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-bilal-badat"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-bilal-badat"
+        }
+      ]
     }
   },
   {
@@ -204,7 +220,7 @@
     "endpoint": "agent-roles",
     "key": "dr-fahad-mubarak-alwahbi--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "dr-fahad-mubarak-alwahbi"
     },
     "request": {
@@ -212,16 +228,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-fahad-mubarak-alwahbi"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-fahad-mubarak-alwahbi"
+        }
+      ]
     }
   },
   {
@@ -229,7 +247,7 @@
     "endpoint": "agent-roles",
     "key": "dr-heather-ecker--curator",
     "match": {
-      "label_en": "Curator",
+      "labelEn": "Curator",
       "agent_key": "dr-heather-ecker"
     },
     "request": {
@@ -237,16 +255,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Curator",
-          "label_ar": "أمين المعرض"
+          "labelEn": "Curator",
+          "labelAr": "أمين المعرض"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-heather-ecker"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-heather-ecker"
+        }
+      ]
     }
   },
   {
@@ -254,7 +274,7 @@
     "endpoint": "agent-roles",
     "key": "dr-heather-ecker--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "dr-heather-ecker"
     },
     "request": {
@@ -262,16 +282,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-heather-ecker"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-heather-ecker"
+        }
+      ]
     }
   },
   {
@@ -279,7 +301,7 @@
     "endpoint": "agent-roles",
     "key": "dr-james-bennett--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "dr-james-bennett"
     },
     "request": {
@@ -287,16 +309,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-james-bennett"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-james-bennett"
+        }
+      ]
     }
   },
   {
@@ -304,7 +328,7 @@
     "endpoint": "agent-roles",
     "key": "dr-julian-raby--curator",
     "match": {
-      "label_en": "Curator",
+      "labelEn": "Curator",
       "agent_key": "dr-julian-raby"
     },
     "request": {
@@ -312,16 +336,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Curator",
-          "label_ar": "أمين المعرض"
+          "labelEn": "Curator",
+          "labelAr": "أمين المعرض"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-julian-raby"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-julian-raby"
+        }
+      ]
     }
   },
   {
@@ -329,7 +355,7 @@
     "endpoint": "agent-roles",
     "key": "dr-julian-raby--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "dr-julian-raby"
     },
     "request": {
@@ -337,16 +363,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-julian-raby"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-julian-raby"
+        }
+      ]
     }
   },
   {
@@ -354,7 +382,7 @@
     "endpoint": "agent-roles",
     "key": "dr-luitgard-mols--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "dr-luitgard-mols"
     },
     "request": {
@@ -362,16 +390,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-luitgard-mols"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-luitgard-mols"
+        }
+      ]
     }
   },
   {
@@ -379,7 +409,7 @@
     "endpoint": "agent-roles",
     "key": "dr-marcus-fraser--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "dr-marcus-fraser"
     },
     "request": {
@@ -387,16 +417,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-marcus-fraser"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-marcus-fraser"
+        }
+      ]
     }
   },
   {
@@ -404,7 +436,7 @@
     "endpoint": "agent-roles",
     "key": "dr-mariam-rosser-owen--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "dr-mariam-rosser-owen"
     },
     "request": {
@@ -412,16 +444,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-mariam-rosser-owen"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-mariam-rosser-owen"
+        }
+      ]
     }
   },
   {
@@ -429,7 +463,7 @@
     "endpoint": "agent-roles",
     "key": "dr-marika-sardar--curator",
     "match": {
-      "label_en": "Curator",
+      "labelEn": "Curator",
       "agent_key": "dr-marika-sardar"
     },
     "request": {
@@ -437,16 +471,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Curator",
-          "label_ar": "أمين المعرض"
+          "labelEn": "Curator",
+          "labelAr": "أمين المعرض"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-marika-sardar"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-marika-sardar"
+        }
+      ]
     }
   },
   {
@@ -454,7 +490,7 @@
     "endpoint": "agent-roles",
     "key": "dr-marika-sardar--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "dr-marika-sardar"
     },
     "request": {
@@ -462,16 +498,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-marika-sardar"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-marika-sardar"
+        }
+      ]
     }
   },
   {
@@ -479,7 +517,7 @@
     "endpoint": "agent-roles",
     "key": "dr-purificacion-marinetto-sanchez--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "dr-purificacion-marinetto-sanchez"
     },
     "request": {
@@ -487,16 +525,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-purificacion-marinetto-sanchez"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-purificacion-marinetto-sanchez"
+        }
+      ]
     }
   },
   {
@@ -504,7 +544,7 @@
     "endpoint": "agent-roles",
     "key": "dr-silke-ackermann--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "dr-silke-ackermann"
     },
     "request": {
@@ -512,16 +552,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-silke-ackermann"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-silke-ackermann"
+        }
+      ]
     }
   },
   {
@@ -529,7 +571,7 @@
     "endpoint": "agent-roles",
     "key": "dr-wen-wen--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "dr-wen-wen"
     },
     "request": {
@@ -537,16 +579,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-wen-wen"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-wen-wen"
+        }
+      ]
     }
   },
   {
@@ -554,7 +598,7 @@
     "endpoint": "agent-roles",
     "key": "dr-yahya-nurgat--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "dr-yahya-nurgat"
     },
     "request": {
@@ -562,16 +606,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "dr-yahya-nurgat"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "dr-yahya-nurgat"
+        }
+      ]
     }
   },
   {
@@ -579,7 +625,7 @@
     "endpoint": "agent-roles",
     "key": "ery-sustiyadi--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "ery-sustiyadi"
     },
     "request": {
@@ -587,16 +633,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "ery-sustiyadi"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "ery-sustiyadi"
+        }
+      ]
     }
   },
   {
@@ -604,7 +652,7 @@
     "endpoint": "agent-roles",
     "key": "faye-behbehani--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "faye-behbehani"
     },
     "request": {
@@ -612,16 +660,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "faye-behbehani"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "faye-behbehani"
+        }
+      ]
     }
   },
   {
@@ -629,7 +679,7 @@
     "endpoint": "agent-roles",
     "key": "himali-singh-soin--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "himali-singh-soin"
     },
     "request": {
@@ -637,16 +687,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "himali-singh-soin"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "himali-singh-soin"
+        }
+      ]
     }
   },
   {
@@ -654,7 +706,7 @@
     "endpoint": "agent-roles",
     "key": "ines-benard--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "ines-benard"
     },
     "request": {
@@ -662,16 +714,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "ines-benard"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "ines-benard"
+        }
+      ]
     }
   },
   {
@@ -679,7 +733,7 @@
     "endpoint": "agent-roles",
     "key": "joana-hadjithomas--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "joana-hadjithomas"
     },
     "request": {
@@ -687,16 +741,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "joana-hadjithomas"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "joana-hadjithomas"
+        }
+      ]
     }
   },
   {
@@ -704,7 +760,7 @@
     "endpoint": "agent-roles",
     "key": "joanna-chevalier--curator",
     "match": {
-      "label_en": "Curator",
+      "labelEn": "Curator",
       "agent_key": "joanna-chevalier"
     },
     "request": {
@@ -712,16 +768,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Curator",
-          "label_ar": "أمين المعرض"
+          "labelEn": "Curator",
+          "labelAr": "أمين المعرض"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "joanna-chevalier"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "joanna-chevalier"
+        }
+      ]
     }
   },
   {
@@ -729,7 +787,7 @@
     "endpoint": "agent-roles",
     "key": "juan-acevedo--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "juan-acevedo"
     },
     "request": {
@@ -737,16 +795,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "juan-acevedo"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "juan-acevedo"
+        }
+      ]
     }
   },
   {
@@ -754,7 +814,7 @@
     "endpoint": "agent-roles",
     "key": "khalil-joreige--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "khalil-joreige"
     },
     "request": {
@@ -762,16 +822,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "khalil-joreige"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "khalil-joreige"
+        }
+      ]
     }
   },
   {
@@ -779,7 +841,7 @@
     "endpoint": "agent-roles",
     "key": "muhannad-shono--curator",
     "match": {
-      "label_en": "Curator",
+      "labelEn": "Curator",
       "agent_key": "muhannad-shono"
     },
     "request": {
@@ -787,16 +849,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Curator",
-          "label_ar": "أمين المعرض"
+          "labelEn": "Curator",
+          "labelAr": "أمين المعرض"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "muhannad-shono"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "muhannad-shono"
+        }
+      ]
     }
   },
   {
@@ -804,7 +868,7 @@
     "endpoint": "agent-roles",
     "key": "sarah-al-abdali--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "sarah-al-abdali"
     },
     "request": {
@@ -812,16 +876,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "sarah-al-abdali"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "sarah-al-abdali"
+        }
+      ]
     }
   },
   {
@@ -829,7 +895,7 @@
     "endpoint": "agent-roles",
     "key": "william-robinson--curator",
     "match": {
-      "label_en": "Curator",
+      "labelEn": "Curator",
       "agent_key": "william-robinson"
     },
     "request": {
@@ -837,16 +903,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Curator",
-          "label_ar": "أمين المعرض"
+          "labelEn": "Curator",
+          "labelAr": "أمين المعرض"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "william-robinson"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "william-robinson"
+        }
+      ]
     }
   },
   {
@@ -854,7 +922,7 @@
     "endpoint": "agent-roles",
     "key": "william-robinson--writer",
     "match": {
-      "label_en": "Writer",
+      "labelEn": "Writer",
       "agent_key": "william-robinson"
     },
     "request": {
@@ -862,16 +930,18 @@
       "url": "http://localhost:1337/api/agent-roles",
       "body": {
         "data": {
-          "label_en": "Writer",
-          "label_ar": "كاتب"
+          "labelEn": "Writer",
+          "labelAr": "كاتب"
         }
       }
     },
     "relations": {
-      "agent": {
-        "content_type": "agent",
-        "key": "william-robinson"
-      }
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "william-robinson"
+        }
+      ]
     }
   }
 ]
