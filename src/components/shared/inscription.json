@@ -7,11 +7,19 @@
   "options": {},
   "attributes": {
     "text": {
-      "type": "text",
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      },
       "required": true
     },
     "translation": {
-      "type": "text"
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
     },
     "language": {
       "type": "string"

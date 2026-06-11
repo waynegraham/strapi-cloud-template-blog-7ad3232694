@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2026-06-11T18:48:04.076Z"
+    "x-generation-date": "2026-06-11T20:42:02.635Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -9000,8 +9000,12 @@
               "slug": {
                 "type": "string"
               },
-              "biographyEn": {},
-              "biographyAr": {},
+              "biographyEn": {
+                "type": "string"
+              },
+              "biographyAr": {
+                "type": "string"
+              },
               "url": {
                 "type": "string"
               },
@@ -9114,8 +9118,12 @@
           "slug": {
             "type": "string"
           },
-          "biographyEn": {},
-          "biographyAr": {},
+          "biographyEn": {
+            "type": "string"
+          },
+          "biographyAr": {
+            "type": "string"
+          },
           "url": {
             "type": "string"
           },
@@ -10287,8 +10295,12 @@
                       "slug": {
                         "type": "string"
                       },
-                      "biographyEn": {},
-                      "biographyAr": {},
+                      "biographyEn": {
+                        "type": "string"
+                      },
+                      "biographyAr": {
+                        "type": "string"
+                      },
                       "url": {
                         "type": "string"
                       },
@@ -10869,8 +10881,12 @@
                 "slug": {
                   "type": "string"
                 },
-                "biographyEn": {},
-                "biographyAr": {},
+                "biographyEn": {
+                  "type": "string"
+                },
+                "biographyAr": {
+                  "type": "string"
+                },
                 "url": {
                   "type": "string"
                 },

@@ -544,7 +544,7 @@
         "source_field": "Artist Biography for the Islamic Arts Biennale",
         "status": "mapped",
         "target": "agent.biographyEn",
-        "notes": "Imported as Strapi Blocks only when biography-reconciliation-decisions.json confirms the source row and Agent. Conflicts prevent import."
+        "notes": "Converted from Markdown to CKEditor HTML only when biography-reconciliation-decisions.json confirms the source row and Agent. Conflicts prevent import."
       },
       {
         "source_field": "Artist Biography for the Islamic Arts Biennale AR",
@@ -698,7 +698,7 @@
         "source_field": "Inscriptions",
         "status": "mapped",
         "target": "work.inscriptions[].text",
-        "notes": "Each populated Airtable value becomes one Work Inscription component with source text preserved verbatim."
+        "notes": "Each populated Airtable value becomes one Work Inscription component converted from Markdown to CKEditor HTML."
       },
       {
         "source_field": "Material",
@@ -771,8 +771,198 @@
       "ignored": 6
     }
   },
-  "import_batch_id": "issue-15-provenance",
-  "generated_at": "2026-06-09T12:00:00.000Z",
+  "footnotes": {
+    "unmatched_references": [
+      {
+        "content_type": "work",
+        "scope": "work-25-g5-01-0434--recE06g0ZGX2q54cP",
+        "source_record_id": "recE06g0ZGX2q54cP",
+        "locale": "ar",
+        "original_number": "3",
+        "fields": [
+          "descriptionAr"
+        ],
+        "occurrences": 1,
+        "reason": "No footnote with this source number exists in the same locale."
+      },
+      {
+        "content_type": "work",
+        "scope": "work-25-g5-01-0434--recE06g0ZGX2q54cP",
+        "source_record_id": "recE06g0ZGX2q54cP",
+        "locale": "ar",
+        "original_number": "4",
+        "fields": [
+          "descriptionAr"
+        ],
+        "occurrences": 1,
+        "reason": "No footnote with this source number exists in the same locale."
+      },
+      {
+        "content_type": "work",
+        "scope": "work-25-g5-01-0434--recE06g0ZGX2q54cP",
+        "source_record_id": "recE06g0ZGX2q54cP",
+        "locale": "ar",
+        "original_number": "5",
+        "fields": [
+          "descriptionAr"
+        ],
+        "occurrences": 1,
+        "reason": "No footnote with this source number exists in the same locale."
+      },
+      {
+        "content_type": "work",
+        "scope": "work-25-g5-01-0446--recpw5wmMMJIRVMQP",
+        "source_record_id": "recpw5wmMMJIRVMQP",
+        "locale": "ar",
+        "original_number": "1",
+        "fields": [
+          "descriptionAr"
+        ],
+        "occurrences": 1,
+        "reason": "No footnote with this source number exists in the same locale."
+      },
+      {
+        "content_type": "work",
+        "scope": "work-25-g5-01-0446--recpw5wmMMJIRVMQP",
+        "source_record_id": "recpw5wmMMJIRVMQP",
+        "locale": "ar",
+        "original_number": "2",
+        "fields": [
+          "descriptionAr"
+        ],
+        "occurrences": 1,
+        "reason": "No footnote with this source number exists in the same locale."
+      },
+      {
+        "content_type": "work",
+        "scope": "work-25-g5-06-0424--recp2Kn6AgRlngktu",
+        "source_record_id": "recp2Kn6AgRlngktu",
+        "locale": "ar",
+        "original_number": "9",
+        "fields": [
+          "descriptionAr"
+        ],
+        "occurrences": 1,
+        "reason": "No footnote with this source number exists in the same locale."
+      },
+      {
+        "content_type": "work",
+        "scope": "work-25-g5-06-0424--recp2Kn6AgRlngktu",
+        "source_record_id": "recp2Kn6AgRlngktu",
+        "locale": "ar",
+        "original_number": "21",
+        "fields": [
+          "descriptionAr"
+        ],
+        "occurrences": 1,
+        "reason": "No footnote with this source number exists in the same locale."
+      },
+      {
+        "content_type": "work",
+        "scope": "work-25-g5-77-0770--recEfvFvdg63Nl077",
+        "source_record_id": "recEfvFvdg63Nl077",
+        "locale": "ar",
+        "original_number": "170",
+        "fields": [
+          "descriptionAr"
+        ],
+        "occurrences": 1,
+        "reason": "No footnote with this source number exists in the same locale."
+      },
+      {
+        "content_type": "work",
+        "scope": "work-25-mk-07-0863--recljpJpMCB1UkUNK",
+        "source_record_id": "recljpJpMCB1UkUNK",
+        "locale": "en",
+        "original_number": "120",
+        "fields": [
+          "descriptionEn"
+        ],
+        "occurrences": 1,
+        "reason": "No footnote with this source number exists in the same locale."
+      }
+    ],
+    "unmatched_footnotes": [
+      {
+        "content_type": "work",
+        "scope": "work-25-mk-07-0863--recljpJpMCB1UkUNK",
+        "source_record_id": "recljpJpMCB1UkUNK",
+        "locale": "en",
+        "original_number": "20",
+        "reason": "No reference with this source number exists in either locale."
+      }
+    ],
+    "repeated_references": [
+      {
+        "content_type": "work",
+        "scope": "work-25-g2-09-0123--reclQOUwJAU2VXfO0",
+        "source_record_id": "reclQOUwJAU2VXfO0",
+        "locale": "en",
+        "original_number": "50",
+        "renumbered_as": "1",
+        "fields": [
+          "descriptionEn"
+        ],
+        "occurrences": 2,
+        "reason": "The same footnote is referenced more than once."
+      },
+      {
+        "content_type": "work",
+        "scope": "work-25-g3-60-0876--recqeu97c2eyGcGvp",
+        "source_record_id": "recqeu97c2eyGcGvp",
+        "locale": "en",
+        "original_number": "100",
+        "renumbered_as": "3",
+        "fields": [
+          "objectEn"
+        ],
+        "occurrences": 2,
+        "reason": "The same footnote is referenced more than once."
+      },
+      {
+        "content_type": "work",
+        "scope": "work-25-g5-06-0432--recq4qDCJ48zzQqqp",
+        "source_record_id": "recq4qDCJ48zzQqqp",
+        "locale": "en",
+        "original_number": "21",
+        "renumbered_as": "3",
+        "fields": [
+          "descriptionEn",
+          "manuscriptEn"
+        ],
+        "occurrences": 2,
+        "reason": "The same footnote is referenced more than once."
+      },
+      {
+        "content_type": "work",
+        "scope": "work-25-md-03-0881--rec8cmqxQ1PB25pgP",
+        "source_record_id": "rec8cmqxQ1PB25pgP",
+        "locale": "en",
+        "original_number": "76",
+        "renumbered_as": "2",
+        "fields": [
+          "descriptionEn"
+        ],
+        "occurrences": 2,
+        "reason": "The same footnote is referenced more than once."
+      },
+      {
+        "content_type": "work",
+        "scope": "work-25-mk-07-0863--recljpJpMCB1UkUNK",
+        "source_record_id": "recljpJpMCB1UkUNK",
+        "locale": "en",
+        "original_number": "125",
+        "renumbered_as": "2",
+        "fields": [
+          "descriptionEn"
+        ],
+        "occurrences": 2,
+        "reason": "The same footnote is referenced more than once."
+      }
+    ]
+  },
+  "import_batch_id": "airtable-20260611193546998-d8c8ca42",
+  "generated_at": "2026-06-11T19:35:46.998Z",
   "source_changes": {
     "added": [],
     "changed": [],
@@ -1534,7 +1724,10 @@
           "Dr. Heather Ecker | Dr. Purificación Marinetto Sánchez"
         ]
       }
-    ]
+    ],
+    "unmatched_references": [],
+    "unmatched_footnotes": [],
+    "repeated_references": []
   },
   "iiif_images": {
     "unresolved_source_rows": 9,

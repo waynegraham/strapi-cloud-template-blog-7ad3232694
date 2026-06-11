@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-09T12:00:00.000Z",
-  "import_batch_id": "issue-15-provenance",
+  "generated_at": "2026-06-11T19:35:46.998Z",
+  "import_batch_id": "airtable-20260611193546998-d8c8ca42",
   "strapi_api_url": "http://localhost:1337",
   "source": {
     "system": "airtable",
@@ -38,6 +38,12 @@
     "curated_story_source_rows": 50,
     "curated_story_near_duplicates": 1,
     "curated_story_metadata_conflicts": 4,
+    "work_unmatched_footnote_references": 9,
+    "work_unmatched_footnotes": 1,
+    "work_repeated_footnote_references": 5,
+    "curated_story_unmatched_footnote_references": 0,
+    "curated_story_unmatched_footnotes": 0,
+    "curated_story_repeated_footnote_references": 0,
     "unresolved_iiif_image_source_rows": 9,
     "skipped_works": 1,
     "duplicate_iab_codes": 30,

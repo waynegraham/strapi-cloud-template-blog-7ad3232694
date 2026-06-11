@@ -516,8 +516,20 @@ export interface ApiAgentAgent extends Struct.CollectionTypeSchema {
       'manyToMany',
       'api::agent-role.agent-role'
     >;
-    biographyAr: Schema.Attribute.Blocks;
-    biographyEn: Schema.Attribute.Blocks;
+    biographyAr: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    biographyEn: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

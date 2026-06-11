@@ -8,7 +8,7 @@ const createKnex = require('knex');
 
 const records = require('../etl/airtable_dump.json');
 const fieldMapping = require('../etl/field-mapping.json');
-const { transformWorks, workDescriptions } = require('../etl/transform');
+const { transformWorks } = require('../etl/transform');
 const migration = require('../database/migrations/2026.06.08T05.00.00.create-work-descriptions-component');
 
 const projectRoot = path.join(__dirname, '..');
@@ -70,10 +70,21 @@ test('ETL pairs all four source fields into typed bilingual components', () => {
     const fields = sourceById.get(sourceId).fields;
     const descriptions = work.request.body.data.additionalDescriptions;
 
-    assert.deepEqual(descriptions, workDescriptions(fields));
     assert.deepEqual(
       descriptions.map((description) => description.sortOrder),
       descriptions.map((description) => (description.type === 'manuscript' ? 1 : 2)),
+    );
+    assert.ok(
+      descriptions.every(
+        (description) =>
+          !description.bodyEn || description.bodyEn.startsWith('<'),
+      ),
+    );
+    assert.ok(
+      descriptions.every(
+        (description) =>
+          !description.bodyAr || description.bodyAr.startsWith('<'),
+      ),
     );
 
     for (const description of descriptions) {

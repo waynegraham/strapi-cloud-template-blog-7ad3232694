@@ -25,10 +25,18 @@
       "targetField": "nameEn"
     },
     "biographyEn": {
-      "type": "blocks"
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
     },
     "biographyAr": {
-      "type": "blocks"
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
     },
     "url": {
       "type": "string"

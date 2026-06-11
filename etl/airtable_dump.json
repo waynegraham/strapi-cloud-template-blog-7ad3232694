@@ -1715,6 +1715,14 @@
     }
   },
   {
+    "id": "recAcedZpGne3PuJO",
+    "fields": {
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Folio from Kitab Suwar al-Kawakib al-Thabitah (Book of the Images of the Fixed Stars) of Abdulrahman al-Sufi\n",
+      "IAB Code": "25-G3-08-0221",
+      "Title of Object": "The constellation Sagittarius"
+    }
+  },
+  {
     "id": "recHT0mZrK00HH7M6",
     "fields": {
       "Origin AR": "شرق البحر المتوسط (على الأرجح)\n",
@@ -1736,14 +1744,6 @@
       "Credit Line AR": "HC.MS.02648  ،مكتبة قطر الوطنية\n\n",
       "Dimension AR": "25.7 × 19 سم\n",
       "Description": "**The Constellation Sagittarius**\nAbdulrahman al-Sufi is among the most renowned astronomers in history. His Kitab Suwar al-Kawakib al-Thabitah is the first illustrated star atlas in history, which describes the constellations according to Ptolemaic systems and includes some ancient Arabian star lore. These pages discuss the constellation Sagittarius, showing it as it would be depicted on a celestial globe (on the right).\n"
-    }
-  },
-  {
-    "id": "recAcedZpGne3PuJO",
-    "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Folio from Kitab Suwar al-Kawakib al-Thabitah (Book of the Images of the Fixed Stars) of Abdulrahman al-Sufi\n",
-      "IAB Code": "25-G3-08-0221",
-      "Title of Object": "The constellation Sagittarius"
     }
   },
   {
@@ -1793,6 +1793,14 @@
     }
   },
   {
+    "id": "recc2qcmYvHaBP720",
+    "fields": {
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "In the Elements of the Art of Astrology, (Al-Tafhim li-Awa’il Sina‘at al-Tanjim) of Al-Biruni\n",
+      "IAB Code": "25-G3-10-0008",
+      "Title of Object": " The Book of Instruction"
+    }
+  },
+  {
     "id": "rec9h2gZsxMlS6cxn",
     "fields": {
       "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "of Al-Biruni\n",
@@ -1819,14 +1827,6 @@
       "Credit Line AR": "معهد أبو الريحان البيروني للدراسات الشرقية، أكاديمية العلوم الأوزبكية، 3423\n",
       "Dimension AR": "21 × 16.5 سم\n",
       "Description": "The Book of Instruction in the Elements of the Art of Astrology\nAl-Tafhim li-Awa’il Sina‘at al-Tanjim, completed in AH 420/1029 CE, surveys a wide breadth of subjects. While the title suggests a focus on astrology, the Tafhim actually covers elements of mathematics, astronomy, geography, and more. It is written as a series of questions to which the author provides\nclear and easy-to-grasp answers. This author, Abu Rayhan al-Biruni (AH 362–440/973–1048 CE), is one of the great scholars of the Islamic world. Born in Khwarezm, in present-day Uzbekistan, he wrote extensively on various\nsubjects, from the sciences to history and religion, producing at least 146 treatises.**16** \nThe pages illustrated in AlMadar explain the concept of abjad, a numeral system used in the Arabic-speaking world that employs letters of the alphabet (in a different order from that commonly used today) to represent numbers. For example, alif (أ) symbolizes 1, ba (ب) represents 2, and so on up to 9 (ط).\n\nThe following letters continue to represent the 10s (10–90) and hundreds (100–900), ending with (غ( 1,000.\nThe chart on the left folio provides the letter and number equivalents using the Persian names for each number. \nIt is believed that Al-Biruni wrote Arabic and Persian versions of the Tafhim simultaneously; this manuscript copy contains the Persian text.**17**\n"
-    }
-  },
-  {
-    "id": "recc2qcmYvHaBP720",
-    "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "In the Elements of the Art of Astrology, (Al-Tafhim li-Awa’il Sina‘at al-Tanjim) of Al-Biruni\n",
-      "IAB Code": "25-G3-10-0008",
-      "Title of Object": " The Book of Instruction"
     }
   },
   {
@@ -1904,6 +1904,14 @@
     }
   },
   {
+    "id": "recVt4UYXdbSQgRWR",
+    "fields": {
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Mandhoumah fi Tarhil al-Shams) of Ahmed Baba bin Ahmed bin al-Tukruri al-Timbukti (AH 963–1036/1556–1627 CE)\n",
+      "IAB Code": "25-G3-11-0381",
+      "Title of Object": "On Solar Movement"
+    }
+  },
+  {
     "id": "recsQtHJLsvnQAQIC",
     "fields": {
       "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "of Ahmed Baba bin Ahmed bin al-Tukruri al-Timbukti (AH 963–1036/1556–1627 CE)\n",
@@ -1934,11 +1942,11 @@
     }
   },
   {
-    "id": "recVt4UYXdbSQgRWR",
+    "id": "recTHfMavJ0kvmtSR",
     "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Mandhoumah fi Tarhil al-Shams) of Ahmed Baba bin Ahmed bin al-Tukruri al-Timbukti (AH 963–1036/1556–1627 CE)\n",
-      "IAB Code": "25-G3-11-0381",
-      "Title of Object": "On Solar Movement"
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Sharh ‘ala al-Mandhoumah al-Musammat bi-al-Siraj fi ‘Ilm al Falak) of Muhammad Abdullah bin ‘Umar al-Walati\n",
+      "IAB Code": "25-G3-11-0819",
+      "Title of Object": "Commentary on Al-Akhdari’s “Illumination of the Knowledge of the Heavens” "
     }
   },
   {
@@ -1974,14 +1982,6 @@
     }
   },
   {
-    "id": "recTHfMavJ0kvmtSR",
-    "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Sharh ‘ala al-Mandhoumah al-Musammat bi-al-Siraj fi ‘Ilm al Falak) of Muhammad Abdullah bin ‘Umar al-Walati\n",
-      "IAB Code": "25-G3-11-0819",
-      "Title of Object": "Commentary on Al-Akhdari’s “Illumination of the Knowledge of the Heavens” "
-    }
-  },
-  {
     "id": "recLlW2mV0tLhTRDw",
     "fields": {
       "Curator(s)": [
@@ -1994,6 +1994,14 @@
       "Credit Line": "Ahmed Baba Institute of Higher Learning and Islamic Research, 3666 Folio Ref No. P23",
       "For Wen to Check": true,
       "Description": "** Explanation of a System in Astronomy**\nA didactic poem based upon the writing on astronomy of Ibn al-Haitham (c. AH 354–c. 430/c. 965–c. 1040 CE). The poem includes the names of the constellations, stars, and planetary positions, and the text describes how to use these to establish directions and locations. It examines the lengths of night and day, and the constellations of each season, detailing their favorable and unfavorable aspects, and the sun’s movement in relation to them. The manuscript is supported by quotations from the Holy Qur’an, hadith, and scholarly opinion.\n"
+    }
+  },
+  {
+    "id": "recsfOU0MAIDW7xzt",
+    "fields": {
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Sharh Mandhoumah fi ‘Ilm al-Falak) of Muhammad bin Ahmad bin Hisham al-Lakhmi\n",
+      "IAB Code": "25-G3-11-0821",
+      "Title of Object": "Explanation of a system in astronomy"
     }
   },
   {
@@ -2018,14 +2026,6 @@
       "Credit Line AR": "MS 3666 ،معهد أحمد بابا للدراسات العليا والبحوث الإسلامية - تمبكتو\n",
       "Dimension AR": "21.4 × 15.3 سم\n",
       "Description": "**Explanation of a System in Astronomy**\nA didactic poem based upon the writing on astronomy of Ibn al-Haitham (c. AH 354–c. 430/c. 965–c. 1040 CE). The poem includes the names of the constellations, stars, and planetary positions, and the text describes how to use these to establish directions and locations. It examines the lengths of night and day, and the constellations of each season, detailing their favorable and unfavorable aspects, and the sun’s movement in relation to them. The manuscript is supported by quotations from the Holy Qur’an, hadith, and scholarly opinion.\n"
-    }
-  },
-  {
-    "id": "recsfOU0MAIDW7xzt",
-    "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Sharh Mandhoumah fi ‘Ilm al-Falak) of Muhammad bin Ahmad bin Hisham al-Lakhmi\n",
-      "IAB Code": "25-G3-11-0821",
-      "Title of Object": "Explanation of a system in astronomy"
     }
   },
   {
@@ -2107,6 +2107,14 @@
     }
   },
   {
+    "id": "recybRDIoZZBKVuJK",
+    "fields": {
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Al-Zij al-Mu‘tabar al-Sanjari al-Sultani) (possibly an autograph copy) of Abu Mansur Abu al-Fath Abdulrahman al-Khazini\n",
+      "IAB Code": "25-G3-13-0270",
+      "Title of Object": "The Royal Sanjari Tables, Compared"
+    }
+  },
+  {
     "id": "recnt2TRlzD8eqg0l",
     "fields": {
       "Origin AR": "مرو، تركمانستان\n",
@@ -2131,11 +2139,11 @@
     }
   },
   {
-    "id": "recybRDIoZZBKVuJK",
+    "id": "rec3x2DIyRXkZnIpj",
     "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Al-Zij al-Mu‘tabar al-Sanjari al-Sultani) (possibly an autograph copy) of Abu Mansur Abu al-Fath Abdulrahman al-Khazini\n",
-      "IAB Code": "25-G3-13-0270",
-      "Title of Object": "The Royal Sanjari Tables, Compared"
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Wajiz al-Zij al-Sanjari)  in Greek Translation; ‘Table eleven of the retrograde motion (orrōsis) of Mars’\n",
+      "IAB Code": "25-G3-13-0271",
+      "Title of Object": "Summary of the Sanjari Tables"
     }
   },
   {
@@ -2162,14 +2170,6 @@
       "Credit Line AR": "Vat. gr. 211 ،مدينة الفاتيكان، مكتبة الفاتيكان الأبوستولية\n",
       "Dimension AR": " 26.8 × 18.5 × 6 سم\n",
       "Description": "**The Sanjari Tables in Greek Translation**\nIn AH 693/1294 CE, the Greek scientist Gregory Chioniades traveled to Tabriz, an international center for astronomical studies due to Ghazan Khan’s (r. AH 694–703/1295–1304 CE) establishment of an observatory there. Chioniades studied under Shams Bukharos, likely the astronomer Shams al-Din al-Wabkanawi. Together, they made a translation of a summary of Al-Zij al-Sanjari known as the Wajiz which contains only 45 tables. He also made a translation of an early text of Nasir al-Din al-Tusi on the so-called “Tusi couple,” a mathematical model for explaining irregular planetary motion. These translations represent a specific knowledge transfer from the Persian-speaking lands to Byzantium at the cusp of the Renaissance.\n"
-    }
-  },
-  {
-    "id": "rec3x2DIyRXkZnIpj",
-    "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Wajiz al-Zij al-Sanjari)  in Greek Translation; ‘Table eleven of the retrograde motion (orrōsis) of Mars’\n",
-      "IAB Code": "25-G3-13-0271",
-      "Title of Object": "Summary of the Sanjari Tables"
     }
   },
   {
@@ -2224,6 +2224,14 @@
     }
   },
   {
+    "id": "recvbAtcQAW8xVjLU",
+    "fields": {
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Alchoran sive lex saracenorum) an anonymous revision of the Latin translation of the Qur’an by Robert of Ketton\n",
+      "IAB Code": "25-G3-14-0274",
+      "Title of Object": "The Qur’an or Saracenic Law"
+    }
+  },
+  {
     "id": "recLDbRHsjrkateeR",
     "fields": {
       "Origin AR": "شمال إيطاليا \n",
@@ -2245,14 +2253,6 @@
       "Credit Line AR": "Vat. lat. 4071 ،مدينة الفاتيكان، مكتبة الفاتيكان الأبوستولية\n",
       "Dimension AR": "30 × 23.4 × 4 سم\n",
       "Description": "**Alchoran Sive Lex Saracenorum**\nThe Qur’an was not translated into Latin until the 6th century AH/12th century CE. During the Crusades, the Abbot of Cluny, Peter of Montboissier, better known as Peter the Venerable (c. AH 484–550/1092–1156 CE) commissioned translations of various Arabic texts during a trip to Spain in AH 535/1141 CE. He tasked the English priest, Robert of Ketton—who held an ecclesiastical office in Pamplona and had studied Arabic—with translating the Qur’an. Completed around AH 537/1143 CE, Robert’s translation was rhetorical rather than literal. This manuscript is one of 23 surviving copies of a revised version of Robert’s text, possibly created by theologian Peter of Poitiers (c. AH 518–601/1125–1205 CE).\n"
-    }
-  },
-  {
-    "id": "recvbAtcQAW8xVjLU",
-    "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Alchoran sive lex saracenorum) an anonymous revision of the Latin translation of the Qur’an by Robert of Ketton\n",
-      "IAB Code": "25-G3-14-0274",
-      "Title of Object": "The Qur’an or Saracenic Law"
     }
   },
   {
@@ -2289,6 +2289,14 @@
     }
   },
   {
+    "id": "recyiePDItKwuNsQn",
+    "fields": {
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Kitab al-Jabr wa-al-Muqabalah) of Muhammad bin Musa al-Khwarizmi (AH c. 184-232/c. 800–47 CE)\n",
+      "IAB Code": "25-G3-15-0237",
+      "Title of Object": "The Book of Restoration and Balancing"
+    }
+  },
+  {
     "id": "rec7K1JEgm5zQ39F8",
     "fields": {
       "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Copied by Muhammad Sa‘id\n",
@@ -2321,14 +2329,6 @@
       "Dimension AR": "5.52 × 81 سم\n",
       "For Wen to Check": true,
       "Description": "The Book of Restoration and Balancing\nAl Khwarizmi’s Al-Jabr wa al-Muqabalah was composed around AH 210/830 CE; this important early copy of the work is dated to AH 619/1222 CE. The text explains how to solve linear and quadratic equations but does not use contemporary formulas “x” and “y” to stand for the variables, as this type of notation did not yet exist. Al-Khwarizmi gives extended descriptions of scenarios using the Arabic word shai’ (thing) instead of the letter variables we use now, and explains the process of solving for unknown quantities. In al-Andalus, the word shai’ was transcribed as xay and, in time, the word was abbreviated to x. The text also includes sections on surveying, wills, and inheritance—given as practical applications of the theorems in the book. The pages shown here, for example, come from a chapter about methods for measuring the surfaces of different shapes. The text and diagram on the right-hand page examine the surface area of a square in terms of the triangles it can be divided into. This is followed by a section entitled “Masa’il al-Masahat” (Problems of Measurements), as indicated by the title in red ink. It describes different types of quadrilaterals and explains how to determine their areas.**27**\n"
-    }
-  },
-  {
-    "id": "recyiePDItKwuNsQn",
-    "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Kitab al-Jabr wa-al-Muqabalah) of Muhammad bin Musa al-Khwarizmi (AH c. 184-232/c. 800–47 CE)\n",
-      "IAB Code": "25-G3-15-0237",
-      "Title of Object": "The Book of Restoration and Balancing"
     }
   },
   {
@@ -2461,37 +2461,6 @@
     }
   },
   {
-    "id": "rec1rIckdRzf59RNa",
-    "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "late Hijazi script\n",
-      "Origin AR": "شبه الجزيرة العربية أو العراق\n",
-      "Writer(s)": [
-        "Dr. Wen Wen"
-      ],
-      "Curator(s)": [
-        "Dr. Marika Sardar"
-      ],
-      "Description AR": "ورقتان من مصحف «كاتا لانغر»\n\nكانت النسخة الأصلية من هذه المخطوطة القرآنية تتكون من أكثر من 200 ورقة، لم يتبقَّ منها اليوم سوى أقل من 100 ورقة، وتتضمّن مقتنيات إدارة مسلمي أوزبكستان 12 ورقة من هذا المصحف، تحتوي على كلٍّ من سورة النساء والمائدة والأنعام.**18** ورغم أن هذا المصحف كان يُنسَب في مرحلة ما إلى الصحابي الجليل عثمان بن عفان رضي الله عنه، فقد توصّلت الدراسات الحديثة إلى تأريخه في القرن الثاني الهجري/الثامن الميلادي. تشير تحليلات حديثة، بناءً على عدد الآيات وطريقة نسخ حروف معيّنة وبعض الأساليب الإملائية، إلى أن مصدره قد يكون من البصرة بالعراق. وتتنوّع الروايات حول مساره حتى وصوله إلى قرية كاتا لانغر في أوزبكستان، حيث تم اكتشافه في مطلع القرن الرابع عشر الهجري/العشرين الميلادي.\n\nوبغض النظر عن هذه النقاشات الأكاديمية، يحمل هذا المخطوط بين طيّاته آثار رحلاته الطويلة وتاريخ اقتنائه المتنوّع عبر الزمن. ويبدو أنه في أواخر القرن الثاني - الثالث الهجري/أوائل القرن التاسع الميلادي، أُضيفت علامات زخرفية في نهاية كل آية على شكل دوائر ومثلثات منقَّطة، كما وُضِعَت دوائر سوداء لتحديد مجموعات من عشر آيات،**19** إلى جانب بعض العلامات التشكيلية؛ لتيسير تلاوة النص وتعليمه. وفي مواضع أخرى،**20** كُتبت أسماء السور وأرقام الآيات في الفراغات الفاصلة بين السور. **21** كما تم تزويق النص بزخارف في بعض المواضع، كما يظهر في الورقة 10ب.**22**\n",
-      "Dimension": "h. 53 × w. 33 cm",
-      "Origin": "Arabia or Iraq",
-      "Date AR": "القرن الثاني الهجري/الثامن الميلادي\n",
-      "Material": "Brown, red, and green ink on parchment (possibly deer skin)",
-      "IAB Code": "25-G3-18-0363, 25-G3-18-0016",
-      "Date": "2nd century AH/8th century CE, ",
-      "Title of Object": "Folios from the Katta Langar Qur’an (5:113–6:19)",
-      "Footnote reference": "**18.**In the 1940s, there were over 220 leaves belonging to this manuscript, including several—copied in cursive script—that were added to replace missing folios. In 1983, only 147 leaves were known, while today fewer than 100 can be located in Uzbekistan and Russia. See: Efim Rezvan, “Yet Another ‘Uthmanic Qur’an (on the History of Manuscript E20 from the St.Petersburg Branch of the Institute of Oriental Studies),” Manuscripta Orientalia 6/1 (2000): 53; and Şeyma Genan, Betül Genan, Elif Behnan Bozdoğan, and Nevrin Nur Aslan, “Erken Döneme Tarihlenen Katta Langar Mushafı’nın Mushaf İlimleri Bakımından İncelenmesi,” Sakarya Üniversitesi 'ilahiyat Fakültesi Dergisi (SAUIFD) 47 (2023): 66, Central and Eastern European Online Library.\n**19.**Genan, Genan, Bozdoğan, and Aslan, “Erken Döneme Tarihlenen Katta Langar Mushafı’nın Mushaf İlimleri Bakımından İncelenmesi,” 67.\n**20.**Genan, Genan, Bozdoğan, and Aslan, 81.\n**21.**Genan, Genan, Bozdoğan, and Aslan, 68.\n**22.**Efim Rezvan, “Paying Tribute: Returning to the Story of the ‘Qur‘an of Uthman’,” Journal of College of Sharia & Islamic Studies 42, no.2 (2024): 147.\n",
-      "Gallery": "AlMadar",
-      "Material AR": "حبر بنّي وأحمر وأخضر على رَقّ (جلد غزال على الأرجح)،\n",
-      "Footnote reference AR": "**18. **في أربعينيات القرن العشرين، كان هناك أكثر من 220 ورقة تعود إلى هذا المخطوط، بما في ذلك العديد من الأوراق المكتوبة بخطٍّ متصل والتي أُضيفت لتعويض الصفحات المفقودة. وبحلول عام 1983، كان يُعرف 147 ورقة فقط، أما اليوم فيمكن تحديد أقل من 100 ورقة في أوزبكستان وروسيا. انظر: يفيم رزفان، «مصحف عثمان آخر (حول تاريخ المخطوطة E20 من فرع معهد الدراسات الشرقية في سانت بطرسبرغ)»، «مانوسكريبتا أورينتاليا»، العدد 6/1 (2000): ص 53؛ وسيما جينان، وبتول جينان، وإليف بهنان بوزدوغان، ونفرين نور أصلان، «تحليل مصحف كاتا لانغار المبكر في ضوء علوم المصحف الشريف»، «مجلة كلية الإلهيات بجامعة ساكاريا» (SAUIFD) العدد 47 (2023): ص 66، مكتبة أوروبا الوسطى والشرقية على شبكة الإنترنت. \n**19.**جينان، جينان، بوزدوغان، وأصلان، «تحليل مصحف كاتا لانغار»، ص 67. \n**20.** جينان، جينان، بوزدوغان، وأصلان، ص 81. \n**21.** جينان، جينان، بوزدوغان، وأصلان، ص 68. \n**22.** يفيم رزفان، «تكريم الإرث: العودة إلى قصة مصحف عثمان»، «مجلة كلية الشريعة والدراسات الإسلامية»، العدد 42، رقم 2 (2024): ص 147. \n",
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc) AR": "الخط الحجازي المتأخر\n",
-      "Title of Object AR": "ورقتان من مصحف «كاتا لانغر» (سورة المائدة: الآية 113، سورة الأنعام: الآية 19)\n\n",
-      "Credit Line": "Muslim Board of Uzbekistan, 40-A",
-      "Credit Line AR": " 40-A ،إدارة مسلمي أوزبكستان\n",
-      "Dimension AR": " 53 × 33 سم\n",
-      "Description": "This copy of the Holy Qur’an originally comprised over 200 leaves, of which fewer than 100 survive today. The twelve pages in the collection of the Muslim Board contain chapters 4 to 6.**18** At one time attributed to ‘Uthman bin ‘Affan, the manuscript is now dated to the 2nd century AH/8th century CE, and a recent analysis of the number and composition of the verses, the formation of certain letters, and the use of certain spellings, suggest an origin in the Basra region of Iraq. There are also various theories regarding how the manuscript arrived in the village of Katta Langar, Uzbekistan, where it was discovered in the early 14th century AH/20th century CE. Putting aside these scholarly debates, the manuscript bears many traces of its peregrinations and history of use. Perhaps in the late 2nd to 3rd centuries AH/early 9th century CE, dotted circles or triangles were added at the end of each verse, and black circles were inserted for gatherings of ten verses.**19** Various diacritical marks were appended to facilitate the recitation or teaching of the text,**20 **and in some places chapter names and verse numbers were written in the spaces separating the chapters.**21 **Illuminations, as seen on folio 10b, were occasionally included as well.**22**\n"
-    }
-  },
-  {
     "id": "rec8TzOJCZ51iJj9q",
     "fields": {
       "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "late Hijazi script\n",
@@ -2526,6 +2495,47 @@
     }
   },
   {
+    "id": "rec1rIckdRzf59RNa",
+    "fields": {
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "late Hijazi script\n",
+      "Origin AR": "شبه الجزيرة العربية أو العراق\n",
+      "Writer(s)": [
+        "Dr. Wen Wen"
+      ],
+      "Curator(s)": [
+        "Dr. Marika Sardar"
+      ],
+      "Description AR": "ورقتان من مصحف «كاتا لانغر»\n\nكانت النسخة الأصلية من هذه المخطوطة القرآنية تتكون من أكثر من 200 ورقة، لم يتبقَّ منها اليوم سوى أقل من 100 ورقة، وتتضمّن مقتنيات إدارة مسلمي أوزبكستان 12 ورقة من هذا المصحف، تحتوي على كلٍّ من سورة النساء والمائدة والأنعام.**18** ورغم أن هذا المصحف كان يُنسَب في مرحلة ما إلى الصحابي الجليل عثمان بن عفان رضي الله عنه، فقد توصّلت الدراسات الحديثة إلى تأريخه في القرن الثاني الهجري/الثامن الميلادي. تشير تحليلات حديثة، بناءً على عدد الآيات وطريقة نسخ حروف معيّنة وبعض الأساليب الإملائية، إلى أن مصدره قد يكون من البصرة بالعراق. وتتنوّع الروايات حول مساره حتى وصوله إلى قرية كاتا لانغر في أوزبكستان، حيث تم اكتشافه في مطلع القرن الرابع عشر الهجري/العشرين الميلادي.\n\nوبغض النظر عن هذه النقاشات الأكاديمية، يحمل هذا المخطوط بين طيّاته آثار رحلاته الطويلة وتاريخ اقتنائه المتنوّع عبر الزمن. ويبدو أنه في أواخر القرن الثاني - الثالث الهجري/أوائل القرن التاسع الميلادي، أُضيفت علامات زخرفية في نهاية كل آية على شكل دوائر ومثلثات منقَّطة، كما وُضِعَت دوائر سوداء لتحديد مجموعات من عشر آيات،**19** إلى جانب بعض العلامات التشكيلية؛ لتيسير تلاوة النص وتعليمه. وفي مواضع أخرى،**20** كُتبت أسماء السور وأرقام الآيات في الفراغات الفاصلة بين السور. **21** كما تم تزويق النص بزخارف في بعض المواضع، كما يظهر في الورقة 10ب.**22**\n",
+      "Dimension": "h. 53 × w. 33 cm",
+      "Origin": "Arabia or Iraq",
+      "Date AR": "القرن الثاني الهجري/الثامن الميلادي\n",
+      "Material": "Brown, red, and green ink on parchment (possibly deer skin)",
+      "IAB Code": "25-G3-18-0363, 25-G3-18-0016",
+      "Date": "2nd century AH/8th century CE, ",
+      "Title of Object": "Folios from the Katta Langar Qur’an (5:113–6:19)",
+      "Footnote reference": "**18.**In the 1940s, there were over 220 leaves belonging to this manuscript, including several—copied in cursive script—that were added to replace missing folios. In 1983, only 147 leaves were known, while today fewer than 100 can be located in Uzbekistan and Russia. See: Efim Rezvan, “Yet Another ‘Uthmanic Qur’an (on the History of Manuscript E20 from the St.Petersburg Branch of the Institute of Oriental Studies),” Manuscripta Orientalia 6/1 (2000): 53; and Şeyma Genan, Betül Genan, Elif Behnan Bozdoğan, and Nevrin Nur Aslan, “Erken Döneme Tarihlenen Katta Langar Mushafı’nın Mushaf İlimleri Bakımından İncelenmesi,” Sakarya Üniversitesi 'ilahiyat Fakültesi Dergisi (SAUIFD) 47 (2023): 66, Central and Eastern European Online Library.\n**19.**Genan, Genan, Bozdoğan, and Aslan, “Erken Döneme Tarihlenen Katta Langar Mushafı’nın Mushaf İlimleri Bakımından İncelenmesi,” 67.\n**20.**Genan, Genan, Bozdoğan, and Aslan, 81.\n**21.**Genan, Genan, Bozdoğan, and Aslan, 68.\n**22.**Efim Rezvan, “Paying Tribute: Returning to the Story of the ‘Qur‘an of Uthman’,” Journal of College of Sharia & Islamic Studies 42, no.2 (2024): 147.\n",
+      "Gallery": "AlMadar",
+      "Material AR": "حبر بنّي وأحمر وأخضر على رَقّ (جلد غزال على الأرجح)،\n",
+      "Footnote reference AR": "**18. **في أربعينيات القرن العشرين، كان هناك أكثر من 220 ورقة تعود إلى هذا المخطوط، بما في ذلك العديد من الأوراق المكتوبة بخطٍّ متصل والتي أُضيفت لتعويض الصفحات المفقودة. وبحلول عام 1983، كان يُعرف 147 ورقة فقط، أما اليوم فيمكن تحديد أقل من 100 ورقة في أوزبكستان وروسيا. انظر: يفيم رزفان، «مصحف عثمان آخر (حول تاريخ المخطوطة E20 من فرع معهد الدراسات الشرقية في سانت بطرسبرغ)»، «مانوسكريبتا أورينتاليا»، العدد 6/1 (2000): ص 53؛ وسيما جينان، وبتول جينان، وإليف بهنان بوزدوغان، ونفرين نور أصلان، «تحليل مصحف كاتا لانغار المبكر في ضوء علوم المصحف الشريف»، «مجلة كلية الإلهيات بجامعة ساكاريا» (SAUIFD) العدد 47 (2023): ص 66، مكتبة أوروبا الوسطى والشرقية على شبكة الإنترنت. \n**19.**جينان، جينان، بوزدوغان، وأصلان، «تحليل مصحف كاتا لانغار»، ص 67. \n**20.** جينان، جينان، بوزدوغان، وأصلان، ص 81. \n**21.** جينان، جينان، بوزدوغان، وأصلان، ص 68. \n**22.** يفيم رزفان، «تكريم الإرث: العودة إلى قصة مصحف عثمان»، «مجلة كلية الشريعة والدراسات الإسلامية»، العدد 42، رقم 2 (2024): ص 147. \n",
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc) AR": "الخط الحجازي المتأخر\n",
+      "Title of Object AR": "ورقتان من مصحف «كاتا لانغر» (سورة المائدة: الآية 113، سورة الأنعام: الآية 19)\n\n",
+      "Credit Line": "Muslim Board of Uzbekistan, 40-A",
+      "Credit Line AR": " 40-A ،إدارة مسلمي أوزبكستان\n",
+      "Dimension AR": " 53 × 33 سم\n",
+      "Description": "This copy of the Holy Qur’an originally comprised over 200 leaves, of which fewer than 100 survive today. The twelve pages in the collection of the Muslim Board contain chapters 4 to 6.**18** At one time attributed to ‘Uthman bin ‘Affan, the manuscript is now dated to the 2nd century AH/8th century CE, and a recent analysis of the number and composition of the verses, the formation of certain letters, and the use of certain spellings, suggest an origin in the Basra region of Iraq. There are also various theories regarding how the manuscript arrived in the village of Katta Langar, Uzbekistan, where it was discovered in the early 14th century AH/20th century CE. Putting aside these scholarly debates, the manuscript bears many traces of its peregrinations and history of use. Perhaps in the late 2nd to 3rd centuries AH/early 9th century CE, dotted circles or triangles were added at the end of each verse, and black circles were inserted for gatherings of ten verses.**19** Various diacritical marks were appended to facilitate the recitation or teaching of the text,**20 **and in some places chapter names and verse numbers were written in the spaces separating the chapters.**21 **Illuminations, as seen on folio 10b, were occasionally included as well.**22**\n"
+    }
+  },
+  {
+    "id": "recywtMsHSQfeV7Br",
+    "fields": {
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "An illumination marks the end of the first half of the text\n",
+      "To shorten titles in Arabic": true,
+      "IAB Code": "25-G3-19-0294",
+      "Title of Object": "Folios from rub‘ 2 of a Qur’an (18:63–74) ",
+      "For Wen to Check": true
+    }
+  },
+  {
     "id": "recU8s03fsAZD876q",
     "fields": {
       "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Maghribi script\n",
@@ -2549,16 +2559,6 @@
       "Credit Line AR": "825 مجمع الملك عبدالعزيز للمكتبات الوقفية، المدينة المنورة، رقم \n\n",
       "Dimension AR": "23 × 17.6 سم\n",
       "Description": "**Qur’an Manuscript bound in Four volumes **\nThis manuscript demonstrates various techniques for dividing and marking the** **Qur’anic text common in the Maghrib. It is bound in four volumes, each containing a quarter of the complete text. Within each volume, the eighth, quarter, and half of each hizb are marked with a gold trefoil in the text, accompanied by the relevant word in the margin in gold script. Each complete hizb is marked with a gold trefoil in the text and an illuminated roundel in the margin. Notably, the manuscript marks hizb divisions as substitutes for the juz’, resulting in sixty marked hizbs instead of the traditional thirty juz’s. The verse count is absent from the chapter headings, and the fifth and tenth verses are unmarked—another typical feature of Maghribi Qur’ans. Additionally, the manuscript includes unique characteristics, such as green and yellow dots indicating the diacritical hamzahs.\n"
-    }
-  },
-  {
-    "id": "recywtMsHSQfeV7Br",
-    "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "An illumination marks the end of the first half of the text\n",
-      "To shorten titles in Arabic": true,
-      "IAB Code": "25-G3-19-0294",
-      "Title of Object": "Folios from rub‘ 2 of a Qur’an (18:63–74) ",
-      "For Wen to Check": true
     }
   },
   {
@@ -2588,6 +2588,15 @@
     }
   },
   {
+    "id": "recHvGrCSoCSZyhai",
+    "fields": {
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "With chapter headings and accompanying illuminated devices in the margins\n",
+      "To shorten titles in Arabic": true,
+      "IAB Code": "25-G3-19-0296",
+      "Title of Object": "Folios from rub‘ 4 of a Qur’an (109–113)"
+    }
+  },
+  {
     "id": "recKfZA8yzgFpiOO2",
     "fields": {
       "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Maghribi script\n",
@@ -2611,15 +2620,6 @@
       "Credit Line AR": "824 مجمع الملك عبدالعزيز للمكتبات الوقفية، المدينة المنورة، رقم \n",
       "Dimension AR": "23 × 17.6 سم\n",
       "Description": "**Qur’an Manuscript Bound in Four Volumes**\nThis Manuscript demonstrates various techniques for dividing and marking the Qur’anic text common in the Maghrib. It is bound in four volumes, each containing a quarter of the complete text. Within each volume, the eighth, quarter, and half of each hizb are marked with a gold trefoil in the text, accompanied by the relevant word in the margin in gold script. Each complete hizb is marked with a gold trefoil in the text and an illuminated roundel in the margin. Notably, the manuscript marks hizb divisions as substitutes for the juz’, resulting in sixty marked hizbs instead of the traditional thirty juz’s. The verse count is absent from the chapter headings, and the fifth and tenth verses are unmarked—another typical feature of Maghribi Qur’ans. Additionally, the manuscript includes unique characteristics, such as green and yellow dots indicating the diacritical hamzahs.\n"
-    }
-  },
-  {
-    "id": "recHvGrCSoCSZyhai",
-    "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "With chapter headings and accompanying illuminated devices in the margins\n",
-      "To shorten titles in Arabic": true,
-      "IAB Code": "25-G3-19-0296",
-      "Title of Object": "Folios from rub‘ 4 of a Qur’an (109–113)"
     }
   },
   {
@@ -2652,6 +2652,32 @@
     }
   },
   {
+    "id": "recJFkfH2GkrAu3ck",
+    "fields": {
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Sudani script\nWith markers for 5th and 10th verses, and a vertical sajdah marker across a row of four colored roundels\n",
+      "Origin AR": "منطقة الساحل، شمال نيجيريا (على الأرجح)\n",
+      "Curator(s)": [
+        "Dr. Marika Sardar"
+      ],
+      "Description AR": "**أوراق من مخطوطة قرآنية**\nيُرجَّح أنَّ هذه المخطوطة جاءت من منطقة بورنو المحاذية لبحيرة تشاد، التي كانت مركزاً متميّزاً للعلم ونسخ المخطوطات في القرنين الثاني عشر والثالث عشر الهجريين/الثامن عشر والتاسع عشر الميلاديين. وكما هو شائع في المصاحف المنتمية إلى تلك المنطقة، تُختتَم كل آية برمز ثلاثي الأوراق مكوَّن من ثلاث نقاط صفراء، بينما تُميَّز الآية الخَمسيّة بحرف «هـ» الذي يدل على العدد خمسة وفقاً للنظام الأبجدي (حساب الجُمَّل)، وتُميَّز الآية العَشريّة برمز دائري مزدوج ملوّن (والعلامات ظاهرة في الصفحة المعروضة هنا). وفي الهوامش، يشار إلى كل ثُمن حزب بعلامة تتألّف من مربع تحيط به خطوط عمودية طويلة متوازية على جانبيْه، وترتيب مثلثيّ من نقاط صفراء (يظهر هنا أيضاً)، ويُميَّز كل حزب كامل بدائرة كبيرة ملوّنة. وكما يتضح في هذه الصفحات، يشار إلى كل ربع من النص بلوحات مستطيلة مملوءة بشبكات من النقاط الملوّنة، وزخارف تشبه الأشرطة والزخارف شِبه الهندسية بألوان الأحمر القرميدي والأصفر والأخضر والأسود.\n",
+      "Dimension": "h. 22.3 × w. 15.7 cm",
+      "Origin": "Sahel region, probably northern Nigeria",
+      "Date AR": "القرن الثالث عشر الهجري/التاسع عشر الميلادي \n",
+      "Material": "Ink and opaque pigments on paper",
+      "IAB Code": "25-G3-20-0916",
+      "Date": "13th century AH/19th century CE",
+      "Title of Object": "Folios from a Qur’an manuscript\n(22:7–19)",
+      "Gallery": "AlMadar",
+      "Material AR": "حبر وأصباغ كتيمة على ورق\n",
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc) AR": "الخط السوداني\n مع علامات للآيتين الخامسة والعاشرة، وعلامة سجدة عمودية مقابل صف من أربع شارات دائرية ملونة\n\n",
+      "Title of Object AR": "أوراق من مخطوطة قرآنية (سورة الحجّ: الآيات 7-19) \n",
+      "Credit Line": "King Abdulaziz Waqf Libraries Assembly, Al-Madinah al-Munawwarah, no. 1130",
+      "Credit Line AR": "1130 مجمع الملك عبدالعزيز للمكتبات الوقفية، المدينة المنورة، رقم \n",
+      "Dimension AR": "22.3 × 15.7 سم\n",
+      "Description": "**Folios from a Qur’an Manuscript**\nThis manuscript likely comes from the Bornu region around Lake Chad, a center of scholarship and manuscript production during the 12th–13th centuries AH/18th–19th centuries CE. Typical of Qur’an manuscripts from that area, the end of each verse is marked with a trefoil device of three yellow dots, fifth verses are marked with the letter ha’, which represents the number 5 in the abjad numeral system, and tenth verses are indicated with a double-ringed roundel in colors (all visible here). In the margins, each eighth of a hizb is marked with a device consisting of a square with long parallel vertical lines on either side and two triangular arrangements of yellow dots (also seen here), while each full hizb is marked with a large colored roundel. As on these pages, each quarter section of the text is announced with rectangular panels filled with grids of colored dots, strapwork, and quasi-geometric designs in red ochre, yellow, green, and black.\n"
+    }
+  },
+  {
     "id": "recJyERGR4mGPMHmG",
     "fields": {
       "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Maghribi script\nInscriptions of endowment to the Prophet’s Mosque, dated Ramadan 1323 AH/November 1905 CE, and stamped seal impressions of endowment to the Rawdhah of the Prophet\n",
@@ -2678,32 +2704,6 @@
       "Credit Line AR": "مجمع الملك عبدالعزيز للمكتبات الوقفية، المدينة المنورة، رقم 1311\n",
       "Dimension AR": "23 × 17.6 سم\n",
       "Description": "Qur’an manuscript bound in four volumes\nThis manuscript demonstrates various techniques for dividing and marking the Qur’anic text common in the Maghrib. Bound in four volumes, each containing a quarter of the complete text, it features gold trefoils marking the eighths, quarters, and halves of each hizb (group) in the text, with corresponding labels in the margin. Each complete hizb is further highlighted by an illuminated roundel in the margin. Notably, the manuscript marks hizb divisions as substitutes for the juz’ (section), resulting in sixty marked hizbs instead of the traditional thirty juz’s. Chapter headings and accompanying Bismillahs are written in larger gold script with accompanying illuminated devices in the margins. The verse count is absent from the chapter headings, and the fifth and tenth verses are unmarked—another typical feature of Maghribi Qur’ans and one that sets them apart from most Qur’an manuscripts from further east. Additionally, the manuscript features unique characteristics, such as green and yellow dots to indicate diacritical hamzahs—an archaic method originating in early\nAbbasid copies of the Qur’an that persisted in Maghribi copies and some examples from sub-Saharan Africa in later centuries.\n"
-    }
-  },
-  {
-    "id": "recJFkfH2GkrAu3ck",
-    "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Sudani script\nWith markers for 5th and 10th verses, and a vertical sajdah marker across a row of four colored roundels\n",
-      "Origin AR": "منطقة الساحل، شمال نيجيريا (على الأرجح)\n",
-      "Curator(s)": [
-        "Dr. Marika Sardar"
-      ],
-      "Description AR": "**أوراق من مخطوطة قرآنية**\nيُرجَّح أنَّ هذه المخطوطة جاءت من منطقة بورنو المحاذية لبحيرة تشاد، التي كانت مركزاً متميّزاً للعلم ونسخ المخطوطات في القرنين الثاني عشر والثالث عشر الهجريين/الثامن عشر والتاسع عشر الميلاديين. وكما هو شائع في المصاحف المنتمية إلى تلك المنطقة، تُختتَم كل آية برمز ثلاثي الأوراق مكوَّن من ثلاث نقاط صفراء، بينما تُميَّز الآية الخَمسيّة بحرف «هـ» الذي يدل على العدد خمسة وفقاً للنظام الأبجدي (حساب الجُمَّل)، وتُميَّز الآية العَشريّة برمز دائري مزدوج ملوّن (والعلامات ظاهرة في الصفحة المعروضة هنا). وفي الهوامش، يشار إلى كل ثُمن حزب بعلامة تتألّف من مربع تحيط به خطوط عمودية طويلة متوازية على جانبيْه، وترتيب مثلثيّ من نقاط صفراء (يظهر هنا أيضاً)، ويُميَّز كل حزب كامل بدائرة كبيرة ملوّنة. وكما يتضح في هذه الصفحات، يشار إلى كل ربع من النص بلوحات مستطيلة مملوءة بشبكات من النقاط الملوّنة، وزخارف تشبه الأشرطة والزخارف شِبه الهندسية بألوان الأحمر القرميدي والأصفر والأخضر والأسود.\n",
-      "Dimension": "h. 22.3 × w. 15.7 cm",
-      "Origin": "Sahel region, probably northern Nigeria",
-      "Date AR": "القرن الثالث عشر الهجري/التاسع عشر الميلادي \n",
-      "Material": "Ink and opaque pigments on paper",
-      "IAB Code": "25-G3-20-0916",
-      "Date": "13th century AH/19th century CE",
-      "Title of Object": "Folios from a Qur’an manuscript\n(22:7–19)",
-      "Gallery": "AlMadar",
-      "Material AR": "حبر وأصباغ كتيمة على ورق\n",
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc) AR": "الخط السوداني\n مع علامات للآيتين الخامسة والعاشرة، وعلامة سجدة عمودية مقابل صف من أربع شارات دائرية ملونة\n\n",
-      "Title of Object AR": "أوراق من مخطوطة قرآنية (سورة الحجّ: الآيات 7-19) \n",
-      "Credit Line": "King Abdulaziz Waqf Libraries Assembly, Al-Madinah al-Munawwarah, no. 1130",
-      "Credit Line AR": "1130 مجمع الملك عبدالعزيز للمكتبات الوقفية، المدينة المنورة، رقم \n",
-      "Dimension AR": "22.3 × 15.7 سم\n",
-      "Description": "**Folios from a Qur’an Manuscript**\nThis manuscript likely comes from the Bornu region around Lake Chad, a center of scholarship and manuscript production during the 12th–13th centuries AH/18th–19th centuries CE. Typical of Qur’an manuscripts from that area, the end of each verse is marked with a trefoil device of three yellow dots, fifth verses are marked with the letter ha’, which represents the number 5 in the abjad numeral system, and tenth verses are indicated with a double-ringed roundel in colors (all visible here). In the margins, each eighth of a hizb is marked with a device consisting of a square with long parallel vertical lines on either side and two triangular arrangements of yellow dots (also seen here), while each full hizb is marked with a large colored roundel. As on these pages, each quarter section of the text is announced with rectangular panels filled with grids of colored dots, strapwork, and quasi-geometric designs in red ochre, yellow, green, and black.\n"
     }
   },
   {
@@ -3038,6 +3038,17 @@
     }
   },
   {
+    "id": "recnlektDeku6K72U",
+    "fields": {
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "\n",
+      "Extra Object Related Information (maker, inscription, annotation, etc)": " (d. Safar 20, 739 AH/ September 14, 1338 CE)\n",
+      "To shorten titles in Arabic": true,
+      "IAB Code": "25-G3-27-0329",
+      "Title of Object": "Gravestone of Amat al-‘Aziz bint Abu Bakr Muhammad bin Muhammad bin Khaldun",
+      "For Wen to Check": true
+    }
+  },
+  {
     "id": "rec7cqBe3cTWQQHFd",
     "fields": {
       "Origin AR": "تونس\n",
@@ -3059,17 +3070,6 @@
       "Credit Line AR": "، 20.06.09.0001 / 01-09-06-01 ،المتحف الوطني بباردو، تونس العاصمة، تونس\nالمعهد الوطني للتراث \n",
       "Dimension AR": "48 × 38 × 4 سم\n",
       "Description": "**Women of the Family of Ibn Khaldun**\nTwo women of the family of the renowned courtier, diplomat, and historian, Ibn Khaldun, are here commemorated by their gravestones. Ibn Khaldun was born in Tunisia in AH 732/1332 CE, into a political and scholarly family with Yemeni roots that settled in Seville. The family left for Ceuta before the Castilian conquest of AH 646/1248 CE, eventually allying themselves with the Banu Hafs in North Africa. The historian’s mother and father, Muhammad, a scholar, died from the plague leaving their children behind. Four brothers—Muhammad, ‘Umar, Musa, and Yahya—were named by Ibn Khaldun in his autobiographical account, the Ta’rif. While he named no sisters, it is possible that Amat al-Rahman bint Muhammad was one while Amat al-‘Aziz bint Abu Bakr Muhammad, who died in AH 739/1338 CE was a close relation. They both remained in Tunis alongside other members of the family, while Ibn Khaldun himself led an itinerant life in the service of rulers in Fez, Granada, Tunis, Tlemcen, and Cairo.\n"
-    }
-  },
-  {
-    "id": "recnlektDeku6K72U",
-    "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "\n",
-      "Extra Object Related Information (maker, inscription, annotation, etc)": " (d. Safar 20, 739 AH/ September 14, 1338 CE)\n",
-      "To shorten titles in Arabic": true,
-      "IAB Code": "25-G3-27-0329",
-      "Title of Object": "Gravestone of Amat al-‘Aziz bint Abu Bakr Muhammad bin Muhammad bin Khaldun",
-      "For Wen to Check": true
     }
   },
   {
@@ -3189,6 +3189,17 @@
     }
   },
   {
+    "id": "rec4BOiUjAlwY8Ic0",
+    "fields": {
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "\n",
+      "Extra Object Related Information (maker, inscription, annotation, etc)": "Costumes and characters, etc. Mohammedan [i.e., Muslim] sheikhs and effendies in front of Bibboth Khaldieh [i.e., Khalidiyah Library], Jerusalem\n",
+      "To shorten titles in Arabic": true,
+      "IAB Code": "25-G3-30-0927",
+      "Title of Object": "BACKGROUND IMAGE",
+      "For Wen to Check": true
+    }
+  },
+  {
     "id": "rec7Jj8gWcYjkqGCG",
     "fields": {
       "Origin AR": "القدس\n",
@@ -3212,17 +3223,6 @@
       "Credit Line AR": "© مكتبة الكونغرس، قسم الأعمال المطبوعة والصور الفوتوغرافية، LC-DIG-matpc-06804\n",
       "For Wen to Check": true,
       "Description": "Waqf and the Library \nThe idea of sharing the family’s collection of manuscripts with the public started with Sheikh Abu al-Rida Taha bin Salih bin Sharaf al-Din Yahya al-Khalidi (d. AH 1090/1660 CE)—a judge, teacher of jurisprudence, and supervisor of the awqaf (endowments) of several families in Jerusalem. In the year AH 1046/1637 CE, he endowed his collection of 110 manuscripts to the people of Jerusalem. Another major endowment was made by Muhammad Sun‘ullah bin Khalil al-Khalidi (d. AH 1139/1726 CE), who placed 560 manuscripts in trust. They could be borrowed on payment of a deposit to the waqf supervisor, although he was instructed that no book should be lent to someone seeking prestige, but only to scholars in genuine need. \nTarafanda Khatun (d. AH 1200/1786 CE) was the wife of Muhammad Sun‘ullah’s son. Together, she and her husband donated an additional 260 manuscripts to the family trust. Muhammad ‘Ali bin ‘Ali al-Khalidi (d. AH 1282/1865 CE), Chief Clerk of the Sharia court in Jerusalem, then endowed today’s library and connected buildings. This paved the way for the library’s foundation in AH 1317/1900 CE by Al-Hajj Raghib al-Khalidi (d. AH 1371/1952 CE), who served as a judge in the Ottoman Empire and during the British Mandate period. At the time of opening, Al-Hajj Raghib was joined by Arab and Palestinian luminaries, including Sheikh Tahir al-Jaza’iri from Damascus and Sheikh Khalil al-Khalidi\n"
-    }
-  },
-  {
-    "id": "rec4BOiUjAlwY8Ic0",
-    "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "\n",
-      "Extra Object Related Information (maker, inscription, annotation, etc)": "Costumes and characters, etc. Mohammedan [i.e., Muslim] sheikhs and effendies in front of Bibboth Khaldieh [i.e., Khalidiyah Library], Jerusalem\n",
-      "To shorten titles in Arabic": true,
-      "IAB Code": "25-G3-30-0927",
-      "Title of Object": "BACKGROUND IMAGE",
-      "For Wen to Check": true
     }
   },
   {
@@ -3330,6 +3330,14 @@
     }
   },
   {
+    "id": "rec186Z6boqZ2Di3W",
+    "fields": {
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Al-Mawahib al-Laduniyah bi-al-Minah al-Muhammadiyah) of Ahmad bin Muhammad al-Qastalani \n(d. AH 923/ 1517 CE)\n",
+      "IAB Code": "25-G3-31-0827",
+      "Title of Object": "Life of the Prophet (facsimile)"
+    }
+  },
+  {
     "id": "recFsDU6o6miKMb87",
     "fields": {
       "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Copied by Taqi al-Din ‘Ali bin ‘Ali al-Bahnasi al-Shafi‘i\n",
@@ -3360,11 +3368,11 @@
     }
   },
   {
-    "id": "rec186Z6boqZ2Di3W",
+    "id": "recl7ttktq1nhWe2c",
     "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Al-Mawahib al-Laduniyah bi-al-Minah al-Muhammadiyah) of Ahmad bin Muhammad al-Qastalani \n(d. AH 923/ 1517 CE)\n",
-      "IAB Code": "25-G3-31-0827",
-      "Title of Object": "Life of the Prophet (facsimile)"
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Bulugh al-Qasd wa-al-Muna fi Khawas Asma’ Allah al-Husna) of Muhammad bin al-Hajj al-Fasi\n",
+      "IAB Code": "25-G3-31-0828",
+      "Title of Object": "Attaining Purposes and Desires through the Properties of the Names of Allah (facsimile)"
     }
   },
   {
@@ -3387,14 +3395,6 @@
       "Credit Line AR": "MS 736 ،المكتبة الخالدية - القدس\n",
       "Dimension AR": "18 × 13 سم\n",
       "Description": "**Attaining Purposes and Desires through the Properties of the Names of Allah (Facsimile)**\nIbn al-Hajj is best known as the author of Madkhal al-Shara‘ al-Sharif ‘ala al-Madhahib (Introduction to Islamic Jurisprudence According to Schools of Thought). In this book he explains the 99 names of Allah and their attributes. Some pages feature the information arranged within squares and other shapes; with the repetition of words believed to possess healing powers.\n"
-    }
-  },
-  {
-    "id": "recl7ttktq1nhWe2c",
-    "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Bulugh al-Qasd wa-al-Muna fi Khawas Asma’ Allah al-Husna) of Muhammad bin al-Hajj al-Fasi\n",
-      "IAB Code": "25-G3-31-0828",
-      "Title of Object": "Attaining Purposes and Desires through the Properties of the Names of Allah (facsimile)"
     }
   },
   {
@@ -3435,6 +3435,14 @@
     }
   },
   {
+    "id": "recyTrgPksfDRL7dx",
+    "fields": {
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Al-Andalus, the Balearic Islands, and the northern coast of the Maghrib, folios from (Kitab Nuzhat al-Mushtaq fi Ikhtiraq al-Afaq) composed in Palermo, Sicily about AH 548/1154 CE of Abu Abdullah Muhammad al-Idrisi\n",
+      "IAB Code": "25-G3-32-0032",
+      "Title of Object": "The Book of Pleasant Journeys into Faraway Lands"
+    }
+  },
+  {
     "id": "recI1i3gVKm00xsRs",
     "fields": {
       "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Copied by ‘Ali bin Hasan al-Hufi al-Qasimi\n",
@@ -3471,11 +3479,11 @@
     }
   },
   {
-    "id": "recyTrgPksfDRL7dx",
+    "id": "rechwBHyMfd7o8FmC",
     "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Al-Andalus, the Balearic Islands, and the northern coast of the Maghrib, folios from (Kitab Nuzhat al-Mushtaq fi Ikhtiraq al-Afaq) composed in Palermo, Sicily about AH 548/1154 CE of Abu Abdullah Muhammad al-Idrisi\n",
-      "IAB Code": "25-G3-32-0032",
-      "Title of Object": "The Book of Pleasant Journeys into Faraway Lands"
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Folios from Tuhfat al-Khaqan of Mirza Muhammad Akhbari\n",
+      "IAB Code": "25-G3-35-0051",
+      "Title of Object": "Circle of the First Light towards the Seventh Lowest Earth"
     }
   },
   {
@@ -3508,11 +3516,11 @@
     }
   },
   {
-    "id": "rechwBHyMfd7o8FmC",
+    "id": "recYyF7nbsObwGGFX",
     "fields": {
       "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Folios from Tuhfat al-Khaqan of Mirza Muhammad Akhbari\n",
-      "IAB Code": "25-G3-35-0051",
-      "Title of Object": "Circle of the First Light towards the Seventh Lowest Earth"
+      "IAB Code": "25-G3-35-0368",
+      "Title of Object": "On the Creation of the Divine Names and What Derives from Them"
     }
   },
   {
@@ -3540,11 +3548,12 @@
     }
   },
   {
-    "id": "recYyF7nbsObwGGFX",
+    "id": "recmmYdH0fHQDpjrg",
     "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Folios from Tuhfat al-Khaqan of Mirza Muhammad Akhbari\n",
-      "IAB Code": "25-G3-35-0368",
-      "Title of Object": "On the Creation of the Divine Names and What Derives from Them"
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Folio from Tuhfat al-Khaqan of Mirza Muhammad Akhbari\n",
+      "To shorten titles in Arabic": true,
+      "IAB Code": "25-G3-35-0375",
+      "Title of Object": "Table of Contents, “The Gift of the Ant to King Solomon”\n"
     }
   },
   {
@@ -3569,15 +3578,6 @@
       "Credit Line AR": "مؤسسة كالوست غولبنكيان، لشبونة، LA256، الصفحة 1 (الوجه الخلفي)\n",
       "Dimension AR": "35 × 24 سم\n",
       "Description": "**Folios from Tuhfat Al-Khaqan**\nThe title of this work refers to verses from the Holy Qur’an’s chapter Al-Naml (27:15–19). As an attempt to literally encircle all of knowledge in a single work, this compendium can be considered an embodiment of the original meaning of the Greek-Latin word “encyclopedia”: teachings inscribed in circles or an all-round education.\n"
-    }
-  },
-  {
-    "id": "recmmYdH0fHQDpjrg",
-    "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Folio from Tuhfat al-Khaqan of Mirza Muhammad Akhbari\n",
-      "To shorten titles in Arabic": true,
-      "IAB Code": "25-G3-35-0375",
-      "Title of Object": "Table of Contents, “The Gift of the Ant to King Solomon”\n"
     }
   },
   {
@@ -3887,6 +3887,14 @@
     }
   },
   {
+    "id": "rec8fzq3LudhhNfvT",
+    "fields": {
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Nabhat al-Ghafil fi Ma‘arifat Hisbat al-Manazil)\n",
+      "IAB Code": "25-G3-40-0245",
+      "Title of Object": "A Reminder to the Heedless on Calculating the Celestial Stations"
+    }
+  },
+  {
     "id": "recUkKkQMCTEuKnWI",
     "fields": {
       "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Copied by Sa‘id al-Jama‘i (14th century AH/20th century CE)\n",
@@ -3910,14 +3918,6 @@
       "Credit Line AR": "المتحف الوطني - سلطنة عُمان، 2012.265\n",
       "Dimension AR": " 33 × 24 سم\n",
       "Description": "**Kamal (Khashabah)**\nThe kamal is an Arab navigational instrument that has been in use for centuries. Seemingly simple, it allows sailors to measure the height of the Polaris star above the horizon in asabi‘ (fingerbreadths), and then to calculate their position. The kamal comprises a block of wood, the size of which varies depending on the latitude in which it is being used, and a string with knots calibrated to the latitude of the ports for the intended journey.\n"
-    }
-  },
-  {
-    "id": "rec8fzq3LudhhNfvT",
-    "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "(Nabhat al-Ghafil fi Ma‘arifat Hisbat al-Manazil)\n",
-      "IAB Code": "25-G3-40-0245",
-      "Title of Object": "A Reminder to the Heedless on Calculating the Celestial Stations"
     }
   },
   {
@@ -4552,6 +4552,14 @@
     }
   },
   {
+    "id": "recM2yYlVAZhplGNp",
+    "fields": {
+      "Extra Object Related Information (maker, inscription, annotation, etc)": "(d. Jumada al-Awwal 20, 673 AH/November 28, 1274 CE) Santa María la Blanca, Villalcázar de Sirga, Palencia, Spain\n",
+      "IAB Code": "25-G3-44-0129",
+      "Title of Object": "Fragment of a surcoat from the burial clothes of Prince Philip of Castile"
+    }
+  },
+  {
     "id": "recD94I3U7PJSncce",
     "fields": {
       "Origin AR": "نُسج على الأرجح في المرية، الأندلس\n",
@@ -4576,14 +4584,6 @@
       "Credit Line AR": "المتحف الوطني للآثار، 51010\n",
       "Dimension AR": "137 × 38 سم\n",
       "Description": "**Textiles in the spheres of power**\nThe silk surcoat of Prince Philip of Castile represents a display of wealth and exchange between the Islamic and Christian realms of the Iberian Peninsula. Andalusi gold and luxury goods attracted attention in the Spanish Christian kingdoms. This fragment—woven from silk and gold-wrapped silk threads (gilded strips of thin leather around a silk core), with a repeating design of eight-pointed stars—is evidence of the refinement of Andalusi textiles.\nPrince Philip was one of the younger brothers of Alfonso X of Castile and León. In AH 670/1272 CE, he revolted with a group of nobles against his brother and formed an alliance with Muhammad I, the Nasrid ruler of Granada. The brocade for the surcoat may have been a gift from the Nasrid court, as the tailoring of clothes in the Christian north was different from that of clothes worn by Muslims. The surcoat (in Castilian, pellote) was worn over a shirt and a medium-length skirt or tunic and had large side openings that left the hips and trunk visible. Its name in Castilian refers to its rabbit or sable fur lining.\n"
-    }
-  },
-  {
-    "id": "recM2yYlVAZhplGNp",
-    "fields": {
-      "Extra Object Related Information (maker, inscription, annotation, etc)": "(d. Jumada al-Awwal 20, 673 AH/November 28, 1274 CE) Santa María la Blanca, Villalcázar de Sirga, Palencia, Spain\n",
-      "IAB Code": "25-G3-44-0129",
-      "Title of Object": "Fragment of a surcoat from the burial clothes of Prince Philip of Castile"
     }
   },
   {
@@ -5290,6 +5290,16 @@
     }
   },
   {
+    "id": "recqceK5PTPNzNz2r",
+    "fields": {
+      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Coordination: Nuno Monge, Filipa de Burgo, Concept: Pedro Figueiredo \nDevelopment and Fabrication: Alexandre Cortinhas\n",
+      "To shorten titles in Arabic": true,
+      "IAB Code": "25-G3-61-0053",
+      "Title of Object": "Al-Mizan (The Balance)",
+      "For Wen to Check": true
+    }
+  },
+  {
     "id": "recl9XlAnogVJSaG2",
     "fields": {
       "Origin AR": "لشبونة، البرتغال\n",
@@ -5313,16 +5323,6 @@
       "Credit Line AR": "بإذن من مؤسسة كالوست غولبنكيان، لشبونة \n",
       "Dimension AR": "20 × 35 سم\n",
       "Description": "**Folios from _Tuhfat Al-Khaqan_**\nThe right page contains diagrams of five Ptolemaic planetary models. At the center is the circle of the geocentric universe: the earth with its four elements, the orbs of the seven planets including the sun and moon, the sphere of the fixed stars, and the signs of the zodiac with the two equinoxes and solstices indicated by dots. At the upper left is a diagram of the movement of the moon, at the upper right a diagram of the movement of the sun. At the lower right, a diagram of the movement of the lower planets (Mercury and Venus), and at lower left, the movement of the upper planets (Mars, Jupiter, and Saturn).\n"
-    }
-  },
-  {
-    "id": "recqceK5PTPNzNz2r",
-    "fields": {
-      "Extra Manuscript Description (endowment, author, calligrapher, page layout,etc)": "Coordination: Nuno Monge, Filipa de Burgo, Concept: Pedro Figueiredo \nDevelopment and Fabrication: Alexandre Cortinhas\n",
-      "To shorten titles in Arabic": true,
-      "IAB Code": "25-G3-61-0053",
-      "Title of Object": "Al-Mizan (The Balance)",
-      "For Wen to Check": true
     }
   },
   {

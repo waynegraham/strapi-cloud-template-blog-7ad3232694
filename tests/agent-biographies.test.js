@@ -8,10 +8,12 @@ const test = require('node:test');
 const records = require('../etl/airtable_dump.json');
 const fieldMapping = require('../etl/field-mapping.json');
 const {
-  toBlocks,
+  toHtml,
   transformAgentBiographies,
   transformAgents,
 } = require('../etl/transform');
+const migration = require('../database/migrations/2026.06.11T00.00.00.convert-rich-text-fields-to-html');
+const createKnex = require('knex');
 
 const projectRoot = path.join(__dirname, '..');
 
@@ -80,9 +82,9 @@ test('confirmed identical bilingual biographies produce one Artist Agent', () =>
   assert.equal(agents.length, 1);
   assert.deepEqual(
     agents[0].request.body.data.biographyEn,
-    toBlocks('**Artist One**\n\nBiography.'),
+    toHtml('**Artist One**\n\nBiography.'),
   );
-  assert.deepEqual(agents[0].request.body.data.biographyAr, toBlocks('سيرة'));
+  assert.deepEqual(agents[0].request.body.data.biographyAr, toHtml('سيرة'));
 });
 
 test('conflicting confirmed biography pairs are reported and not imported', () => {
@@ -120,15 +122,83 @@ test('field mapping and generated schema artifacts keep biographies on Agent', (
   );
 
   const schema = require('../src/api/agent/content-types/agent/schema.json');
-  assert.equal(schema.attributes.biographyEn.type, 'blocks');
-  assert.equal(schema.attributes.biographyAr.type, 'blocks');
+  assert.equal(schema.attributes.biographyEn.type, 'customField');
+  assert.equal(
+    schema.attributes.biographyEn.customField,
+    'plugin::ckeditor5.CKEditor',
+  );
+  assert.equal(schema.attributes.biographyAr.type, 'customField');
 
   const generatedTypes = fs.readFileSync(
     path.join(projectRoot, 'types/generated/contentTypes.d.ts'),
     'utf8',
   );
   const documentation = require('../src/extensions/documentation/documentation/1.0.0/full_documentation.json');
-  assert.match(generatedTypes, /biographyEn: Schema\.Attribute\.Blocks/);
-  assert.match(generatedTypes, /biographyAr: Schema\.Attribute\.Blocks/);
+  assert.match(generatedTypes, /biographyEn: Schema\.Attribute\.RichText/);
+  assert.match(generatedTypes, /biographyAr: Schema\.Attribute\.RichText/);
   assert.ok(documentation.components.schemas.Agent);
+});
+
+test('biography migration converts existing Blocks JSON to HTML text', async (context) => {
+  const knex = createKnex({
+    client: 'better-sqlite3',
+    connection: { filename: ':memory:' },
+    useNullAsDefault: true,
+  });
+  context.after(() => knex.destroy());
+
+  await knex.schema.createTable('agents', (table) => {
+    table.increments('id');
+    table.json('biography_en');
+    table.json('biography_ar');
+  });
+  await knex('agents').insert({
+    biography_en: JSON.stringify([
+      {
+        type: 'paragraph',
+        children: [
+          { type: 'text', text: 'Artist', bold: true },
+          { type: 'text', text: ' biography.' },
+        ],
+      },
+    ]),
+    biography_ar: JSON.stringify([
+      { type: 'paragraph', children: [{ type: 'text', text: 'سيرة' }] },
+    ]),
+  });
+
+  await migration.up(knex);
+  await migration.up(knex);
+  const row = await knex('agents').first();
+  const columns = await knex('agents').columnInfo();
+
+  assert.equal(row.biography_en, '<p><strong>Artist</strong> biography.</p>');
+  assert.equal(row.biography_ar, '<p>سيرة</p>');
+  assert.equal(columns.biography_en.type, 'text');
+  assert.equal(columns.biography_ar.type, 'text');
+});
+
+test('biography migration converts serialized Blocks already stored in text columns', async (context) => {
+  const knex = createKnex({
+    client: 'better-sqlite3',
+    connection: { filename: ':memory:' },
+    useNullAsDefault: true,
+  });
+  context.after(() => knex.destroy());
+
+  await knex.schema.createTable('agents', (table) => {
+    table.increments('id');
+    table.text('biography_en');
+    table.text('biography_ar');
+  });
+  await knex('agents').insert({
+    biography_en: JSON.stringify([
+      { type: 'paragraph', children: [{ type: 'text', text: 'Biography' }] },
+    ]),
+  });
+
+  await migration.up(knex);
+  await migration.up(knex);
+
+  assert.equal((await knex('agents').first()).biography_en, '<p>Biography</p>');
 });

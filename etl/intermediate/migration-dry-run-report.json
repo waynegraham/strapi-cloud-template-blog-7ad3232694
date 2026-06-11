@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-09T11:09:32.453Z",
+  "generatedAt": "2026-06-11T20:41:59.188Z",
   "mode": "dry-run",
-  "importBatchId": "issue-15-provenance",
+  "importBatchId": "airtable-20260611193546998-d8c8ca42",
   "counts": {
     "sourceRecords": 650,
     "payloads": 982,

@@ -5,7 +5,7 @@
     "Artist Biography for the Islamic Arts Biennale": {
       "status": "mapped",
       "target": "agent.biographyEn",
-      "notes": "Imported as Strapi Blocks only when biography-reconciliation-decisions.json confirms the source row and Agent. Conflicts prevent import."
+      "notes": "Converted from Markdown to CKEditor HTML only when biography-reconciliation-decisions.json confirms the source row and Agent. Conflicts prevent import."
     },
     "Artist Biography for the Islamic Arts Biennale AR": {
       "status": "mapped",
@@ -131,7 +131,7 @@
     "Inscriptions": {
       "status": "mapped",
       "target": "work.inscriptions[].text",
-      "notes": "Each populated Airtable value becomes one Work Inscription component with source text preserved verbatim."
+      "notes": "Each populated Airtable value becomes one Work Inscription component converted from Markdown to CKEditor HTML."
     },
     "Material": {
       "status": "mapped",

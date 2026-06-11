@@ -144,6 +144,32 @@ compares source checksums with the previous generated `works.json` so reruns lis
 added, changed, unchanged, and removed Airtable rows. See
 `../docs/import-provenance.md`.
 
+### Markdown and Footnotes
+
+Narrative Airtable fields are converted from Markdown to CKEditor-compatible
+HTML. Raw HTML is escaped, while Markdown autolinks such as `<https://...>` are
+converted to links.
+
+Work footnotes are renumbered once per Work in this deterministic order:
+
+1. Description.
+2. Extra manuscript description.
+3. Extra object information.
+4. Inscriptions.
+
+English and Arabic references retain the same new number when their source
+catalog number matches. Curated Stories use an independent sequence per story.
+Matched references become fragment links to scoped footnote IDs. Unmatched
+references and footnotes retain their source numbers, and repeated references
+target the same footnote.
+
+Review details are written to:
+
+```txt
+intermediate/report.json                  report.footnotes
+intermediate/curated-story-review.json    footnote review arrays
+```
+
 ## Agent Biography Reconciliation
 
 `agent-biography-review.json` contains every Airtable row with an English or

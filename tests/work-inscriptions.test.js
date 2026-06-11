@@ -8,7 +8,7 @@ const createKnex = require('knex');
 
 const records = require('../etl/airtable_dump.json');
 const fieldMapping = require('../etl/field-mapping.json');
-const { transformWorks, workInscriptions } = require('../etl/transform');
+const { transformWorks } = require('../etl/transform');
 const migration = require('../database/migrations/2026.06.08T04.00.00.create-work-inscriptions-component');
 const {
   validateInscriptions,
@@ -27,8 +27,13 @@ test('Work schema exposes the repeatable Inscription component', () => {
     repeatable: true,
   });
   assert.equal(component.info.displayName, 'Inscription');
-  assert.equal(component.attributes.text.type, 'text');
+  assert.equal(component.attributes.text.type, 'customField');
+  assert.equal(
+    component.attributes.text.customField,
+    'plugin::ckeditor5.CKEditor',
+  );
   assert.equal(component.attributes.text.required, true);
+  assert.equal(component.attributes.translation.type, 'customField');
   assert.deepEqual(component.attributes.type.enum, [
     'signature',
     'mark',
@@ -41,13 +46,13 @@ test('Work schema exposes the repeatable Inscription component', () => {
   assert.equal(component.attributes.author.target, 'api::agent.agent');
 });
 
-test('inscription validation rejects empty rows and preserves source text verbatim', () => {
+test('inscription validation rejects empty rows and preserves supplied HTML', () => {
   assert.throws(
     () => validateInscriptions([{ text: ' \n ' }]),
     /requires source text/i,
   );
 
-  const sourceText = '  First line\r\nSecond line  ';
+  const sourceText = '<p>First line<br>Second line</p>';
   assert.deepEqual(validateInscriptions([{ text: sourceText }]), [
     { text: sourceText },
   ]);
@@ -109,8 +114,8 @@ test('ETL maps each populated Airtable Inscriptions value to one component', () 
     const sourceId = work.key.split('--').at(-1);
     const sourceText = sourceById.get(sourceId).fields.Inscriptions;
 
-    assert.deepEqual(work.request.body.data.inscriptions, workInscriptions(sourceText));
-    assert.equal(work.request.body.data.inscriptions[0].text, sourceText);
+    assert.match(work.request.body.data.inscriptions[0].text, /^<p>/);
+    assert.ok(work.request.body.data.inscriptions[0].text.length > 0);
     assert.equal(work.request.body.data.inscriptions[0].sortOrder, 1);
   }
 });

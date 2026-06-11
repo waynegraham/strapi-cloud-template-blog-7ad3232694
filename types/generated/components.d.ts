@@ -51,8 +51,21 @@ export interface SharedInscription extends Struct.ComponentSchema {
     language: Schema.Attribute.String;
     position: Schema.Attribute.String;
     sortOrder: Schema.Attribute.Integer;
-    text: Schema.Attribute.Text & Schema.Attribute.Required;
-    translation: Schema.Attribute.Text;
+    text: Schema.Attribute.RichText &
+      Schema.Attribute.Required &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    translation: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
     type: Schema.Attribute.Enumeration<
       ['signature', 'mark', 'caption', 'date', 'text', 'translation', 'other']
     > &

@@ -20,6 +20,7 @@
   "packageManager": "pnpm@10.33.2",
   "dependencies": {
     "airtable": "^0.12.2",
-    "dotenv": "^17.4.2"
+    "dotenv": "^17.4.2",
+    "markdown-it": "^14.1.1"
   }
 }

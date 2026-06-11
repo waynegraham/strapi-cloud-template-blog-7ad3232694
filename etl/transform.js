@@ -3,6 +3,7 @@ require("dotenv").config();
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
+const MarkdownIt = require("markdown-it");
 
 const STRAPI_API_URL = process.env.STRAPI_API_URL || "https://localhost:1337";
 const INPUT_FILE = process.env.ETL_INPUT_FILE || path.join(__dirname, "airtable_dump.json");
@@ -28,6 +29,21 @@ const ROLE_LABEL_AR = {
   Curator: "أمين المعرض",
   Writer: "كاتب",
 };
+const MARKDOWN = new MarkdownIt({
+  breaks: true,
+  html: false,
+  linkify: true,
+  typographer: false,
+});
+const BIDI_MARKS = "\\u202a-\\u202e\\u2066-\\u2069";
+const REFERENCE_MARKER_PATTERN = new RegExp(
+  `\\*\\*\\s*(\\d+)[\\s.${BIDI_MARKS}]*\\*\\*`,
+  "g",
+);
+const FOOTNOTE_MARKER_PATTERN = new RegExp(
+  `\\*\\*\\s*(\\d+)[\\s.${BIDI_MARKS}]*\\*\\*[\\s\\u00a0${BIDI_MARKS}]*(?:\\.[\\s\\u00a0${BIDI_MARKS}]*)?|(?:^|\\n)\\s*(\\d+)[${BIDI_MARKS}]*\\s*\\.[\\s\\u00a0${BIDI_MARKS}]*`,
+  "gm",
+);
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -207,43 +223,258 @@ function readCsv(filePath) {
   return parseCsv(fs.readFileSync(filePath, "utf8"));
 }
 
-function escapeHtml(value) {
-  return String(value)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;");
-}
-
 function toHtml(value) {
-  const text = cleanMultiline(value);
+  const text = cleanMultiline(value)
+    .replace(/\*\*\s+([^*\n]*?\S)\*\*/g, "**$1**")
+    .replace(/\*\*([^*\n]*?\S)(\s+)\*\*/g, "**$1**$2");
   if (!text) return undefined;
 
-  return text
-    .split(/\n{2,}/)
-    .map((paragraph) => `<p>${escapeHtml(paragraph).replace(/\n/g, "<br>")}</p>`)
-    .join("\n");
+  return MARKDOWN.render(text).trim();
 }
 
-function toBlocks(value) {
-  const text = cleanMultiline(value);
-  if (!text) return undefined;
+function markerNumbers(value, pattern) {
+  const numbers = [];
+  const text = String(value || "");
+  pattern.lastIndex = 0;
+  for (const match of text.matchAll(pattern)) {
+    numbers.push(match[1] || match[2]);
+  }
+  pattern.lastIndex = 0;
+  return numbers;
+}
 
-  return text.split(/\n{2,}/).map((paragraph) => {
-    const lines = paragraph.split("\n");
-    const children = [];
+function replaceMarkers(value, pattern, replacement) {
+  pattern.lastIndex = 0;
+  const replaced = String(value || "").replace(pattern, replacement);
+  pattern.lastIndex = 0;
+  return replaced;
+}
 
-    lines.forEach((line, lineIndex) => {
-      const parts = line.split(/(\*\*[^*]+\*\*)/g).filter(Boolean);
-      for (const part of parts) {
-        const bold = part.startsWith("**") && part.endsWith("**");
-        const content = bold ? part.slice(2, -2) : part;
-        if (content) children.push({ type: "text", text: content, ...(bold ? { bold: true } : {}) });
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function bareReferencePatterns(number) {
+  const escapedNumber = escapeRegExp(number);
+  return [
+    new RegExp(
+      `(?<=[^\\s\\d*])${escapedNumber}(?=[\\s.,،؛;:!?…\\)\\]}]|$)`,
+      "gu",
+    ),
+    new RegExp(
+      `([.!?،؛;:]\\s+)(${escapedNumber})(?=\\s*(?:\\n{2,}|$))`,
+      "gu",
+    ),
+  ];
+}
+
+function referenceOccurrences(value, noteNumberSet) {
+  const text = String(value || "");
+  const occurrences = [];
+  REFERENCE_MARKER_PATTERN.lastIndex = 0;
+  for (const match of text.matchAll(REFERENCE_MARKER_PATTERN)) {
+    occurrences.push({ number: match[1], index: match.index });
+  }
+  REFERENCE_MARKER_PATTERN.lastIndex = 0;
+
+  for (const number of noteNumberSet) {
+    const [attachedPattern, paragraphEndPattern] = bareReferencePatterns(number);
+    for (const match of text.matchAll(attachedPattern)) {
+      occurrences.push({ number, index: match.index });
+    }
+    for (const match of text.matchAll(paragraphEndPattern)) {
+      occurrences.push({
+        number,
+        index: match.index + match[1].length,
+      });
+    }
+  }
+
+  return occurrences.sort((left, right) => left.index - right.index);
+}
+
+function replaceBareReferences(value, number, replacement) {
+  const [attachedPattern, paragraphEndPattern] = bareReferencePatterns(number);
+  return String(value || "")
+    .replace(attachedPattern, replacement)
+    .replace(paragraphEndPattern, (match, prefix) => `${prefix}${replacement}`);
+}
+
+function footnoteAnchorId(scope, locale, number) {
+  return `${scope}-${locale}-footnote-${number}`;
+}
+
+function footnoteReviewItem(context, details) {
+  return {
+    content_type: context.contentType,
+    scope: context.scope,
+    ...(context.sourceRecordId
+      ? { source_record_id: context.sourceRecordId }
+      : {}),
+    ...details,
+  };
+}
+
+function transformFootnotedContent({
+  contentType,
+  scope,
+  sourceRecordId,
+  bodies,
+  footnotes,
+}) {
+  const context = { contentType, scope, sourceRecordId };
+  const noteNumbers = {
+    en: new Set(markerNumbers(footnotes.en, FOOTNOTE_MARKER_PATTERN)),
+    ar: new Set(markerNumbers(footnotes.ar, FOOTNOTE_MARKER_PATTERN)),
+  };
+  const references = {
+    en: new Map(),
+    ar: new Map(),
+  };
+  const orderedNumbers = [];
+  const seenNumbers = new Set();
+
+  for (const body of bodies) {
+    for (const { number: originalNumber } of referenceOccurrences(
+      body.value,
+      noteNumbers[body.locale],
+    )) {
+      const occurrences = references[body.locale].get(originalNumber) || [];
+      occurrences.push(body.name);
+      references[body.locale].set(originalNumber, occurrences);
+
+      if (
+        !seenNumbers.has(originalNumber) &&
+        (noteNumbers.en.has(originalNumber) || noteNumbers.ar.has(originalNumber))
+      ) {
+        seenNumbers.add(originalNumber);
+        orderedNumbers.push(originalNumber);
       }
-      if (lineIndex < lines.length - 1) children.push({ type: "text", text: "\n" });
-    });
+    }
+  }
 
-    return { type: "paragraph", children };
-  });
+  const renumbered = new Map(
+    orderedNumbers.map((originalNumber, index) => [
+      originalNumber,
+      String(index + 1),
+    ]),
+  );
+  const report = {
+    unmatched_references: [],
+    unmatched_footnotes: [],
+    repeated_references: [],
+  };
+
+  for (const locale of ["en", "ar"]) {
+    for (const [originalNumber, fields] of references[locale]) {
+      if (!noteNumbers[locale].has(originalNumber)) {
+        report.unmatched_references.push(
+          footnoteReviewItem(context, {
+            locale,
+            original_number: originalNumber,
+            fields: Array.from(new Set(fields)),
+            occurrences: fields.length,
+            reason: "No footnote with this source number exists in the same locale.",
+          }),
+        );
+      }
+      if (fields.length > 1) {
+        report.repeated_references.push(
+          footnoteReviewItem(context, {
+            locale,
+            original_number: originalNumber,
+            renumbered_as: renumbered.get(originalNumber),
+            fields: Array.from(new Set(fields)),
+            occurrences: fields.length,
+            reason: "The same footnote is referenced more than once.",
+          }),
+        );
+      }
+    }
+
+    for (const originalNumber of noteNumbers[locale]) {
+      if (!references.en.has(originalNumber) && !references.ar.has(originalNumber)) {
+        report.unmatched_footnotes.push(
+          footnoteReviewItem(context, {
+            locale,
+            original_number: originalNumber,
+            reason: "No reference with this source number exists in either locale.",
+          }),
+        );
+      }
+    }
+  }
+
+  const renderedBodies = Object.fromEntries(
+    bodies.map((body) => {
+      let markdown = replaceMarkers(
+        body.value,
+        REFERENCE_MARKER_PATTERN,
+        (sourceMarker, originalNumber) => {
+          const newNumber = renumbered.get(originalNumber);
+          if (!newNumber || !noteNumbers[body.locale].has(originalNumber)) {
+            return sourceMarker;
+          }
+          const anchorId = footnoteAnchorId(scope, body.locale, newNumber);
+          return `FOOTNOTEREF${body.locale.toUpperCase()}${newNumber}X`;
+        },
+      );
+      for (const [originalNumber, newNumber] of renumbered) {
+        if (!noteNumbers[body.locale].has(originalNumber)) continue;
+        markdown = replaceBareReferences(
+          markdown,
+          originalNumber,
+          `FOOTNOTEREF${body.locale.toUpperCase()}${newNumber}X`,
+        );
+      }
+      let html = toHtml(markdown);
+      if (html) {
+        for (const [originalNumber, newNumber] of renumbered) {
+          if (!noteNumbers[body.locale].has(originalNumber)) continue;
+          const placeholder = `FOOTNOTEREF${body.locale.toUpperCase()}${newNumber}X`;
+          const anchorId = footnoteAnchorId(scope, body.locale, newNumber);
+          html = html.replaceAll(
+            placeholder,
+            `<sup><a href="#${anchorId}">${newNumber}</a></sup>`,
+          );
+        }
+      }
+      return [body.name, html];
+    }),
+  );
+
+  const renderedFootnotes = {};
+  for (const locale of ["en", "ar"]) {
+    const markdown = replaceMarkers(
+      footnotes[locale],
+      FOOTNOTE_MARKER_PATTERN,
+      (sourceMarker, boldNumber, plainNumber) => {
+        const originalNumber = boldNumber || plainNumber;
+        const newNumber = renumbered.get(originalNumber);
+        if (!newNumber) return sourceMarker;
+        return `FOOTNOTEITEM${locale.toUpperCase()}${newNumber}X`;
+      },
+    );
+    let html = toHtml(markdown);
+    if (html) {
+      for (const newNumber of renumbered.values()) {
+        const placeholder = `FOOTNOTEITEM${locale.toUpperCase()}${newNumber}X`;
+        const anchorId = footnoteAnchorId(scope, locale, newNumber);
+        html = html.replaceAll(
+          placeholder,
+          `<strong id="${anchorId}">${newNumber}.</strong> `,
+        );
+      }
+    }
+    renderedFootnotes[locale] = html;
+  }
+
+  return {
+    bodies: renderedBodies,
+    footnotes: renderedFootnotes,
+    report,
+    renumbered: Object.fromEntries(renumbered),
+  };
 }
 
 function optional(value) {
@@ -294,36 +525,40 @@ function workIdentifiers(iabCodes) {
   }));
 }
 
-function workInscriptions(value) {
+function workInscriptions(value, { rendered = false } = {}) {
   if (value === undefined || value === null || String(value).trim() === "") {
     return undefined;
   }
 
   return [
     {
-      text: String(value),
+      text: rendered ? String(value) : toHtml(value),
       type: "text",
       sortOrder: 1,
     },
   ];
 }
 
-function workDescriptions(fields) {
+function workDescriptions(fields, rendered = {}) {
   const descriptions = [
     {
       type: "manuscript",
       labelEn: "Manuscript description",
       labelAr: "وصف المخطوط",
-      bodyEn: toHtml(fields[MANUSCRIPT_DESCRIPTION_FIELD]),
-      bodyAr: toHtml(fields[`${MANUSCRIPT_DESCRIPTION_FIELD} AR`]),
+      bodyEn:
+        rendered.manuscriptEn || toHtml(fields[MANUSCRIPT_DESCRIPTION_FIELD]),
+      bodyAr:
+        rendered.manuscriptAr ||
+        toHtml(fields[`${MANUSCRIPT_DESCRIPTION_FIELD} AR`]),
       sortOrder: 1,
     },
     {
       type: "object",
       labelEn: "Object-related information",
       labelAr: "معلومات متعلقة بالقطعة",
-      bodyEn: toHtml(fields[OBJECT_DESCRIPTION_FIELD]),
-      bodyAr: toHtml(fields[`${OBJECT_DESCRIPTION_FIELD} AR`]),
+      bodyEn: rendered.objectEn || toHtml(fields[OBJECT_DESCRIPTION_FIELD]),
+      bodyAr:
+        rendered.objectAr || toHtml(fields[`${OBJECT_DESCRIPTION_FIELD} AR`]),
       sortOrder: 2,
     },
   ];
@@ -408,8 +643,8 @@ function transformAgents(agents, biographies = new Map()) {
         nameEn: name,
         nameAr: optional(agent.name_ar),
         slug: slugify(name),
-        biographyEn: biography && toBlocks(biography.biography_en),
-        biographyAr: biography && toBlocks(biography.biography_ar),
+        biographyEn: biography && toHtml(biography.biography_en),
+        biographyAr: biography && toHtml(biography.biography_ar),
       });
     })
     .sort((a, b) => a.key.localeCompare(b.key));
@@ -751,6 +986,9 @@ function transformCuratedStories(records) {
     source_rows: 0,
     near_duplicates: [],
     metadata_conflicts: [],
+    unmatched_references: [],
+    unmatched_footnotes: [],
+    repeated_references: [],
   };
 
   for (const sourceRecord of records) {
@@ -834,6 +1072,29 @@ function transformCuratedStories(records) {
       (reference) => reference.key,
     );
 
+    const footnoteContent = transformFootnotedContent({
+      contentType: "curated-story",
+      scope: `curated-story-${key}`,
+      bodies: [
+        { name: "essayEn", locale: "en", value: essayEn },
+        {
+          name: "essayAr",
+          locale: "ar",
+          value: values.essayAr.length === 1 ? values.essayAr[0] : undefined,
+        },
+      ],
+      footnotes: {
+        en: values.footnotesEn.length === 1 ? values.footnotesEn[0] : undefined,
+        ar: values.footnotesAr.length === 1 ? values.footnotesAr[0] : undefined,
+      },
+    });
+    for (const [reviewType, items] of Object.entries(footnoteContent.report)) {
+      for (const item of items) {
+        report[reviewType] ||= [];
+        report[reviewType].push(item);
+      }
+    }
+
     return buildEndpointRecord(
       "curated-story",
       "curated-stories",
@@ -844,12 +1105,10 @@ function transformCuratedStories(records) {
           ? titleFromStory(values.essayAr[0], undefined)
           : undefined,
         slug: key,
-        essayEn: toHtml(essayEn),
-        essayAr: values.essayAr.length === 1 ? toHtml(values.essayAr[0]) : undefined,
-        footnotesEn:
-          values.footnotesEn.length === 1 ? toHtml(values.footnotesEn[0]) : undefined,
-        footnotesAr:
-          values.footnotesAr.length === 1 ? toHtml(values.footnotesAr[0]) : undefined,
+        essayEn: footnoteContent.bodies.essayEn,
+        essayAr: footnoteContent.bodies.essayAr,
+        footnotesEn: footnoteContent.footnotes.en,
+        footnotesAr: footnoteContent.footnotes.ar,
         sortOrder: index + 1,
       },
       {
@@ -925,6 +1184,11 @@ function transformWorks(
       duplicate_child_names: [],
     },
     source_field_coverage: sourceFieldCoverage(records, fieldMapping),
+    footnotes: {
+      unmatched_references: [],
+      unmatched_footnotes: [],
+      repeated_references: [],
+    },
   };
   const iabCounts = new Map();
 
@@ -974,12 +1238,51 @@ function transformWorks(
 
     const key = `${slugify(primaryIabCode)}--${sourceRecord.id}`;
     const titleAr = optional(fields["Title of Object AR"]);
+    const footnoteContent = transformFootnotedContent({
+      contentType: "work",
+      scope: `work-${key}`,
+      sourceRecordId: sourceRecord.id,
+      bodies: [
+        { name: "descriptionEn", locale: "en", value: fields.Description },
+        { name: "descriptionAr", locale: "ar", value: fields["Description AR"] },
+        {
+          name: "manuscriptEn",
+          locale: "en",
+          value: fields[MANUSCRIPT_DESCRIPTION_FIELD],
+        },
+        {
+          name: "manuscriptAr",
+          locale: "ar",
+          value: fields[`${MANUSCRIPT_DESCRIPTION_FIELD} AR`],
+        },
+        {
+          name: "objectEn",
+          locale: "en",
+          value: fields[OBJECT_DESCRIPTION_FIELD],
+        },
+        {
+          name: "objectAr",
+          locale: "ar",
+          value: fields[`${OBJECT_DESCRIPTION_FIELD} AR`],
+        },
+        { name: "inscriptionsEn", locale: "en", value: fields.Inscriptions },
+      ],
+      footnotes: {
+        en: fields["Footnote reference"],
+        ar: fields["Footnote reference AR"],
+      },
+    });
+    for (const [reviewType, items] of Object.entries(footnoteContent.report)) {
+      report.footnotes[reviewType].push(...items);
+    }
     const data = {
       iabCode: primaryIabCode,
       displayTitle: `${primaryIabCode} - ${titleEn}`,
       identifiers: workIdentifiers(iabCodes),
-      inscriptions: workInscriptions(fields.Inscriptions),
-      additionalDescriptions: workDescriptions(fields),
+      inscriptions: workInscriptions(footnoteContent.bodies.inscriptionsEn, {
+        rendered: true,
+      }),
+      additionalDescriptions: workDescriptions(fields, footnoteContent.bodies),
       titleEn,
       titleAr,
       originEn: optional(fields.Origin),
@@ -988,10 +1291,10 @@ function transformWorks(
       dimensionAr: optional(fields["Dimension AR"]),
       materialDisplayEn: optional(fields.Material),
       materialDisplayAr: optional(fields["Material AR"]),
-      descriptionEn: toHtml(fields.Description),
-      descriptionAr: toHtml(fields["Description AR"]),
-      footnoteEn: toHtml(fields["Footnote reference"]),
-      footnoteAr: toHtml(fields["Footnote reference AR"]),
+      descriptionEn: footnoteContent.bodies.descriptionEn,
+      descriptionAr: footnoteContent.bodies.descriptionAr,
+      footnoteEn: footnoteContent.footnotes.en,
+      footnoteAr: footnoteContent.footnotes.ar,
       creditLineEn: optional(fields["Credit Line"]),
       creditLineAr: optional(fields["Credit Line AR"]),
       dateDisplayGregorianEn: optional(fields.Date),
@@ -1199,6 +1502,17 @@ function main() {
       curated_story_source_rows: curatedStoryReport.source_rows,
       curated_story_near_duplicates: curatedStoryReport.near_duplicates.length,
       curated_story_metadata_conflicts: curatedStoryReport.metadata_conflicts.length,
+      work_unmatched_footnote_references:
+        report.footnotes.unmatched_references.length,
+      work_unmatched_footnotes: report.footnotes.unmatched_footnotes.length,
+      work_repeated_footnote_references:
+        report.footnotes.repeated_references.length,
+      curated_story_unmatched_footnote_references:
+        curatedStoryReport.unmatched_references.length,
+      curated_story_unmatched_footnotes:
+        curatedStoryReport.unmatched_footnotes.length,
+      curated_story_repeated_footnote_references:
+        curatedStoryReport.repeated_references.length,
       unresolved_iiif_image_source_rows: iiifImageReview.length,
       skipped_works: report.skipped.length,
       duplicate_iab_codes: report.duplicate_iab_codes.length,
@@ -1249,7 +1563,8 @@ module.exports = {
   transformGalleries,
   transformIiifImageReview,
   transformWorks,
-  toBlocks,
+  toHtml,
+  transformFootnotedContent,
   workDescriptions,
   workInscriptions,
   workIdentifiers,
