@@ -478,14 +478,14 @@
       {
         "source_field": "Date",
         "status": "mapped",
-        "target": "work.dateDisplayGregorianEn",
-        "notes": "Current transform preserves source display text; Gregorian/Hijri parsing remains separate."
+        "target": "work.dateDisplayGregorianEn + work.dateDisplayHijriEn",
+        "notes": "Slashes in the source date text are parsed to extract Hijri dates separately."
       },
       {
         "source_field": "Date AR",
         "status": "mapped",
-        "target": "work.dateDisplayGregorianAr",
-        "notes": "Current transform preserves source display text; Gregorian/Hijri parsing remains separate."
+        "target": "work.dateDisplayGregorianAr + work.dateDisplayHijriAr",
+        "notes": "Slashes in the source date text are parsed to extract Hijri dates separately."
       },
       {
         "source_field": "Description",
@@ -835,8 +835,8 @@
       }
     ]
   },
-  "import_batch_id": "airtable-20260612151447189-e9bb65d0",
-  "generated_at": "2026-06-12T15:14:47.189Z",
+  "import_batch_id": "airtable-20260612161441745-2bba4d39",
+  "generated_at": "2026-06-12T16:14:41.745Z",
   "source_changes": {
     "added": [],
     "changed": [],

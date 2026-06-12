@@ -54,13 +54,13 @@
     },
     "Date": {
       "status": "mapped",
-      "target": "work.dateDisplayGregorianEn",
-      "notes": "Current transform preserves source display text; Gregorian/Hijri parsing remains separate."
+      "target": "work.dateDisplayGregorianEn + work.dateDisplayHijriEn",
+      "notes": "Slashes in the source date text are parsed to extract Hijri dates separately."
     },
     "Date AR": {
       "status": "mapped",
-      "target": "work.dateDisplayGregorianAr",
-      "notes": "Current transform preserves source display text; Gregorian/Hijri parsing remains separate."
+      "target": "work.dateDisplayGregorianAr + work.dateDisplayHijriAr",
+      "notes": "Slashes in the source date text are parsed to extract Hijri dates separately."
     },
     "Description": {
       "status": "mapped",

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-12T15:18:33.911Z",
+  "generatedAt": "2026-06-12T17:09:32.540Z",
   "mode": "apply",
-  "importBatchId": "airtable-20260612151447189-e9bb65d0",
+  "importBatchId": "airtable-20260612161441745-2bba4d39",
   "counts": {
     "sourceRecords": 650,
     "payloads": 1051,
@@ -5261,57 +5261,57 @@
     {
       "contentType": "curated-story",
       "key": "the-guardian",
-      "method": "POST"
+      "method": "PUT"
     },
     {
       "contentType": "curated-story",
       "key": "the-creator",
-      "method": "POST"
+      "method": "PUT"
     },
     {
       "contentType": "curated-story",
       "key": "priceless-treasures-of-the-endowment-libraries",
-      "method": "POST"
+      "method": "PUT"
     },
     {
       "contentType": "curated-story",
       "key": "gazing-upon-the-stars",
-      "method": "POST"
+      "method": "PUT"
     },
     {
       "contentType": "curated-story",
       "key": "gazing-upon-the-stars-2",
-      "method": "POST"
+      "method": "PUT"
     },
     {
       "contentType": "curated-story",
       "key": "the-algorithm-of-genius",
-      "method": "POST"
+      "method": "PUT"
     },
     {
       "contentType": "curated-story",
       "key": "devotion-and-memory",
-      "method": "POST"
+      "method": "PUT"
     },
     {
       "contentType": "curated-story",
       "key": "the-cartographer-and-the-king",
-      "method": "POST"
+      "method": "PUT"
     },
     {
       "contentType": "curated-story",
       "key": "a-curious-explorer",
-      "method": "POST"
+      "method": "PUT"
     },
     {
       "contentType": "curated-story",
       "key": "the-alhambra-as-a-living-monument",
-      "method": "POST"
+      "method": "PUT"
     },
     {
       "contentType": "curated-story",
       "key": "arising-from-paper",
-      "method": "POST"
+      "method": "PUT"
     }
   ]
 }

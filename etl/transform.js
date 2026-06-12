@@ -477,6 +477,54 @@ function transformFootnotedContent({
   };
 }
 
+function splitDateDisplay(dateText) {
+  if (!dateText) return {};
+  const text = cleanMultiline(dateText);
+
+  const parts = text.split(/(?:\/|،\s*\/)/);
+  if (parts.length !== 2) {
+    return { gregorian: text, hijri: text };
+  }
+
+  const left = parts[0].replace(/\n/g, " ").replace(/\s+/g, " ").trim();
+  const right = parts[1].split(/[،]/)[0].replace(/\n/g, " ").replace(/\s+/g, " ").trim();
+
+  const leftHasHijriMarker = /هـ$|AH$/i.test(left);
+  const rightHasGregorianMarker = /م$|CE$/i.test(right);
+  const leftHasGregorianMarker = /م$|CE$/i.test(left);
+  const rightHasHijriMarker = /هـ$|AH$/i.test(right);
+
+  if (leftHasHijriMarker && rightHasGregorianMarker) {
+    return { hijri: left.replace(/\s*(?:AH|هـ)\s*$/i, "").trim(), gregorian: right.replace(/\s*(?:CE|م)\s*$/i, "").trim() };
+  } else if (leftHasGregorianMarker && rightHasHijriMarker) {
+    return { gregorian: left.replace(/\s*(?:CE|م)\s*$/i, "").trim(), hijri: right.replace(/\s*(?:AH|هـ)\s*$/i, "").trim() };
+  }
+
+  const leftHasArabicHijriWords = /(?:الهجري|هجري|الهجريان|هجريان)$/i.test(left);
+  const rightHasArabicGregorianWords = /(?:الميلادي|ميلادي|الميلاديان|ميلاديان)$/i.test(right);
+  const leftHasArabicGregorianWords = /(?:الميلادي|ميلادي|الميلاديان|ميلاديان)$/i.test(left);
+  const rightHasArabicHijriWords = /(?:الهجري|هجري|الهجريان|هجريان)$/i.test(right);
+
+  if (leftHasArabicHijriWords && rightHasArabicGregorianWords) {
+    return { hijri: left, gregorian: right };
+  } else if (leftHasArabicGregorianWords && rightHasArabicHijriWords) {
+    return { gregorian: left, hijri: right };
+  }
+
+  const leftHasAnyDateWithHe = /هـ.*$/i.test(left);
+  const rightHasAnyDateWithMe = /م.*$/i.test(right);
+  const leftHasAnyDateWithMe = /م.*$/i.test(left);
+  const rightHasAnyDateWithHe = /هـ.*$/i.test(right);
+
+  if (leftHasAnyDateWithHe && rightHasAnyDateWithMe) {
+    return { hijri: left.replace(/\s*هـ\s*$/i, "").trim(), gregorian: right.replace(/\s*م\s*$/i, "").trim() };
+  } else if (leftHasAnyDateWithMe && rightHasAnyDateWithHe) {
+    return { gregorian: left.replace(/\s*م\s*$/i, "").trim(), hijri: right.replace(/\s*هـ\s*$/i, "").trim() };
+  }
+
+  return { gregorian: text, hijri: text };
+}
+
 function optional(value) {
   const text = cleanMultiline(value);
   return text || undefined;
@@ -1299,6 +1347,8 @@ function transformWorks(
       creditLineAr: optional(fields["Credit Line AR"]),
       dateDisplayGregorianEn: optional(fields.Date),
       dateDisplayGregorianAr: optional(fields["Date AR"]),
+      dateDisplayHijriEn: splitDateDisplay(fields.Date).hijri,
+      dateDisplayHijriAr: splitDateDisplay(fields["Date AR"]).hijri,
       contributorUrl: optional(fields["Contributor URL"]),
       importProvenance: {
         sourceSystem: SOURCE_SYSTEM,
