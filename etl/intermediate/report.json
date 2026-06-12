@@ -171,7 +171,7 @@
       ]
     },
     {
-      "source_record_id": "rec1rIckdRzf59RNa",
+      "source_record_id": "rec8TzOJCZ51iJj9q",
       "title_en": "Folios from the Katta Langar Qur’an (5:113–6:19)",
       "raw_iab_code": "25-G3-18-0363, 25-G3-18-0016",
       "primary_iab_code": "25-G3-18-0363",
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "source_record_id": "rec8TzOJCZ51iJj9q",
+      "source_record_id": "rec1rIckdRzf59RNa",
       "title_en": "Folios from the Katta Langar Qur’an (5:113–6:19)",
       "raw_iab_code": "25-G3-18-0363, 25-G3-18-0016",
       "primary_iab_code": "25-G3-18-0363",
@@ -405,133 +405,7 @@
       ]
     }
   ],
-  "missing_material_lookup": [
-    {
-      "source_record_id": "recojoTvbjSQYdjo4",
-      "iab_code": "25-G1-01-5034",
-      "material": "Fabrics"
-    },
-    {
-      "source_record_id": "reckbrGHOA4pC76QN",
-      "iab_code": "25-G3-01-0054",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "recTs6r8MhmYp5uCC",
-      "iab_code": "25-G3-08-0219",
-      "material": "Printed book"
-    },
-    {
-      "source_record_id": "recmIENb7oA1JNbii",
-      "iab_code": "25-G3-09-0212",
-      "material": "Printed book by the Medici press"
-    },
-    {
-      "source_record_id": "recg3En8Vitds0xfu",
-      "iab_code": "25-G3-38-0066",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "recoYuCfOjtQdnart",
-      "iab_code": "25-G3-38-0120",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "recEdpb9IzTXF1KzA",
-      "iab_code": "25-G3-43-0138",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "recLqBkn8Qc3TL0So",
-      "iab_code": "25-G3-43-0139",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "recxFaUxl9IlgNnO6",
-      "iab_code": "25-G3-43-0140",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "recjblCr7FCR7Xu2F",
-      "iab_code": "25-G3-43-0141",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "recDJN8XkZd5GEfP2",
-      "iab_code": "25-G3-43-0142",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "recgxhSSqvyFXLcro",
-      "iab_code": "25-G3-43-0143",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "recZScU5IDF92Wn9e",
-      "iab_code": "25-G3-43-0144",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "recwyLNi0yiGJpJFM",
-      "iab_code": "25-G3-43-0145",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "recPsEERBzl7SaU98",
-      "iab_code": "25-G3-43-0146",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "recjEfpN0wc9kwY2b",
-      "iab_code": "25-G3-43-0147",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "rectaVMsWP9n6jlu6",
-      "iab_code": "25-G3-45-0157",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "rec3FSrc0k6Yswxmo",
-      "iab_code": "25-G4-65-0231",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "recCHMSqJ4rN6pn1P",
-      "iab_code": "25-G4-65-0232",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "recDTnlE3gc2Yd0QR",
-      "iab_code": "25-G5-54-0669",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "rec89k0UJZi9PCKgL",
-      "iab_code": "25-G5-61-0709",
-      "material": "Jade"
-    },
-    {
-      "source_record_id": "recdWfvHgXDoZOE6L",
-      "iab_code": "25-G5-82-0795",
-      "material": "Bronze"
-    },
-    {
-      "source_record_id": "recPLNGjKz72VRI7p",
-      "iab_code": "25-OS-06-5083",
-      "material": "Ceramics"
-    },
-    {
-      "source_record_id": "recBGzAJb6kdN7tM5",
-      "iab_code": "25-OS-08-5113",
-      "material": "Sand, 4 tablets"
-    },
-    {
-      "source_record_id": "recL5REbPsxZnzMC7",
-      "iab_code": "25-OS-09-5114",
-      "material": "60 stools"
-    }
-  ],
+  "missing_material_lookup": [],
   "gallery_hierarchy": {
     "section_assignments": 36,
     "unique_sections": 9,
@@ -961,8 +835,8 @@
       }
     ]
   },
-  "import_batch_id": "airtable-20260611193546998-d8c8ca42",
-  "generated_at": "2026-06-11T19:35:46.998Z",
+  "import_batch_id": "airtable-20260612151447189-e9bb65d0",
+  "generated_at": "2026-06-12T15:14:47.189Z",
   "source_changes": {
     "added": [],
     "changed": [],
@@ -1729,15 +1603,11 @@
     "unmatched_footnotes": [],
     "repeated_references": []
   },
-  "iiif_images": {
-    "unresolved_source_rows": 9,
-    "matched_source_rows": 0
-  },
   "agent_biographies": {
     "source_rows": 34,
-    "confirmed_rows": 0,
-    "imported_agents": 0,
-    "pending_rows": 34,
+    "confirmed_rows": 33,
+    "imported_agents": 32,
+    "pending_rows": 0,
     "conflicts": []
   }
 }

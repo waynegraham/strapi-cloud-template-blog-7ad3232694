@@ -282,10 +282,6 @@ function representativeDataset(records, report, reviews) {
           status: 'blocked-pending-reconciliation',
         }
       : null,
-    multipleIiifImages: {
-      status: 'requires-existing-CMS-or-staff-fixture',
-      minimumImages: 2,
-    },
     unresolvedMaterial: unresolvedMaterial || null,
   };
 }
@@ -333,18 +329,39 @@ function appendFilter(params, pathParts, value) {
 
 function matchFilters(record, index, documentIds) {
   if (record.content_type === 'work') {
-    return [['importProvenance', 'sourceRecordId', record.match.sourceRecordId]];
+    const data = record.request.body.data;
+    const titleField = data.titleAr ? 'titleAr' : 'titleEn';
+    return [
+      ['iabCode', data.iabCode],
+      [titleField, data[titleField]],
+    ];
   }
   if (record.content_type === 'agent-role') {
-    const agentReference = symbolicReferences(record.relations.agents)[0];
-    return [
-      ['labelEn', record.match.labelEn],
-      ['agents', 'documentId', resolveReference(agentReference, documentIds)],
-    ];
+    return [['labelEn', record.match.labelEn]];
   }
   if (record.request.body.data.slug) return [['slug', record.request.body.data.slug]];
   if (record.request.body.data.nameEn) return [['nameEn', record.request.body.data.nameEn]];
   throw new Error(`No idempotent match strategy for ${record.content_type}:${record.key}`);
+}
+
+function lookupParams(record, index, documentIds) {
+  const params = new URLSearchParams();
+  for (const filter of matchFilters(record, index, documentIds)) {
+    appendFilter(params, filter.slice(0, -1), filter.at(-1));
+  }
+  params.set('status', 'draft');
+  params.set('pagination[pageSize]', '2');
+  return params;
+}
+
+function relationDataForApply(record, schemas, index, documentIds) {
+  const relationData = resolveRelations(record, schemas, index, documentIds);
+
+  if (record.content_type === 'agent-role' && relationData.agents?.set) {
+    relationData.agents = { connect: relationData.agents.set };
+  }
+
+  return relationData;
 }
 
 async function apiRequest(url, options = {}) {
@@ -370,17 +387,13 @@ async function applyRecords(records, schemas, index) {
   const results = [];
 
   for (const record of records) {
-    const params = new URLSearchParams();
-    for (const filter of matchFilters(record, index, documentIds)) {
-      appendFilter(params, filter.slice(0, -1), filter.at(-1));
-    }
-    params.set('pagination[pageSize]', '2');
+    const params = lookupParams(record, index, documentIds);
     const existing = await apiRequest(`${API_URL}/api/${record.endpoint}?${params}`);
     if (existing.data.length > 1) {
       throw new Error(`Ambiguous match for ${record.content_type}:${record.key}`);
     }
 
-    const relationData = resolveRelations(record, schemas, index, documentIds);
+    const relationData = relationDataForApply(record, schemas, index, documentIds);
     const body = JSON.stringify({
       data: { ...record.request.body.data, ...relationData },
     });
@@ -424,7 +437,6 @@ async function main() {
 
   const reviews = {
     biographies: readJson(path.join(INTERMEDIATE_DIR, 'agent-biography-review.json')),
-    iiifImages: readJson(path.join(INTERMEDIATE_DIR, 'iiif-image-review.json')),
   };
   const preservation = preservationChecks(sourceRecords, records, transformReport);
   const unresolved = {
@@ -432,7 +444,6 @@ async function main() {
     agentBiographies: reviews.biographies.filter(
       (row) => row.review_decision?.decision !== 'confirmed',
     ).length,
-    iiifImages: reviews.iiifImages.filter((row) => row.status === 'unresolved').length,
     duplicateIabCodes: transformReport.duplicate_iab_codes.length,
     curatedStoryNearDuplicates: transformReport.curated_stories.near_duplicates.length,
     curatedStoryMetadataConflicts:
@@ -492,8 +503,10 @@ if (require.main === module) {
 module.exports = {
   loadSchemas,
   loadManifestRecords,
+  lookupParams,
   matchFilters,
   preservationChecks,
+  relationDataForApply,
   representativeDataset,
   resolveRelations,
   stableDocumentId,

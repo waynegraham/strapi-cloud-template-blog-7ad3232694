@@ -2,6 +2,110 @@
   {
     "content_type": "agent-role",
     "endpoint": "agent-roles",
+    "key": "abdelkader-benchamma--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "abdelkader-benchamma"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "abdelkader-benchamma"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "ahmad-angawi--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "ahmad-angawi"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "ahmad-angawi"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "ahmed-mater--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "ahmed-mater"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "ahmed-mater"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "ala-younis--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "ala-younis"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "ala-younis"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
     "key": "ala-younis--writer",
     "match": {
       "labelEn": "Writer",
@@ -9,7 +113,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -36,7 +140,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -56,6 +160,162 @@
   {
     "content_type": "agent-role",
     "endpoint": "agent-roles",
+    "key": "anhar-salem--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "anhar-salem"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "anhar-salem"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "arcangelo-sassolino--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "arcangelo-sassolino"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "arcangelo-sassolino"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "asif-khan--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "asif-khan"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "asif-khan"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "asim-waqif--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "asim-waqif"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "asim-waqif"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "bashaer-hawsawi--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "bashaer-hawsawi"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "bashaer-hawsawi"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "bilal-allaf--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "bilal-allaf"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "bilal-allaf"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
     "key": "captain-augusto-salgado--writer",
     "match": {
       "labelEn": "Writer",
@@ -63,7 +323,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -83,6 +343,32 @@
   {
     "content_type": "agent-role",
     "endpoint": "agent-roles",
+    "key": "charwei-tsai--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "charwei-tsai"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "charwei-tsai"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
     "key": "david-soin-tappeser--writer",
     "match": {
       "labelEn": "Writer",
@@ -90,7 +376,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -117,7 +403,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -144,7 +430,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Curator",
@@ -171,7 +457,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Curator",
@@ -198,7 +484,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -225,7 +511,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -252,7 +538,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Curator",
@@ -279,7 +565,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -306,7 +592,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -333,7 +619,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Curator",
@@ -360,7 +646,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -387,7 +673,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -414,7 +700,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -441,7 +727,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -468,7 +754,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Curator",
@@ -495,7 +781,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -522,7 +808,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -549,7 +835,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -576,7 +862,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -603,7 +889,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -630,7 +916,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -650,6 +936,58 @@
   {
     "content_type": "agent-role",
     "endpoint": "agent-roles",
+    "key": "essam-jameel--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "essam-jameel"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "essam-jameel"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "fatma-abdulhadi--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "fatma-abdulhadi"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "fatma-abdulhadi"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
     "key": "faye-behbehani--writer",
     "match": {
       "labelEn": "Writer",
@@ -657,7 +995,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -677,6 +1015,84 @@
   {
     "content_type": "agent-role",
     "endpoint": "agent-roles",
+    "key": "gabriel-chaile--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "gabriel-chaile"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "gabriel-chaile"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "hayat-osamah--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "hayat-osamah"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "hayat-osamah"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "himali-singh-soin--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "himali-singh-soin"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "himali-singh-soin"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
     "key": "himali-singh-soin--writer",
     "match": {
       "labelEn": "Writer",
@@ -684,7 +1100,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -704,6 +1120,32 @@
   {
     "content_type": "agent-role",
     "endpoint": "agent-roles",
+    "key": "imran-qureshi--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "imran-qureshi"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "imran-qureshi"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
     "key": "ines-benard--writer",
     "match": {
       "labelEn": "Writer",
@@ -711,7 +1153,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -731,6 +1173,58 @@
   {
     "content_type": "agent-role",
     "endpoint": "agent-roles",
+    "key": "iqra-tanveer--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "iqra-tanveer"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "iqra-tanveer"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "joana-hadjithomas--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "joana-hadjithomas"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "joana-hadjithomas"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
     "key": "joana-hadjithomas--writer",
     "match": {
       "labelEn": "Writer",
@@ -738,7 +1232,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -765,7 +1259,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Curator",
@@ -792,7 +1286,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -819,7 +1313,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -839,6 +1333,84 @@
   {
     "content_type": "agent-role",
     "endpoint": "agent-roles",
+    "key": "louis-guillaume--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "louis-guillaume"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "louis-guillaume"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "lucia-koch--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "lucia-koch"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "lucia-koch"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "mehdi-moutashar--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "mehdi-moutashar"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "mehdi-moutashar"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
     "key": "muhannad-shono--curator",
     "match": {
       "labelEn": "Curator",
@@ -846,7 +1418,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Curator",
@@ -866,6 +1438,162 @@
   {
     "content_type": "agent-role",
     "endpoint": "agent-roles",
+    "key": "nasser-alzayani--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "nasser-alzayani"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "nasser-alzayani"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "nohemi-perez--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "nohemi-perez"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "nohemi-perez"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "nour-jaouda--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "nour-jaouda"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "nour-jaouda"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "osman-yousefzada--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "osman-yousefzada"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "osman-yousefzada"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "raya-kassisieh--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "raya-kassisieh"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "raya-kassisieh"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "saeed-gebaan--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "saeed-gebaan"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "saeed-gebaan"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
     "key": "sarah-al-abdali--writer",
     "match": {
       "labelEn": "Writer",
@@ -873,7 +1601,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",
@@ -893,6 +1621,110 @@
   {
     "content_type": "agent-role",
     "endpoint": "agent-roles",
+    "key": "slavs-and-tatars--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "slavs-and-tatars"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "slavs-and-tatars"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "takashi-kuribayashi--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "takashi-kuribayashi"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "takashi-kuribayashi"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "tamara-kalo--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "tamara-kalo"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "tamara-kalo"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
+    "key": "timo-nasseri--artist",
+    "match": {
+      "labelEn": "Artist",
+      "agent_key": "timo-nasseri"
+    },
+    "request": {
+      "method": "POST",
+      "url": "http://localhost:1338/api/agent-roles",
+      "body": {
+        "data": {
+          "labelEn": "Artist"
+        }
+      }
+    },
+    "relations": {
+      "agents": [
+        {
+          "content_type": "agent",
+          "key": "timo-nasseri"
+        }
+      ]
+    }
+  },
+  {
+    "content_type": "agent-role",
+    "endpoint": "agent-roles",
     "key": "william-robinson--curator",
     "match": {
       "labelEn": "Curator",
@@ -900,7 +1732,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Curator",
@@ -927,7 +1759,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1337/api/agent-roles",
+      "url": "http://localhost:1338/api/agent-roles",
       "body": {
         "data": {
           "labelEn": "Writer",

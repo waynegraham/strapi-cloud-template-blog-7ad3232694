@@ -1350,30 +1350,6 @@ function transformWorks(
   return { works, report };
 }
 
-function transformIiifImageReview(records) {
-  const review = [];
-
-  for (const sourceRecord of records) {
-    const fields = sourceRecord.fields || {};
-    const annotation = optional(fields["Image annotation"]);
-    const folioLabel = optional(fields["Opening Folio No. On Display"]);
-    if (!annotation && !folioLabel) continue;
-
-    review.push({
-      source_record_id: sourceRecord.id,
-      iab_codes: splitIabCodes(fields["IAB Code"]),
-      title_en: optional(fields["Title of Object"]),
-      image_annotation: annotation,
-      opening_folio_label: folioLabel,
-      status: "unresolved",
-      reason:
-        "No confirmed IIIF Image identifier is present in the Airtable source row.",
-    });
-  }
-
-  return review;
-}
-
 function writeIntermediate(name, records) {
   const outputPath = path.join(OUTPUT_DIR, `${name}.json`);
   fs.writeFileSync(outputPath, `${JSON.stringify(records, null, 2)}\n`);
@@ -1383,6 +1359,7 @@ function writeIntermediate(name, records) {
 function main() {
   ensureDir(OUTPUT_DIR);
   fs.rmSync(path.join(OUTPUT_DIR, "objects.json"), { force: true });
+  fs.rmSync(path.join(OUTPUT_DIR, "iiif-image-review.json"), { force: true });
 
   const generatedAt = process.env.ETL_IMPORTED_AT || new Date().toISOString();
   const batchId = importBatchId(generatedAt);
@@ -1407,6 +1384,12 @@ function main() {
         .filter(([key]) => key),
     ),
     byPhrase: materials
+      .filter(
+        (material) =>
+          !compactWhitespace(material.review_note).startsWith(
+            "provisional source term",
+          ),
+      )
       .map((material) => ({
         normalized: normalizeLookupText(material.materialEn || material.material_en),
         key: slugify(material.materialEn || material.material_en),
@@ -1432,12 +1415,7 @@ function main() {
   const galleries = transformGalleries(airtableRecords, report);
   const { stories: curatedStories, report: curatedStoryReport } =
     transformCuratedStories(airtableRecords);
-  const iiifImageReview = transformIiifImageReview(airtableRecords);
   report.curated_stories = curatedStoryReport;
-  report.iiif_images = {
-    unresolved_source_rows: iiifImageReview.length,
-    matched_source_rows: 0,
-  };
   report.agent_biographies = biographyResult.report;
 
   const files = {
@@ -1455,7 +1433,6 @@ function main() {
       "curated-story-review",
       curatedStoryReport,
     ),
-    "iiif-image-review": writeIntermediate("iiif-image-review", iiifImageReview),
     duplicates: writeIntermediate("duplicates", report.duplicate_source_rows),
     report: writeIntermediate("report", report),
   };
@@ -1513,7 +1490,6 @@ function main() {
         curatedStoryReport.unmatched_footnotes.length,
       curated_story_repeated_footnote_references:
         curatedStoryReport.repeated_references.length,
-      unresolved_iiif_image_source_rows: iiifImageReview.length,
       skipped_works: report.skipped.length,
       duplicate_iab_codes: report.duplicate_iab_codes.length,
       duplicate_source_rows: report.duplicate_source_rows.length,
@@ -1561,7 +1537,6 @@ module.exports = {
   transformAgentBiographies,
   transformAgents,
   transformGalleries,
-  transformIiifImageReview,
   transformWorks,
   toHtml,
   transformFootnotedContent,

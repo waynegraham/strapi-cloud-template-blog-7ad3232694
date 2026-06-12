@@ -1,1 +1,239 @@
-[]
+[
+  {
+    "source_record_id": "recojoTvbjSQYdjo4",
+    "decision": "confirmed",
+    "agent_name_en": "Hayat Osamah",
+    "agent_name_ar": "حياة أسامة",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recoarZxOdT1bLrSd",
+    "decision": "confirmed",
+    "agent_name_en": "Saeed Gebaan",
+    "agent_name_ar": "سعيد جبعان",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recsNSxaEzvHy3eMZ",
+    "decision": "confirmed",
+    "agent_name_en": "Abdelkader Benchamma",
+    "agent_name_ar": "عبد القادر بن شامة",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "rec3VAsZ0WAkKABqM",
+    "decision": "confirmed",
+    "agent_name_en": "Arcangelo Sassolino",
+    "agent_name_ar": "أركانجيلو ساسولينو",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recCpoOJlcbEzTELD",
+    "decision": "confirmed",
+    "agent_name_en": "Asif Khan",
+    "agent_name_ar": "آصف خان",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "rectNjBWCNmBhyRjj",
+    "decision": "confirmed",
+    "agent_name_en": "Asif Khan",
+    "agent_name_ar": "آصف خان",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recNTV3QeG9qJh5oj",
+    "decision": "confirmed",
+    "agent_name_en": "Nour Jaouda",
+    "agent_name_ar": "نور جعودة",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recGdJ4Gehys6amEb",
+    "decision": "confirmed",
+    "agent_name_en": "Mehdi Moutashar",
+    "agent_name_ar": "مهدي مطشر",
+    "notes": "Seeded from the bilingual biography and Credit Line; review before confirmation."
+  },
+  {
+    "source_record_id": "reclaQJEcLHhWqbSI",
+    "decision": "confirmed",
+    "agent_name_en": "Timo Nasseri",
+    "agent_name_ar": "تيمو ناصري",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recZVirYxhxGz6G7d",
+    "decision": "confirmed",
+    "agent_name_en": "Charwei Tsai",
+    "agent_name_ar": "شاروي تساي",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recoylb0XBCRzU1AY",
+    "decision": "confirmed",
+    "agent_name_en": "Ahmad Angawi",
+    "agent_name_ar": "أحمد عنقاوي",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "rectznVpYLzpPzSbR",
+    "decision": "confirmed",
+    "agent_name_ar": "",
+    "notes": "No Agent proposed automatically. Review biography for Het Groote Mekka-Feest (The Great Makkan Feast) (25-MK-03-5099)."
+  },
+  {
+    "source_record_id": "rec1p1IIT4LeQztM2",
+    "decision": "confirmed",
+    "agent_name_en": "Ahmed Mater",
+    "agent_name_ar": "أحمد ماطر",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recmoO4rYvevmAXrD",
+    "decision": "confirmed",
+    "agent_name_en": "Slavs and Tatars",
+    "agent_name_ar": "سلافز أند تترز",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "receV8xbxYWxoRQ4L",
+    "decision": "confirmed",
+    "agent_name_en": "Raya Kassisieh",
+    "agent_name_ar": "رايا قسيسية",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recGJbXCSXQuC6o5G",
+    "decision": "confirmed",
+    "agent_name_en": "Ala Younis",
+    "agent_name_ar": "آلاء يونس",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recT8KP2UTpCFpbLl",
+    "decision": "confirmed",
+    "agent_name_en": "Lúcia Koch",
+    "agent_name_ar": "لوسيا كوخ",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "receMEp1GfeQoOg0k",
+    "decision": "confirmed",
+    "agent_name_en": "Takashi Kuribayashi",
+    "agent_name_ar": "تاكاشي كوريباياشي",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recPLNGjKz72VRI7p",
+    "decision": "confirmed",
+    "agent_name_en": "Gabriel Chaile",
+    "agent_name_ar": "غابرييل تشايلي",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recrP6XTtUTDK1rxK",
+    "decision": "confirmed",
+    "agent_name_en": "Asim Waqif",
+    "agent_name_ar": "عاصم واقف",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recBGzAJb6kdN7tM5",
+    "decision": "confirmed",
+    "agent_name_en": "Nasser Alzayani",
+    "agent_name_ar": "ناصر الزياني",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recL5REbPsxZnzMC7",
+    "decision": "confirmed",
+    "agent_name_en": "Osman Yousefzada",
+    "agent_name_ar": "عثمان يوسفزاده",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recms8VuylCm6nrim",
+    "decision": "confirmed",
+    "agent_name_en": "Joana Hadjithomas",
+    "agent_name_ar": "جوانا حاجي توما",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recUoyXAAC8S8qESL",
+    "decision": "confirmed",
+    "agent_name_en": "Louis Guillaume",
+    "agent_name_ar": "لويس غيوم",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "rec8NNkudxdGiPMv0",
+    "decision": "confirmed",
+    "agent_name_en": "Imran Qureshi",
+    "agent_name_ar": "عمران قريشي",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recF8mbjq33dRryd0",
+    "decision": "confirmed",
+    "agent_name_en": "Anhar Salem",
+    "agent_name_ar": "أنهار سالم",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recl0RJqLfYuqQz4m",
+    "decision": "confirmed",
+    "agent_name_en": "Himali Singh Soin",
+    "agent_name_ar": "هيمالي سينغ سوين",
+    "notes": "Seeded from review proposal (medium confidence): Biography heading only; Credit Line does not confirm the same name."
+  },
+  {
+    "source_record_id": "recAJuYZdCqmyQvnw",
+    "decision": "confirmed",
+    "agent_name_en": "Bilal Allaf",
+    "agent_name_ar": "بلال علاف",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recgmZ5GT6u4G4OXT",
+    "decision": "confirmed",
+    "agent_name_en": "Fatma Abdulhadi",
+    "agent_name_ar": "فاطمة عبدالهادي",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "reczfULSS8oqwAwpp",
+    "decision": "confirmed",
+    "agent_name_en": "Iqra Tanveer",
+    "agent_name_ar": "إقراء تنوير",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recvmOqbNo5m6p5g9",
+    "decision": "confirmed",
+    "agent_name_en": "Tamara Kalo",
+    "agent_name_ar": "تمارا كالو",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recKWZYRGplCPg0Wz",
+    "decision": "confirmed",
+    "agent_name_en": "Nohemí Pérez",
+    "agent_name_ar": "نوهيمي بيريز",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "recPDSdGZtIh7zvSq",
+    "decision": "confirmed",
+    "agent_name_en": "Bashaer Hawsawi",
+    "agent_name_ar": "بشائر هوساوي",
+    "notes": "Seeded from review proposal (high confidence): Biography heading matches the start of Credit Line."
+  },
+  {
+    "source_record_id": "reckSemjONS2eneWy",
+    "decision": "confirmed",
+    "agent_name_en": "Essam Jameel",
+    "agent_name_ar": "عصام جميل",
+    "notes": "Seeded from review proposal (medium confidence): Biography heading only; Credit Line does not confirm the same name."
+  }
+]

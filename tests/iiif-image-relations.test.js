@@ -7,7 +7,6 @@ const test = require('node:test');
 const createKnex = require('knex');
 
 const records = require('../etl/airtable_dump.json');
-const { transformIiifImageReview } = require('../etl/transform');
 const migration = require('../database/migrations/2026.06.08T06.00.00.connect-iiif-images-to-assets');
 const {
   registerIiifImageValidation,
@@ -221,24 +220,6 @@ test('migration does not match assets and images only because URLs share a host'
 
   assert.equal(report.matches.length, 0);
   assert.equal(report.unresolved.length, 1);
-});
-
-test('ETL reports annotation and folio rows until image matching is confirmed', () => {
-  const review = transformIiifImageReview(records);
-  const annotations = records.filter((record) =>
-    String((record.fields || {})['Image annotation'] || '').trim(),
-  );
-  const folios = records.filter((record) =>
-    String((record.fields || {})['Opening Folio No. On Display'] || '').trim(),
-  );
-
-  assert.equal(review.length, 9);
-  assert.equal(annotations.length, 3);
-  assert.equal(folios.length, 6);
-  assert.ok(review.every((row) => row.status === 'unresolved'));
-  assert.ok(
-    review.some((row) => row.opening_folio_label === 'ff. 37v-38r'),
-  );
 });
 
 test('generated types and API documentation include IIIF Asset/Image relations', () => {
