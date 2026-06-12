@@ -136,6 +136,122 @@ test('partial Work updates retain existing identifiers and derived iabCode', asy
   ]);
 });
 
+test('partial Work updates do not revalidate unchanged Agent Credit rows', async () => {
+  const context = {
+    uid: 'api::work.work',
+    action: 'update',
+    params: {
+      documentId: 'work-1',
+      data: {
+        dateDisplayHijriEn: '1446',
+        dateDisplayHijriAr: '١٤٤٦',
+        agentCredits: [{}],
+      },
+    },
+  };
+  const strapi = {
+    documents() {
+      return {
+        async findOne() {
+          return {
+            titleEn: 'Soft Gates',
+            iabCode: '25-G1-01-5034',
+            identifiers: [
+              { value: '25-G1-01-5034', type: 'IAB', preferred: true },
+            ],
+            agentCredits: [{ id: 101, agent: null, agent_role: null, sortOrder: 1 }],
+          };
+        },
+      };
+    },
+  };
+
+  await validateWorkWrite(strapi, context);
+
+  assert.equal(context.params.data.dateDisplayHijriEn, '1446');
+  assert.equal(Object.prototype.hasOwnProperty.call(context.params.data, 'agentCredits'), false);
+});
+
+test('partial Work updates preserve complete Agent Credits from id-only form rows', async () => {
+  const context = {
+    uid: 'api::work.work',
+    action: 'update',
+    params: {
+      documentId: 'work-1',
+      data: {
+        dateDisplayHijriEn: '1446',
+        dateDisplayHijriAr: '١٤٤٦',
+        agentCredits: [{ id: 101 }],
+      },
+    },
+  };
+  const strapi = {
+    documents() {
+      return {
+        async findOne() {
+          return {
+            titleEn: 'Soft Gates',
+            iabCode: '25-G1-01-5034',
+            identifiers: [
+              { value: '25-G1-01-5034', type: 'IAB', preferred: true },
+            ],
+            agentCredits: [
+              {
+                id: 101,
+                agent: { documentId: 'agent-1' },
+                agent_role: { documentId: 'role-1' },
+                sortOrder: 1,
+              },
+            ],
+          };
+        },
+      };
+    },
+  };
+
+  await validateWorkWrite(strapi, context);
+
+  assert.equal(context.params.data.dateDisplayHijriEn, '1446');
+  assert.equal(Object.prototype.hasOwnProperty.call(context.params.data, 'agentCredits'), false);
+});
+
+test('partial Work updates still reject changed incomplete Agent Credits', async () => {
+  const context = {
+    uid: 'api::work.work',
+    action: 'update',
+    params: {
+      documentId: 'work-1',
+      data: {
+        agentCredits: [{ id: 101, agent: { connect: ['agent-1'] } }],
+      },
+    },
+  };
+  const strapi = {
+    documents() {
+      return {
+        async findOne() {
+          return {
+            titleEn: 'Soft Gates',
+            iabCode: '25-G1-01-5034',
+            identifiers: [
+              { value: '25-G1-01-5034', type: 'IAB', preferred: true },
+            ],
+            agentCredits: [
+              {
+                id: 101,
+                agent: { documentId: 'agent-old' },
+                agent_role: { documentId: 'role-1' },
+              },
+            ],
+          };
+        },
+      };
+    },
+  };
+
+  await assert.rejects(validateWorkWrite(strapi, context), /requires an Agent Role/i);
+});
+
 test('Work validation rejects inverted date ranges and incomplete Agent Credits', () => {
   assert.throws(() => validateDateRange(1900, 1800), /earliest year/i);
   assert.doesNotThrow(() => validateDateRange(1800, 1900));

@@ -8,7 +8,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/galleries",
+      "url": "https://localhost:1337/api/galleries",
       "body": {
         "data": {
           "eyebrowEn": "Gallery 1",
@@ -31,7 +31,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/galleries",
+      "url": "https://localhost:1337/api/galleries",
       "body": {
         "data": {
           "eyebrowEn": "Gallery 2",
@@ -54,7 +54,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/galleries",
+      "url": "https://localhost:1337/api/galleries",
       "body": {
         "data": {
           "eyebrowEn": "Gallery 3",
@@ -77,7 +77,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/galleries",
+      "url": "https://localhost:1337/api/galleries",
       "body": {
         "data": {
           "eyebrowEn": "Gallery 4",
@@ -100,7 +100,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/galleries",
+      "url": "https://localhost:1337/api/galleries",
       "body": {
         "data": {
           "eyebrowEn": "Gallery 5",
@@ -123,7 +123,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/galleries",
+      "url": "https://localhost:1337/api/galleries",
       "body": {
         "data": {
           "eyebrowEn": "Gallery 6",
@@ -146,7 +146,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/galleries",
+      "url": "https://localhost:1337/api/galleries",
       "body": {
         "data": {
           "eyebrowEn": "Gallery 7",
@@ -169,7 +169,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/galleries",
+      "url": "https://localhost:1337/api/galleries",
       "body": {
         "data": {
           "nameEn": "Kiswah",
@@ -196,7 +196,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/galleries",
+      "url": "https://localhost:1337/api/galleries",
       "body": {
         "data": {
           "nameEn": "Pious Gifts (KAWLA)",
@@ -223,7 +223,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/galleries",
+      "url": "https://localhost:1337/api/galleries",
       "body": {
         "data": {
           "nameEn": "The Creator",
@@ -250,7 +250,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/galleries",
+      "url": "https://localhost:1337/api/galleries",
       "body": {
         "data": {
           "nameEn": "The Guardian",
@@ -277,7 +277,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/galleries",
+      "url": "https://localhost:1337/api/galleries",
       "body": {
         "data": {
           "nameEn": "A Curious Explorer",
@@ -304,7 +304,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/galleries",
+      "url": "https://localhost:1337/api/galleries",
       "body": {
         "data": {
           "nameEn": "Arising from Paper",
@@ -331,7 +331,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/galleries",
+      "url": "https://localhost:1337/api/galleries",
       "body": {
         "data": {
           "nameEn": "Faith & Practice",
@@ -358,7 +358,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/galleries",
+      "url": "https://localhost:1337/api/galleries",
       "body": {
         "data": {
           "nameEn": "Gazing Upon the Stars",
@@ -385,7 +385,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/galleries",
+      "url": "https://localhost:1337/api/galleries",
       "body": {
         "data": {
           "nameEn": "Symbol & Object",

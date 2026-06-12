@@ -115,6 +115,87 @@ function relationIsPresent(value) {
   );
 }
 
+function relationIsDisconnect(value) {
+  return (
+    value &&
+    typeof value === 'object' &&
+    Object.prototype.hasOwnProperty.call(value, 'disconnect') &&
+    !relationIsPresent(value)
+  );
+}
+
+function relationKey(value) {
+  if (value === undefined || value === null || value === '') return null;
+  if (typeof value === 'string' || typeof value === 'number') return String(value);
+  if (Array.isArray(value)) {
+    const keys = value.map(relationKey).filter(Boolean).sort();
+    return keys.length ? keys.join('|') : null;
+  }
+  if (!value || typeof value !== 'object') return null;
+  if (value.documentId) return `documentId:${value.documentId}`;
+  if (value.id) return `id:${value.id}`;
+  const keys = ['connect', 'set']
+    .map((operation) => relationKey(value[operation]))
+    .filter(Boolean)
+    .sort();
+  return keys.length ? keys.join('|') : null;
+}
+
+function sortOrderKey(value) {
+  if (value === undefined || value === null || value === '') return null;
+  return String(value);
+}
+
+function componentIdentity(credit) {
+  if (!credit || typeof credit !== 'object') return null;
+  return credit.documentId || credit.id || null;
+}
+
+function agentCreditIsUnchanged(existing, incoming) {
+  if (!existing || !incoming || typeof existing !== 'object' || typeof incoming !== 'object') {
+    return false;
+  }
+  if (relationIsDisconnect(incoming.agent) || relationIsDisconnect(incoming.agent_role)) {
+    return false;
+  }
+
+  const existingId = componentIdentity(existing);
+  const incomingId = componentIdentity(incoming);
+  if (existingId && incomingId && String(existingId) !== String(incomingId)) {
+    return false;
+  }
+  if (existingId && incomingId && String(existingId) === String(incomingId)) {
+    return (
+      relationKey(incoming.agent) === null &&
+      relationKey(incoming.agent_role) === null &&
+      (sortOrderKey(incoming.sortOrder) === null ||
+        sortOrderKey(incoming.sortOrder) === sortOrderKey(existing.sortOrder))
+    );
+  }
+  if (existingId && !incomingId) {
+    return (
+      relationKey(incoming.agent) === null &&
+      relationKey(incoming.agent_role) === null &&
+      (sortOrderKey(incoming.sortOrder) === null ||
+        sortOrderKey(incoming.sortOrder) === sortOrderKey(existing.sortOrder))
+    );
+  }
+  if (!existingId && incomingId) return false;
+
+  return (
+    relationKey(incoming.agent) === relationKey(existing.agent) &&
+    relationKey(incoming.agent_role) === relationKey(existing.agent_role) &&
+    (sortOrderKey(incoming.sortOrder) === null ||
+      sortOrderKey(incoming.sortOrder) === sortOrderKey(existing.sortOrder))
+  );
+}
+
+function agentCreditsAreUnchanged(incoming, existing) {
+  if (!Array.isArray(incoming) || !Array.isArray(existing)) return false;
+  if (incoming.length !== existing.length) return false;
+  return incoming.every((credit, index) => agentCreditIsUnchanged(existing[index], credit));
+}
+
 function validateAgentCredits(agentCredits) {
   if (agentCredits === undefined) return undefined;
   if (agentCredits === null) return agentCredits;
@@ -229,7 +310,11 @@ async function validateWorkWrite(strapi, context) {
   };
 
   if (Object.prototype.hasOwnProperty.call(data, 'agentCredits')) {
-    context.params.data.agentCredits = validateAgentCredits(data.agentCredits);
+    if (agentCreditsAreUnchanged(data.agentCredits, existing && existing.agentCredits)) {
+      delete context.params.data.agentCredits;
+    } else {
+      context.params.data.agentCredits = validateAgentCredits(data.agentCredits);
+    }
   }
 
   if (Object.prototype.hasOwnProperty.call(context.params.data, 'inscriptions')) {

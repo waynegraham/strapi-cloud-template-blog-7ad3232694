@@ -8,7 +8,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/curated-stories",
+      "url": "https://localhost:1337/api/curated-stories",
       "body": {
         "data": {
           "titleEn": "THE GUARDIAN",
@@ -63,7 +63,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/curated-stories",
+      "url": "https://localhost:1337/api/curated-stories",
       "body": {
         "data": {
           "titleEn": "THE CREATOR",
@@ -163,7 +163,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/curated-stories",
+      "url": "https://localhost:1337/api/curated-stories",
       "body": {
         "data": {
           "titleEn": "Priceless Treasures of the Endowment Libraries",
@@ -292,7 +292,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/curated-stories",
+      "url": "https://localhost:1337/api/curated-stories",
       "body": {
         "data": {
           "titleEn": "Gazing Upon the Stars",
@@ -355,7 +355,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/curated-stories",
+      "url": "https://localhost:1337/api/curated-stories",
       "body": {
         "data": {
           "titleEn": "Gazing Upon the Stars",
@@ -406,7 +406,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/curated-stories",
+      "url": "https://localhost:1337/api/curated-stories",
       "body": {
         "data": {
           "titleEn": "The Algorithm of Genius",
@@ -480,7 +480,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/curated-stories",
+      "url": "https://localhost:1337/api/curated-stories",
       "body": {
         "data": {
           "titleEn": "Devotion and Memory",
@@ -541,7 +541,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/curated-stories",
+      "url": "https://localhost:1337/api/curated-stories",
       "body": {
         "data": {
           "titleEn": "The Cartographer and the King",
@@ -596,7 +596,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/curated-stories",
+      "url": "https://localhost:1337/api/curated-stories",
       "body": {
         "data": {
           "titleEn": "A Curious Explorer",
@@ -651,7 +651,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/curated-stories",
+      "url": "https://localhost:1337/api/curated-stories",
       "body": {
         "data": {
           "titleEn": "The Alhambra as a living monument",
@@ -734,7 +734,7 @@
     },
     "request": {
       "method": "POST",
-      "url": "http://localhost:1338/api/curated-stories",
+      "url": "https://localhost:1337/api/curated-stories",
       "body": {
         "data": {
           "titleEn": "Arising from Paper",

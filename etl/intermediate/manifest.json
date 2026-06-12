@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-12T16:14:41.745Z",
-  "import_batch_id": "airtable-20260612161441745-2bba4d39",
-  "strapi_api_url": "http://localhost:1338",
+  "generated_at": "2026-06-12T19:01:29.912Z",
+  "import_batch_id": "airtable-20260612190129912-3cb9b539",
+  "strapi_api_url": "https://localhost:1337",
   "source": {
     "system": "airtable",
-    "input_file": "airtable_dump.json",
-    "agents_file": "agents_distinct.csv",
-    "materials_file": "materials_distinct.csv",
-    "field_mapping_file": "field-mapping.json",
-    "biography_decisions_file": "biography-reconciliation-decisions.json",
+    "input_file": "etl/airtable_dump.json",
+    "agents_file": "etl/agents_distinct.csv",
+    "materials_file": "etl/materials_distinct.csv",
+    "field_mapping_file": "etl/field-mapping.json",
+    "biography_decisions_file": "etl/biography-reconciliation-decisions.json",
     "source_record_count": 650,
     "source_checksum_algorithm": "sha256"
   },
@@ -60,15 +60,15 @@
     "source_rows_removed": 0
   },
   "files": {
-    "agent-roles": "intermediate/agent-roles.json",
-    "agents": "intermediate/agents.json",
-    "agent-biography-review": "intermediate/agent-biography-review.json",
-    "materials": "intermediate/materials.json",
-    "galleries": "intermediate/galleries.json",
-    "works": "intermediate/works.json",
-    "curated-stories": "intermediate/curated-stories.json",
-    "curated-story-review": "intermediate/curated-story-review.json",
-    "duplicates": "intermediate/duplicates.json",
-    "report": "intermediate/report.json"
+    "agent-roles": "etl/intermediate/agent-roles.json",
+    "agents": "etl/intermediate/agents.json",
+    "agent-biography-review": "etl/intermediate/agent-biography-review.json",
+    "materials": "etl/intermediate/materials.json",
+    "galleries": "etl/intermediate/galleries.json",
+    "works": "etl/intermediate/works.json",
+    "curated-stories": "etl/intermediate/curated-stories.json",
+    "curated-story-review": "etl/intermediate/curated-story-review.json",
+    "duplicates": "etl/intermediate/duplicates.json",
+    "report": "etl/intermediate/report.json"
   }
 }

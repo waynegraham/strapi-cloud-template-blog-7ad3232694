@@ -477,6 +477,156 @@ function transformFootnotedContent({
   };
 }
 
+function extractYearsFromDate(dateText) {
+  if (!dateText) return null;
+  const text = String(dateText);
+
+  // Match 4-digit years (1000-2999 CE or Hijri)
+  const yearPattern = /(?:\b|^)(1[0-9]{3}|2[0-9]{3})(?:\b|$)/g;
+
+  // Match Hijri years (with هـ or AH prefix/suffix)
+  const hijriYearPattern = /(?:AH\s*)?(1[0-9]{3})(?:\s*هـ)?/gi;
+
+  const years = [];
+  let match;
+  while ((match = yearPattern.exec(text)) !== null) {
+    years.push(parseInt(match[1], 10));
+  }
+
+  // Remove duplicates and sort
+  const uniqueYears = [...new Set(years)].sort((a, b) => a - b);
+
+  if (uniqueYears.length === 0) return null;
+  if (uniqueYears.length === 1) return { earliest: uniqueYears[0], latest: uniqueYears[0] };
+
+  return { earliest: uniqueYears[0], latest: uniqueYears[uniqueYears.length - 1] };
+}
+
+function yearsToGregorian(hijriYear) {
+  // Approximate conversion: Hijri year ≈ Gregorian year - 622
+  // More precisely: Hijri year * 0.9998 ≈ Gregorian year - 621
+  return hijriYear + 622;
+}
+
+function parseDateYears(dateText) {
+  if (!dateText) return {};
+  const text = cleanMultiline(dateText);
+  const result = {};
+
+  // Match explicit year ranges: "775–85 CE" or "158–69 AH" (years before the marker)
+  const yearRangePattern = /([12]?[0-9]{3})\s*(?:–|-|—)\s*([12]?[0-9]{1,3})\s*(CE|م)/i;
+  const hijriYearRangePattern = /([12]?[0-9]{3})\s*(?:–|-|—)\s*([12]?[0-9]{1,3})\s*(AH|هـ)/i;
+
+  let match = text.match(yearRangePattern);
+  if (match) {
+    const startYear = parseInt(match[1], 10);
+    const endYear = parseInt(match[2], 10);
+    result.earliest = startYear;
+    result.latest = endYear < 100 ? endYear + Math.floor(startYear / 100) * 100 : endYear;
+    if (result.latest < result.earliest) {
+      result.latest += 100;
+    }
+    return result;
+  }
+
+  match = text.match(hijriYearRangePattern);
+  if (match) {
+    const startYear = yearsToGregorian(parseInt(match[1], 10));
+    const endYear = yearsToGregorian(parseInt(match[2], 10));
+    result.earliest = startYear;
+    result.latest = endYear < 100 ? endYear + Math.floor(startYear / 100) * 100 : endYear;
+    if (result.latest < result.earliest) {
+      result.latest += 100;
+    }
+    return result;
+  }
+
+  // Single Hijri/Gregorian pair: "AH 1417/1996 CE" or "AH 295/907 CE"
+  // Prefer Gregorian year directly if available
+  const hgPairMatch = text.match(/AH\s*[0-9]{3,4}\s*\/\s*[0-9]{3,4}\s*(CE|م)/i);
+  if (hgPairMatch) {
+    // Extract the Gregorian year (last year in the pair)
+    const years = text.match(/([0-9]{3,4})\s*\/\s*([0-9]{3,4})/);
+    if (years && years[2]) {
+      result.earliest = parseInt(years[2], 10);
+      result.latest = parseInt(years[2], 10);
+    }
+    return result;
+  }
+
+  // Decade patterns: "1040s AH/1630s CE" or "1630s CE"
+  // First try to find a Gregorian decade after slash
+  let decadeMatch = text.match(/\/([0-9]{3,4})0s/i);
+  if (decadeMatch) {
+    const baseYear = parseInt(decadeMatch[1] + '0', 10);
+    result.earliest = baseYear;
+    result.latest = baseYear + 9;
+    return result;
+  }
+
+  decadeMatch = text.match(/([12][0-9]{3})0s\s*(CE|م)/i);
+  if (decadeMatch) {
+    const baseYear = parseInt(decadeMatch[1], 10);
+    result.earliest = baseYear;
+    result.latest = baseYear + 9;
+    return result;
+  }
+
+  // "Before AH 256/870 CE" or "before" patterns - extract the Gregorian year
+  match = text.match(/(?:before|pre|قبل)[^0-9]*([0-9]{3,4})[\/][\s]*([0-9]{3,4})\s*(CE|م)/i);
+  if (match) {
+    result.latest = parseInt(match[2], 10) - 1;
+    return result;
+  }
+
+  match = text.match(/(?:before|pre|قبل)[^0-9]*([0-9]{3,4})\s*(CE|م)/i);
+  if (match) {
+    result.latest = parseInt(match[1], 10) - 1;
+    return result;
+  }
+
+  // Century ranges: "12th–13th centuries AH/18th–19th centuries CE"
+  // Also handle: "Late 10th–early 11th centuries AH/late 16th–early 17th centuries CE"
+  match = text.match(/(\d+)(?:st|nd|rd|th)\s*(?:–|-|—)\s*(?:late|early)?\s*(\d+)(?:st|nd|rd|th)?\s*centuries/i);
+  if (match) {
+    const startCentury = parseInt(match[1], 10);
+    const endCentury = parseInt(match[2], 10);
+    result.earliest = (startCentury - 1) * 100 + 50; // late start
+    result.latest = endCentury * 100 + 25; // early end
+    return result;
+  }
+
+  const centuryRangePattern = /(\d+)(?:st|nd|rd|th)?\s*(?:–|-|—)\s*(\d+)(?:st|nd|rd|th)?\s*centuries/i;
+  match = text.match(centuryRangePattern);
+  if (match) {
+    const startCentury = parseInt(match[1], 10);
+    const endCentury = parseInt(match[2], 10);
+    result.earliest = (startCentury - 1) * 100;
+    result.latest = endCentury * 100 - 1;
+    return result;
+  }
+
+  // Century patterns: "19th century", "13th century AH/19th century CE", "second half of 19th century"
+  const centuryPattern = /(\d+)(?:st|nd|rd|th)?\s*century/i;
+  const centuryMatch = text.match(centuryPattern);
+  if (centuryMatch) {
+    const century = parseInt(centuryMatch[1], 10);
+    const isSecondHalf = /second half/i.test(text);
+    const baseYear = (century - 1) * 100;
+    result.earliest = isSecondHalf ? baseYear + 50 : baseYear;
+    result.latest = isSecondHalf ? (century * 100) - 1 : baseYear + 49;
+  } else {
+    // Try to extract any years from the text
+    const extracted = extractYearsFromDate(text);
+    if (extracted) {
+      result.earliest = extracted.earliest;
+      result.latest = extracted.latest;
+    }
+  }
+
+  return result;
+}
+
 function splitDateDisplay(dateText) {
   if (!dateText) return {};
   const text = cleanMultiline(dateText);
@@ -1323,6 +1473,7 @@ function transformWorks(
     for (const [reviewType, items] of Object.entries(footnoteContent.report)) {
       report.footnotes[reviewType].push(...items);
     }
+    const dateYears = parseDateYears(optional(fields.Date));
     const data = {
       iabCode: primaryIabCode,
       displayTitle: `${primaryIabCode} - ${titleEn}`,
@@ -1349,6 +1500,8 @@ function transformWorks(
       dateDisplayGregorianAr: optional(fields["Date AR"]),
       dateDisplayHijriEn: splitDateDisplay(fields.Date).hijri,
       dateDisplayHijriAr: splitDateDisplay(fields["Date AR"]).hijri,
+      earliestDate: dateYears.earliest,
+      latestDate: dateYears.latest,
       contributorUrl: optional(fields["Contributor URL"]),
       importProvenance: {
         sourceSystem: SOURCE_SYSTEM,
