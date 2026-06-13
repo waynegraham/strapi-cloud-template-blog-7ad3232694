@@ -11,6 +11,25 @@ PORT=1338 \
 npm run develop
 ```
 
+### Export ETL Database
+
+```bash
+DATABASE_CLIENT=sqlite \
+DATABASE_FILENAME=.tmp/load-test.db \
+PORT=1338 \
+npm run strapi export -- --no-encrypt -f local-strapi-backup
+```
+
+### Strapi Clound Environment
+
+* Make sure you have a transfer token (Settings > Transfer Token > Create New Transfer Token)
+* Push is needed
+* In `.env`, set `STRAPI_TRANSFER_TOKEN` (so you can paste it during transfer)
+
+```bash
+
+```
+
 ### `develop`
 
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
