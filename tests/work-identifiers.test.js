@@ -215,6 +215,54 @@ test('partial Work updates preserve complete Agent Credits from id-only form row
   assert.equal(Object.prototype.hasOwnProperty.call(context.params.data, 'agentCredits'), false);
 });
 
+test('partial Work updates ignore empty Agent Credit relation mutations', async () => {
+  const context = {
+    uid: 'api::work.work',
+    action: 'update',
+    params: {
+      documentId: 'work-1',
+      data: {
+        titleEn: 'Soft Gates',
+        agentCredits: [
+          {
+            id: 101,
+            agent: { connect: [], disconnect: [] },
+            agent_role: { connect: [], disconnect: [] },
+            sortOrder: 1,
+          },
+        ],
+      },
+    },
+  };
+  const strapi = {
+    documents() {
+      return {
+        async findOne() {
+          return {
+            titleEn: 'Soft Gates',
+            iabCode: '25-G1-01-5034',
+            identifiers: [
+              { value: '25-G1-01-5034', type: 'IAB', preferred: true },
+            ],
+            agentCredits: [
+              {
+                id: 101,
+                agent: { documentId: 'agent-1' },
+                agent_role: { documentId: 'role-1' },
+                sortOrder: 1,
+              },
+            ],
+          };
+        },
+      };
+    },
+  };
+
+  await validateWorkWrite(strapi, context);
+
+  assert.equal(Object.prototype.hasOwnProperty.call(context.params.data, 'agentCredits'), false);
+});
+
 test('partial Work updates still reject changed incomplete Agent Credits', async () => {
   const context = {
     uid: 'api::work.work',

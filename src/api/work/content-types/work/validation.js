@@ -120,6 +120,7 @@ function relationIsDisconnect(value) {
     value &&
     typeof value === 'object' &&
     Object.prototype.hasOwnProperty.call(value, 'disconnect') &&
+    relationIsPresent(value.disconnect) &&
     !relationIsPresent(value)
   );
 }
