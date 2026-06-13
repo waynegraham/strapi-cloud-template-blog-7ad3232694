@@ -5,6 +5,12 @@
       "reason": "missing IAB Code"
     }
   ],
+  "titles_over_255_characters": [
+    {
+      "title": "Al-Andalus, the Balearic Islands, and the northern coast of the Maghrib, folios from Kitab Nuzhat al-Mushtaq fi Ikhtiraq al-Afaq (The Book of Pleasant Journeys into Faraway Lands) composed in Palermo, Sicily about AH 548/1154 CE of Abu Abdullah Muhammad al-Idrisi",
+      "iabCode": "25-G3-32-0032"
+    }
+  ],
   "duplicate_iab_codes": [
     {
       "iab_code": "25-G3-08-0221",

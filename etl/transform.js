@@ -1372,6 +1372,7 @@ function transformWorks(
   const works = [];
   const report = {
     skipped: [],
+    titles_over_255_characters: [],
     duplicate_iab_codes: [],
     duplicate_source_rows: [],
     missing_material_lookup: [],
@@ -1432,6 +1433,12 @@ function transformWorks(
     }
 
     const primaryIabCode = iabCodes[0];
+    if (Array.from(titleEn).length > 255) {
+      report.titles_over_255_characters.push({
+        title: titleEn,
+        iabCode: primaryIabCode,
+      });
+    }
     iabCounts.set(primaryIabCode, (iabCounts.get(primaryIabCode) || 0) + 1);
 
     const key = `${slugify(primaryIabCode)}--${sourceRecord.id}`;

@@ -144,6 +144,9 @@ compares source checksums with the previous generated `works.json` so reruns lis
 added, changed, unchanged, and removed Airtable rows. See
 `../docs/import-provenance.md`.
 
+`report.json.titles_over_255_characters` lists the `title` and `iabCode` for
+each valid Work whose normalized English title exceeds 255 characters.
+
 ### Markdown and Footnotes
 
 Narrative Airtable fields are converted from Markdown to CKEditor-compatible
