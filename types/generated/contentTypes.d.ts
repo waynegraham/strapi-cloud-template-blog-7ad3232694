@@ -534,10 +534,13 @@ export interface ApiAgentAgent extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     externalIdentifier: Schema.Attribute.String;
-    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::agent.agent'> &
       Schema.Attribute.Private;
+    media: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
     nameAr: Schema.Attribute.String;
     nameEn: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
@@ -888,6 +891,7 @@ export interface ApiInstitutionInstitution extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     descriptionAr: Schema.Attribute.Blocks;
     descriptionEn: Schema.Attribute.Blocks;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -901,7 +905,6 @@ export interface ApiInstitutionInstitution extends Struct.CollectionTypeSchema {
           info: true;
         }
       >;
-    logo: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     nameAr: Schema.Attribute.String;
     nameEn: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
@@ -999,16 +1002,16 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    creditLineAr: Schema.Attribute.String;
-    creditLineEn: Schema.Attribute.String;
+    creditLineAr: Schema.Attribute.Text;
+    creditLineEn: Schema.Attribute.Text;
     curatedStories: Schema.Attribute.Relation<
       'manyToMany',
       'api::curated-story.curated-story'
     >;
-    dateDisplayGregorianAr: Schema.Attribute.String;
-    dateDisplayGregorianEn: Schema.Attribute.String;
-    dateDisplayHijriAr: Schema.Attribute.String;
-    dateDisplayHijriEn: Schema.Attribute.String;
+    dateDisplayGregorianAr: Schema.Attribute.Text;
+    dateDisplayGregorianEn: Schema.Attribute.Text;
+    dateDisplayHijriAr: Schema.Attribute.Text;
+    dateDisplayHijriEn: Schema.Attribute.Text;
     descriptionAr: Schema.Attribute.RichText &
       Schema.Attribute.CustomField<
         'plugin::ckeditor5.CKEditor',
@@ -1069,8 +1072,8 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
       'manyToMany',
       'api::material.material'
     >;
-    originAr: Schema.Attribute.String;
-    originEn: Schema.Attribute.String;
+    originAr: Schema.Attribute.Text;
+    originEn: Schema.Attribute.Text;
     publishedAt: Schema.Attribute.DateTime;
     reviewedAt: Schema.Attribute.DateTime & Schema.Attribute.Private;
     reviewNotes: Schema.Attribute.Text & Schema.Attribute.Private;

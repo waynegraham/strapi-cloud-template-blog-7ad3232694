@@ -37,10 +37,10 @@
       "type": "string"
     },
     "originEn": {
-      "type": "string"
+      "type": "text"
     },
     "originAr": {
-      "type": "string"
+      "type": "text"
     },
     "dimensionEn": {
       "type": "text"
@@ -55,16 +55,16 @@
       "type": "text"
     },
     "dateDisplayGregorianEn": {
-      "type": "string"
+      "type": "text"
     },
     "dateDisplayGregorianAr": {
-      "type": "string"
+      "type": "text"
     },
     "dateDisplayHijriEn": {
-      "type": "string"
+      "type": "text"
     },
     "dateDisplayHijriAr": {
-      "type": "string"
+      "type": "text"
     },
     "earliestDate": {
       "type": "integer"
@@ -73,10 +73,10 @@
       "type": "integer"
     },
     "creditLineEn": {
-      "type": "string"
+      "type": "text"
     },
     "creditLineAr": {
-      "type": "string"
+      "type": "text"
     },
     "contributorUrl": {
       "type": "string"

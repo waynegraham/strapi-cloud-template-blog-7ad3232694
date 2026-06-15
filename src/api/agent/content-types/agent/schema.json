@@ -41,9 +41,9 @@
     "url": {
       "type": "string"
     },
-    "image": {
+    "media": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "allowedTypes": [
         "images",
         "files",

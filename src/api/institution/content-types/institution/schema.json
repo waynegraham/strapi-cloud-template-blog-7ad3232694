@@ -27,7 +27,7 @@
     "descriptionAr": {
       "type": "blocks"
     },
-    "logo": {
+    "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [

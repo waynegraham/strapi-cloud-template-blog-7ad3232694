@@ -23,7 +23,7 @@
     "@sindresorhus/slugify": "1.1.0",
     "@strapi/plugin-cloud": "^5.47.1",
     "@strapi/plugin-documentation": "^5.47.1",
-    "@strapi/plugin-users-permissions": "^5.47.1",
+    "@strapi/plugin-users-permissions": "^5.48.0",
     "@strapi/strapi": "^5.48.0",
     "better-sqlite3": "^12.10.0",
     "fs-extra": "^11.3.5",
