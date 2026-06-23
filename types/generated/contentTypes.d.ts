@@ -982,6 +982,55 @@ export interface ApiRightsStatementRightsStatement
   };
 }
 
+export interface ApiThemeTheme extends Struct.CollectionTypeSchema {
+  collectionName: 'themes';
+  info: {
+    displayName: 'Theme';
+    pluralName: 'themes';
+    singularName: 'theme';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    coverMedia: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    descriptionAr: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    descriptionEn: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+    displayTitle: Schema.Attribute.String;
+    labelAr: Schema.Attribute.String & Schema.Attribute.Required;
+    labelEn: Schema.Attribute.String & Schema.Attribute.Required;
+    level: Schema.Attribute.Enumeration<['theme', 'sub-theme']>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<'oneToMany', 'api::theme.theme'> &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    slug: Schema.Attribute.UID;
+    sortOrder: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<0>;
+    theme: Schema.Attribute.Relation<'manyToOne', 'api::theme.theme'>;
+    themes: Schema.Attribute.Relation<'oneToMany', 'api::theme.theme'>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiWorkWork extends Struct.CollectionTypeSchema {
   collectionName: 'works';
   info: {
@@ -1614,6 +1663,7 @@ declare module '@strapi/strapi' {
       'api::institution.institution': ApiInstitutionInstitution;
       'api::material.material': ApiMaterialMaterial;
       'api::rights-statement.rights-statement': ApiRightsStatementRightsStatement;
+      'api::theme.theme': ApiThemeTheme;
       'api::work.work': ApiWorkWork;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;

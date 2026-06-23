@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "themes",
+  "info": {
+    "singularName": "theme",
+    "pluralName": "themes",
+    "displayName": "Theme"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "labelEn": {
+      "type": "string",
+      "required": true
+    },
+    "labelAr": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "displayTitle": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "descriptionEn": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "descriptionAr": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "coverMedia": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "level": {
+      "type": "enumeration",
+      "enum": [
+        "theme",
+        "sub-theme"
+      ]
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    },
+    "themes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::theme.theme",
+      "mappedBy": "theme"
+    },
+    "theme": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::theme.theme",
+      "inversedBy": "themes"
+    }
+  }
+}
