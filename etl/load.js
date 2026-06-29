@@ -21,6 +21,15 @@ function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
 }
 
+function resolveManifestPath(relativePath) {
+  if (path.isAbsolute(relativePath)) return relativePath;
+
+  const projectPath = path.resolve(PROJECT_ROOT, relativePath);
+  if (fs.existsSync(projectPath)) return projectPath;
+
+  return path.resolve(ETL_DIR, relativePath);
+}
+
 function stableDocumentId(record) {
   return crypto
     .createHash('sha256')
@@ -69,7 +78,7 @@ function loadManifestRecords(manifest) {
   for (const name of manifest.load_order) {
     const relativePath = manifest.files[name];
     if (!relativePath) throw new Error(`Manifest load-order entry "${name}" has no file.`);
-    const filePath = path.resolve(ETL_DIR, relativePath);
+    const filePath = resolveManifestPath(relativePath);
     for (const record of readJson(filePath)) records.push(record);
   }
   return records;
