@@ -22,6 +22,8 @@
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^7.1.1",
     "@sindresorhus/slugify": "1.1.0",
+    "@strapi/design-system": "2.2.0",
+    "@strapi/icons": "2.2.0",
     "@strapi/plugin-cloud": "^5.49.0",
     "@strapi/plugin-documentation": "^5.49.0",
     "@strapi/plugin-users-permissions": "^5.49.0",
